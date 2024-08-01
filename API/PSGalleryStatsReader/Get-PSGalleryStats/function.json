@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response"
+    },
+    { 
+    "name": "PSDocuments", 
+    "type": "cosmosDB", 
+    "direction": "in", 
+    "databaseName": "psgallerystats", 
+    "containerName": "psgallery", 
+    "sqlQuery": "SELECT * FROM c WHERE REGEXMATCH(LOWER(c.id), LOWER({module}))", 
+    "connection": "CosmosDB",
+    "identity": "systemAssigned"
+  }
+  ]
+}

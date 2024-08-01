@@ -1,0 +1,21 @@
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 30 * * * *"
+    },
+    { 
+    "name":"PSModuleDocument",
+    "type":"cosmosDB",
+    "databaseName":"psgallerystats",
+    "containerName":"psgallery",
+    "createIfNotExists":true,
+    "connection": "CosmosDB",
+    "identity": "systemAssigned",
+    "direction":"out" 
+    
+  }
+  ]
+}

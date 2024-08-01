@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "InboundPSModuleDocument",
+      "direction": "in",
+      "leaseContainerName": "leases",
+      "databaseName":"psgallerystats",
+      "containerName":"psgallery",
+      "connection": "CosmosDB",
+      "identity": "systemAssigned",
+      "createLeaseContainerIfNotExists": true,
+      "startFromBeginning": false
+    },
+    { 
+      "name":"OutboundPSModuleDocument",
+      "type":"cosmosDB",
+      "databaseName":"psgallerystats",
+      "containerName":"psgallery",
+      "createIfNotExists":true,
+      "connection": "CosmosDB",
+      "identity": "systemAssigned",
+      "direction":"out" 
+      
+    }
+  ]
+}
