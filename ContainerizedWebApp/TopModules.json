@@ -1,0 +1,152 @@
+[
+    {
+        "id": "xDnsServer",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "This module contains DSC resources for the management and configuration of Windows Server DNS Server.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "xDatabase",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "This module contains 2 resources. xDatabase allows to create and deploy databases using DAC or connection string, restore a database using BACPAC and delete a database. The xDBPackage resource allows extracting a database to a DACPAC or exporting to a BACPAC",
+        "MetadataScore": 10
+    },
+    {
+        "id": "xCredSSP",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "This module contains DSC resources for configuration of the WSMan Credential Security Support Provider (CredSSP).",
+        "MetadataScore": 10
+    },
+    {
+        "id": "SharePointDSC",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "This DSC module is used to deploy and configure SharePoint Server 2013, 2016 and 2019, and covers a wide range of areas including web apps, service apps and farm configuration.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Pscx",
+        "Owners": "r_keith_hill,x0n",
+        "Description": "PowerShell Community Extensions (PSCX) base module which implements a general purpose set of Cmdlets.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Pester",
+        "Owners": "nohwnd,fflaten",
+        "Description": "Pester provides a framework for running BDD style Tests to execute and validate PowerShell commands inside of PowerShell and offers a powerful set of Mocking Functions that allow tests to mimic and mock the functionality of any command inside of a piece of PowerShell code being tested. Pester tests can execute any command or script that is accessible to a pester test file. This can include functions, Cmdlets, Modules and scripts. Pester can be run in ad hoc style in a console or it can be integrated into the Build scripts of a Continuous Integration system.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "OfficeOnlineServerDsc",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "The OfficeOnlineServerDsc module provides the ability to install Office Online Server (formerly known as Office Web App Server).",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Microsoft365DSC",
+        "Owners": "NikCharleboisPFE,Microsoft365DSC_Team",
+        "Description": "This DSC module is used to configure and monitor Microsoft tenants, including SharePoint Online, Exchange, Teams, etc.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "HAWK",
+        "Owners": "matbyrd,SemperCyber1775",
+        "Description": "Microsoft 365 Incident Response and Threat Hunting PowerShell tool.\r\n\tThe Hawk is designed to ease the burden on M365 administrators who are performing Cloud forensic tasks for their organization.\r\n\tIt accelerates the gathering of data from multiple sources in the service that be used to quickly identify malicious presence and activity.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "GuestConfiguration",
+        "Owners": "PowerShellTeam,katiekeim,migreene,nitingup,mbreakey",
+        "Description": "The Guest Configuration module is a tool to author custom content for Azure Guest Configuration. These cmdlets build and validate content packages and custom policies, which can then be used in cross-platform configuration management solutions.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "dbatools",
+        "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
+        "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+        "MetadataScore": 10
+    },
+    {
+        "id": "dbachecks",
+        "Owners": "chrissylemaire,SQLDBAWithABeard",
+        "Description": "SQL Server Infrastructure validation Tests to ensure that your SQL Server estate is and continues to be compliant with your requirements",
+        "MetadataScore": 10
+    },
+    {
+        "id": "ComputerManagementDsc",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "DSC resources for configuration of a Windows computer. These DSC resources allow you to perform computer management tasks, such as renaming the computer, joining a domain and scheduling tasks as well as configuring items such as virtual memory, event logs, time zones and power settings.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Cohesity.PowerShell.Core",
+        "Owners": "ashish-cohesity,anvesh-cohesity",
+        "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Cohesity.PowerShell",
+        "Owners": "ashish-cohesity,anvesh-cohesity",
+        "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Cloudmarque.Azure",
+        "Owners": "nathankitchen,Oliver.Atkinson",
+        "Description": "Cloudmarque PowerShell Tools for Azure is a deployment and management framework for cloud resources following a DevOps/GitOps methodology aligned with the Cloudmarque Reference Architecture and Operating Model.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "ChocoCCM",
+        "Owners": "steviecoaster,chocolatey",
+        "Description": "This module provides a PowerShell wrapper to Chocolatey Central Management. See https://docs.chocolatey.org/en-us/central-management/ for more information.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Bicep",
+        "Owners": "SimonWahlin,StefanIvemo",
+        "Description": "A module to run Bicep using PowerShell. The module is a community project built using the Bicep assemblies to provide you with an enhanced Bicep experience directly from PowerShell without having Bicep CLI installed. \n\nThe module also provides the additional features:\n- Generate ARM template parameter files directly from a Bicep file\n- Quickly open the API reference docs by referencing the Bicep types\n- Get the result from a build as a string or hashtable instead of writing to a file\n- Test if a Bicep file is valid without building it\n- Convert JSON objects to Bicep Language\n- Install/Update/Uninstall Bicep CLI\n- Specify output folder when building* and decompiling Bicep/ARM templates\n- Specify output filename when building Bicep files\n- Find modules in private module registries\n- Clear local module cache\n\nFor more information about Bicep, please visit the official Bicep GitHub Repository:\nhttps://github.com/Azure/bicep",
+        "MetadataScore": 10
+    },
+    {
+        "id": "AzureAutomationAuthoringToolkit",
+        "Owners": "jodoglevy,eamono,AzureAutomationTeam,alsab",
+        "Description": "Open the PowerShell console\r\n\r\nRun\r\n\r\nInstall-Module AzureAutomationAuthoringToolkit -Scope CurrentUser\r\n\r\nIf you want the PowerShell ISE to always automatically load the Azure Automation ISE add-on:\r\n\r\nRun\r\n\r\nInstall-AzureAutomationIseAddOn\r\n\r\nIf not:\r\n\r\nAny time you want to use the Azure Automation ISE add-on in the PowerShell ISE, run\r\n\r\nImport-Module AzureAutomationAuthoringToolkit\r\n\r\nin the PowerShell ISE",
+        "MetadataScore": 10
+    },
+    {
+        "id": "AGMPowerCLI",
+        "Owners": "AnthonyVandewerdt,jeffoconnorau,yogig,jing,satya_srikanth,rajeshkrmekala",
+        "Description": "This is a community generated PowerShell Module for Management Console.\nIt provides a method to issue commands to AGM API endpoints, like \"Application\" and \"Host\".\nThis lets you create automation with AGM, or generate your own composite functions.\nMore information can be found here:  https://github.com/Actifio/AGMPowerCLI",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Adoxio.Dynamics.DevOps",
+        "Owners": "amervitz,adoxio",
+        "Description": "Adoxio.Dynamics.DevOps provides functions for performing Microsoft Dynamics 365 development and deployment (DevOps) oriented tasks.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "ActPowerCLI",
+        "Owners": "AnthonyVandewerdt,jeffoconnorau,jing",
+        "Description": "This is a community generated PowerShell Module that can be used to manage Actifio VDP Appliances.  \nIt provides a method to issue udsinfo, udstask and report commands, and Actifio CDS specific task/info commands.\nMore information can be found here:  https://github.com/Actifio/ActPowerCLI",
+        "MetadataScore": 10
+    },
+    {
+        "id": "ActiveDirectoryDsc",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "The ActiveDirectoryDsc module contains DSC resources for deployment and configuration of Active Directory.\r\n\r\nThese DSC resources allow you to configure new domains, child domains, and high availability domain controllers, establish cross-domain trusts and manage users, groups and OUs.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "ActiveDirectoryCSDsc",
+        "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+        "Description": "DSC resources for installing, uninstalling and configuring Certificate Services components in Windows Server.",
+        "MetadataScore": 10
+    },
+    {
+        "id": "Zyborg.Vault",
+        "Owners": "ebekker-posh",
+        "Description": "PowerShell bindings for HashiCorp Vault.\r\n\r\nProvides cmdlets that talk directly to the Vault REST API and are comparable to most commands available through the official Vault CLI without any dependency on the CLI.",
+        "MetadataScore": 9
+    }
+]
