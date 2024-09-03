@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results - PowerShell Gallery Stats</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
 </head>
 <body>
     <header>
@@ -23,10 +24,28 @@
         <section class="modules">
             <SearchResultsTemplate>
         </section>
+        <section class="contribute">
+            <h2>Contribute</h2>
+            <p align="center">Support the PowerShell community by contributing to our sponsorship pool.</p>
+            <div class="center">
+                <a href="https://discord.gg/RtAv7PNxJu" target="_blank"><button>Contribute</button></a>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Design by <a href="https://codepen.io/abhisack" target="_blank">Abhishek Sachan</a>,<a href="https://codepen.io/webbdesigner3" target="_blank">Brandon Webb</a>,<a href="https://codepen.io/ines" target="_blank">Ines Montani</a>,<a href="https://codepen.io/teamakesweb" target="_blank">Tea</a>,<a href="https://codepen.io/iamjesco" target="_blank">iamjesco</a></p>
+        <p><a href="https://www.flaticon.com/free-icons/statistics" title="statistics icons">Icon created by Freepik - Flaticon</a></p>
         <p>&copy; 2024 PowerShell Gallery Stats</p>
     </footer>
+    <script>
+        // Select all cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', function() {
+                const expanded = this.querySelector('.card-expanded');
+                // Toggle the display style
+                expanded.style.display = expanded.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>

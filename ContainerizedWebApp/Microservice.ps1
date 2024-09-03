@@ -86,9 +86,9 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         }
 
         if ($request.Url.LocalPath -eq '/search' -and $request.HttpMethod -eq 'GET') {
-            $query = $request.QueryString['query']-replace '[^a-zA-Z0-9]', ''
+            $query = $request.QueryString['query']-replace '[^a-zA-Z0-9-]', ''
 
-            Get-PSModuleInfo -Query $query -verbose
+            Get-PSModuleInfo -Query $query
             $searchResultsPath = Join-Path -Path "$PSScriptRoot\Web" -ChildPath "search.html"
             $outputBuffer=[System.IO.File]::ReadAllBytes($searchResultsPath)
             $response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)

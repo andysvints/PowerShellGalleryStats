@@ -7,7 +7,7 @@ ARG ModuleName=PSGalleryModuleScore
 # InstallAptPackages determines additional packages to install
 # ARG InstallAptPackages=git curl ca-certificates libc6 libgcc1
 # InstallModules determines additional modules to install
-# ARG InstallModules=PSSVG
+ARG InstallModules=Az.KeyVault,Az.Account
 
 # Install packages first, so we can cache the layer.
 # RUN apt-get update && apt-get install -y $InstallAptPackages && apt-get clean

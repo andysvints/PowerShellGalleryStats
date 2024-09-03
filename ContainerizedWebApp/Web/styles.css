@@ -34,6 +34,12 @@ nav a {
 
 main {
     padding: 2rem;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -59,10 +65,10 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
-.modules{
-    display:grid;
+.modules-btn{
 	align-items:center;
 	justify-content:center;
+  display: flex;
 }
 
 .top-modules, .top-authors, .stats, .contribute {
@@ -74,6 +80,14 @@ footer p {
 }
 .stats{
   margin-left: 50%;
+}
+
+.contribute{
+  text-align: center;
+  padding: 20px;
+  background-color: #e2f0fb;
+  border-radius: 8px;
+  margin-top: 50px;
 }
 
 .contribute button {
@@ -266,7 +280,7 @@ table {
   border-radius: 0px;
   overflow: hidden;
   font-size: 20px;
-  background: #D8D7D3;
+  background: #e2f0fb;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: auto;
   margin-right: auto;
@@ -279,7 +293,7 @@ table {
 }
  table thead {
   display: none;
-  background: #333;
+  background: #007acc;
   color: white;
 }
 @media (min-width: 768px) {
@@ -327,7 +341,7 @@ table {
   }
 }
  table tbody tr td:first-child:before {
-  background-color: #333;
+  background-color: #007acc;
   color: #FFFFFF;
   width: 100%;
   font-size: 25px;
@@ -408,9 +422,11 @@ pre {
   width: 100%;
   height: 80%;
   -webkit-font-smoothing: antialiased;
+  
 }
 pre code {
   font: bold 1em/1.75 "Source Code Pro", monospace;
+  position: relative;
 }
 pre code:after {
   -webkit-animation: blink 0.9s infinite;
@@ -419,6 +435,9 @@ pre code:after {
   display: block;
   opacity: 1;
   content: "▋";
+  position: relative; 
+  bottom: 25%; 
+
 }
 
 
@@ -478,30 +497,33 @@ pre code:after {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .card {
-  display: grid;
+  display: flex;
   margin-top: 20px;
-  grid-template-rows: 1fr auto;
-  width: 430px;
-  height: 280px;
   overflow: hidden;
+  cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 30px 10px -20px #333;
   background-image: linear-gradient(rgb(1, 36, 86), #78e, rgb(16, 78, 212));
 }
 .card-container {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  width: 100%;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .card-left {
   border-radius: 10px 0 0 0;
-  display: flex;
-  align-items: center;
+  flex: 1;
+  padding: 15px;
 }
 .card-right {
-  position: relative;
+  flex: 2;
+  padding: 15px;
   border-radius: 0 10px 10px 0;
 }
 .card-img {
@@ -520,17 +542,17 @@ pre code:after {
   margin-top: 10px;
 }
 .card-content {
-  position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-rows: 1fr 1fr auto;
+  display: flex;
+  flex-direction: column;
 }
 .card-skills {
   margin: 20px;
   font: normal 0.8rem Helvetica;
   color: #fff;
+
 }
 .card-skills li {
   display: inline-block;
@@ -545,4 +567,47 @@ pre code:after {
   font: normal 1rem Helvetica;
   color: black;
   text-align: center;
+}
+
+#loading-screen {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  z-index: 9999; /* Ensure it's on top */
+  text-align: center;
+  padding-top: 20%;
+}
+
+.card-expanded {
+  display: none;
+  padding: 15px;
+  background-color: #e2f0fb;
+  border-top: 1px solid #ddd;
+}
+
+.card-expanded p {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+.about img{
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+}
+.about .img-right{
+  float: right;
+  margin-left: 20px;
+}
+
+.about p{
+  padding: 10px;
+  text-align: justify;
+}
+
+ul {
+  margin-left: 25px;
 }

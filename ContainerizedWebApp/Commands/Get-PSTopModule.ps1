@@ -29,6 +29,7 @@ function Get-PSTopModule
     {
         if ($pscmdlet.ShouldProcess("Top $ModulesCount modules"))
         {
+            #TODO: get top modules via API call
             $ModulesFilePath = Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore" -ChildPath "TopModules.json"
             Write-Verbose "Top modules path - $ModulesFilePath"
             $TopModules=Get-Content $ModulesFilePath | ConvertFrom-Json -Depth 10 | Select-Object -First $ModulesCount
@@ -50,7 +51,7 @@ function Get-PSTopModule
                 $HTMLTable.AppendLine("<tr>")
                 $Author=if($TopModules[$i].Owners -like "*,*"){$TopModules[$i].Owners.split(',')[0]}else{$TopModules[$i].Owners}
                 $HTMLTable.AppendLine("
-                <td title=`"$($TopModules[$i].id)`"><b>$($TopModules[$i].id)</b></td>
+                <td title=`"$($TopModules[$i].id)`"><b><a href='/search?query=$($TopModules[$i].id)' target='_blank'>$($TopModules[$i].id)</a></b></td>
                     <td title=`"Author:`">$Author</td>
                     <td title=`"Score:`">$($TopModules[$i].MetadataScore)</td>")
                 $HTMLTable.AppendLine("</tr>")
