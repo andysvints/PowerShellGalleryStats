@@ -104,11 +104,9 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $localPath = "index.html"  # Default to index.html if no specific file is requested
         }
         $filePath = Join-Path -Path "$PSScriptRoot\Web" -ChildPath $localPath
-        #"filepath - $filepath"  | ConvertTo-Json | Out-Host
         
         # If the request is for the root, return home page.
         if (Test-Path $filePath) {
-           # $outputBuffer = $OutputEncoding.GetBytes($(Get-Content $filePath))
            $outputBuffer=[System.IO.File]::ReadAllBytes($filePath)
 
             $response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)

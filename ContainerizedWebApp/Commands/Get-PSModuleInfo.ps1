@@ -29,10 +29,9 @@ function Get-PSModuleInfo
         if ($pscmdlet.ShouldProcess("query $Query"))
         {
             #TODO: Get-API KEY from key vault
-            Import-Module Az.KeyVault
-            Connect-AzAccount -Tenant "1687efe7-c70e-4095-a272-fbba59d3d524" -Identity
+            connect-AzAccount -Subscription "6e606d01-ff42-4cab-bcf2-b8888ab2fdc4" -Identity
             $KeyVaultName="PSGalleryStats-KV"
-            $apiKey=Get-AzureKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
+            $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
             ###########################################
             $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystats?subscription-key=$apiKey&module=$query"
             $apiResponse = Invoke-RestMethod -Uri $apiUrl
