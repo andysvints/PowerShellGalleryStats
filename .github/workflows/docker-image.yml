@@ -10,10 +10,12 @@ on:
     paths:
     - 'ContainerizedWebApp/**'
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
 jobs:
-
-  build:
-
+  build-and-push-image:
     runs-on: ubuntu-latest
 
     steps:
