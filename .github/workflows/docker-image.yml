@@ -1,0 +1,22 @@
+name: Build Docker Image and Publish to Github Packages
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+    - 'ContainerizedWebApp/**'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+    - 'ContainerizedWebApp/**'
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
