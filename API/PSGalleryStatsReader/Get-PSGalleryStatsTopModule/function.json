@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 1 * * *"
+    },
+    { 
+    "name": "PSDocuments", 
+    "type": "cosmosDB", 
+    "direction": "in", 
+    "databaseName": "psgallerystats", 
+    "containerName": "psgallery", 
+    "sqlQuery": "SELECT TOP 100 c.id,c.Owners,c.Description,c.cp_MetadataScore AS MetadataScore FROM c ORDER by c.cp_MetadataScore DESC", 
+    "connection": "CosmosDB",
+    "identity": "systemAssigned"
+  }
+  ]
+}
