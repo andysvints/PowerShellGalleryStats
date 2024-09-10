@@ -1,5 +1,5 @@
 # Input bindings are passed in via param block.
-param($Timer)
+param($Timer, $PSDocuments)
 
 # Get the current universal time in the default string format
 $currentUTCtime = (Get-Date).ToUniversalTime()
@@ -52,10 +52,15 @@ $body = @{
 }
 
 $jsonBody = $body | ConvertTo-Json
+$headers = @{
+    Authorization = "Bearer $githubToken"
+    Accept = "application/vnd.github+json"
+    'Content-Type'='application/json'
+}
 
 # Commit file using GitHub API
 $commitUrl = "https://api.github.com/repos/$owner/$repo/contents/$filePath"
-$response = Invoke-RestMethod -Uri $commitUrl -Headers $headers -Method Put -Body $jsonBody
+$response = Invoke-WebRequest -Uri $commitUrl -Headers $headers -Method Put -Body $jsonBody
 
 # Output the response
 Write-Host "$response"
