@@ -132,6 +132,12 @@
     "MetadataScore": 10
   },
   {
+    "id": "AWS.Tools.QApps",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The QApps module of AWS Tools for PowerShell lets developers and administrators manage Amazon Q Apps from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
     "id": "Zyborg.Vault",
     "Owners": "ebekker-posh",
     "Description": "PowerShell bindings for HashiCorp Vault.\r\n\r\nProvides cmdlets that talk directly to the Vault REST API and are comparable to most commands available through the official Vault CLI without any dependency on the CLI.",
@@ -593,12 +599,6 @@
     "id": "psdockerhub",
     "Owners": "beatcracker",
     "Description": "PSDockerHub is a PowerShell module written to access the official Docker Hub/Registry. Its main goal is to to make sure that you have never had to use the public part of Docker Hub site in the browser.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSCommonFunction",
-    "Owners": "pkparsard",
-    "Description": "A module with a set of commonly used functions to get PowerShellGallery modules, create log files, add headers, footers, prompts and calculate elapsed time for a script.",
     "MetadataScore": 9
   }
 ]
