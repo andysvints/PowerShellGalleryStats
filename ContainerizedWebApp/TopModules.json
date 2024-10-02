@@ -392,7 +392,7 @@
   {
     "id": "ServerEye.Powershell.Helper",
     "Owners": "AndyBehr,stefanie.sander",
-    "Description": "Helper to access the Server-Eye API",
+    "Description": "Helper to access the servereye API",
     "MetadataScore": 9
   },
   {
