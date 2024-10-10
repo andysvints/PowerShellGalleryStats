@@ -525,7 +525,7 @@
   },
   {
     "id": "PSScriptAnalyzer",
-    "Owners": "PowerShellTeam,JamesTruher-MSFT,andschwa",
+    "Owners": "andschwa,PowerShellTeam,JamesTruher-MSFT",
     "Description": "PSScriptAnalyzer provides script analysis and checks for potential code defects in the scripts by applying a group of built-in or customized rules on the scripts being analyzed.",
     "MetadataScore": 9
   },
