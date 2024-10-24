@@ -132,6 +132,18 @@
     "MetadataScore": 10
   },
   {
+    "id": "AWS.Tools.PCS",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The PCS module of AWS Tools for PowerShell lets developers and administrators manage AWS Parallel Computing Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.SSMQuickSetup",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The SSMQuickSetup module of AWS Tools for PowerShell lets developers and administrators manage AWS Systems Manager QuickSetup from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
     "id": "AWS.Tools.QApps",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The QApps module of AWS Tools for PowerShell lets developers and administrators manage Amazon Q Apps from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
@@ -587,18 +599,6 @@
     "id": "PSDynamicSecurityGroups",
     "Owners": "JustinP",
     "Description": "A PowerShell Module that provides an easy way to create and manage Active Directory Dynamic Security Groups.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSDsHook",
-    "Owners": "gngrNinja",
-    "Description": "This module assists with using Discord Webhooks. You use classes to build objects, which makes creating embeds fun and easy.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "psdockerhub",
-    "Owners": "beatcracker",
-    "Description": "PSDockerHub is a PowerShell module written to access the official Docker Hub/Registry. Its main goal is to to make sure that you have never had to use the public part of Docker Hub site in the browser.",
     "MetadataScore": 9
   }
 ]
