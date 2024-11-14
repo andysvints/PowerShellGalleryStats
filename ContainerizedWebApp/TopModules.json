@@ -518,6 +518,12 @@
     "MetadataScore": 9
   },
   {
+    "id": "pwsh-download-songs",
+    "Owners": "nt4f04uNd",
+    "Description": "This is simple powershell utility to easily grab and download songs and playlists from popular websites. It automatically inserts metadata to files and embeds cool squared album arts (if .png or .jpg/.jpeg format is available and source file is one of the followings: .mp3, .m4a, .m4b, .m4p, .m4v, .mp4, this is true in most cases).",
+    "MetadataScore": 9
+  },
+  {
     "id": "PSSwaggerUtility",
     "Owners": "PowerShellTeam,manikb,brywang-msft",
     "Description": "PowerShell module with PSSwagger common helper functions.\r\nPlease refer to https://github.com/PowerShell/PSSwagger/blob/developer/README.md for more details.",
@@ -593,12 +599,6 @@
     "id": "PSItems",
     "Owners": "Eizedev",
     "Description": "A PowerShell module that finds files, file content and directories as well as file and directory information the quick and easy way!",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSFolderSize",
-    "Owners": "gngrNinja",
-    "Description": "This module enables you to gather folder size information, and output the results easily in various ways. GitHub Repo: https://github.com/gngrninja/PSFolderSize",
     "MetadataScore": 9
   }
 ]
