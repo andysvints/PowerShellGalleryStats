@@ -324,6 +324,12 @@
     "MetadataScore": 9
   },
   {
+    "id": "ud-cmwt",
+    "Owners": "skatterbrainz",
+    "Description": "Web Console UI for AD, AzureAD, and Configuration Manager built with UniversalDashboard Community Edition 2.5.3.",
+    "MetadataScore": 9
+  },
+  {
     "id": "TUN.Logging",
     "Owners": "echalone",
     "Description": "Provides easy to use file and mail logging. Documentation of module at https://github.com/echalone/TUN/blob/master/PowerShell/Modules/TUN.Logging/TUN.Logging.md",
@@ -593,12 +599,6 @@
     "id": "PSOfflineFOD",
     "Owners": "altCipher",
     "Description": "Installs a Windows capability package from an offline Features on Demand ISO on the specified operating system image. PSOfflineFOD is compatible with both PowerShell 5.x and PowerShell Core 6.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSItems",
-    "Owners": "Eizedev",
-    "Description": "A PowerShell module that finds files, file content and directories as well as file and directory information the quick and easy way!",
     "MetadataScore": 9
   }
 ]
