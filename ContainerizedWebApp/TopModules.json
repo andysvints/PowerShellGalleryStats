@@ -306,6 +306,12 @@
     "MetadataScore": 9
   },
   {
+    "id": "VMware.CloudFoundation.InstanceRecovery",
+    "Owners": "brianoconnell,kengould",
+    "Description": "PowerShell Module for VMware Cloud Foundation Instance Recovery",
+    "MetadataScore": 9
+  },
+  {
     "id": "VMware.CloudFoundation.CertificateManagement",
     "Owners": "VMware,GaryJBlake,tenthirtyam",
     "Description": "PowerShell Module for VMware Cloud Foundation Certificate Management",
@@ -593,12 +599,6 @@
     "id": "PSProductivityTools",
     "Owners": "JanEgilRing,StaleHansen",
     "Description": "The PSProductivityTools PowerShell module contains commands for productivity tools & topics such as time management.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSOfflineFOD",
-    "Owners": "altCipher",
-    "Description": "Installs a Windows capability package from an offline Features on Demand ISO on the specified operating system image. PSOfflineFOD is compatible with both PowerShell 5.x and PowerShell Core 6.",
     "MetadataScore": 9
   }
 ]
