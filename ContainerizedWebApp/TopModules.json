@@ -150,6 +150,12 @@
     "MetadataScore": 9
   },
   {
+    "id": "Hardensysvol",
+    "Owners": "Dakhama_mehdi",
+    "Description": "Harden Sysvol is a Powershell Module to scan sysvol folder to search the sensitivity data, and vulnerability.",
+    "MetadataScore": 9
+  },
+  {
     "id": "Zyborg.Vault",
     "Owners": "ebekker-posh",
     "Description": "PowerShell bindings for HashiCorp Vault.\r\n\r\nProvides cmdlets that talk directly to the Vault REST API and are comparable to most commands available through the official Vault CLI without any dependency on the CLI.",
@@ -231,6 +237,12 @@
     "id": "WSManDsc",
     "Owners": "dscottraynsford,dsccommunity",
     "Description": "DSC resources for configuring WS-Man.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "WSLBlobNFS",
+    "Owners": "shankarmb,pragyagandhi,cagrawal-msft",
+    "Description": "This project is a collection of PS commands to assist in mounting of Azure Blob NFS storage containers through the WSL in Windows.",
     "MetadataScore": 9
   },
   {
@@ -587,18 +599,6 @@
     "id": "PSRAW",
     "Owners": "MarkEKraus",
     "Description": "PowerShell Reddit API Wrapper. See the project site at https://github.com/markekraus/PSRAW and the documentation at https://psraw.readthedocs.io/",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSProjectStatus",
-    "Owners": "JeffHicks",
-    "Description": "A set of PowerShell tools for tracking module development status. The module uses a JSON file to create a custom object with information about your module. You can use this internally to track the status of your module including a simple to-do tracker. This module was first described at https://jdhitsolutions.com/blog/powershell/8960/introducing-psprojectstatus/",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSProductivityTools",
-    "Owners": "JanEgilRing,StaleHansen",
-    "Description": "The PSProductivityTools PowerShell module contains commands for productivity tools & topics such as time management.",
     "MetadataScore": 9
   }
 ]
