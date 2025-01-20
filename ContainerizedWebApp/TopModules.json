@@ -276,6 +276,12 @@
     "MetadataScore": 9
   },
   {
+    "id": "xDhcpServer",
+    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+    "Description": "This module contains DSC resources for deployment and configuration of Microsoft DHCP Server.",
+    "MetadataScore": 9
+  },
+  {
     "id": "xBitlocker",
     "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
     "Description": "This DSC Module allows you to configure Bitlocker on a single disk, configure a TPM chip, or automatically enable Bitlocker on multiple disks.",
@@ -593,12 +599,6 @@
     "id": "pwsh-download-songs",
     "Owners": "nt4f04uNd",
     "Description": "This is simple powershell utility to easily grab and download songs and playlists from popular websites. It automatically inserts metadata to files and embeds cool squared album arts (if .png or .jpg/.jpeg format is available and source file is one of the followings: .mp3, .m4a, .m4b, .m4p, .m4v, .mp4, this is true in most cases).",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSSwaggerUtility",
-    "Owners": "PowerShellTeam,manikb,brywang-msft",
-    "Description": "PowerShell module with PSSwagger common helper functions.\r\nPlease refer to https://github.com/PowerShell/PSSwagger/blob/developer/README.md for more details.",
     "MetadataScore": 9
   }
 ]
