@@ -132,6 +132,12 @@
     "MetadataScore": 10
   },
   {
+    "id": "AWS.Tools.Billing",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The Billing module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
     "id": "PSBlueSky",
     "Owners": "JeffHicks",
     "Description": "A set of PowerShell commands that use the Bluesky API. You can skeet and upload images from a PowerShell prompt. This module is written for PowerShell 7 and uses features like $PSStyle.",
@@ -593,12 +599,6 @@
     "id": "pwshEmojiExplorer",
     "Owners": "jakewmorrison",
     "Description": "Enables detailed emoji search, discovery, and retrieval. Offers detailed insights on emojis, with multiple search options aligned with the Unicode standard. Provides comprehensive emoji data, including diverse representations and formats, to enhance your scripts and digital communication.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "pwsh-download-songs",
-    "Owners": "nt4f04uNd",
-    "Description": "This is simple powershell utility to easily grab and download songs and playlists from popular websites. It automatically inserts metadata to files and embeds cool squared album arts (if .png or .jpg/.jpeg format is available and source file is one of the followings: .mp3, .m4a, .m4b, .m4p, .m4v, .mp4, this is true in most cases).",
     "MetadataScore": 9
   }
 ]
