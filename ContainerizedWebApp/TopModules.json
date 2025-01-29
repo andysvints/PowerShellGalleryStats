@@ -19,7 +19,7 @@
   },
   {
     "id": "SharePointDSC",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+    "Owners": "dsccommunity,PowerShellTeam,gaelcolas",
     "Description": "This DSC module is used to deploy and configure SharePoint Server 2013, 2016 and 2019, and covers a wide range of areas including web apps, service apps and farm configuration.",
     "MetadataScore": 10
   },
@@ -132,9 +132,21 @@
     "MetadataScore": 10
   },
   {
+    "id": "Microsoft.Entra",
+    "Owners": "msgraph-sdk-powershell",
+    "Description": "Microsoft Entra PowerShell v1.0: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
+    "MetadataScore": 9
+  },
+  {
     "id": "AWS.Tools.BCMPricingCalculator",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The BCMPricingCalculator module of AWS Tools for PowerShell lets developers and administrators manage AWS Pricing Calculator from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.ConnectCampaignsV2",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ConnectCampaignsV2 module of AWS Tools for PowerShell lets developers and administrators manage AmazonConnectCampaignServiceV2 from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "MetadataScore": 9
   },
   {
@@ -587,18 +599,6 @@
     "id": "Recycle",
     "Owners": "bdukes,bdukes-engage,bdukes-engage1",
     "Description": "Deletes the file or folder as if it had been done via File Explorer, or restores a deleted file from the recycle bin.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Read-Choice",
-    "Owners": "bdukes,bdukes-engage,bdukes-engage1",
-    "Description": "Prompts the user to pick a choice from a set of options.  Based on http://scriptolog.blogspot.com/2007/09/make-choice.html",
-    "MetadataScore": 9
-  },
-  {
-    "id": "QLogicFastLinQPowerKit",
-    "Owners": "apps_qlogic",
-    "Description": "Marvell/QLogic QConvergeConsole PowerKit is for managing 34xx, 84xx, 41xxx and 45xxx adapters using PowerShell cmdlets on Windows, Linux and VMware_ESXi hosts.",
     "MetadataScore": 9
   }
 ]
