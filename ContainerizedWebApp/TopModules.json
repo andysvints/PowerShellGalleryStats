@@ -43,7 +43,7 @@
   },
   {
     "id": "Microsoft365DSC",
-    "Owners": "NikCharleboisPFE,Microsoft365DSC_Team",
+    "Owners": "Microsoft365DSC_Team,NikCharleboisPFE",
     "Description": "This DSC module is used to configure and monitor Microsoft tenants, including SharePoint Online, Exchange, Teams, etc.",
     "MetadataScore": 10
   },
@@ -57,6 +57,12 @@
     "id": "GuestConfiguration",
     "Owners": "PowerShellTeam,katiekeim,migreene,nitingup,mbreakey",
     "Description": "The Guest Configuration module is a tool to author custom content for Azure Guest Configuration. These cmdlets build and validate content packages and custom policies, which can then be used in cross-platform configuration management solutions.",
+    "MetadataScore": 10
+  },
+  {
+    "id": "Foxit.Ea.Dts.Ps",
+    "Owners": "foxit-psgallery-ea,foxit-ea-team",
+    "Description": "Provides cmdlets to manage and use a Foxit Document Transformation Service easily in PowerShell based environments.",
     "MetadataScore": 10
   },
   {
@@ -593,12 +599,6 @@
     "id": "Rivet",
     "Owners": "pshdo,webmd-health-services,DecoyJoe",
     "Description": "Rivet is a database migration/change management/versioning tool inspired by Ruby on Rails' Migrations. It creates and applies migration scripts for SQL Server databases. Migration scripts describe changes to make to your database, e.g. add a table, add a column, remove an index, etc. Migrations scripts should get added to your version control system so they can be packaged and deployed with your application's code.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Recycle",
-    "Owners": "bdukes,bdukes-engage,bdukes-engage1",
-    "Description": "Deletes the file or folder as if it had been done via File Explorer, or restores a deleted file from the recycle bin.",
     "MetadataScore": 9
   }
 ]
