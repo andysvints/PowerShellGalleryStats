@@ -384,6 +384,12 @@
     "MetadataScore": 9
   },
   {
+    "id": "VpasModule",
+    "Owners": "vmelamed5",
+    "Description": "Module for CyberArk v14.X Privileged Access Security Web Service REST API for Self Hosted, PrivilegeCloud Standard, and SharedServices (ISPSS) solution suite",
+    "MetadataScore": 9
+  },
+  {
     "id": "vNugglets.VDNetworking",
     "Owners": "MattBoren",
     "Description": "Module with functions for managing VMware vSphere Virtual Distributed Networking components like traffic filtering and marking",
@@ -591,12 +597,6 @@
     "id": "Rubrik",
     "Owners": "RubrikBuild,Rubrik_Build,guirava,evancheng,mikepreston",
     "Description": "This is a community project that provides a PowerShell module for managing and monitoring Rubrik's Cloud Data Management platform.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "RSMassTransit.PowerShell",
-    "Owners": "sharpjs",
-    "Description": "Provides the Invoke-RsReport cmdlet, which executes a SQL Server Reporting Services report via a MassTransit message bus.",
     "MetadataScore": 9
   }
 ]
