@@ -43,7 +43,7 @@
   },
   {
     "id": "Microsoft365DSC",
-    "Owners": "Microsoft365DSC_Team,NikCharleboisPFE",
+    "Owners": "NikCharleboisPFE,Microsoft365DSC_Team",
     "Description": "This DSC module is used to configure and monitor Microsoft tenants, including SharePoint Online, Exchange, Teams, etc.",
     "MetadataScore": 10
   },
@@ -147,6 +147,30 @@
     "id": "AWS.Tools.DSQL",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The DSQL module of AWS Tools for PowerShell lets developers and administrators manage Amazon Aurora DSQL from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.ObservabilityAdmin",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ObservabilityAdmin module of AWS Tools for PowerShell lets developers and administrators manage CloudWatch Observability Admin Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.NotificationsContacts",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The NotificationsContacts module of AWS Tools for PowerShell lets developers and administrators manage AWS User Notifications Contacts from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.Notifications",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The Notifications module of AWS Tools for PowerShell lets developers and administrators manage AWS User Notifications from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.NetworkFlowMonitor",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The NetworkFlowMonitor module of AWS Tools for PowerShell lets developers and administrators manage Network Flow Monitor from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "MetadataScore": 9
   },
   {
@@ -573,30 +597,6 @@
     "id": "SecretManagement.Warden",
     "Owners": "WilliamM_iir",
     "Description": "Bitwarden/Vaultwarden extension for the PowerShell SecretManager allowing you to Get, Set, and Remove secrets in a standardized way. Supports storing and retrieving PowerShell Objects as secrets. Can be used for automated secret retrieval/management.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SecretManagement.Keeper",
-    "Owners": "saldoukhov-keeper,mustinov-keeper",
-    "Description": "SecretManagement extension vault for Keeper",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SChannelDsc",
-    "Owners": "gaelcolas,YorickKuijs,dsccommunity",
-    "Description": "This DSC module is used to manage Secure Channel (SChannel) configurations.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Sampler",
-    "Owners": "gaelcolas",
-    "Description": "Sample Module with Pipeline scripts and its Plaster template to create a module following some of the community accepted practices.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "safeguard-ps",
-    "Owners": "petrsnd,safeguard-devops",
-    "Description": "Scripting tools for interacting with the One Identity Safeguard Web API.",
     "MetadataScore": 9
   }
 ]
