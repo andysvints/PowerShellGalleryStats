@@ -138,9 +138,21 @@
     "MetadataScore": 10
   },
   {
+    "id": "Microsoft.Entra.Beta",
+    "Owners": "msgraph-sdk-powershell",
+    "Description": "Microsoft Entra PowerShell Beta: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
+    "MetadataScore": 9
+  },
+  {
     "id": "Microsoft.Entra",
     "Owners": "msgraph-sdk-powershell",
     "Description": "Microsoft Entra PowerShell v1.0: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.BackupSearch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BackupSearch module of AWS Tools for PowerShell lets developers and administrators manage AWS Backup Search from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "MetadataScore": 9
   },
   {
@@ -195,6 +207,12 @@
     "id": "AWS.Tools.Invoicing",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The Invoicing module of AWS Tools for PowerShell lets developers and administrators manage AWS Invoicing from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "AWS.Tools.SecurityIR",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The SecurityIR module of AWS Tools for PowerShell lets developers and administrators manage Security Incident Response from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "MetadataScore": 9
   },
   {
@@ -579,24 +597,6 @@
     "id": "ServerEye.Powershell.Helper",
     "Owners": "AndyBehr,stefanie.sander",
     "Description": "Helper to access the servereye API",
-    "MetadataScore": 9
-  },
-  {
-    "id": "ServerEye.Powershell.Api",
-    "Owners": "AndyBehr,SearchForTheCode,stefanie.sander",
-    "Description": "Wrapper for the Server-Eye API",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SEPPmailAPI",
-    "Owners": "SEPPmail AG",
-    "Description": "Receive and manipulate your SEPPmail Appliance beginning with SEPPmail Version 12.1.0.\r\n   With the REST-API you can retrieve and set information via REST, including the option to mass-generate users.\r\n   This PowerShell module is a wrapper around this API to allow more convenient operation and interaction from the command line.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Sentry",
-    "Owners": "vaind,sentry-powershell-sdk",
-    "Description": "An error reporting module that sends reports to Sentry.io",
     "MetadataScore": 9
   }
 ]
