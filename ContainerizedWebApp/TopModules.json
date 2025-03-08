@@ -138,6 +138,12 @@
     "MetadataScore": 10
   },
   {
+    "id": "FabricTools",
+    "Owners": "kamil_nowinski,Jojobit",
+    "Description": "A module to be able to do more with Microsoft Fabric.\r\n    It lets you pause and resume Fabric capacities.\r\n    Adds functionallity previously only available with the REST API as PowerShell functions.\r\n    There are also functions to make it easier to monitor usage metrics and refreshes.\r\n    It also adds Fabric-friendly aliases for PowerBI functions to make it easier to use the module.",
+    "MetadataScore": 9
+  },
+  {
     "id": "Microsoft.Entra.Beta",
     "Owners": "msgraph-sdk-powershell",
     "Description": "Microsoft Entra PowerShell Beta: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
@@ -591,12 +597,6 @@
     "id": "ServiceNow",
     "Owners": "SamMartin,RickA,Gdbarron",
     "Description": "Automate against ServiceNow service and asset management.  This module can be used standalone, with Azure Automation, or Docker.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "ServerEye.Powershell.Helper",
-    "Owners": "AndyBehr,stefanie.sander",
-    "Description": "Helper to access the servereye API",
     "MetadataScore": 9
   }
 ]
