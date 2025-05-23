@@ -18,6 +18,12 @@
     "MetadataScore": 10
   },
   {
+    "id": "SqlServerDsc",
+    "Owners": "dsccommunity,PowerShellTeam,gaelcolas",
+    "Description": "This module contains commands and DSC resources for deployment and configuration of Microsoft SQL Server, SQL Server Reporting Services and Power BI Report Server.",
+    "MetadataScore": 10
+  },
+  {
     "id": "SharePointDSC",
     "Owners": "dsccommunity,PowerShellTeam,gaelcolas",
     "Description": "This DSC module is used to deploy and configure SharePoint Server 2013, 2016 and 2019, and covers a wide range of areas including web apps, service apps and farm configuration.",
@@ -585,12 +591,6 @@
     "id": "SRXEnv",
     "Owners": "Achim",
     "Description": "Provides the ScriptRunner PowerShell host environment variable $SRXEnv for test\r\nand development purposes.\r\n\r\nThe SRXEnv hash table provides the following keys:\r\n\r\n[string] ReportEmail: (3.10.4133.0)\r\nIf you have an SMTP server available, the ScriptRunner service can send you email\r\nnotifications containing execution reports on error or on success.\r\nRecipient email address (comma-separated list). The full action report will be sent to this address.\r\n\r\n[string] ResultEmail: (3.10.4133.0)\r\nRecipient email addresses (comma-separated list). Only the result message will be sent to this address.\r\n\r\n[string] ResultHtml: (5.2.6155.0)\r\nThe ScriptRunner PowerShell host supports HTML results through the $SRXEnv.ResultHtml variable.\r\nThe HTML web page can then be easily retrieved from the ScriptRunner Portal.\r\nFor example, you can use the ConvertTo-Html cmdlet to assign HTML to the ResultHTML variable.\r\nYou can find a sample script at https://github.com/scriptrunner/ActionPacks under Reporting > _LIB_ > ReportsLibrary.ps1\r\n\r\n[ArrayList] ResultList: (4.0.4511.0)\r\nA scripted query must specify this list of string values. The list is associated with\r\nthe corresponding action parameter.\r\n\r\n[ArrayList] ResultList2: (4.0.4511.0)\r\nA scripted query can specify this optional list of display names. The list appears as\r\ndrop-down list for the associated action parameter.\r\n\r\n[string] ResultMessage: (3.00.3670.0)\r\nThe result message will be displayed in reports and in the immediate result window of the ScriptRunner Portal.\r\n\r\n[string] ResultObjectJSON: (4.1.4738.0)\r\nThe script can now provide (simple) structured result data by writing a (small) JSON string to $SRXEnv.ResultObjectJSON.\r\nScriptRunner will provide this JSON string in the OutSerializedPSObjects report field\r\nfor post-processing by the caller of the Web Service connector.\r\n\r\n[string] SRXActionID: (6.2.577.0)\r\nThe ID of the started action. (read-only)\r\n\r\n[string] SRXApprover: (7.3)\r\nThe user account that approved the execution. (read-only)\r\n\r\n[string] SRXCommandPath: (6.2.642.0)\r\nFull file path of the executed script file used by the started action (similar\r\nto the PowerShell $PSCommandPath auto variable). (read-only)\r\n\r\n[string] SRXDisplayName: (4.1.4738.0)\r\nThe name of the current action. (read-only)\r\n\r\n[string] SRXFilterValue: (6.2.577.0)\r\nIn case of query execution, this key contains the current filter value\r\nfrom the search filter form in the UI. (read-only)\r\n\r\n[string] SRXNodeName: (7.2)\r\nThe name of the ScriptRunner node on which the action is executed. (read-only)\r\n\r\n[ArrayList] SRXRequiredModules: (6.2.642.0)\r\nThe list of PowerShell modules that are explicitly loaded by ScriptRunner. (read-only)\r\n\r\n[string] SRXRunOn: (6.2.642.0)\r\nThe hostname of the target machine where the script is executed. (read-only)\r\n\r\n[string] SRXScriptName: (6.2.642.0)\r\nThe script file's path relative to the root of the script source. (read-only)\r\n\r\n[DateTime] SRXStarted: (4.1.4738.0)\r\nThe timestamp of the start of the script execution. (read-only)\r\n\r\n[string] SRXStartedBy: (4.1.4738.0)\r\nThe user account that requested the execution of the script. (read-only)\r\n\r\n[string] SRXStartedIP: (4.1.4738.0)\r\nThe IP address of the client that sent the request to execute the script. (read-only)\r\n\r\n[string] SRXStartedReason: (4.1.4738.0)\r\nA reason message entered by the user who started the action. (read-only)\r\n\r\n[string] SRXStartedVia: (4.1.4738.0)\r\nThe name of the application that started the execution of the script. (read-only)\r\n\r\nThe cmdlet Reset-SRXEnvironment is used to reset the SRXEnv variable. (This Cmdlet is not available in the ScriptRunner PowerShell host.)",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SqlServerDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module with DSC resources for deployment and configuration of Microsoft SQL Server.",
     "MetadataScore": 9
   },
   {
