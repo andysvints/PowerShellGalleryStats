@@ -150,12 +150,6 @@
     "MetadataScore": 9
   },
   {
-    "id": "FabricTools",
-    "Owners": "kamil_nowinski,Jojobit",
-    "Description": "A module to be able to do more with Microsoft Fabric.\r\n    It lets you pause and resume Fabric capacities.\r\n    Adds functionallity previously only available with the REST API as PowerShell functions.\r\n    There are also functions to make it easier to monitor usage metrics and refreshes.\r\n    It also adds Fabric-friendly aliases for PowerBI functions to make it easier to use the module.",
-    "MetadataScore": 9
-  },
-  {
     "id": "Microsoft.Entra.Beta",
     "Owners": "msgraph-sdk-powershell",
     "Description": "Microsoft Entra PowerShell Beta: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
@@ -597,6 +591,12 @@
     "id": "SharePointPnP.PowerShell.Commands.Files.Recurse",
     "Owners": "RyenTang",
     "Description": "An add-on SharePoint PowerShell module that leverages SharePoint PnP PowerShell module to recursively download or upload of files and folders to or from SharePoint Online.",
+    "MetadataScore": 9
+  },
+  {
+    "id": "ServiceNow",
+    "Owners": "SamMartin,RickA,Gdbarron",
+    "Description": "Automate against ServiceNow service and asset management.  This module can be used standalone, with Azure Automation, or Docker.",
     "MetadataScore": 9
   }
 ]
