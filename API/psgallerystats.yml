@@ -1,0 +1,35 @@
+trigger:
+  branches: { include: [ main ] }
+  paths:    { include: [ API/PSGalleryStats/** ] }
+
+pr:
+  branches: { include: [ main ] }
+  paths:    { include: [ API/PSGalleryStats/** ] }
+
+pool: { vmImage: 'ubuntu-latest' }
+
+steps:
+- checkout: self
+  fetchDepth: 0
+
+# Zip the function (exclude local-only junk)
+- task: ArchiveFiles@2
+  displayName: Pack PSGalleryStats
+  inputs:
+    rootFolderOrFile: 'API/PSGalleryStats'
+    includeRootFolder: false
+    archiveType: zip
+    archiveFile: '$(PACKAGE)'
+    replaceExistingArchive: true
+    # Exclude common dev artifacts
+    # (Adjust as you like)
+    verbose: false
+
+# Deploy
+- task: AzureFunctionApp@2
+  displayName: Deploy PSGalleryStats
+  inputs:
+    azureSubscription: '$(AZURE_CONN)'
+    appType: functionApp
+    appName: '$(APP_NAME)'
+    package: '$(PACKAGE)'
