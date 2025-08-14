@@ -1,0 +1,31 @@
+trigger:
+  branches: { include: [ main ] }
+  paths:    { include: [ API/PSGalleryStatsReader/** ] }
+
+pr:
+  branches: { include: [ main ] }
+  paths:    { include: [ API/PSGalleryStatsReader/** ] }
+
+pool: { vmImage: 'ubuntu-latest' }
+
+steps:
+- checkout: self
+  fetchDepth: 0
+
+- task: ArchiveFiles@2
+  displayName: Pack PSGalleryStatsReader
+  inputs:
+    rootFolderOrFile: 'API/PSGalleryStatsReader'
+    includeRootFolder: false
+    archiveType: zip
+    archiveFile: '$(PACKAGE)'
+    replaceExistingArchive: true
+    verbose: false
+
+- task: AzureFunctionApp@2
+  displayName: Deploy PSGalleryStatsReader
+  inputs:
+    azureSubscription: '$(AZURE_CONN)'
+    appType: functionApp
+    appName: '$(APP_NAME)'
+    package: '$(PACKAGE)'
