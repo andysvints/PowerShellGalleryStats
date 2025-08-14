@@ -1,0 +1,32 @@
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - API/*
+
+pool:
+  vmImage: ubuntu-latest
+
+
+steps:
+- task: ArchiveFiles@2
+  displayName: "Archive files"
+  inputs:
+    rootFolderOrFile: "API"
+    includeRootFolder: false
+    archiveFile: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip'
+    artifactName: 'drop'
+
+- task: AzureFunctionApp@1
+  inputs:
+    azureSubscription: 'Azure Resources'
+    appType: ''
+    appName: ''
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
