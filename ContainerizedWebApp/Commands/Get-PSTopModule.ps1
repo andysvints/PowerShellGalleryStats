@@ -53,7 +53,7 @@ function Get-PSTopModule
                 $HTMLTable.AppendLine("
                 <td title=`"$($TopModules[$i].id)`"><b><a href='/search?query=$($TopModules[$i].id)' target='_blank'>$($TopModules[$i].id)</a></b></td>
                     <td title=`"Author:`">$Author</td>
-                    <td title=`"Score:`">$($TopModules[$i].MetadataScore)</td>")
+                    <td title=`"Score:`">$($TopModules[$i].Score)</td>")
                 $HTMLTable.AppendLine("</tr>")
             }
             $HTMLTable.AppendLine("<tbody></table>")
