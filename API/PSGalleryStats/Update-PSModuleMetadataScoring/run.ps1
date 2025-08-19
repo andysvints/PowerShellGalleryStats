@@ -3,7 +3,7 @@ param($InboundPSModuleDocument, $TriggerMetadata)
 
 $List=New-Object System.Collections.Generic.List[PsObject]
 
-$ScoringSystem=Import-CSv .\PSGalleryStatsScoring.csv | Where-Object {$_.Category -eq "Metadata"}
+$ScoringSystem=Import-CSv "/home/site/wwwroot/PSGalleryStatsScoring.csv" | Where-Object {$_.Category -eq "Metadata"}
 $updated=$false
 foreach($Module in $InboundPSModuleDocument){
     if ($Module.Scoring -eq "NaN") {

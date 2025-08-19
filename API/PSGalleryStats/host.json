@@ -19,5 +19,6 @@
         "cosmosDB": {
             "connectionMode": "Gateway"
         }
-    }
+    },
+  "functionTimeout": "00:10:00"
 }
