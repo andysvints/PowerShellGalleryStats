@@ -23,9 +23,9 @@ steps:
     verbose: false
 
 - task: AzureFunctionApp@2
-  displayName: Deploy PSGalleryStatsReader
   inputs:
-    azureSubscription: '$(AZURE_CONN)'
-    appType: functionApp
-    appName: '$(APP_NAME)'
-    package: '$(PACKAGE)'
+    connectedServiceNameARM: 'Andys Azure Subscription(6e606d01-ff42-4cab-bcf2-b8888ab2fdc4)'
+    appType: 'functionApp'
+    appName: 'PSGalleryStatsReader'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
