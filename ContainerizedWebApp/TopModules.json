@@ -1,602 +1,72 @@
 [
   {
-    "id": "xDnsServer",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains DSC resources for the management and configuration of Windows Server DNS Server.",
-    "MetadataScore": 10
+    "id": "PSCustomObject",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for missing functions of PSCustomObjects.",
+    "Score": 85,
+    "Published": "2025-08-19T12:36:14.353"
   },
   {
-    "id": "xDatabase",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains 2 resources. xDatabase allows to create and deploy databases using DAC or connection string, restore a database using BACPAC and delete a database. The xDBPackage resource allows extracting a database to a DACPAC or exporting to a BACPAC",
-    "MetadataScore": 10
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2025-08-19T17:29:44.117"
   },
   {
-    "id": "xCredSSP",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains DSC resources for configuration of the WSMan Credential Security Support Provider (CredSSP).",
-    "MetadataScore": 10
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2025-08-19T18:04:30.763"
   },
   {
-    "id": "SqlServerDsc",
-    "Owners": "dsccommunity,PowerShellTeam,gaelcolas",
-    "Description": "This module contains commands and DSC resources for deployment and configuration of Microsoft SQL Server, SQL Server Reporting Services and Power BI Report Server.",
-    "MetadataScore": 10
+    "id": "DynamicParams",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module that makes it easier to use dynamic params.",
+    "Score": 85,
+    "Published": "2025-08-19T12:16:15.567"
   },
   {
-    "id": "SharePointDSC",
-    "Owners": "dsccommunity,PowerShellTeam,gaelcolas",
-    "Description": "This DSC module is used to deploy and configure SharePoint Server 2013, 2016 and 2019, and covers a wide range of areas including web apps, service apps and farm configuration.",
-    "MetadataScore": 10
+    "id": "MariusTestModule",
+    "Owners": "MariusStorhaug",
+    "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
+    "Score": 80,
+    "Published": "2025-08-19T12:41:10.883"
   },
   {
-    "id": "Pscx",
-    "Owners": "r_keith_hill,x0n",
-    "Description": "PowerShell Community Extensions (PSCX) base module which implements a general purpose set of Cmdlets.",
-    "MetadataScore": 10
+    "id": "OCI.PSModules.Lustrefilestorage",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Lustrefilestorage Service",
+    "Score": 80,
+    "Published": "2025-08-19T17:40:14.153"
   },
   {
-    "id": "Pester",
-    "Owners": "nohwnd,fflaten",
-    "Description": "Pester provides a framework for running BDD style Tests to execute and validate PowerShell commands inside of PowerShell and offers a powerful set of Mocking Functions that allow tests to mimic and mock the functionality of any command inside of a piece of PowerShell code being tested. Pester tests can execute any command or script that is accessible to a pester test file. This can include functions, Cmdlets, Modules and scripts. Pester can be run in ad hoc style in a console or it can be integrated into the Build scripts of a Continuous Integration system.",
-    "MetadataScore": 10
+    "id": "OCI.PSModules.Mngdmac",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Mngdmac Service",
+    "Score": 80,
+    "Published": "2025-08-19T17:41:00.11"
   },
   {
-    "id": "OfficeOnlineServerDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "The OfficeOnlineServerDsc module provides the ability to install Office Online Server (formerly known as Office Web App Server).",
-    "MetadataScore": 10
+    "id": "Twitch",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for interacting with Twitch.",
+    "Score": 80,
+    "Published": "2025-08-19T11:30:34.76"
   },
   {
-    "id": "Microsoft365DSC",
-    "Owners": "NikCharleboisPFE,Microsoft365DSC_Team",
-    "Description": "This DSC module is used to configure and monitor Microsoft tenants, including SharePoint Online, Exchange, Teams, etc.",
-    "MetadataScore": 10
+    "id": "OCI.PSModules.Dblm",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dblm Service",
+    "Score": 80,
+    "Published": "2025-08-19T17:36:00.583"
   },
   {
-    "id": "HAWK",
-    "Owners": "matbyrd,SemperCyber1775",
-    "Description": "A free, open-source forensics PowerShell module for conducting incident response and threat hunting of Microsoft Cloud environments. \r\n    Hawk streamlines the collection of forensic data from Microsoft 365 and Entra ID environments to help security professionals, \r\n    incident responders, and administrators quickly gather critical log data and identify potential security concerns. \r\n    While it includes basic analysis capabilities to flag items of interest, it focuses on efficient data collection rather than automated detection.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "GuestConfiguration",
-    "Owners": "PowerShellTeam,katiekeim,migreene,nitingup,mbreakey",
-    "Description": "The Guest Configuration module is a tool to author custom content for Azure Guest Configuration. These cmdlets build and validate content packages and custom policies, which can then be used in cross-platform configuration management solutions.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "Foxit.Ea.Dts.Ps",
-    "Owners": "foxit-psgallery-ea,foxit-ea-team",
-    "Description": "Provides cmdlets to manage and use a Foxit Document Transformation Service easily in PowerShell based environments.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "dbatools",
-    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
-    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
-    "MetadataScore": 10
-  },
-  {
-    "id": "dbachecks",
-    "Owners": "chrissylemaire,SQLDBAWithABeard",
-    "Description": "SQL Server Infrastructure validation Tests to ensure that your SQL Server estate is and continues to be compliant with your requirements",
-    "MetadataScore": 10
-  },
-  {
-    "id": "ComputerManagementDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "DSC resources for configuration of a Windows computer. These DSC resources allow you to perform computer management tasks, such as renaming the computer, joining a domain and scheduling tasks as well as configuring items such as virtual memory, event logs, time zones and power settings.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "Cloudmarque.Azure",
-    "Owners": "nathankitchen,Oliver.Atkinson",
-    "Description": "Cloudmarque PowerShell Tools for Azure is a deployment and management framework for cloud resources following a DevOps/GitOps methodology aligned with the Cloudmarque Reference Architecture and Operating Model.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "ChocoCCM",
-    "Owners": "steviecoaster,chocolatey",
-    "Description": "This module provides a PowerShell wrapper to Chocolatey Central Management. See https://docs.chocolatey.org/en-us/central-management/ for more information.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "Bicep",
-    "Owners": "SimonWahlin,StefanIvemo",
-    "Description": "A module to run Bicep using PowerShell. The module is a community project built using the Bicep assemblies to provide you with an enhanced Bicep experience directly from PowerShell without having Bicep CLI installed. \n\nThe module also provides the additional features:\n- Generate ARM template parameter files directly from a Bicep file\n- Quickly open the API reference docs by referencing the Bicep types\n- Get the result from a build as a string or hashtable instead of writing to a file\n- Test if a Bicep file is valid without building it\n- Convert JSON objects to Bicep Language\n- Install/Update/Uninstall Bicep CLI\n- Specify output folder when building* and decompiling Bicep/ARM templates\n- Specify output filename when building Bicep files\n- Find modules in private module registries\n- Clear local module cache\n\nFor more information about Bicep, please visit the official Bicep GitHub Repository:\nhttps://github.com/Azure/bicep",
-    "MetadataScore": 10
-  },
-  {
-    "id": "AzureAutomationAuthoringToolkit",
-    "Owners": "jodoglevy,eamono,AzureAutomationTeam,alsab",
-    "Description": "Open the PowerShell console\r\n\r\nRun\r\n\r\nInstall-Module AzureAutomationAuthoringToolkit -Scope CurrentUser\r\n\r\nIf you want the PowerShell ISE to always automatically load the Azure Automation ISE add-on:\r\n\r\nRun\r\n\r\nInstall-AzureAutomationIseAddOn\r\n\r\nIf not:\r\n\r\nAny time you want to use the Azure Automation ISE add-on in the PowerShell ISE, run\r\n\r\nImport-Module AzureAutomationAuthoringToolkit\r\n\r\nin the PowerShell ISE",
-    "MetadataScore": 10
-  },
-  {
-    "id": "AGMPowerCLI",
-    "Owners": "AnthonyVandewerdt,jeffoconnorau,yogig,jing,satya_srikanth,rajeshkrmekala",
-    "Description": "This is a community generated PowerShell Module for Management Console.\nIt provides a method to issue commands to AGM API endpoints, like \"Application\" and \"Host\".\nThis lets you create automation with AGM, or generate your own composite functions.\nMore information can be found here:  https://github.com/Actifio/AGMPowerCLI",
-    "MetadataScore": 10
-  },
-  {
-    "id": "Adoxio.Dynamics.DevOps",
-    "Owners": "amervitz,adoxio",
-    "Description": "Adoxio.Dynamics.DevOps provides functions for performing Microsoft Dynamics 365 development and deployment (DevOps) oriented tasks.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "ActPowerCLI",
-    "Owners": "AnthonyVandewerdt,jeffoconnorau,jing",
-    "Description": "This is a community generated PowerShell Module that can be used to manage Actifio VDP Appliances.  \nIt provides a method to issue udsinfo, udstask and report commands, and Actifio CDS specific task/info commands.\nMore information can be found here:  https://github.com/Actifio/ActPowerCLI",
-    "MetadataScore": 10
-  },
-  {
-    "id": "ActiveDirectoryDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "The ActiveDirectoryDsc module contains DSC resources for deployment and configuration of Active Directory.\r\n\r\nThese DSC resources allow you to configure new domains, child domains, and high availability domain controllers, establish cross-domain trusts and manage users, groups and OUs.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "ActiveDirectoryCSDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "DSC resources for installing, uninstalling and configuring Certificate Services components in Windows Server.",
-    "MetadataScore": 10
-  },
-  {
-    "id": "AWS.Tools.AIOps",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The AIOps module of AWS Tools for PowerShell lets developers and administrators manage AWS AI Ops from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "monkey365",
-    "Owners": "silverhack",
-    "Description": "Monkey365 provides a tool for security consultants to easily conduct not only Microsoft 365, but also Azure subscriptions and Azure Active Directory security configuration reviews.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.IoTManagedIntegrations",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The IoTManagedIntegrations module of AWS Tools for PowerShell lets developers and administrators manage Managed integrations for AWS IoT Device Management from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.GameLiftStreams",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The GameLiftStreams module of AWS Tools for PowerShell lets developers and administrators manage Amazon GameLiftStreams from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Microsoft.Entra.Beta",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Entra PowerShell Beta: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Microsoft.Entra",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Entra PowerShell v1.0: Microsoft Entra PowerShell is a scenario-driven module that allows administrators to efficiently manage Entra ID resources, including users, groups, applications, and policies, among others",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.BackupSearch",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BackupSearch module of AWS Tools for PowerShell lets developers and administrators manage AWS Backup Search from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.DSQL",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The DSQL module of AWS Tools for PowerShell lets developers and administrators manage Amazon Aurora DSQL from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.S3Tables",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The S3Tables module of AWS Tools for PowerShell lets developers and administrators manage Amazon S3 Tables from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.ObservabilityAdmin",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The ObservabilityAdmin module of AWS Tools for PowerShell lets developers and administrators manage CloudWatch Observability Admin Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.NotificationsContacts",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The NotificationsContacts module of AWS Tools for PowerShell lets developers and administrators manage AWS User Notifications Contacts from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.Notifications",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The Notifications module of AWS Tools for PowerShell lets developers and administrators manage AWS User Notifications from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.NetworkFlowMonitor",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The NetworkFlowMonitor module of AWS Tools for PowerShell lets developers and administrators manage Network Flow Monitor from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.BedrockDataAutomationRuntime",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BedrockDataAutomationRuntime module of AWS Tools for PowerShell lets developers and administrators manage Runtime for Amazon Bedrock Data Automation from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.BedrockDataAutomation",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BedrockDataAutomation module of AWS Tools for PowerShell lets developers and administrators manage Data Automation for Amazon Bedrock from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.Invoicing",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The Invoicing module of AWS Tools for PowerShell lets developers and administrators manage AWS Invoicing from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.SecurityIR",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The SecurityIR module of AWS Tools for PowerShell lets developers and administrators manage Security Incident Response from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.BCMPricingCalculator",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BCMPricingCalculator module of AWS Tools for PowerShell lets developers and administrators manage AWS Pricing Calculator from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.ConnectCampaignsV2",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The ConnectCampaignsV2 module of AWS Tools for PowerShell lets developers and administrators manage AmazonConnectCampaignServiceV2 from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.PartnerCentralSelling",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The PartnerCentralSelling module of AWS Tools for PowerShell lets developers and administrators manage Partner Central Selling API from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.Billing",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The Billing module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "PSBlueSky",
-    "Owners": "JeffHicks",
-    "Description": "A set of PowerShell commands that use the Bluesky AT Proto API. You can post and upload images from a PowerShell prompt, as well as get your timeline, feed, followers, and more. Run Open-BskyHelp after installation to launch a PDF guide. This module is written for PowerShell 7 and uses features like $PSStyle. If you have the pwshSpectreConsole module installed, additional features are available.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.GeoRoutes",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The GeoRoutes module of AWS Tools for PowerShell lets developers and administrators manage Amazon Location Service Routes V2 from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.GeoPlaces",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The GeoPlaces module of AWS Tools for PowerShell lets developers and administrators manage Amazon Location Service Places V2 from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.GeoMaps",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The GeoMaps module of AWS Tools for PowerShell lets developers and administrators manage Amazon Location Service Maps V2 from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.SocialMessaging",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The SocialMessaging module of AWS Tools for PowerShell lets developers and administrators manage AWS End User Messaging Social from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.MarketplaceReporting",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The MarketplaceReporting module of AWS Tools for PowerShell lets developers and administrators manage AWS Marketplace Reporting Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.DirectoryServiceData",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The DirectoryServiceData module of AWS Tools for PowerShell lets developers and administrators manage AWS Directory Service Data from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.PCS",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The PCS module of AWS Tools for PowerShell lets developers and administrators manage AWS Parallel Computing Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "DSInternals.Passkeys",
-    "Owners": "MichaelGrafnetter",
-    "Description": "Allows administrative registration of passkeys (i.e. FIDO2 security keys and Microsoft Authenticator mobile app) in Microsoft Entra ID (formerly Azure Active Directory) through the Microsoft Graph API.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.SSMQuickSetup",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The SSMQuickSetup module of AWS Tools for PowerShell lets developers and administrators manage AWS Systems Manager QuickSetup from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "AWS.Tools.QApps",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The QApps module of AWS Tools for PowerShell lets developers and administrators manage Amazon Q Apps from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Hardensysvol",
-    "Owners": "Dakhama_mehdi",
-    "Description": "Harden Sysvol is a Powershell Module to scan sysvol folder to search the sensitivity data, and vulnerability.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Zyborg.Vault",
-    "Owners": "ebekker-posh",
-    "Description": "PowerShell bindings for HashiCorp Vault.\r\n\r\nProvides cmdlets that talk directly to the Vault REST API and are comparable to most commands available through the official Vault CLI without any dependency on the CLI.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xWebAdministration",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module with DSC Resources for Web Administration",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xSystemSecurity",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains DSC resources for configuring and managing computer security.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xSCSMA",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module with DSC Resources for deployment and configuration of Microsoft System Center Service Management Automation.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xRobocopy",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module is used to facilitate large file copies with complex requirements such as multithreading, restarts, and exclusions when recursing content.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xRemoteDesktopSessionHost",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module with DSC Resources for Remote Desktop Session Host",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xPSDesiredStateConfiguration",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "DSC resources for configuring common operating systems features, files and settings.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xpoTools",
-    "Owners": "mazzy",
-    "Description": "Powershell advanced functions to split and to merge XPO files contains AOT objects of Microsoft Dynamics AX (Axapta) 3.0, 4.0, 2009, 2012",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xHyper-V",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains DSC resources for deployment and configuration of Microsoft Hyper-V.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xFailOverCluster",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module containing DSC resources for deployment and configuration of Windows Server Failover Cluster.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xExchange",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module with DSC Resources for deployment and configuration of Microsoft Exchange Server.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xDscDiagnostics",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module to help in reading details from DSC events.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xDhcpServer",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains DSC resources for deployment and configuration of Microsoft DHCP Server.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "xBitlocker",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This DSC Module allows you to configure Bitlocker on a single disk, configure a TPM chip, or automatically enable Bitlocker on multiple disks.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WSManDsc",
-    "Owners": "dscottraynsford,dsccommunity",
-    "Description": "DSC resources for configuring WS-Man.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WSLBlobNFS",
-    "Owners": "shankarmb,pragyagandhi,cagrawal-msft",
-    "Description": "This project is a collection of PS commands to assist in mounting of Azure Blob NFS storage containers through the WSL in Windows.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "wrt.helpers",
-    "Owners": "maurice.dejong,maurieezzz",
-    "Description": "This PowerShell module contains multiple helper functions to help reduce redundant code for our projects and day to day usage.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WriteToLogs",
-    "Owners": "pkparsard",
-    "Description": "A collection of fuctions to simplify logging output in a variety of formats, which includes:\r\na) Logging simultaneously to the console and a specified log file;\r\nb) Logging to the console and a log file with a time-stamp index at each line;\r\nc) Logging output to only the specified log file.\r\nThe Write-ToConsoleAndLog function displays the specified content on both the PowerShell console and an included log file.\r\nThe Write-WithTime function displays the specified output on both the PowerShell console and an included log file, with a time index at each line of output.\r\nThe Write-ToLogOnly function writes the specified content only to the inlcuded file.\r\nThe function here is similar to using the native ...| Out-File -FilePath <path> syntax",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Write-ProgressEx",
-    "Owners": "mazzy",
-    "Description": "Write-ProgressEx extends the functionality of the standard cmdlet. Write-ProgressEx is a powershell advanced function that provide a simple way to show ProgressBars, PercentComplete and SecondsRemaining.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WindowsOSServicing",
-    "Owners": "AshleyHow",
-    "Description": "Gets Windows OS servicing information to check if OS is currently serviced. Useful for scripting and automation purposes. Supports Windows 10 and Windows Server 2016 onwards.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WindowsOSBuild",
-    "Owners": "AshleyHow",
-    "Description": "Gets Windows patch release information (Version, Build, Availability date, Hotpatch, Preview, Out-of-band, Servicing option, KB article, KB URL and Catalog URL) for Windows client and server versions. Useful for scripting and automation purposes. Supports Windows 10 and Windows Server 2016 onwards. Supports Hotpatch on Windows 11, Windows Server 2022 and Windows Server 2025.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WindowsKeyboardManagement",
-    "Owners": "macks",
-    "Description": "Allows keys on the physical keyboard to be remapped, and redefine programs associated with multimedia keys. For example, you can remap the \"Scroll Lock\" key to the \"Calculator\" multimedia key, and then redefine \"Calculator\" key to launch PowerShell. Now pressing \"Scroll Lock\" launches PowerShell!",
-    "MetadataScore": 9
-  },
-  {
-    "id": "WebAdministrationDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "Module with DSC Resources for Web Administration",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VpasModule",
-    "Owners": "vmelamed5",
-    "Description": "Module for CyberArk v14.X Privileged Access Security Web Service REST API for Self Hosted, PrivilegeCloud Standard, and SharedServices (ISPSS) solution suite",
-    "MetadataScore": 9
-  },
-  {
-    "id": "vNugglets.VDNetworking",
-    "Owners": "MattBoren",
-    "Description": "Module with functions for managing VMware vSphere Virtual Distributed Networking components like traffic filtering and marking",
-    "MetadataScore": 9
-  },
-  {
-    "id": "vNugglets.Utility",
-    "Owners": "MattBoren",
-    "Description": "Module with the super useful functions that were previously scattered about the web by the vNugglets team (particularly, at vNugglets.com)",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VMware.CloudFoundation.Reporting",
-    "Owners": "VMware,GaryJBlake,tenthirtyam",
-    "Description": "PowerShell Module for VMware Cloud Foundation Reporting",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VMware.CloudFoundation.PowerManagement",
-    "Owners": "VMware,GaryJBlake,tenthirtyam",
-    "Description": "PowerShell Module for VMware Cloud Foundation Power Management",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VMware.CloudFoundation.PasswordManagement",
-    "Owners": "VMware,GaryJBlake,tenthirtyam",
-    "Description": "PowerShell Module for VMware Cloud Foundation Password Management",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VMware.CloudFoundation.InstanceRecovery",
-    "Owners": "brianoconnell,kengould",
-    "Description": "PowerShell Module for VMware Cloud Foundation Instance Recovery",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VMware.CloudFoundation.CertificateManagement",
-    "Owners": "VMware,GaryJBlake,tenthirtyam",
-    "Description": "PowerShell Module for VMware Cloud Foundation Certificate Management",
-    "MetadataScore": 9
-  },
-  {
-    "id": "VcRedist",
-    "Owners": "aaronparker",
-    "Description": "A module for lifecycle management of the Microsoft Visual C++ Redistributables. VcRedist downloads, installs and uninstalls the supported (and unsupported) Redistributables. Use for local install, gold image creation and update, or importing as applications into the Microsoft Deployment Toolkit, Microsoft Configuration Manager or Microsoft Intune. Supports passive and silent installs, and uninstalls of the Visual C++ Redistributables.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "UpdateServicesDsc",
-    "Owners": "gaelcolas,migreene,dsccommunity",
-    "Description": "Module with DSC Resources for deployment and configuration of Windows Server Update Services.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "ud-cmwt",
-    "Owners": "skatterbrainz",
-    "Description": "Web Console UI for AD, AzureAD, and Configuration Manager built with UniversalDashboard Community Edition 2.5.3.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "TUN.Logging",
-    "Owners": "echalone",
-    "Description": "Provides easy to use file and mail logging. Documentation of module at https://github.com/echalone/TUN/blob/master/PowerShell/Modules/TUN.Logging/TUN.Logging.md",
-    "MetadataScore": 9
-  },
-  {
-    "id": "TUN.Credentials",
-    "Owners": "echalone",
-    "Description": "Provides easy to use methods to manage and use credentials. Documentation of module at https://github.com/echalone/TUN/blob/master/PowerShell/Modules/TUN.Credentials/TUN.Credentials.md",
-    "MetadataScore": 9
-  },
-  {
-    "id": "TUN.CredentialManager",
-    "Owners": "echalone",
-    "Description": "Provides access to credentials in the Windows Credential Manager (continuation of CredentialManager by Dave Garnar)",
-    "MetadataScore": 9
-  },
-  {
-    "id": "Thycotic.SecretServer",
-    "Owners": "RobJagger-Delinea,DelineaIntegrations",
-    "Description": "Interact with the Secret Server REST API",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SysInfo",
-    "Owners": "StephanosCF",
-    "Description": "SysInfo module will help you get the system information that you need from local and remote machines.\r\nSysInfo will allow you to utilize CIM cmdlets in an easier way. Instead of trying to find the class name and filter\r\nbased on the return code to get the exact data that you need, you can get what you need with SysInfo module. It\r\nutilizes CIM cmdlets to get the information from local and remote computer but the output of the properties of\r\nthe system components has no codes. Codes have been converted into a more readable format, giving you the\r\nactual meaning of each code. As different types of sizes are provided in bytes, which in many times this is not\r\nhelpful, additional properties will be included in the output, providing you the size also in other format that\r\nwill help you out perform your job.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SumoLogic-Core",
-    "Owners": "binyi3377,sumologic",
-    "Description": "Module working with Sumo Logic API",
-    "MetadataScore": 9
-  },
-  {
-    "id": "StorageDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "DSC resources for managing storage on Windows Servers.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "StigRepo",
-    "Owners": "Bewillis,jadean,wiwellin",
-    "Description": "The Stig-Repo module leverages PowerSTIG and Desired State Configuration to build and drive the STIG Compliance Automation Repository (SCAR) - an automated Infrastructure as Code framework for Security Technical Implementation Guide (STIG) Compliance.\r\n    \r\n    SCAR accelerates Azure readiness and ATO/CCRI processes through automated STIG compliance and digital transformation by establishing an infrastructure as code platform that organizations can customize build on top of to quickly establish and deploy Azure baselines.\r\n    \r\n    Primary Capabilities:\r\n    \r\n    1. Initialize-StigRepo: Builds the STIG Compliance Automation Repository and installs dependencies on the local system\r\n    2. New-SystemData: Scans the Active Directory Environment for targetted systems, determines applicable STIGs, and generates DSC configuration data\r\n    3. Start-DscBuild: Generates DSC Configuration scripts and MOF files for all DSC Nodes\r\n    4. Sync-DscModules: Syncs DSC module dependencies across all DSC Nodes\r\n    5. Set-WinRMConfig: Expands MaxEnvelopSize on all DSC nodes\r\n    6. Get-StigChecklists: Generates STIG Checklists for all applicable STIGs for each DSC Node\r\n    7. Update-StigRepo: Updates/downloads latest dependencies to SCAR Repo and upgrades STIG Data Files\r\n    \r\n    Dependencies\r\n    \r\n    1. Must be executed from an internet-connected system to install module dependencies\r\n    2. Must be executed from a system with the Active Directory module installed.\r\n    3. DSCSM Leverages PowerSTIG to drive the dynamic DSC configurations included withint he module (installed with Build-Repo or Update-ScarRepo)\r\n    4. Powershell Version 5.1 or greater\r\n    \r\n    The STIG Compliance Automation Repository Structure\r\n    SCAR organizes the repository to deploy and document STIGs using the folders listed below:\r\n    \r\n    1. Systems: Folders for each identified Organizational Unit in Active Directory and a Powershell Data file for each identified system.\r\n    2. Configurations: Dynamic PowerSTIG Configurations for that are customized by paremeters provided within system data files.\r\n    3. Artifacts: Consumable items produced by SCAR. SCAR produces DSCConfigs, MOFS, and STIG Checklists out of the box.\r\n    4. Resources: Dependendencies leveraged by SCAR to generate SystemData and Artifacts. SCAR has Modules, Stig Data, and Wiki resources out of the box.",
-    "MetadataScore": 9
-  },
-  {
-    "id": "SS.CliMenu",
-    "Owners": "johnwcarew",
-    "Description": "CLI menu infrastructure for PowerShell. \r\n\tThis is a major modified version of https://github.com/torgro/cliMenu with some advanced features.",
-    "MetadataScore": 9
+    "id": "Yaml",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for working with Yaml.",
+    "Score": 80,
+    "Published": "2025-08-19T13:25:33.237"
   }
 ]
