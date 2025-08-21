@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSCustomObject",
+    "id": "PowerShellGallery",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module for missing functions of PSCustomObjects.",
+    "Description": "A PowerShell module for interacting with the PowerShell Gallery.",
     "Score": 85,
-    "Published": "2025-08-19T12:36:14.353"
+    "Published": "2025-08-20T10:47:41.943"
   },
   {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
-    "Score": 85,
-    "Published": "2025-08-19T17:29:44.117"
-  },
-  {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
-    "Score": 85,
-    "Published": "2025-08-19T18:04:30.763"
-  },
-  {
-    "id": "DynamicParams",
+    "id": "Guid",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module that makes it easier to use dynamic params.",
-    "Score": 85,
-    "Published": "2025-08-19T12:16:15.567"
-  },
-  {
-    "id": "MariusTestModule",
-    "Owners": "MariusStorhaug",
-    "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
+    "Description": "A PowerShell module that makes working with GUID sligthly more PowerShelly",
     "Score": 80,
-    "Published": "2025-08-19T12:41:10.883"
+    "Published": "2025-08-20T07:52:53.67"
   },
   {
-    "id": "OCI.PSModules.Lustrefilestorage",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Lustrefilestorage Service",
-    "Score": 80,
-    "Published": "2025-08-19T17:40:14.153"
-  },
-  {
-    "id": "OCI.PSModules.Mngdmac",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Mngdmac Service",
-    "Score": 80,
-    "Published": "2025-08-19T17:41:00.11"
-  },
-  {
-    "id": "Twitch",
+    "id": "PowerShellDataFile",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module for interacting with Twitch.",
+    "Description": "A PowerShell module for base functions...",
     "Score": 80,
-    "Published": "2025-08-19T11:30:34.76"
+    "Published": "2025-08-20T07:34:25.837"
   },
   {
-    "id": "OCI.PSModules.Dblm",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dblm Service",
-    "Score": 80,
-    "Published": "2025-08-19T17:36:00.583"
-  },
-  {
-    "id": "Yaml",
+    "id": "Telemetry",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module for working with Yaml.",
+    "Description": "A PowerShell module for managing and registering telemetry.",
     "Score": 80,
-    "Published": "2025-08-19T13:25:33.237"
+    "Published": "2025-08-20T12:29:04.823"
+  },
+  {
+    "id": "GZip",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell Module that handles GZip archives",
+    "Score": 80,
+    "Published": "2025-08-20T10:52:41.277"
+  },
+  {
+    "id": "Confluence",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module that interacts with Atlassian Confluence",
+    "Score": 80,
+    "Published": "2025-08-20T07:46:18.85"
+  },
+  {
+    "id": "ScheduledTasksManager",
+    "Owners": "trent.blackburn",
+    "Description": "Manages local and clustered scheduled tasks in standalone or failover cluster environments, extending the ScheduledTasks module from Microsoft",
+    "Score": 75,
+    "Published": "2025-08-20T18:41:41.263"
+  },
+  {
+    "id": "AWS.Tools.AIOps",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AIOps module of AWS Tools for PowerShell lets developers and administrators manage AWS AI Ops from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2025-08-20T22:02:45.24"
+  },
+  {
+    "id": "Markdown",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to handle markdown",
+    "Score": 75,
+    "Published": "2025-08-20T10:41:22.83"
+  },
+  {
+    "id": "Hashtable",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module that simplifies some interaction with Hashtables.",
+    "Score": 75,
+    "Published": "2025-08-20T08:19:53.757"
   }
 ]
