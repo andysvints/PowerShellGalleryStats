@@ -1,72 +1,72 @@
 [
   {
+    "id": "7Zip4Powershell",
+    "Owners": "thoemmi",
+    "Description": "Powershell module for creating and extracting 7-Zip archives",
+    "Score": 75,
+    "Published": "2025-08-24T18:56:34.86"
+  },
+  {
+    "id": "PSRest",
+    "Owners": "nightroman",
+    "Description": "PowerShell module",
+    "Score": 70,
+    "Published": "2025-08-24T03:57:01.88"
+  },
+  {
     "id": "GenXdev",
     "Owners": "genXdev",
     "Description": "GenXdev PowerShell Utilities and helpers",
     "Score": 70,
-    "Published": "2025-08-23T02:56:43.2"
+    "Published": "2025-08-24T23:22:29.867"
+  },
+  {
+    "id": "PSStringToQRCode",
+    "Owners": "erlwes",
+    "Description": "A module to convert strings to QR codes and display in a GUI, save them as PNG images or output raw image stream.",
+    "Score": 70,
+    "Published": "2025-08-24T11:59:52.217"
   },
   {
     "id": "GenXdev.Webbrowser",
     "Owners": "genXdev",
     "Description": "A Windows PowerShell module that allows you to run scripts against your casual desktop webbrowser-tab",
     "Score": 70,
-    "Published": "2025-08-23T02:49:42.357"
+    "Published": "2025-08-24T23:15:04.647"
   },
   {
-    "id": "dbatools",
-    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
-    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+    "id": "DailyBackup",
+    "Owners": "jonlabelle",
+    "Description": "Perform simple, daily backups.",
     "Score": 70,
-    "Published": "2025-08-23T11:29:29.65"
+    "Published": "2025-08-24T21:18:25.96"
   },
   {
-    "id": "PSRest",
-    "Owners": "nightroman",
-    "Description": "PowerShell module",
+    "id": "ToolCraft",
+    "Owners": "pbk0",
+    "Description": "ToolCraft PowerShell utilities for the toolcraft repository.",
     "Score": 65,
-    "Published": "2025-08-23T22:36:22.053"
-  },
-  {
-    "id": "PSRule.Rules.Azure",
-    "Owners": "BernieWhite",
-    "Description": "Validate Azure resources and infrastructure as code using PSRule.\n\nThis project uses GitHub Issues to track bugs and feature requests. See GitHub project for more information.",
-    "Score": 65,
-    "Published": "2025-08-23T11:22:35.713"
-  },
-  {
-    "id": "IISParser",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Module for parsing IIS logs",
-    "Score": 65,
-    "Published": "2025-08-23T16:34:03.4"
+    "Published": "2025-08-24T23:42:51.013"
   },
   {
     "id": "GenXdev.Windows",
     "Owners": "genXdev",
     "Description": "A Windows PowerShell module that provides UI Windows manipulation helpers",
     "Score": 65,
-    "Published": "2025-08-23T02:48:31.4"
+    "Published": "2025-08-24T23:13:53.753"
   },
   {
     "id": "GenXdev.Helpers",
     "Owners": "genXdev",
     "Description": "A Windows PowerShell module with helpers mostly used by other GenXdev modules",
     "Score": 65,
-    "Published": "2025-08-23T02:46:09.95"
+    "Published": "2025-08-24T23:11:28.687"
   },
   {
     "id": "GenXdev.Media",
     "Owners": "genXdev",
     "Description": "A Windows PowerShell module that helps with converting media files like pictures and video files.",
     "Score": 60,
-    "Published": "2025-08-23T02:55:33.323"
-  },
-  {
-    "id": "GenXdev.Coding",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that helps being more productive with coding tasks.",
-    "Score": 60,
-    "Published": "2025-08-23T02:54:24.2"
+    "Published": "2025-08-24T23:21:20.7"
   }
 ]
