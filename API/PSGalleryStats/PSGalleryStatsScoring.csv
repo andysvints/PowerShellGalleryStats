@@ -9,8 +9,8 @@ ItemType,ItemType is Module,Metadata,30,1,"$Module.ItemType -eq ""Module""","Ens
 OwnerCount,More than 1 owner,Metadata,30,1, [int]$Module.OwnersCount -gt 1,Invite additional owners to your module to share responsibility and improve collaboration.,
 MultipleVersions,Module has more than one version published,Metadata,30,1, [int]$Module.DownloadCount -gt  $Module.VersionDownloadCount,Publish multiple versions to demonstrate ongoing development and support for your module.,
 DownloadCount,More than 500 downloads,Metadata,30,1, [int]$Module.DownloadCount -gt 500,"Promote your module to reach over 500 downloads, enhancing its visibility and credibility in the community.",
-CmdletDesign,,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $ModuleDir -Settings CmdletDesign -Recurse ,,PSScriptAnalyzer;https://learn.microsoft.com/en-us/powershell/utility-modules/psscriptanalyzer/overview?view=ps-modules
-CodeFormatting,,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $ModuleDir -Recurse -Settings CodeFormatting,,
-PSGallery,,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $ModuleDir -Recurse -Settings PSGallery,,
-ScriptingStyle,,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $moduledir -Recurse -Settings ScriptingStyle,,
-ScriptSecurity,,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $moduledir -Recurse -Settings ScriptSecurity,,
+CmdletDesign,How advanced functions/cmdlets are designed,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $ModuleDir -Settings CmdletDesign -Recurse ,,PSScriptAnalyzer;https://learn.microsoft.com/en-us/powershell/utility-modules/psscriptanalyzer/overview?view=ps-modules
+CodeFormatting,Style and consistency of your code layout,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $ModuleDir -Recurse -Settings CodeFormatting,,
+PSGallery,Publishing readiness for the PowerShell Gallery,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $ModuleDir -Recurse -Settings PSGallery,,
+ScriptingStyle,General scripting practices,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $moduledir -Recurse -Settings ScriptingStyle,,
+ScriptSecurity,Security-related checks,SourceCode,70,1,Invoke-ScriptAnalyzer -Path $moduledir -Recurse -Settings ScriptSecurity,,
