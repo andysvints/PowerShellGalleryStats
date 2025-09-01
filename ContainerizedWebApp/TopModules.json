@@ -1,65 +1,76 @@
 [
   {
-    "id": "PSRest",
-    "Owners": "nightroman",
-    "Description": "VSCode REST Client features in PowerShell.",
+    "id": "Context",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module that manages contexts with secrets and variables.",
+    "Score": 75,
+    "Published": "2025-08-31T20:15:59.327"
+  },
+  {
+    "id": "OpenAuthenticode",
+    "Owners": "jborean93",
+    "Description": "Cross platform PowerShell implementation of Authenticode signing and verification",
+    "Score": 75,
+    "Published": "2025-08-31T18:51:38.513"
+  },
+  {
+    "id": "ActivateAll",
+    "Owners": "chixus",
+    "Description": "Activate Windows and Office permanently, installs Office®Tool for deploying Office, enables dotNET 3.5 package.",
     "Score": 70,
-    "Published": "2025-08-30T07:55:27.697"
-  },
-  {
-    "id": "Write-Text",
-    "Owners": "Qiufeng",
-    "Description": "Write-Text is provided, hexadecimal colors are supported, and pipelines are ditched.",
-    "Score": 55,
-    "Published": "2025-08-30T04:20:10.817"
-  },
-  {
-    "id": "Action.Logging",
-    "Owners": "gmorenet",
-    "Description": "Enhanced PowerShell logging module with async support. Provides severity-based logging with automatic file management, color-coded console output, and high-performance asynchronous logging capabilities for PowerShell scripts and automation.",
-    "Score": 55,
-    "Published": "2025-08-30T22:00:01.28"
-  },
-  {
-    "id": "PS2EXE.Core",
-    "Owners": "FabienTschanz",
-    "Description": "Compiles Powershell scripts to executables. Overworking of the great script of Ingo Karstein with GUI support.\n'Invoke-PS2EXE script.ps1' (or 'ps2exe script.ps1') compiles to script.exe. Several control parameters available.\nOr use Win-PS2EXE as a graphical front end to the compiler.",
-    "Score": 55,
-    "Published": "2025-08-30T12:09:41.14"
+    "Published": "2025-08-31T17:26:47.72"
   },
   {
     "id": "DavinciTimestamp",
     "Owners": "diecknet",
     "Description": "Converts Davinci Resolve EDL files to Timestamps e.g. for YouTube",
-    "Score": 50,
-    "Published": "2025-08-30T17:48:19.753"
+    "Score": 65,
+    "Published": "2025-08-31T08:13:37.57"
   },
   {
-    "id": "PowershellFunctions007",
-    "Owners": "PeterCullenBurbery",
-    "Description": "PowerShell utilities for configuring Windows systems, managing environments, customizing time and date settings, and automating administrative tasks.",
+    "id": "Action.Logging",
+    "Owners": "gmorenet",
+    "Description": "Enhanced PowerShell logging module with async support. Provides severity-based logging with automatic file management, color-coded console output, and high-performance asynchronous logging capabilities for PowerShell scripts and automation.",
+    "Score": 65,
+    "Published": "2025-08-31T22:10:28.207"
+  },
+  {
+    "id": "RestPS",
+    "Owners": "jpsider",
+    "Description": "PowerShell Framework for creating and running Simple & Secure RESTful APIs",
+    "Score": 60,
+    "Published": "2025-08-31T21:41:53.267"
+  },
+  {
+    "id": "Hcl2PS",
+    "Owners": "MertSenel",
+    "Description": [
+      []
+    ],
     "Score": 50,
-    "Published": "2025-08-30T16:16:57.25"
+    "Published": "2025-08-31T03:49:31.52"
   },
   {
     "id": "EasyPIM.Orchestrator",
     "Owners": "LoicMichel",
     "Description": "Orchestrator for EasyPIM (Invoke-EasyPIMOrchestrator)",
     "Score": 40,
-    "Published": "2025-08-30T12:43:31.12"
+    "Published": "2025-08-31T15:27:02.62"
   },
   {
-    "id": "EnvironmentModuleCore",
-    "Owners": "mwalther",
-    "Description": "This module includes all core features to export environment modules. Environment modules are like Powershell-Modules, but they can modify environment variables on load and restore the old environment state on remove. The functionallity was inspired by the Linux program modulecmd.",
+    "id": "AzurePipelinesUtils",
+    "Owners": "igoravl",
+    "Description": "PowerShell utilities for Azure DevOps Pipelines tasks",
+    "Score": 40,
+    "Published": "2025-08-31T21:47:35.183"
+  },
+  {
+    "id": "IPScanner",
+    "Owners": "illsk1lls",
+    "Description": [
+      []
+    ],
     "Score": 35,
-    "Published": "2025-08-30T17:38:05.95"
-  },
-  {
-    "id": "vaultman",
-    "Owners": "anothersalad",
-    "Description": "A thin management wrapper around the powershell secret management modules",
-    "Score": 30,
-    "Published": "2025-08-30T12:01:26.553"
+    "Published": "2025-08-31T23:11:11.583"
   }
 ]
