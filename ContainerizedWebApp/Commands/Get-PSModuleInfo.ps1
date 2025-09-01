@@ -75,7 +75,7 @@ function Get-PSModuleInfo
                         if($apiResponse[$i].scoring.details.metadata."$item" -eq 0){
                             $RecommendationList.Add($($RecommendationDictionary | Where-Object {$_.title -eq "$item"} | Select-Object Recommendation,SuggestedTools))
                         }
-                        if($m.scoring.details.sourcecode."$item" -eq 0){
+                        if($apiResponse[$i].scoring.details.sourcecode."$item" -eq 0){
                             $RecommendationList.Add($($RecommendationDictionary | Where-Object {$_.title -eq "$item"} | Select-Object Recommendation,SuggestedTools))
                         }
 
