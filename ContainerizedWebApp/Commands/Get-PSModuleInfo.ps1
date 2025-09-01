@@ -65,13 +65,17 @@ function Get-PSModuleInfo
                         }
                         Default {$_}
                     }
-                    $ScoreItemsDictionary=$apiResponse[$i].scoring.details.metadata | Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name
+                    $ScoringCategories=$apiResponse[$i].scoring.details | Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name
+                    $ScoreItemsDictionary=$ScoringCategories | foreach-object {$m.Scoring.Details.$($_)| Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name }
+                    
                     $Score=$apiResponse[$i].cp_TotalScore
                     foreach ($item in $ScoreItemsDictionary)
                     {
-                        #$Score+=$apiResponse[$i].scoring.details.metadata."$item"
                         #Form recomendation collection here
                         if($apiResponse[$i].scoring.details.metadata."$item" -eq 0){
+                            $RecommendationList.Add($($RecommendationDictionary | Where-Object {$_.title -eq "$item"} | Select-Object Recommendation,SuggestedTools))
+                        }
+                        if($m.scoring.details.sourcecode."$item" -eq 0){
                             $RecommendationList.Add($($RecommendationDictionary | Where-Object {$_.title -eq "$item"} | Select-Object Recommendation,SuggestedTools))
                         }
 
