@@ -66,7 +66,7 @@ function Get-PSModuleInfo
                         Default {$_}
                     }
                     $ScoringCategories=$apiResponse[$i].scoring.details | Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name
-                    $ScoreItemsDictionary=$ScoringCategories | foreach-object {$m.Scoring.Details.$($_)| Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name }
+                    $ScoreItemsDictionary=$ScoringCategories | foreach-object {$apiResponse[$i].Scoring.Details.$($_)| Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name }
                     
                     $Score=$apiResponse[$i].cp_TotalScore
                     foreach ($item in $ScoreItemsDictionary)
