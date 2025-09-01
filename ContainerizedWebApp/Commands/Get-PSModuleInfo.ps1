@@ -66,10 +66,10 @@ function Get-PSModuleInfo
                         Default {$_}
                     }
                     $ScoreItemsDictionary=$apiResponse[$i].scoring.details.metadata | Get-Member|Where-Object {$_.MemberType -eq "NoteProperty"} | Select-Object -ExpandProperty Name
-                    $Score=0
+                    $Score=$apiResponse[$i].cp_TotalScore
                     foreach ($item in $ScoreItemsDictionary)
                     {
-                        $Score+=$apiResponse[$i].scoring.details.metadata."$item"
+                        #$Score+=$apiResponse[$i].scoring.details.metadata."$item"
                         #Form recomendation collection here
                         if($apiResponse[$i].scoring.details.metadata."$item" -eq 0){
                             $RecommendationList.Add($($RecommendationDictionary | Where-Object {$_.title -eq "$item"} | Select-Object Recommendation,SuggestedTools))
