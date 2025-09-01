@@ -277,6 +277,15 @@ table {
   border-collapse: collapse;
 }
 
+.table-container {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
  table thead {
   background: #007acc;
   color: white;
