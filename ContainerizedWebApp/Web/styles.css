@@ -278,7 +278,6 @@ table {
 }
 
  table thead {
-  display: none;
   background: #007acc;
   color: white;
 }
@@ -289,17 +288,17 @@ th, td {
       border-bottom: 1px solid #e0e0e0;
     }
 
-    tr:hover {
-      background-color: #f0f4fa;
-    }
+tr:hover {
+  background-color: #f0f4fa;
+}
 
-    @media (max-width: 600px) {
-      th, td {
-        padding: 10px;
-        font-size: 14px;
-      }
+@media (max-width: 600px) {
+  th, td {
+	padding: 10px;
+	font-size: 14px;
+  }
 
-    }
+}
 
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:700);
