@@ -1,76 +1,72 @@
 [
   {
-    "id": "Context",
+    "id": "GitHub",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module that manages contexts with secrets and variables.",
+    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
     "Score": 75,
-    "Published": "2025-08-31T20:15:59.327"
+    "Published": "2025-09-01T21:05:38.213"
   },
   {
-    "id": "OpenAuthenticode",
-    "Owners": "jborean93",
-    "Description": "Cross platform PowerShell implementation of Authenticode signing and verification",
-    "Score": 75,
-    "Published": "2025-08-31T18:51:38.513"
-  },
-  {
-    "id": "ActivateAll",
-    "Owners": "chixus",
-    "Description": "Activate Windows and Office permanently, installs Office®Tool for deploying Office, enables dotNET 3.5 package.",
+    "id": "PSRest",
+    "Owners": "nightroman",
+    "Description": "VSCode REST Client features in PowerShell.",
     "Score": 70,
-    "Published": "2025-08-31T17:26:47.72"
+    "Published": "2025-09-01T01:25:52.67"
   },
   {
-    "id": "DavinciTimestamp",
-    "Owners": "diecknet",
-    "Description": "Converts Davinci Resolve EDL files to Timestamps e.g. for YouTube",
+    "id": "MicrosoftPlaces",
+    "Owners": "cmdletsAutomation,wendydu,gbordacahar,aliniknejad,andlu,anyac,weihuamiao,yongyusu",
+    "Description": "Microsoft Places cmdlets module for PowerShell 7+.",
+    "Score": 70,
+    "Published": "2025-09-01T07:54:49.053"
+  },
+  {
+    "id": "PSParseHTML",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
+    "Score": 70,
+    "Published": "2025-09-01T08:27:32.353"
+  },
+  {
+    "id": "ADPlayground",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "ADPlayground is a module that allows you to do some basic Active Directory operations.",
     "Score": 65,
-    "Published": "2025-08-31T08:13:37.57"
+    "Published": "2025-09-01T08:03:48.313"
   },
   {
-    "id": "Action.Logging",
-    "Owners": "gmorenet",
-    "Description": "Enhanced PowerShell logging module with async support. Provides severity-based logging with automatic file management, color-coded console output, and high-performance asynchronous logging capabilities for PowerShell scripts and automation.",
-    "Score": 65,
-    "Published": "2025-08-31T22:10:28.207"
+    "id": "InvokeBuild",
+    "Owners": "nightroman",
+    "Description": "Build and test automation in PowerShell",
+    "Score": 55,
+    "Published": "2025-09-01T02:22:36.717"
   },
   {
-    "id": "RestPS",
-    "Owners": "jpsider",
-    "Description": "PowerShell Framework for creating and running Simple & Secure RESTful APIs",
-    "Score": 60,
-    "Published": "2025-08-31T21:41:53.267"
-  },
-  {
-    "id": "Hcl2PS",
-    "Owners": "MertSenel",
-    "Description": [
-      []
-    ],
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2025-08-31T03:49:31.52"
+    "Published": "2025-09-01T12:44:09.383"
   },
   {
-    "id": "EasyPIM.Orchestrator",
-    "Owners": "LoicMichel",
-    "Description": "Orchestrator for EasyPIM (Invoke-EasyPIMOrchestrator)",
+    "id": "Turtle",
+    "Owners": "Start-Automating",
+    "Description": "Turtles in a PowerShell",
+    "Score": 45,
+    "Published": "2025-09-01T23:18:58.707"
+  },
+  {
+    "id": "RemoveGitBranches",
+    "Owners": "axelkjonsberg",
+    "Description": "Safely remove unused local Git branches by comparing local branches to branches in the remote repository.",
+    "Score": 45,
+    "Published": "2025-09-01T12:46:23.953"
+  },
+  {
+    "id": "posh-awsp",
+    "Owners": "jonscheiding",
+    "Description": "PowerShell cmdlets for managing your AWS CLI profile.",
     "Score": 40,
-    "Published": "2025-08-31T15:27:02.62"
-  },
-  {
-    "id": "AzurePipelinesUtils",
-    "Owners": "igoravl",
-    "Description": "PowerShell utilities for Azure DevOps Pipelines tasks",
-    "Score": 40,
-    "Published": "2025-08-31T21:47:35.183"
-  },
-  {
-    "id": "IPScanner",
-    "Owners": "illsk1lls",
-    "Description": [
-      []
-    ],
-    "Score": 35,
-    "Published": "2025-08-31T23:11:11.583"
+    "Published": "2025-09-01T15:18:15.157"
   }
 ]
