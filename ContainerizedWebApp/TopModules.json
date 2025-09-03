@@ -1,72 +1,72 @@
 [
   {
-    "id": "GitHub",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
-    "Score": 75,
-    "Published": "2025-09-01T21:05:38.213"
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2025-09-02T19:16:39.417"
   },
   {
-    "id": "PSRest",
-    "Owners": "nightroman",
-    "Description": "VSCode REST Client features in PowerShell.",
-    "Score": 70,
-    "Published": "2025-09-01T01:25:52.67"
+    "id": "OCI.PSModules.Certificatesmanagement",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Certificatesmanagement Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:39:15.687"
   },
   {
-    "id": "MicrosoftPlaces",
-    "Owners": "cmdletsAutomation,wendydu,gbordacahar,aliniknejad,andlu,anyac,weihuamiao,yongyusu",
-    "Description": "Microsoft Places cmdlets module for PowerShell 7+.",
-    "Score": 70,
-    "Published": "2025-09-01T07:54:49.053"
+    "id": "OCI.PSModules.Certificates",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Certificates Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:36:56.96"
   },
   {
-    "id": "PSParseHTML",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
-    "Score": 70,
-    "Published": "2025-09-01T08:27:32.353"
+    "id": "OCI.PSModules.Capacitymanagement",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Capacitymanagement Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:36:01.303"
   },
   {
-    "id": "ADPlayground",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "ADPlayground is a module that allows you to do some basic Active Directory operations.",
-    "Score": 65,
-    "Published": "2025-09-01T08:03:48.313"
+    "id": "OCI.PSModules.Budget",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Budget Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:35:01.953"
   },
   {
-    "id": "InvokeBuild",
-    "Owners": "nightroman",
-    "Description": "Build and test automation in PowerShell",
-    "Score": 55,
-    "Published": "2025-09-01T02:22:36.717"
+    "id": "OCI.PSModules.Blockchain",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Blockchain Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:34:13.107"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2025-09-01T12:44:09.383"
+    "id": "OCI.PSModules.Bds",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Bds Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:33:02.12"
   },
   {
-    "id": "Turtle",
-    "Owners": "Start-Automating",
-    "Description": "Turtles in a PowerShell",
-    "Score": 45,
-    "Published": "2025-09-01T23:18:58.707"
+    "id": "OCI.PSModules.Bastion",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Bastion Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:32:09.32"
   },
   {
-    "id": "RemoveGitBranches",
-    "Owners": "axelkjonsberg",
-    "Description": "Safely remove unused local Git branches by comparing local branches to branches in the remote repository.",
-    "Score": 45,
-    "Published": "2025-09-01T12:46:23.953"
+    "id": "OCI.PSModules.Autoscaling",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Autoscaling Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:31:27.52"
   },
   {
-    "id": "posh-awsp",
-    "Owners": "jonscheiding",
-    "Description": "PowerShell cmdlets for managing your AWS CLI profile.",
-    "Score": 40,
-    "Published": "2025-09-01T15:18:15.157"
+    "id": "OCI.PSModules.Audit",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Audit Service",
+    "Score": 80,
+    "Published": "2025-09-02T19:30:47.47"
   }
 ]
