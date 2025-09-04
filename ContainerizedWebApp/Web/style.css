@@ -11,6 +11,14 @@ html, body, .page {
   overflow: hidden; 
 }
 
+.ct {
+  position: fixed;
+  inset: 0;                
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+}
+
 * {
   font-family: 'open sans', 'lato', 'helvetica', sans-serif;
 }
