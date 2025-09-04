@@ -27,7 +27,7 @@ html, body, .page {
   left: 200%;
 }
 
-#p1 { background: darkslateblue; }
+#p1 { background: #000000; }
 #p2 { background: tomato; }
 #p3 { background: gold; }
 #p4 { background: deeppink; }
