@@ -23,16 +23,20 @@ html, body, .page {
   left: 0;
 }
 
-#p2, #p3 {
+#p2, #p3, #p4, #p5 {
   left: 200%;
 }
 
 #p1 { background: darkslateblue; }
 #p2 { background: tomato; }
 #p3 { background: gold; }
+#p4 { background: deeppink; }
+#p5 { background: rebeccapurple; }
 
 #t2:target #p2,
-#t3:target #p3 {
+#t3:target #p3,
+#t4:target #p4,
+#t5:target #p5 {
   transform: translateX(-190%);
   -webkit-transform: translateX(-190%);
   -moz-transform: translateX(-190%);
@@ -41,12 +45,16 @@ html, body, .page {
 }
 
 #t2:target #p1, 
-#t3:target #p1 {
+#t3:target #p1,
+#t4:target #p1,
+#t5:target #p1{
   background: black;
 }
 
 #t2:target #p1 .icon, 
-#t3:target #p1 .icon {
+#t3:target #p1 .icon,
+#t4:target #p1 .icon,
+#t5:target #p1 .icon {
   -webkit-filter: blur(3px);
 }
 
@@ -65,7 +73,9 @@ ul .icon:hover {
 }
 
 #t2:target ul .icon,
-#t3:target ul .icon {
+#t3:target ul .icon,
+#t4:target ul .icon,
+#t5:target ul .icon{
   transform: scale(.6);
   -webkit-transform: scale(.6);
   -moz-transform: scale(.6);
@@ -74,7 +84,9 @@ ul .icon:hover {
 }
 
 #t2:target #dos,
-#t3:target #tres {
+#t3:target #tres,
+#t4:target #cuatro,
+#t4:target #cinco {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
@@ -118,6 +130,9 @@ a {
   font-size: 13px;
 }
 
+#p4 .hint {
+  display: inherit !important;
+}
 
 .hint a {
   color: yellow;
@@ -166,11 +181,12 @@ a {
 }
 
 #t2:target .page#p2 .icon,
-#t3:target .page#p3 .icon {
+#t3:target .page#p3 .icon,
+#t4:target .page#p4 .icon,
+#t5:target .page#p5 .icon {
   transform: translateX(0) !important;
   -webkit-transform: translateX(0) !important;
   -moz-transform: translateX(0) !important;
   -o-transform: translateX(0) !important;
   transition-delay: 1s;
 }
-
