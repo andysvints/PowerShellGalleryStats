@@ -135,6 +135,9 @@ a {
 
 .hint {
   font-size: 13px;
+  text-align: left;
+  margin-left: 5%;
+  width: 90%;
 }
 
 #p4 .hint {
