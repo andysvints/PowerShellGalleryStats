@@ -163,8 +163,8 @@ a {
   bottom: 0;
   right: 10%;
   left: 0;
-  width: 270px;
-  height: 170px;
+  /*width: 270px;
+  height: 170px;*/
   margin: auto;
   text-align: center;
   font-size: 80px;
