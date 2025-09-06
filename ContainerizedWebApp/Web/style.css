@@ -200,3 +200,9 @@ a {
   -o-transform: translateX(0) !important;
   transition-delay: 1s;
 }
+
+.footer {
+  margin-top: 280%;
+  font-size: 10px;
+  text-align: left;
+}
