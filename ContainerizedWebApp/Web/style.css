@@ -203,9 +203,13 @@ a {
 
 table {
     width: 80%;
-    border-collapse: collapse;
+    border-collapse: separate;
     font-size: large;
     background: #404040;
+    margin: 0 auto;
+    border-radius: 12px;   
+    overflow: hidden;
+  
 }
 
 table thead {
@@ -213,6 +217,7 @@ table thead {
     color: whitesmoke;
     margin: 0 auto;
     border-bottom: 1px solid whitesmoke;
+  
 }
 table tr {
   border-bottom: 1px solid whitesmoke;
