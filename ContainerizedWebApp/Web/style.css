@@ -223,6 +223,21 @@ table tr {
   border-bottom: 1px solid whitesmoke;
 }
 
+th:first-child {
+  border-top-left-radius: 12px;
+}
+
+th:last-child {
+  border-top-right-radius: 12px;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
 
 footer {
   margin-top: 280%;
