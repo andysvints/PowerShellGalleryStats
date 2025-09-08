@@ -201,6 +201,11 @@ a {
   transition-delay: 1s;
 }
 
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
 footer {
   margin-top: 280%;
   font-size: 10px;
