@@ -223,6 +223,14 @@ table tr {
   border-bottom: 1px solid whitesmoke;
 }
 
+tr:nth-child(even) {
+      background: #1a1a1a;
+    }
+
+tr:nth-child(odd) {
+  background: #2a2a2a;
+}
+
 th:first-child {
   border-top-left-radius: 12px;
 }
