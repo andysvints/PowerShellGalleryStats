@@ -212,6 +212,13 @@ table thead {
     color: whitesmoke;
 }
 
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
 footer {
   margin-top: 280%;
   font-size: 10px;
