@@ -210,6 +210,8 @@ table {
 table thead {
     background: #007acc;
     color: whitesmoke;
+    margin: 0 auto;
+    background: #404040;
 }
 
 
