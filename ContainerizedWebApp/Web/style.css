@@ -215,11 +215,6 @@ table {
 th {
     background: #007acc;
     color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
-  
-}
-table tr {
-  border-bottom: 1px solid whitesmoke;
 }
 
 tr:nth-child(even) {
