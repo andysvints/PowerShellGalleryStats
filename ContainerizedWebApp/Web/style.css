@@ -212,10 +212,9 @@ table {
   
 }
 
-table thead {
+th {
     background: #007acc;
     color: whitesmoke;
-    margin: 0 auto;
     border-bottom: 1px solid whitesmoke;
   
 }
