@@ -8,6 +8,8 @@
       <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'>
       <script src="https://public.codepenassets.com/js/prefixfree-1.0.7.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/prismjs/themes/prism.min.css">
+      <script defer src="https://unpkg.com/prismjs/components/prism-powershell.min.js"></script>
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -102,7 +104,34 @@
                    <br>We aim to promote best practices and recognize excellence among module authors who contribute to the open-source ecosystem.</span></section>         
               </div>
               <div class="page" id="p2">
-                <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
+                <section class="icon">
+                    <div class="ps-window theme-ps-classic"> <!-- or theme-ps-modern -->
+                        <div class="titlebar">
+                          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                          <div class="title">Get-PSGalleryStats.ps1</div>
+                        </div>
+                      
+                        <pre class="lang-powershell"><code class="language-powershell">
+                      &lt;#
+                      .Synopsis
+                          Get module(s) information and scores.
+                      .EXAMPLE
+                          Get-PSGalleryStats -Module PipeScript
+                      #&gt;
+                      [CmdletBinding(SupportsShouldProcess=$true,ConfirmImpact='Medium')]
+                      Param
+                      (
+                          [Parameter(Mandatory=$true,
+                                  ValueFromPipeline=$true,
+                                  ValueFromPipelineByPropertyName=$true,
+                                  Position=0)]
+                          $Module
+                      )
+                      Find-Module -Name
+                      </code></pre>
+                      </div>
+                </section>
+                
               </div>  
               <div class="page" id="p3">
                 <section class="icon">
