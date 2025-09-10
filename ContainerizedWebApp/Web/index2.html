@@ -105,31 +105,36 @@
               </div>
               <div class="page" id="p2">
                 <section class="icon">
-                    <div class="ps-window theme-ps-classic"> <!-- or theme-ps-modern -->
-                        <div class="titlebar">
-                          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-                          <div class="title">Get-PSGalleryStats.ps1</div>
-                        </div>
-                      
-                        <pre class="lang-powershell"><code class="language-powershell">
-                      &lt;#
-                      .Synopsis
-                          Get module(s) information and scores.
-                      .EXAMPLE
-                          Get-PSGalleryStats -Module PipeScript
-                      #&gt;
-                      [CmdletBinding(SupportsShouldProcess=$true,ConfirmImpact='Medium')]
-                      Param
-                      (
-                          [Parameter(Mandatory=$true,
-                                  ValueFromPipeline=$true,
-                                  ValueFromPipelineByPropertyName=$true,
-                                  Position=0)]
-                          $Module
-                      )
-                      Find-Module -Name
-                      </code></pre>
-                      </div>
+                      <div class="window">
+    <a href="#"><div class="icons"><span></span></div></a>
+    <div class="title">Get-PSGalleryStats.ps1</div>
+    <pre class="lang-powershell"><code class=" language-powershell" data-language="powershell"><span class="token comment"><#
+.Synopsis
+    Get module(s) information and scores.
+.EXAMPLE
+    Get-PSGalleryStats -Module PipeScript
+#></span>
+[<span class="token keyword">CmdletBinding</span>(SupportsShouldProcess=<span class="token comment">$true</span>,ConfirmImpact=<span class="token string">'Medium'</span>)]
+<span class="token keyword">Param</span>
+(
+    [<span class="token keyword">Parameter</span>(Mandatory=<span class="token comment">$true</span>, 
+            ValueFromPipeline=<span class="token comment">$true</span>,
+            ValueFromPipelineByPropertyName=<span class="token comment">$true</span>, 
+            Position=<span class="token number">0</span>)]
+    <span class="token comment">$Module</span>
+)
+<span class="token cmdlet">Find-Module</span> -<span class="token keyword">Name</span>
+
+                <div class="search-block">
+<form id="search-form" action="/search" method="GET" action="#loading-screen">
+                    <input type="search" name="query" maxlength="20" minlength="3" required>
+</form>
+
+
+</div>
+</code>
+</pre>
+</div>
                 </section>
                 
               </div>  
