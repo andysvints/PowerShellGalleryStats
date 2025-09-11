@@ -241,6 +241,14 @@ tr:last-child td:last-child {
   border-bottom-right-radius: 12px;
 }
 
+.powershell {
+    font-size: small;
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    background: black;
+}
+
 footer {
   margin-top: 260%;
   font-size: 10px;
