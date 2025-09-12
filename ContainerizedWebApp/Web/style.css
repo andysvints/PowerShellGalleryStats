@@ -247,6 +247,9 @@ pre {
     margin: auto;
     text-align: left;
 }
+.window {
+  margin-top: 10%;
+}
 
 footer {
   margin-top: 260%;
