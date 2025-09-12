@@ -241,7 +241,11 @@ tr:last-child td:last-child {
   border-bottom-right-radius: 12px;
 }
 
-
+pre {
+    font-size: small;
+    width: 80%;
+    margin: auto;
+}
 
 footer {
   margin-top: 260%;
