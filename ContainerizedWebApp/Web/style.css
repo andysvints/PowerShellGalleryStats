@@ -251,6 +251,32 @@ pre {
   margin-top: 10%;
 }
 
+.ps-input-wrap { 
+  display: inline-flex; 
+  align-items: baseline; 
+  margin-left: .5ch;        /* tiny gap after -Name */
+}
+.ps-input{
+  display: inline-block;
+  width: 18ch;              /* adjust width */
+  background: transparent;
+  color: var(--ps-fg);
+  font: inherit;
+  line-height: 1.25;
+  padding: 0 .25ch .05em;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+  outline: none;
+  caret-color: currentColor; /* show real caret */
+  vertical-align: baseline;  /* align with -Name */
+}
+
+.ps-input:focus { border-bottom-color: currentColor; }
+.ps-input::placeholder { color: rgba(255,255,255,.45); font-style: italic; }
+.ps-window pre { word-break: normal; }
+.ps-line { background: var(--ps-bg); color: var(--ps-fg); font: inherit; padding: 0 20px 16px; }
+
 footer {
   margin-top: 260%;
   font-size: 10px;
