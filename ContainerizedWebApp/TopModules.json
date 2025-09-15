@@ -1,72 +1,74 @@
 [
   {
-    "id": "ListFunctions",
-    "Owners": "Yevrag35",
-    "Description": "A simple module that provides functions to manipulate, search, and create Arrays, Collections, Lists, and Sets.",
-    "Score": 85,
-    "Published": "2025-09-13T13:47:27.63"
+    "id": "Viscalyx.Common",
+    "Owners": "JohanLjunggren",
+    "Description": "Common commands that adds or improves functionality in various scenarios.",
+    "Score": 80,
+    "Published": "2025-09-14T11:51:11.95"
   },
   {
-    "id": "MASES.JNetPS",
-    "Owners": "MASESGroupPSTeam",
-    "Description": "JNet (.NET suite for Java™/JVM™) PowerShell (aka JNetPS) is a PowerShell Module to use JVM and PowerShell side-by-side. With JNetPS it is possible to:\r\n- create and use JVM objects from PowerShell: initialize JVM object (Java, Scala, Kotlin, ...), execute mehods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/JNet for further information.",
-    "Score": 80,
-    "Published": "2025-09-13T16:35:24.307"
+    "id": "ThirdPartyLibraries",
+    "Owners": "MaxIeremenko",
+    "Description": [
+      []
+    ],
+    "Score": 75,
+    "Published": "2025-09-14T08:58:02.85"
+  },
+  {
+    "id": "pocof",
+    "Owners": "krymtkts",
+    "Description": "An interactive pipeline filtering Cmdlet for PowerShell written in F#. A fork of poco which is a PowerShell port of peco.",
+    "Score": 75,
+    "Published": "2025-09-14T07:27:51.167"
   },
   {
     "id": "PSRest",
     "Owners": "nightroman",
     "Description": "VSCode REST Client features in PowerShell.",
     "Score": 70,
-    "Published": "2025-09-13T21:13:39.567"
+    "Published": "2025-09-14T18:09:23.623"
   },
   {
-    "id": "AsBuiltReport.VMware.Horizon",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module to generate as built reports on the configuration of VMware Horizon",
+    "id": "MyPowerShellTemplates",
+    "Owners": "numidia",
+    "Description": "A comprehensive PowerShell module development toolkit for creating templates, scaffolding modules, and generating PowerShell scripts with best practices built-in.",
     "Score": 60,
-    "Published": "2025-09-13T16:33:39.237"
+    "Published": "2025-09-14T06:04:51.237"
   },
   {
-    "id": "TLSleuth",
-    "Owners": "MadCrabCyder",
-    "Description": "TLSleuth is a PowerShell module for quickly inspecting TLS/SSL endpoints and certificates.\r\nIt performs an SNI-aware TLS handshake, retrieves the server certificate, and returns a\r\nstructured report with protocol/cipher (as supported by the platform), certificate details,\r\nSANs, AIA/CDP URLs, and optional chain/trust info.\r\n\r\nTLSleuth is designed for automation and scripting scenarios — not a full vulnerability scanner.\r\nFor deep TLS assessment (cipher enumeration, CVE checks, ALPN/HTTP2, resumption, etc.), use\r\ntools like sslyze, sslscan, or testssl.sh.",
+    "id": "ModuleTools",
+    "Owners": "belibug",
+    "Description": "ModuleTools is a versatile, standalone PowerShell module builder. Create anything from simple to robust modules with ease. Built for CICD and Automation.",
+    "Score": 60,
+    "Published": "2025-09-14T17:42:05.29"
+  },
+  {
+    "id": "PSMouseJiggler",
+    "Owners": "PoShYoungTeam",
+    "Description": "A PowerShell module to simulate mouse movements and prevent system idle. Includes GUI interface, configurable movement patterns, and scheduled task support.",
     "Score": 55,
-    "Published": "2025-09-13T03:27:33.72"
+    "Published": "2025-09-14T22:54:21.663"
   },
   {
-    "id": "Az.FirmwareAnalysis",
-    "Owners": "azure-sdk",
-    "Description": "Microsoft Azure PowerShell: FirmwareAnalysis cmdlets",
+    "id": "WinUIShell",
+    "Owners": "mdgrs-mei",
+    "Description": "Scripting WinUI 3 with PowerShell",
     "Score": 55,
-    "Published": "2025-09-13T03:55:05.493"
+    "Published": "2025-09-14T01:30:14.207"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
+    "id": "SEPPmail365cloud",
+    "Owners": "SEPPmail AG",
+    "Description": "Integrate and maintain Exchange Online with SEPPmail.Cloud",
     "Score": 50,
-    "Published": "2025-09-13T10:20:49.557"
+    "Published": "2025-09-14T13:30:38.677"
   },
   {
-    "id": "EasyPIM.Orchestrator",
-    "Owners": "LoicMichel",
-    "Description": "Orchestrator for EasyPIM (Invoke-EasyPIMOrchestrator)",
-    "Score": 45,
-    "Published": "2025-09-13T16:02:25.75"
-  },
-  {
-    "id": "Theme.PSReadLine",
-    "Owners": "Jaykul",
-    "Description": "EzTheme wrapper for PSReadLine",
-    "Score": 45,
-    "Published": "2025-09-13T20:19:58.923"
-  },
-  {
-    "id": "PSPlex",
-    "Owners": "robinmalik",
-    "Description": "A PowerShell module to aid Plex server management.",
-    "Score": 45,
-    "Published": "2025-09-13T16:06:52.327"
+    "id": "ps12exe",
+    "Owners": "steve02081504",
+    "Description": "better pwsh code 2 exe repo:\r\n- Use `ps12exe a.ps1` to convert `a.ps1` into `a.exe`;\r\n- Use `ps12exeGUI` for a graphical interface that simplifies compilation;\r\n- Use `Set-ps12exeContextMenu` to add a context menu item for quick compilation or GUI access on `.ps1` files;\r\n- Use `Start-ps12exeWebServer` to launch a web server that allows users to compile scripts online;\r\n- Use `Enter-ps12exeInteract` to enter an interactive mode for compiling scripts without parameters.\r\nAll commands in this module support the `-help` option for detailed assistance in your language.",
+    "Score": 50,
+    "Published": "2025-09-14T02:56:35.923"
   }
 ]
