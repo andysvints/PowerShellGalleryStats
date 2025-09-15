@@ -242,10 +242,11 @@ tr:last-child td:last-child {
 }
 
 pre {
-    font-size: small;
+    font-size: medium;
     width: 80%;
     margin: auto;
     text-align: left;
+    background: black;
 }
 .window {
   margin-top: 10%;
