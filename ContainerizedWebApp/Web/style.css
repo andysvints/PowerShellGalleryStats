@@ -277,6 +277,11 @@ pre {
 .ps-window pre { word-break: normal; }
 .ps-line { background: var(--ps-bg); color: var(--ps-fg); font: inherit; padding: 0 20px 16px; }
 
+input {
+    background: transparent;
+    border: none;
+}
+
 footer {
   margin-top: 260%;
   font-size: 10px;
