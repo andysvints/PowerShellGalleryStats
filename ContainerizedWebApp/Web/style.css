@@ -283,6 +283,12 @@ input {
     border: none;
 }
 
+.window {
+  margin: 10% auto;
+  background: black;
+  width: 80%;
+}
+
 footer {
   margin-top: 260%;
   font-size: 10px;
