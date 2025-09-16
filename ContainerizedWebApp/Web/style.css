@@ -285,6 +285,7 @@ pre {
 input {
     background: transparent;
     border: none;
+    color: whitesmoke;
 }
 
 .window {
