@@ -245,11 +245,16 @@ pre {
     font-size: medium;
     width: 80%;
     margin: auto;
+    margin-left 2%;
     text-align: left;
     background: black;
 }
 .window {
-  margin-top: 10%;
+  margin-top: 10% auto 5%;
+  backgroun: black;
+  width: 80%;
+  border-radius: 20px;
+}
 }
 
 .ps-input-wrap { 
