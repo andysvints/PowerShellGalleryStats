@@ -267,17 +267,7 @@ pre {
 .ps-input-wrap { 
   display: inline-flex; 
   align-items: baseline; 
-  margin-left: .5ch;        /* tiny gap after -Name */
-}
-
-.ps-input-wrap::before { 
-    display: block;
-    opacity: 1;
-    content: "▋";
-    position: relative;
-    bottom: 25%;
-    animation: 0.9s ease 0s infinite normal none running blink;
-    font: initial;
+  margin-left: .5ch;        
 }
 
 .ps-input{
