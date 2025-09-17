@@ -11,30 +11,6 @@
       <link rel="stylesheet" href="https://unpkg.com/prismjs/themes/prism-okaidia.min.css">
       <script defer src="https://unpkg.com/prismjs/components/prism-powershell.min.js"></script>
       <link rel="stylesheet" href="style.css">
-      <script>
-          const FOCUS_DELAY_MS = 450; 
-        
-          function focusIfTarget() {
-            const hash = location.hash || "";
-            document.querySelectorAll('.ps-input[data-focus-when]').forEach(el => {
-              if (el.dataset.focusWhen === hash) {
-                setTimeout(() => el.focus(), FOCUS_DELAY_MS);
-              }
-            });
-          }
-
-          window.addEventListener('hashchange', focusIfTarget);
-          window.addEventListener('DOMContentLoaded', focusIfTarget);
-          const p2 = document.getElementById('p2');
-          if (p2) {
-            p2.addEventListener('transitionend', () => {
-              if (location.hash === '#t2') {
-                const el = document.querySelector('.ps-input[data-focus-when="#t2"]');
-                el && el.focus();
-              }
-            });
-          }
-    </script>
   </head>
   <body>
     <div class="ct" id="t1">
