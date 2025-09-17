@@ -303,8 +303,9 @@ input {
 }
 
 .icons {
-  padding: 0.75em;
+  padding: 0.25em;
   position: absolute;
+  margin-left: 10px;
 }
 .icons span {
   background: #f4c025;
