@@ -325,6 +325,7 @@ input {
   height: 1em;
   border-radius: 50%;
   margin-right: 0.5em;
+  font-size: small;
 }
 
 footer {
