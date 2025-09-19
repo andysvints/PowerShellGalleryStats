@@ -215,5 +215,15 @@
         </div>
       </div>
     </div>
+    <script>
+        // Select all cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', function() {
+                const expanded = this.querySelector('.card-expanded');
+                // Toggle the display style
+                expanded.style.display = expanded.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
   </body>
 </html>
