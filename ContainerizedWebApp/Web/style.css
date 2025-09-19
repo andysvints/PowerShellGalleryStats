@@ -398,6 +398,8 @@ input {
 
 .modules {
   font-size: medium;
+  width: 80%;
+  margin: auto;
 }
 
 footer {
