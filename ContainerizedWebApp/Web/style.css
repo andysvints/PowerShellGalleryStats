@@ -362,6 +362,40 @@ input {
   }
 }
 
+.card {
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 30px 10px -20px #333;
+    background-image: linear-gradient(rgb(1, 36, 86), #78e, rgb(16, 78, 212));
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+}
+
+.card-left {
+    border-radius: 10px 0 0 0;
+    flex: 1;
+    padding: 15px;
+}
+
+.card-right {
+    flex: 2;
+    padding: 15px;
+    border-radius: 0 10px 10px 0;
+}
+
+.card-expanded {
+    display: none;
+    padding: 15px;
+    background-color: #e2f0fb;
+    border-top: 1px solid #ddd;
+}
+
 footer {
   margin-top: 260%;
   font-size: 10px;
