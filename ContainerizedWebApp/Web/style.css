@@ -381,12 +381,14 @@ input {
     border-radius: 10px 0 0 0;
     flex: 1;
     padding: 15px;
+    font-size: large;
 }
 
 .card-right {
     flex: 2;
     padding: 15px;
     border-radius: 0 10px 10px 0;
+    color:black;
 }
 
 .card-expanded {
