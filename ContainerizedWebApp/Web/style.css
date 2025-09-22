@@ -398,6 +398,8 @@ input {
     padding: 15px;
     background-color: #e2f0fb;
     border-top: 1px solid #ddd;
+    text-align: left;
+    color: black;
 }
 
 .card-expanded ul {
