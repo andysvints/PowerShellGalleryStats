@@ -376,6 +376,9 @@ input {
     display: flex;
     width: 100%;
 }
+.card-name{
+  font-size: xx-large;
+}
 
 .card-left {
     border-radius: 10px 0 0 0;
@@ -396,6 +399,10 @@ input {
     padding: 15px;
     background-color: #e2f0fb;
     border-top: 1px solid #ddd;
+}
+
+.card-expanded ul {
+  margin-left: 25px;
 }
 
 .modules {
