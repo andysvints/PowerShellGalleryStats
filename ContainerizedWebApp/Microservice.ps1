@@ -148,7 +148,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         # If the request is for the root, return home page.
         if (Test-Path $filePath) {
            $outputBuffer=[System.IO.File]::ReadAllBytes($filePath)
-
+            Set-ResponseContentType -Response $response -FilePath $searchResultsPath
             $response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
             $response.StatusCode = 200
         } else {
