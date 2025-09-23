@@ -3,6 +3,27 @@ param(
 $ListenerPrefix = @('http://localhost:6161/')
 )
 
+function Set-ResponseContentType {
+    param(
+        [Parameter(Mandatory)] [System.Net.HttpListenerResponse] $Response,
+        [Parameter(Mandatory)] [string] $FilePath
+    )
+    $ext = [IO.Path]::GetExtension($FilePath).ToLowerInvariant()
+    if ($MimeTypes.ContainsKey($ext)) {
+        $Response.ContentType = $MimeTypes[$ext]
+    } else {
+        # Try framework mapping when available (PS 5.1 / .NET Framework)
+        try {
+            $Response.ContentType = [System.Web.MimeMapping]::GetMimeMapping($FilePath)
+        } catch {
+            $Response.ContentType = 'application/octet-stream'
+        }
+    }
+
+    # Good security practice; browsers won’t “sniff” a different type
+    $Response.Headers['X-Content-Type-Options'] = 'nosniff'
+}
+
 # If we're running in a container and the listener prefix is not http://*:80/,
 if ($env:IN_CONTAINER -and $listenerPrefix -ne 'http://*:80/') {
     # then set the listener prefix to http://*:80/ (listen to all incoming requests on port 80).
