@@ -426,6 +426,15 @@ input {
     background-color: #000000;
     box-shadow: 0 0 5px #333;
 }
+.card-img {
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 20px 20px;
+    background-position: center;
+    background-size: cover;
+}
 
 .modules {
   font-size: medium;
