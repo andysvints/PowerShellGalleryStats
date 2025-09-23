@@ -22,6 +22,23 @@ if (-not $global:HttpListener) {
     }
 }
 
+function Send-Redirect {
+  param(
+    [System.Net.HttpListenerResponse]$Response,
+    [System.Net.HttpListenerRequest] $Request,
+    [string]$PathAndFragment  
+  )
+  $scheme = $Request.Headers['X-Forwarded-Proto']; if ([string]::IsNullOrWhiteSpace($scheme)) { $scheme = $Request.Url.Scheme }
+  $host   = $Request.Headers['X-Forwarded-Host'];  if ([string]::IsNullOrWhiteSpace($host))   { $host   = $Request.Url.Authority }
+  $absolute = "$scheme://$host$PathAndFragment"
+  $Response.StatusCode = 303  
+  $Response.Headers['Location'] = $absolute
+  $Response.Headers['Cache-Control'] = 'no-cache'
+  $Response.ContentLength64 = 0
+  try { $Response.OutputStream.Close() } catch {}
+  $Response.Close()
+}
+
 # The WebServerJob will start the HttpListener and listen for incoming requests.
 $script:WebServerJob = 
     Start-ThreadJob -Name WebServer -ScriptBlock {
