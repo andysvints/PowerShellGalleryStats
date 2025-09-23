@@ -3,45 +3,6 @@ param(
 $ListenerPrefix = @('http://localhost:6161/')
 )
 
-function Set-ResponseContentType {
-    param(
-        [Parameter(Mandatory)] [System.Net.HttpListenerResponse] $Response,
-        [Parameter(Mandatory)] [string] $FilePath
-    )
-    $MimeTypes = @{
-      '.html' = 'text/html; charset=utf-8'
-      '.htm'  = 'text/html; charset=utf-8'
-      '.css'  = 'text/css; charset=utf-8'
-      '.js'   = 'application/javascript; charset=utf-8'
-      '.json' = 'application/json; charset=utf-8'
-      '.svg'  = 'image/svg+xml'
-      '.svgz' = 'image/svg+xml'
-      '.png'  = 'image/png'
-      '.jpg'  = 'image/jpeg'
-      '.jpeg' = 'image/jpeg'
-      '.gif'  = 'image/gif'
-      '.webp' = 'image/webp'
-      '.ico'  = 'image/x-icon'
-      '.woff' = 'font/woff'
-      '.woff2'= 'font/woff2'
-      '.ttf'  = 'font/ttf'
-      '.map'  = 'application/json; charset=utf-8'
-    }
-    $ext = [IO.Path]::GetExtension($FilePath).ToLowerInvariant()
-    if ($MimeTypes.ContainsKey($ext)) {
-        $Response.ContentType = $MimeTypes[$ext]
-    } else {
-        # Try framework mapping when available (PS 5.1 / .NET Framework)
-        try {
-            $Response.ContentType = [System.Web.MimeMapping]::GetMimeMapping($FilePath)
-        } catch {
-            $Response.ContentType = 'application/octet-stream'
-        }
-    }
-
-    # Good security practice; browsers won’t “sniff” a different type
-    $Response.Headers['X-Content-Type-Options'] = 'nosniff'
-}
 
 # If we're running in a container and the listener prefix is not http://*:80/,
 if ($env:IN_CONTAINER -and $listenerPrefix -ne 'http://*:80/') {
@@ -148,7 +109,6 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         # If the request is for the root, return home page.
         if (Test-Path $filePath) {
            $outputBuffer=[System.IO.File]::ReadAllBytes($filePath)
-            Set-ResponseContentType -Response $response -FilePath $searchResultsPath
             $response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
             $response.StatusCode = 200
         } else {
