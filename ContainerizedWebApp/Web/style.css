@@ -416,6 +416,7 @@ input {
     margin: 20px;
     font: normal 0.8rem Helvetica;
     color: #fff;
+    display: contents;
 }
 
 .card-skills li {
