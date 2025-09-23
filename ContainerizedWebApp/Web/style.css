@@ -406,6 +406,12 @@ input {
   margin-left: 25px;
 }
 
+.card-recomm {
+    position: relative;
+    text-align: left;
+    width: 80%;
+}
+
 .modules {
   font-size: medium;
   width: 80%;
