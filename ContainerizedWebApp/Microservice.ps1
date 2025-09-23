@@ -8,6 +8,25 @@ function Set-ResponseContentType {
         [Parameter(Mandatory)] [System.Net.HttpListenerResponse] $Response,
         [Parameter(Mandatory)] [string] $FilePath
     )
+    $MimeTypes = @{
+      '.html' = 'text/html; charset=utf-8'
+      '.htm'  = 'text/html; charset=utf-8'
+      '.css'  = 'text/css; charset=utf-8'
+      '.js'   = 'application/javascript; charset=utf-8'
+      '.json' = 'application/json; charset=utf-8'
+      '.svg'  = 'image/svg+xml'
+      '.svgz' = 'image/svg+xml'
+      '.png'  = 'image/png'
+      '.jpg'  = 'image/jpeg'
+      '.jpeg' = 'image/jpeg'
+      '.gif'  = 'image/gif'
+      '.webp' = 'image/webp'
+      '.ico'  = 'image/x-icon'
+      '.woff' = 'font/woff'
+      '.woff2'= 'font/woff2'
+      '.ttf'  = 'font/ttf'
+      '.map'  = 'application/json; charset=utf-8'
+    }
     $ext = [IO.Path]::GetExtension($FilePath).ToLowerInvariant()
     if ($MimeTypes.ContainsKey($ext)) {
         $Response.ContentType = $MimeTypes[$ext]
