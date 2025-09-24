@@ -29,7 +29,7 @@ function Get-PSModuleInfo
         if ($pscmdlet.ShouldProcess("query $Query"))
         {
 
-            connect-AzAccount -Subscription "6e606d01-ff42-4cab-bcf2-b8888ab2fdc4" -Identity
+            connect-AzAccount -Subscription "6e606d01-ff42-4cab-bcf2-b8888ab2fdc4" -Identity | Out-Null
             $KeyVaultName="PSGalleryStats-KV"
             $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
             ###########################################
@@ -81,7 +81,7 @@ function Get-PSModuleInfo
 
                     }
                     
-                    $HTMLResults.AppendLine("<div class=`"card`" id=`"card`">
+                   $null = $HTMLResults.AppendLine("<div class=`"card`" id=`"card`">
  <div class=`"card-container`">
   <div class=`"card-left`">
    <div class=`"card-img`" style=`"background-image: url('$($IconURL)');`"></div>
@@ -96,10 +96,10 @@ function Get-PSModuleInfo
 ")  
                         $Tags=$apiResponse[$i].tags -split ' ' | Select-Object -First 6
                         foreach($t in $Tags){
-                            $HTMLResults.Append("<li>$t</li>")    
+                            $null =$HTMLResults.Append("<li>$t</li>")    
                         }
-                        $HTMLResults.AppendLine("</ul></div></div></div>")
-                        $HTMLResults.AppendLine("<div class=`"card-expanded`">
+                        $null =$HTMLResults.AppendLine("</ul></div></div></div>")
+                        $null =$HTMLResults.AppendLine("<div class=`"card-expanded`">
 <p><strong>Description:</strong> $($apiResponse[$i].Description) </p>
                     <p><strong>Version:</strong> $($apiResponse[$i].Version)</p>
                     <p><strong>Download Count:</strong> $Downloads</p>
@@ -110,23 +110,23 @@ function Get-PSModuleInfo
                     <p><strong>More Details:</strong> <a href=`"$($apiResponse[$i].GalleryDetailsUrl)`" target=`"_blank`">PowerShell Gallery</a></p>
 ")
                         if($RecommendationList){
-                            $HTMLResults.AppendLine("<p><strong>Recommendations:</strong><ul>")
+                            $null =$HTMLResults.AppendLine("<p><strong>Recommendations:</strong><ul>")
                             foreach($r in $RecommendationList){
-                                $HTMLResults.AppendLine("<li>$($r.Recommendation)")
+                                $null =$HTMLResults.AppendLine("<li>$($r.Recommendation)")
                                 if($r.SuggestedTools){
                                     $SuggestedTool=$r.SuggestedTools -split ";"
-                                    $HTMLResults.AppendLine(" (<a href=`"$($SuggestedTool[1])`" target=`"_blank`">$($SuggestedTool[0])</a>)")
+                                    $null =$HTMLResults.AppendLine(" (<a href=`"$($SuggestedTool[1])`" target=`"_blank`">$($SuggestedTool[0])</a>)")
                                 }
-                                $HTMLResults.AppendLine("</li>")
+                                $null =$HTMLResults.AppendLine("</li>")
                             }
-                            $HTMLResults.AppendLine("</ul></p>")
+                            $null =$HTMLResults.AppendLine("</ul></p>")
                         }else{
-                            $HTMLResults.AppendLine("<p><strong>Recommendations:</strong> Nothing to add here. You are doing great!</p>")   
+                            $null =$HTMLResults.AppendLine("<p><strong>Recommendations:</strong> Nothing to add here. You are doing great!</p>")   
                         }
-                        $HTMLResults.AppendLine("</div></div>")  
+                        $null =$HTMLResults.AppendLine("</div></div>")  
                     }
                 }else{
-                    $HTMLResults.AppendLine("<h2>Not Found, please check the module name and try again.</h2>")
+                    $null =$HTMLResults.AppendLine("<h2>Not Found, please check the module name and try again.</h2>")
                 }
        
                 $htmlResponse = $htmlResponse.Replace("<SearchResultsTemplate>",$($HTMLResults.ToString()))
