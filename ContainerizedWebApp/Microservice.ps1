@@ -112,11 +112,13 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
             $response.StatusCode = 200
         } else {
-            $response.StatusCode = 404
+            #response.StatusCode = 404
             #$errorFilePath = Join-Path -Path "$PSScriptRoot\Web" -ChildPath "/index.html"
             #$outputBuffer = [System.IO.File]::ReadAllBytes($errorFilePath)
             #$response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
             $response.Redirect("/index.html#t5")
+            $response.ContentLength64 = 0
+             
         }
         $response.Close()
     } catch {
