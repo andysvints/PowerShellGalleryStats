@@ -28,7 +28,7 @@ function Get-PSModuleInfo
     {
         if ($pscmdlet.ShouldProcess("query $Query"))
         {
-            #TODO: Get-API KEY from key vault
+
             connect-AzAccount -Subscription "6e606d01-ff42-4cab-bcf2-b8888ab2fdc4" -Identity
             $KeyVaultName="PSGalleryStats-KV"
             $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
@@ -131,7 +131,8 @@ function Get-PSModuleInfo
        
                 $htmlResponse = $htmlResponse.Replace("<SearchResultsTemplate>",$($HTMLResults.ToString()))
             
-            $htmlResponse | Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/search.html" -Force
+           # $htmlResponse | Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/search.html" -Force
+            return $htmlResponse
            
         }
     }
