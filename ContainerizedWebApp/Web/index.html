@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<script>
+  (function () {
+    const url = new URL(location.href);
+    if (url.searchParams.has('from404')) {
+      // show your default tab/section
+      if (!url.hash) url.hash = '#t5';
+      // remove the helper param from the address bar
+      url.searchParams.delete('from404');
+      history.replaceState(null, '', url.pathname + (url.search ? '?' + url.searchParams.toString() : '') + url.hash);
+    }
+  })();
+</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>PowerShell Gallery Stats</title>
