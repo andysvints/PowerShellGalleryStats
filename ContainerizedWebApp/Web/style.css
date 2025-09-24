@@ -258,10 +258,9 @@ pre {
     margin-left: 5%;
 }
 .window {
-  margin-top: 10% auto 5%;
-  backgroun: black;
+  margin-top: 10% auto;
+  background: black;
   width: 80%;
-  border-radius: 20px;
   margin-bottom: 1%;
 }
 
