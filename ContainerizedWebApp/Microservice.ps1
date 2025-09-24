@@ -108,14 +108,14 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         
         # If the request is for the root, return home page.
         if (Test-Path $filePath) {
-           $outputBuffer=[System.IO.File]::ReadAllBytes($filePath)
+            $ext = [IO.Path]::GetExtension($filePath).ToLowerInvariant()
+            if ($ext -eq '.svg' -or $ext -eq '.svgz') {
+                $response.ContentType = 'image/svg+xml'
+            }
+            $outputBuffer=[System.IO.File]::ReadAllBytes($filePath)
             $response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
             $response.StatusCode = 200
         } else {
-            #response.StatusCode = 404
-            #$errorFilePath = Join-Path -Path "$PSScriptRoot\Web" -ChildPath "/index.html"
-            #$outputBuffer = [System.IO.File]::ReadAllBytes($errorFilePath)
-            #$response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
             $response.Redirect("/index.html#t5")
             $response.ContentLength64 = 0
              
