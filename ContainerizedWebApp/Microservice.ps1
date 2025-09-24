@@ -97,6 +97,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $html  = Get-PSModuleInfo -Query $query
             $bytes = [Text.Encoding]::UTF8.GetBytes($html)
             $response.StatusCode = 200
+            $response.ContentType = 'text/html; charset=utf-8'
             $response.ContentLength64 = $bytes.Length
             $response.OutputStream.Write($bytes, 0, $bytes.Length)
             $response.Close()
