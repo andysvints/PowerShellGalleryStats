@@ -36,7 +36,7 @@ function Get-PSModuleInfo
             $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystats?subscription-key=$apiKey&module=$query"
             $apiResponse = Invoke-RestMethod -Uri $apiUrl
 
-            $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "search-results.html")
+            $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "search-results.html") -Raw
             $htmlResponse = $HTMLTemplate.Replace("<QueryTemplate>","`'$Query`'")
             $HTMLResults=[System.Text.StringBuilder]::new()
             if($apiResponse){
