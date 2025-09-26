@@ -130,7 +130,20 @@ function Get-PSModuleInfo
                 }
        
                 $htmlResponse = $htmlResponse.Replace("<SearchResultsTemplate>",$($HTMLResults.ToString()))
-           # $htmlResponse | Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/search.html" -Force
+                $targetUrl =  "/search?query=$query#t4"
+                $targetUrlJs = $targetUrl -replace "'", "\\'"   # escape single quotes for JS string
+                $forceHash = @"
+<script>
+(function () {
+  var target = '$targetUrlJs';
+  // Only rewrite if needed (no extra history entry)
+  if (location.pathname + location.search + location.hash !== target) {
+    history.replaceState(null, '', target);
+  }
+})();
+</script>
+"@
+            $htmlResponse = $htmlResponse.Replace("<DefaultHashTemplate>", $forceHash)
             return $htmlResponse
            
         }
