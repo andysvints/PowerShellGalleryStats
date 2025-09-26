@@ -58,7 +58,9 @@ function Get-PSTopModule
             }
             $HTMLTable.AppendLine("<tbody></table>")
             #Inject Into index.html
-            $IndexPageHTML.Replace("<TableTemplate>",$($HTMLTable.ToString())) | Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/index.html" -Force
+            $IndexPageHTML=$IndexPageHTML.Replace("<TableTemplate>",$($HTMLTable.ToString())) 
+            
+            $IndexPageHTML.Replace("<CurrentYear>",$((Get-Date).Year))| Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/index.html" -Force
         }
     }
     End
