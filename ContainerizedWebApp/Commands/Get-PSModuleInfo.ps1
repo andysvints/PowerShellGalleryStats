@@ -143,7 +143,7 @@ function Get-PSModuleInfo
 })();
 </script>
 "@
-            $htmlResponse = $htmlResponse.Replace("<DefaultHashTemplate>", $forceHash)
+            $htmlResponse = $htmlResponse.Replace("<DefaultHashScriptTemplate>", $forceHash)
             return $htmlResponse
            
         }
