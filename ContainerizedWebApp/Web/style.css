@@ -393,10 +393,15 @@ input {
     border-top: 1px solid #ddd;
     text-align: left;
     color: black;
+    font-size: small;
+   
 }
 
 .card-expanded ul {
   margin-left: 25px;
+  position: relative;
+  text-align: left;
+  width: 80%;
 }
 
 .card-recomm {
