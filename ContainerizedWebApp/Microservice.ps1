@@ -100,6 +100,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $response.ContentType = 'text/html; charset=utf-8'
             $response.ContentLength64 = $bytes.Length
             $response.OutputStream.Write($bytes, 0, $bytes.Length)
+            $response.Redirect("/search?query=$query#t4")
             $response.Close()
             return
         }
