@@ -449,6 +449,11 @@ input {
   .lang-powershell {font-size: small;}
   .card-name {font-size: large;}
   .card-content { font-size: small;}
+  html, body{
+    height:auto;
+    min-height:100%;
+    overflow-y:auto;                 
+  }
 }
 
 footer {
