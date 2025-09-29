@@ -1,74 +1,65 @@
 [
   {
-    "id": "Context7",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module that interacts with Context7",
+    "id": "PwrSvg",
+    "Owners": "OscarCalvo",
+    "Description": "PowerShell module for rendering SVG files to raw image buffers using SkiaSharp, optimized for terminal and pipeline integration.",
     "Score": 75,
-    "Published": "2025-09-27T14:06:58.23"
+    "Published": "2025-09-28T22:57:28.057"
   },
   {
-    "id": "GitHub",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
-    "Score": 75,
-    "Published": "2025-09-27T22:39:53.777"
+    "id": "MSc365.Idp.Toolbox",
+    "Owners": "MSc356Admin",
+    "Description": "An experimental PowerShell module providing a comprehensive set of tools for Internal Developer Platforms (IDPs) on Azure cloud.",
+    "Score": 60,
+    "Published": "2025-09-28T09:48:55.483"
   },
   {
-    "id": "FarNet.Redis",
-    "Owners": "nightroman",
-    "Description": "StackExchange.Redis cmdlets",
-    "Score": 75,
-    "Published": "2025-09-27T03:17:41.27"
-  },
-  {
-    "id": "Get-IntuneAssignments",
-    "Owners": "amirjs",
-    "Description": [
-      []
-    ],
-    "Score": 55,
-    "Published": "2025-09-27T23:09:33.44"
+    "id": "PowerShell.MCP",
+    "Owners": "ytsuda",
+    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop and other clients.",
+    "Score": 60,
+    "Published": "2025-09-28T06:28:53.363"
   },
   {
     "id": "WindmillClient",
     "Owners": "rubenfiszel",
     "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2025-09-27T22:46:09.11"
+    "Published": "2025-09-28T20:07:15.81"
   },
   {
     "id": "SpotifyUtils",
     "Owners": "niwamo",
     "Description": "A PowerShell module for managing your Spotify tracks and playlists via Spotify's API.",
     "Score": 45,
-    "Published": "2025-09-27T23:24:29.383"
+    "Published": "2025-09-28T15:23:26.42"
   },
   {
-    "id": "DailyBackup",
-    "Owners": "jonlabelle",
-    "Description": "Complete backup and restore solution with automated daily backups, intelligent file handling, and flexible restoration options.",
-    "Score": 45,
-    "Published": "2025-09-27T16:06:13.027"
+    "id": "AzNetworkDiagram",
+    "Owners": "DanMadsen",
+    "Description": "Creates a diagram of your Azure infrastructure.",
+    "Score": 40,
+    "Published": "2025-09-28T20:24:39.497"
   },
   {
     "id": "OSD",
     "Owners": "Segura",
     "Description": "OSD PowerShell Module for Windows Deployment",
     "Score": 40,
-    "Published": "2025-09-27T22:09:01.187"
+    "Published": "2025-09-28T22:07:01.62"
   },
   {
-    "id": "UiPathOrch",
-    "Owners": "ytsuda",
-    "Description": "PSDrives and cmdlets for UiPath Orchestrator. 💡 First time? Run: Get-OrchHelp",
-    "Score": 35,
-    "Published": "2025-09-27T07:24:55.377"
+    "id": "GitlabCli",
+    "Owners": "chris-peterson",
+    "Description": "Interact with GitLab via PowerShell",
+    "Score": 40,
+    "Published": "2025-09-28T06:00:16.67"
   },
   {
-    "id": "DrillOps",
-    "Owners": "ILEG",
-    "Description": "Fanuc mill drilling cycles (G81/G82/G83/G73) with tests",
-    "Score": 30,
-    "Published": "2025-09-27T23:55:27.947"
+    "id": "Export-Bitwarden",
+    "Owners": "trparky",
+    "Description": "A Powershell script to export your Bitwarden password vault.",
+    "Score": 40,
+    "Published": "2025-09-28T20:46:17.947"
   }
 ]
