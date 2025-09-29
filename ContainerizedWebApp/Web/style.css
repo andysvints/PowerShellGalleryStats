@@ -447,6 +447,8 @@ input {
   .title-full { display:none; }
   .title-short{ display:inline; }
   .lang-powershell {font-size: small;}
+  .card-name {font-size: large;}
+  .card-content { font-size: small;}
 }
 
 footer {
