@@ -441,6 +441,13 @@ input {
   margin: auto;
 }
 
+.title-short { display:none; }
+
+@media (max-width: 600px){
+  .title-full { display:none; }
+  .title-short{ display:inline; }
+}
+
 footer {
   margin-top: 260%;
   font-size: 10px;
