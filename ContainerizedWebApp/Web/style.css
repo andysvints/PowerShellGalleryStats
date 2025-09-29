@@ -446,6 +446,7 @@ input {
 @media (max-width: 600px){
   .title-full { display:none; }
   .title-short{ display:inline; }
+  .lang-powershell {font-size: small;}
 }
 
 footer {
