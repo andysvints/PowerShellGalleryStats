@@ -46,13 +46,16 @@
 .EXAMPLE
     Get-PSGalleryStats -Module PipeScript
 #></span>
-[<span class="token keyword">CmdletBinding</span>(SupportsShouldProcess=<span class="token comment">$true</span>,ConfirmImpact=<span class="token string">'Medium'</span>)]
+[<span class="token keyword">CmdletBinding</span>(
+      SupportsShouldProcess=<span class="token comment">$true</span>,
+      ConfirmImpact=<span class="token string">'Medium'</span>)]
 <span class="token keyword">Param</span>
 (
-    [<span class="token keyword">Parameter</span>(Mandatory=<span class="token comment">$true</span>, 
-            ValueFromPipeline=<span class="token comment">$true</span>,
-            ValueFromPipelineByPropertyName=<span class="token comment">$true</span>, 
-            Position=<span class="token number">0</span>)]
+    [<span class="token keyword">Parameter</span>(
+      Mandatory=<span class="token comment">$true</span>, 
+      ValueFromPipeline=<span class="token comment">$true</span>,
+      ValueFromPipelineByPropertyName=<span class="token comment">$true</span>, 
+      Position=<span class="token number">0</span>)]
     <span class="token comment">$Module</span>
 )
 <div class="ps-line">
