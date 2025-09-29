@@ -20,7 +20,10 @@
           <div class="ct" id="t4">
             <div class="ct" id="t5">
               <ul id="menu">
-                <h2>PowerShell Gallery Stats</h2>
+                <h2>
+                    <span class="title-full">PowerShell Gallery Stats</span>
+                    <span class="title-short">PS Glry Stats</span>
+                </h2>
                 <a href="#t1"><li class="icon fa fa-list-alt" id="uno"></li></a>
                 <a href="#t2"><li class="icon fa fa-terminal" id="dos"></li></a>
                 <a href="#t3"><li class="icon fa fa-info-circle" id="tres"></li></a>
@@ -51,12 +54,12 @@
       ConfirmImpact=<span class="token string">'Medium'</span>)]
 <span class="token keyword">Param</span>
 (
-    [<span class="token keyword">Parameter</span>(
-      Mandatory=<span class="token comment">$true</span>, 
-      ValueFromPipeline=<span class="token comment">$true</span>,
-      ValueFromPipelineByPropertyName=<span class="token comment">$true</span>, 
-      Position=<span class="token number">0</span>)]
-    <span class="token comment">$Module</span>
+  [<span class="token keyword">Parameter</span>(
+    Mandatory=<span class="token comment">$true</span>, 
+    ValueFromPipeline=<span class="token comment">$true</span>,
+    ValueFromPipelineByPropertyName=<span class="token comment">$true</span>, 
+    Position=<span class="token number">0</span>)]
+  <span class="token comment">$Module</span>
 )
 <div class="ps-line">
 <span class="token cmdlet">Find-Module</span> -<span class="token keyword">Name</span><span class="ps-input-wrap">
