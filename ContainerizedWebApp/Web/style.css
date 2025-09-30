@@ -457,6 +457,9 @@ input {
   input {
     width: 20ch;
   }
+  tbody {
+    font-size: small;
+  }
 }
 
 footer {
