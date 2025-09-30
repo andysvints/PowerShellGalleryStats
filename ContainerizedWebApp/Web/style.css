@@ -460,6 +460,9 @@ input {
   tbody {
     font-size: small;
   }
+  .card-left{
+    padding: 0px;
+  }
 }
 
 footer {
