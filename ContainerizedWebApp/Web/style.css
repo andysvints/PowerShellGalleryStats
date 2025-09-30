@@ -463,6 +463,10 @@ input {
   .card-left{
     padding: 0px;
   }
+  .card{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 footer {
