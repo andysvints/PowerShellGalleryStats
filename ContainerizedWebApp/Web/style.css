@@ -454,6 +454,9 @@ input {
     min-height:100%;
     overflow-y:auto;                 
   }
+  input {
+    width: 20ch;
+  }
 }
 
 footer {
