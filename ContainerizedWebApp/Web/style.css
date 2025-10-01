@@ -465,6 +465,7 @@ input {
   }
   .card-left{
     padding: 0px;
+    flex: none;
   }
   .card{
     display: grid;
