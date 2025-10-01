@@ -474,6 +474,9 @@ input {
     width: 60px;
     height: 60px;
   }
+  .card-skills {
+    font-size: xx-small;
+  }
 }
 
 footer {
