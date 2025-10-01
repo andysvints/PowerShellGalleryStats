@@ -448,7 +448,10 @@ input {
   .title-short{ display:inline; }
   .lang-powershell {font-size: small;}
   .card-name {font-size: large;}
-  .card-content { font-size: small;}
+  .card-content { 
+    text-align: left;
+    font-size: small;
+  }
   html, body{
     height:auto;
     min-height:100%;
@@ -466,6 +469,10 @@ input {
   .card{
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .card-img {
+    width: 60px;
+    height: 60px;
   }
 }
 
