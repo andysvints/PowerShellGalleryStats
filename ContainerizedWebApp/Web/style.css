@@ -479,6 +479,10 @@ input {
   }
   .card-expanded {
     width:80%;
+  }
+  .page .icon .title {
+    font-size: medium;
+  }
 }
 
 footer {
