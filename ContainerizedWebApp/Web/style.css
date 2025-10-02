@@ -8,7 +8,7 @@ html, body, .page {
   -moz-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
   -o-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);  
   color: #fff;
-  overflow: hidden; 
+  overflow: auto; 
 }
 
 .ct {
@@ -479,7 +479,7 @@ input {
     font-size: xx-small;
   }
   .card-expanded {
-    width:80%;
+    width:100%;
   }
   .page .icon .title {
     font-size: medium;
