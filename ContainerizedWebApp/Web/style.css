@@ -479,7 +479,10 @@ input {
     font-size: xx-small;
   }
   .card-expanded {
-    width:100%;
+      overflow: visible;
+      min-width: 0;                 
+      width: auto;
+      box-sizing: border-box;
   }
   .page .icon .title {
     font-size: medium;
