@@ -443,6 +443,19 @@ input {
 
 .title-short { display:none; }
 
+#loading-screen {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  z-index: 9999; /* Ensure it's on top */
+  text-align: center;
+  padding-top: 20%;
+}
+
 @media (max-width: 600px){
   .title-full { display:none; }
   .title-short{ display:inline; }
