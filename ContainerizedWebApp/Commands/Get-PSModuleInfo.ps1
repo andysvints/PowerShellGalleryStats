@@ -90,7 +90,7 @@ function Get-PSModuleInfo
  <div class=`"card-content`">
  <div class=`"card-name`">$($apiResponse[$i].id)</div>       
  <div class=`"card-title`">Author: $($Author)</div>
- <div class=`"card-name`">Score: $Score</div>
+ <div class=`"card-name`">Score: $Score/100</div>
  <div class=`"card-title`">$($Description)</div>
  <ul class=`"card-skills`">         
 ")  
