@@ -61,11 +61,8 @@
   <span class="token comment">$Module</span>
 )
 <div class="ps-line" style="padding-left: 0px;">
-<span class="token cmdlet">Find-Module</span> -<span class="token keyword">Name</span><span class="ps-input-wrap">
-  <div id="loading-screen">
-    <img width="500px" height="500px" src="Assets/Loading.svg" alt="Loading..." id="loading-icon">
-</div>  
-  <form id="search-form" action="/search" method="GET" action="#loading-screen"><input type="search" name="query" maxlength="30" minlength="3" required placeholder="            <ModuleName>">
+<span class="token cmdlet">Find-Module</span> -<span class="token keyword">Name</span><span class="ps-input-wrap"> 
+  <form id="search-form" action="/search" method="GET"><input type="search" name="query" maxlength="30" minlength="3" required placeholder="            <ModuleName>">
   </span>
 </form>
 </div>
@@ -128,12 +125,6 @@
                 // Toggle the display style
                 expanded.style.display = expanded.style.display === 'block' ? 'none' : 'block';
             });
-        });
-    </script>
-    <script>
-        document.getElementById('search-form').addEventListener('submit', function() {
-            document.getElementById('loading-screen').style.display = 'block';
-            document.getElementById('loading-screen').style.display = 'block';
         });
     </script>
     <DefaultHashScriptTemplate>
