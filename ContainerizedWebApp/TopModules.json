@@ -1,72 +1,74 @@
 [
   {
-    "id": "Discord",
+    "id": "Tls",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with Discord.",
+    "Description": "A module for working with TLS settings.",
     "Score": 85,
-    "Published": "2025-10-04T06:33:04.82"
+    "Published": "2025-10-05T07:57:30.733"
   },
   {
-    "id": "DeepSeek",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with DeepSeek",
-    "Score": 85,
-    "Published": "2025-10-04T06:32:37.357"
-  },
-  {
-    "id": "OpenAI",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module for interacting with OpenAI",
-    "Score": 85,
-    "Published": "2025-10-04T16:27:56.35"
-  },
-  {
-    "id": "DynamicParams",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module that makes it easier to use dynamic params.",
-    "Score": 85,
-    "Published": "2025-10-04T06:30:06.76"
-  },
-  {
-    "id": "IPv6",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to manage IPv6 networking",
+    "id": "MariusTestModule",
+    "Owners": "MariusStorhaug",
+    "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
     "Score": 80,
-    "Published": "2025-10-04T12:01:20.833"
+    "Published": "2025-10-05T08:49:04.39"
   },
   {
-    "id": "Guid",
+    "id": "Twitch",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module that makes working with GUID sligthly more PowerShelly",
+    "Description": "A PowerShell module for interacting with Twitch.",
     "Score": 80,
-    "Published": "2025-10-04T08:48:50.623"
+    "Published": "2025-10-05T07:58:03.303"
   },
   {
-    "id": "DateTime",
+    "id": "Yaml",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module to work with DateTime objects.",
+    "Description": "A PowerShell module for working with Yaml.",
     "Score": 80,
-    "Published": "2025-10-04T06:28:05.02"
+    "Published": "2025-10-05T07:58:38.56"
   },
   {
-    "id": "GZip",
+    "id": "Telemetry",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell Module that handles GZip archives",
+    "Description": "A PowerShell module for managing and registering telemetry.",
     "Score": 80,
-    "Published": "2025-10-04T08:44:15.78"
+    "Published": "2025-10-05T07:49:51.127"
   },
   {
-    "id": "LinkedIn",
+    "id": "Utilities",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module to programmatically interact with LinkedIn",
+    "Description": "A PowerShell module with a collection of functions that should have been in PowerShell to start with.",
     "Score": 80,
-    "Published": "2025-10-04T12:00:06.723"
+    "Published": "2025-10-05T07:58:13.02"
   },
   {
-    "id": "GraphQL",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to simplify working with a GraphQL APIs.",
+    "id": "SqlDatabase",
+    "Owners": "MaxIeremenko",
+    "Description": [
+      []
+    ],
     "Score": 80,
-    "Published": "2025-10-04T08:40:15.217"
+    "Published": "2025-10-05T12:56:25.007"
+  },
+  {
+    "id": "Eigenverft.Manifested.Drydock",
+    "Owners": "Eigenverft",
+    "Description": "Module for retrieving essential Git repository info, including the repositories root directory and current branch.",
+    "Score": 75,
+    "Published": "2025-10-05T10:36:55.43"
+  },
+  {
+    "id": "Domeneshop",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for interacting with the Domeneshop APIs",
+    "Score": 75,
+    "Published": "2025-10-05T10:06:42.407"
+  },
+  {
+    "id": "TimeSpan",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for working with TimeSpans",
+    "Score": 75,
+    "Published": "2025-10-05T07:57:28.623"
   }
 ]
