@@ -1,23 +1,26 @@
 using namespace System.Net
 
 # Input bindings are passed in via param block.
-param($Request, $TriggerMetadata)
+param($Request,$PSDocument, $TriggerMetadata)
 
 # Write to the Azure Functions log stream.
 Write-Host "PowerShell HTTP trigger function processed a request."
 
 # Interact with query parameters or the body of the request.
-$name = $Request.Query.Name
-if (-not $name) {
-    $name = $Request.Body.Name
+$module = $Request.Query.module
+if (-not $module) {
+    $module = $Request.Body.module
 }
 
-$body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-
-if ($name) {
-    $body = "Hello, $name. This HTTP triggered function executed successfully."
+# Ensure we have a module name to query
+if (-not $module) {
+    return @{
+        status = [HttpStatusCode]::BadRequest
+        body = "Please provide a ModuleName in the query string or in the request body."
+    }
 }
-
+Write-Host "sqlQuery param: $module"
+$body=$($PSDocument | ConvertTo-Json -Depth 10)
 # Associate values to output bindings by calling 'Push-OutputBinding'.
 Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
     StatusCode = [HttpStatusCode]::OK
