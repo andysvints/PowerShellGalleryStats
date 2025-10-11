@@ -1,72 +1,72 @@
 [
   {
-    "id": "Discord",
+    "id": "Tls",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with Discord.",
+    "Description": "A module for working with TLS settings.",
     "Score": 85,
-    "Published": "2025-10-09T12:31:02.283"
+    "Published": "2025-10-10T14:33:00.017"
   },
   {
-    "id": "DeepSeek",
+    "id": "PSCustomObject",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with DeepSeek",
+    "Description": "A PowerShell module for missing functions of PSCustomObjects.",
     "Score": 85,
-    "Published": "2025-10-09T12:25:31.557"
+    "Published": "2025-10-10T11:58:53.307"
   },
   {
-    "id": "DynamicParams",
+    "id": "PublicIP",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module that makes it easier to use dynamic params.",
+    "Description": "A PowerShell module that helps getting info about your public IP.",
     "Score": 85,
-    "Published": "2025-10-09T13:03:52.03"
+    "Published": "2025-10-10T12:07:35.613"
   },
   {
-    "id": "Domeneshop",
+    "id": "PowerShellGallery",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module for interacting with the Domeneshop APIs",
-    "Score": 80,
-    "Published": "2025-10-09T12:50:35.217"
+    "Description": "A PowerShell module for interacting with the PowerShell Gallery.",
+    "Score": 85,
+    "Published": "2025-10-10T11:47:36.127"
   },
   {
-    "id": "Gemini",
+    "id": "Twitch",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module for interacting with the Gemini API",
+    "Description": "A PowerShell module for interacting with Twitch.",
     "Score": 80,
-    "Published": "2025-10-09T19:17:04.893"
+    "Published": "2025-10-10T12:58:45.073"
   },
   {
-    "id": "Context7",
+    "id": "Yaml",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module that interacts with Context7",
+    "Description": "A PowerShell module for working with Yaml.",
     "Score": 80,
-    "Published": "2025-10-09T12:14:59.663"
+    "Published": "2025-10-10T14:44:27.057"
   },
   {
-    "id": "Guid",
+    "id": "Telemetry",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module that makes working with GUID sligthly more PowerShelly",
+    "Description": "A PowerShell module for managing and registering telemetry.",
     "Score": 80,
-    "Published": "2025-10-09T20:26:21.23"
+    "Published": "2025-10-10T12:33:11.863"
   },
   {
-    "id": "DateTime",
+    "id": "Utilities",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module to work with DateTime objects.",
+    "Description": "A PowerShell module with a collection of functions that should have been in PowerShell to start with.",
     "Score": 80,
-    "Published": "2025-10-09T12:23:04.22"
+    "Published": "2025-10-10T14:32:37.313"
   },
   {
-    "id": "GZip",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell Module that handles GZip archives",
+    "id": "SelectHtml",
+    "Owners": "brianary",
+    "Description": "Extracts content from an HTML document using an XPath expression.",
     "Score": 80,
-    "Published": "2025-10-09T20:26:57.57"
+    "Published": "2025-10-10T03:26:43.147"
   },
   {
-    "id": "Confluence",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module that interacts with Atlassian Confluence",
-    "Score": 80,
-    "Published": "2025-10-09T07:11:08.147"
+    "id": "wimau",
+    "Owners": "mhunsber",
+    "Description": "The Windows Image Automatic Updater (wimau) PowerShell Module extends the DISM and UpdateServices modules to help service offline images.",
+    "Score": 75,
+    "Published": "2025-10-10T18:16:35.353"
   }
 ]
