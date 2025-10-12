@@ -1,72 +1,74 @@
 [
   {
-    "id": "Tls",
-    "Owners": "PSModule.io",
-    "Description": "A module for working with TLS settings.",
-    "Score": 85,
-    "Published": "2025-10-10T14:33:00.017"
-  },
-  {
-    "id": "PSCustomObject",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module for missing functions of PSCustomObjects.",
-    "Score": 85,
-    "Published": "2025-10-10T11:58:53.307"
-  },
-  {
-    "id": "PublicIP",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module that helps getting info about your public IP.",
-    "Score": 85,
-    "Published": "2025-10-10T12:07:35.613"
-  },
-  {
-    "id": "PowerShellGallery",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module for interacting with the PowerShell Gallery.",
-    "Score": 85,
-    "Published": "2025-10-10T11:47:36.127"
-  },
-  {
-    "id": "Twitch",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module for interacting with Twitch.",
+    "id": "MariusTestModule",
+    "Owners": "MariusStorhaug",
+    "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
     "Score": 80,
-    "Published": "2025-10-10T12:58:45.073"
+    "Published": "2025-10-11T22:48:58.683"
   },
   {
-    "id": "Yaml",
+    "id": "AzAuth",
+    "Owners": "PalmEmanuel",
+    "Description": "A lightweight PowerShell module to handle Azure authentication, using the Azure.Identity MSAL library.",
+    "Score": 80,
+    "Published": "2025-10-11T14:37:35.853"
+  },
+  {
+    "id": "Uri",
     "Owners": "PSModule.io",
-    "Description": "A PowerShell module for working with Yaml.",
-    "Score": 80,
-    "Published": "2025-10-10T14:44:27.057"
-  },
-  {
-    "id": "Telemetry",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module for managing and registering telemetry.",
-    "Score": 80,
-    "Published": "2025-10-10T12:33:11.863"
-  },
-  {
-    "id": "Utilities",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module with a collection of functions that should have been in PowerShell to start with.",
-    "Score": 80,
-    "Published": "2025-10-10T14:32:37.313"
-  },
-  {
-    "id": "SelectHtml",
-    "Owners": "brianary",
-    "Description": "Extracts content from an HTML document using an XPath expression.",
-    "Score": 80,
-    "Published": "2025-10-10T03:26:43.147"
-  },
-  {
-    "id": "wimau",
-    "Owners": "mhunsber",
-    "Description": "The Windows Image Automatic Updater (wimau) PowerShell Module extends the DISM and UpdateServices modules to help service offline images.",
+    "Description": "A powershell module that works with URIs (RFC3986)",
     "Score": 75,
-    "Published": "2025-10-10T18:16:35.353"
+    "Published": "2025-10-11T06:30:45.21"
+  },
+  {
+    "id": "SplitPipeline",
+    "Owners": "nightroman",
+    "Description": "SplitPipeline - Parallel Data Processing in PowerShell",
+    "Score": 75,
+    "Published": "2025-10-11T07:27:19.23"
+  },
+  {
+    "id": "MemoryMappedFile",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module that manages MemoryMappedFile",
+    "Score": 70,
+    "Published": "2025-10-11T07:22:30.05"
+  },
+  {
+    "id": "WoW",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module containing utilities for World of Warcraft.",
+    "Score": 70,
+    "Published": "2025-10-11T06:28:09.217"
+  },
+  {
+    "id": "PowerShell.MCP",
+    "Owners": "ytsuda",
+    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop.",
+    "Score": 60,
+    "Published": "2025-10-11T09:33:07.83"
+  },
+  {
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": [
+      []
+    ],
+    "Score": 60,
+    "Published": "2025-10-11T15:52:56.927"
+  },
+  {
+    "id": "Trilium",
+    "Owners": "ptmorris",
+    "Description": "Powershell wrapper for the Trilium Notes API",
+    "Score": 50,
+    "Published": "2025-10-11T19:40:39.42"
+  },
+  {
+    "id": "FarMongo",
+    "Owners": "nightroman",
+    "Description": "MongoDB browser in Far Manager",
+    "Score": 50,
+    "Published": "2025-10-11T02:27:15.783"
   }
 ]
