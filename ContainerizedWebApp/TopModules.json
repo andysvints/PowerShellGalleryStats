@@ -1,74 +1,74 @@
 [
   {
-    "id": "MariusTestModule",
-    "Owners": "MariusStorhaug",
-    "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
-    "Score": 80,
-    "Published": "2025-10-11T22:48:58.683"
-  },
-  {
-    "id": "AzAuth",
-    "Owners": "PalmEmanuel",
-    "Description": "A lightweight PowerShell module to handle Azure authentication, using the Azure.Identity MSAL library.",
-    "Score": 80,
-    "Published": "2025-10-11T14:37:35.853"
-  },
-  {
-    "id": "Uri",
-    "Owners": "PSModule.io",
-    "Description": "A powershell module that works with URIs (RFC3986)",
-    "Score": 75,
-    "Published": "2025-10-11T06:30:45.21"
-  },
-  {
-    "id": "SplitPipeline",
-    "Owners": "nightroman",
-    "Description": "SplitPipeline - Parallel Data Processing in PowerShell",
-    "Score": 75,
-    "Published": "2025-10-11T07:27:19.23"
-  },
-  {
-    "id": "MemoryMappedFile",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module that manages MemoryMappedFile",
-    "Score": 70,
-    "Published": "2025-10-11T07:22:30.05"
-  },
-  {
-    "id": "WoW",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module containing utilities for World of Warcraft.",
-    "Score": 70,
-    "Published": "2025-10-11T06:28:09.217"
-  },
-  {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop.",
-    "Score": 60,
-    "Published": "2025-10-11T09:33:07.83"
-  },
-  {
-    "id": "PSCompletions",
-    "Owners": "abgox",
+    "id": "ThirdPartyLibraries",
+    "Owners": "MaxIeremenko",
     "Description": [
       []
     ],
+    "Score": 75,
+    "Published": "2025-10-12T10:35:30.603"
+  },
+  {
+    "id": "Template-PSModule",
+    "Owners": "PSModule.io",
+    "Description": "Template for a PowerShell module repo.",
+    "Score": 70,
+    "Published": "2025-10-12T12:02:05.753"
+  },
+  {
+    "id": "MonitorConfig",
+    "Owners": "MartinGC94",
+    "Description": "Manage brightness and other monitor settings with DDC/CI and WMI.",
+    "Score": 70,
+    "Published": "2025-10-12T14:01:52.05"
+  },
+  {
+    "id": "K.PSGallery.ManifestVersioning",
+    "Owners": "1d70f",
+    "Description": "PowerShell module for updating module manifest (.psd1) versions with Git integration",
+    "Score": 65,
+    "Published": "2025-10-12T23:42:09.057"
+  },
+  {
+    "id": "LSUClient",
+    "Owners": "jantari",
+    "Description": "Orchestrate driver, BIOS/UEFI and firmware updates for Lenovo computers 👨‍💻",
     "Score": 60,
-    "Published": "2025-10-11T15:52:56.927"
+    "Published": "2025-10-12T22:24:51.89"
   },
   {
-    "id": "Trilium",
-    "Owners": "ptmorris",
-    "Description": "Powershell wrapper for the Trilium Notes API",
-    "Score": 50,
-    "Published": "2025-10-11T19:40:39.42"
+    "id": "AcumaticaNodeHelper",
+    "Owners": "lekker-solutions",
+    "Description": "A Cmdlet that assists a developer with building Acumatica front-end assets, leveraging the NodeJS and npm version found in the web.config file.",
+    "Score": 55,
+    "Published": "2025-10-12T20:37:35.67"
   },
   {
-    "id": "FarMongo",
+    "id": "AsBuiltReport.System.Resources",
+    "Owners": "tpcarman",
+    "Description": "A PowerShell module to generate an as built report on the configuration of System Resources.",
+    "Score": 55,
+    "Published": "2025-10-12T14:13:21.273"
+  },
+  {
+    "id": "InvokeBuild",
     "Owners": "nightroman",
-    "Description": "MongoDB browser in Far Manager",
+    "Description": "Build and test automation in PowerShell",
+    "Score": 55,
+    "Published": "2025-10-12T02:40:47.53"
+  },
+  {
+    "id": "UncommonSense.Nrc",
+    "Owners": "jhoek",
+    "Description": "PowerShell module for listing NRC articles",
     "Score": 50,
-    "Published": "2025-10-11T02:27:15.783"
+    "Published": "2025-10-12T09:16:13.49"
+  },
+  {
+    "id": "EasyPIM",
+    "Owners": "LoicMichel",
+    "Description": "Manage PIM Azure Resource, PIM Entra role and PIM for Group settings and assignments with simplicity in mind",
+    "Score": 50,
+    "Published": "2025-10-12T07:48:51.81"
   }
 ]
