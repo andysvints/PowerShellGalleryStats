@@ -15,7 +15,7 @@
       "name": "Response"
     },
     { 
-    "name": "PSDocuments", 
+    "name": "PSDocument", 
     "type": "cosmosDB", 
     "direction": "in", 
     "databaseName": "psgallerystats", 
