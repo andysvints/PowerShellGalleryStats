@@ -19,7 +19,8 @@ function Get-PSModuleInfo
                    ValueFromPipeline=$true)]
         [ValidateNotNullOrEmpty()]
         [Alias("Module","Name")] 
-        $Query
+        $Query,
+        [switch]$ById=$false
     )
     Begin
     {
@@ -33,7 +34,11 @@ function Get-PSModuleInfo
             $KeyVaultName="PSGalleryStats-KV"
             $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
             ###########################################
-            $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystats?subscription-key=$apiKey&module=$query"
+            if($ById){
+                $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystatsbyid?subscription-key=$apiKey&module=$query"
+            }else{
+                $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystats?subscription-key=$apiKey&module=$query"
+            }
             $apiResponse = Invoke-RestMethod -Uri $apiUrl
 
             $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html") -Raw
