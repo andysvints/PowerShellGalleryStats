@@ -1,74 +1,72 @@
 [
   {
-    "id": "GoogleFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
-    "Score": 75,
-    "Published": "2025-10-18T01:15:09.747"
-  },
-  {
-    "id": "Evergreen",
-    "Owners": "aaronparker",
-    "Description": "Create evergreen Windows image builds with the latest versions of applications. Evergreen is a simple PowerShell module that retrieves the latest version numbers and download URLs for various software products directly from the vendor source.",
+    "id": "ps-jsonlogger",
+    "Owners": "BryanCuneo",
+    "Description": "ps-jsonlogger is a small, dependency-free structured logging module for PowerShell that offers both compact JSON logs on-disk and human-readble console output. It supports log levels, context objects, full call stack inclusion, and more.",
     "Score": 65,
-    "Published": "2025-10-18T01:15:22.447"
+    "Published": "2025-10-19T21:39:54.37"
   },
   {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": [
-      []
-    ],
+    "id": "ADEffectiveAccess",
+    "Owners": "santisq",
+    "Description": "AD ACLs with readable rights, flexible LDAP and no AD module needed.",
     "Score": 60,
-    "Published": "2025-10-18T09:26:29.907"
-  },
-  {
-    "id": "PackageStack",
-    "Owners": "cray.codes",
-    "Description": "Generate Windows Provisioning Packages on Windows, macOS, and Linux",
-    "Score": 55,
-    "Published": "2025-10-18T20:33:32.127"
-  },
-  {
-    "id": "Colorpicker",
-    "Owners": "erlwes",
-    "Description": "Simple colorpicker made using Windows Forms in PowerShell. Select pixel on screen and get HEX + RGB color value.",
-    "Score": 55,
-    "Published": "2025-10-18T20:30:22.84"
-  },
-  {
-    "id": "Eigenverft.Manifested.Drydock",
-    "Owners": "Eigenverft",
-    "Description": "PowerShell helper functions for the Eigenverft Manifested Drydock, optimized for lightning-fast iteration and reliable local + CI/CD workflows. Expect frequent releases—auto-versioning is built in. Tasks are parity-driven: the same commands run locally and in CI/CD, so local builds remain fully functional even if the pipeline is down.",
-    "Score": 50,
-    "Published": "2025-10-18T16:56:52.043"
-  },
-  {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2025-10-18T06:30:22.14"
-  },
-  {
-    "id": "PoshLLM",
-    "Owners": "DevPossible",
-    "Description": "Brings LLM (Large Language Model) power to the PowerShell REPL command line. Interact with local LLM systems like Ollama directly from your PowerShell session with convenient commands and aliases.",
-    "Score": 45,
-    "Published": "2025-10-18T01:36:20.71"
+    "Published": "2025-10-19T22:55:32.96"
   },
   {
     "id": "MvRAdaptiveCards",
     "Owners": "Michael198422",
     "Description": "This module provides functions for working with Adaptive Cards in PowerShell in a similar fashion as the popular module PSWriteHTML does for HTML generation. Please read the documentation on GitHub for more information. (https://github.com/Michael19842/PowerShell.MvRAdaptiveCards.Module)",
-    "Score": 40,
-    "Published": "2025-10-18T20:34:31.257"
+    "Score": 60,
+    "Published": "2025-10-19T19:58:13.9"
   },
   {
-    "id": "Microsoft.PowerPlatform.EnterprisePolicies",
-    "Owners": "Crmsdk",
-    "Description": "Microsoft PowerPlatform Enterprise policies module",
+    "id": "PowerShell.MCP",
+    "Owners": "ytsuda",
+    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop.",
+    "Score": 60,
+    "Published": "2025-10-19T06:10:48.033"
+  },
+  {
+    "id": "ScriptBeacon",
+    "Owners": "S0010",
+    "Description": "ScriptBeacon: capture & upload full PowerShell run logs with one wrapper.\r\nUse Open-Beam { <your code> } to centralize logs, tags, exit codes, and host info.",
+    "Score": 45,
+    "Published": "2025-10-19T20:52:08.097"
+  },
+  {
+    "id": "Rnwood.Dataverse.Data.PowerShell",
+    "Owners": "rnwood",
+    "Description": "Dataverse data manipulation cmdlets",
     "Score": 40,
-    "Published": "2025-10-18T03:36:53.277"
+    "Published": "2025-10-19T07:59:49.123"
+  },
+  {
+    "id": "qbo4.Infrastructure",
+    "Owners": "quandiscto,KevinFoley",
+    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
+    "Score": 40,
+    "Published": "2025-10-19T06:25:47.103"
+  },
+  {
+    "id": "OSD",
+    "Owners": "Segura",
+    "Description": "OSD PowerShell Module for Windows Deployment",
+    "Score": 40,
+    "Published": "2025-10-19T22:07:54.12"
+  },
+  {
+    "id": "Microsoft.PowerPlatform.DevOps",
+    "Owners": "Haskins242,eugenevs",
+    "Description": "A Toolset for Implementing and Adopting a full ALM strategy for the Microsoft PowerPlatform.",
+    "Score": 40,
+    "Published": "2025-10-19T23:29:21.493"
+  },
+  {
+    "id": "CA.ApiGenerator",
+    "Owners": "RuslanDubas",
+    "Description": "PowerShell module for generating Clean Architecture API solutions from existing databases",
+    "Score": 35,
+    "Published": "2025-10-19T19:52:15.97"
   }
 ]
