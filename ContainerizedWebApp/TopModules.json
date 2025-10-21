@@ -1,72 +1,72 @@
 [
   {
+    "id": "GenXdev.Coding",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module that helps being more productive with coding tasks.",
+    "Score": 75,
+    "Published": "2025-10-20T09:16:34.753"
+  },
+  {
+    "id": "GenXdev.Data",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module with helpers for working with data and databases",
+    "Score": 75,
+    "Published": "2025-10-20T09:09:35.85"
+  },
+  {
+    "id": "GenXdev",
+    "Owners": "genXdev",
+    "Description": "GenXdev PowerShell Utilities and helpers",
+    "Score": 75,
+    "Published": "2025-10-20T09:18:50.773"
+  },
+  {
     "id": "ps-jsonlogger",
     "Owners": "BryanCuneo",
     "Description": "ps-jsonlogger is a small, dependency-free structured logging module for PowerShell that offers both compact JSON logs on-disk and human-readble console output. It supports log levels, context objects, full call stack inclusion, and more.",
+    "Score": 70,
+    "Published": "2025-10-20T03:57:42.79"
+  },
+  {
+    "id": "GenXdev.Media",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module that helps with converting media files like pictures and video files.",
+    "Score": 70,
+    "Published": "2025-10-20T09:17:42.647"
+  },
+  {
+    "id": "GenXdev.Webbrowser",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module that allows you to run scripts against your casual desktop webbrowser-tab",
+    "Score": 70,
+    "Published": "2025-10-20T09:11:53.923"
+  },
+  {
+    "id": "GenXdev.Windows",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module that provides UI Windows manipulation helpers",
     "Score": 65,
-    "Published": "2025-10-19T21:39:54.37"
+    "Published": "2025-10-20T09:10:45.637"
   },
   {
-    "id": "ADEffectiveAccess",
-    "Owners": "santisq",
-    "Description": "AD ACLs with readable rights, flexible LDAP and no AD module needed.",
-    "Score": 60,
-    "Published": "2025-10-19T22:55:32.96"
+    "id": "GenXdev.Helpers",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module with helpers mostly used by other GenXdev modules",
+    "Score": 65,
+    "Published": "2025-10-20T09:08:25.857"
   },
   {
-    "id": "MvRAdaptiveCards",
-    "Owners": "Michael198422",
-    "Description": "This module provides functions for working with Adaptive Cards in PowerShell in a similar fashion as the popular module PSWriteHTML does for HTML generation. Please read the documentation on GitHub for more information. (https://github.com/Michael19842/PowerShell.MvRAdaptiveCards.Module)",
-    "Score": 60,
-    "Published": "2025-10-19T19:58:13.9"
+    "id": "GenXdev.Queries",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module for finding resources and information on the internet",
+    "Score": 55,
+    "Published": "2025-10-20T09:14:12.21"
   },
   {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop.",
-    "Score": 60,
-    "Published": "2025-10-19T06:10:48.033"
-  },
-  {
-    "id": "ScriptBeacon",
-    "Owners": "S0010",
-    "Description": "ScriptBeacon: capture & upload full PowerShell run logs with one wrapper.\r\nUse Open-Beam { <your code> } to centralize logs, tags, exit codes, and host info.",
-    "Score": 45,
-    "Published": "2025-10-19T20:52:08.097"
-  },
-  {
-    "id": "Rnwood.Dataverse.Data.PowerShell",
-    "Owners": "rnwood",
-    "Description": "Dataverse data manipulation cmdlets",
-    "Score": 40,
-    "Published": "2025-10-19T07:59:49.123"
-  },
-  {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2025-10-19T06:25:47.103"
-  },
-  {
-    "id": "OSD",
-    "Owners": "Segura",
-    "Description": "OSD PowerShell Module for Windows Deployment",
-    "Score": 40,
-    "Published": "2025-10-19T22:07:54.12"
-  },
-  {
-    "id": "Microsoft.PowerPlatform.DevOps",
-    "Owners": "Haskins242,eugenevs",
-    "Description": "A Toolset for Implementing and Adopting a full ALM strategy for the Microsoft PowerPlatform.",
-    "Score": 40,
-    "Published": "2025-10-19T23:29:21.493"
-  },
-  {
-    "id": "CA.ApiGenerator",
-    "Owners": "RuslanDubas",
-    "Description": "PowerShell module for generating Clean Architecture API solutions from existing databases",
-    "Score": 35,
-    "Published": "2025-10-19T19:52:15.97"
+    "id": "GenXdev.FileSystem",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module for basic and advanced file management tasks",
+    "Score": 55,
+    "Published": "2025-10-20T09:07:14.19"
   }
 ]
