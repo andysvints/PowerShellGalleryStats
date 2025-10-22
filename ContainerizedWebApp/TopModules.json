@@ -1,72 +1,72 @@
 [
   {
-    "id": "GenXdev.Coding",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that helps being more productive with coding tasks.",
-    "Score": 75,
-    "Published": "2025-10-20T09:16:34.753"
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2025-10-21T15:26:36.367"
   },
   {
-    "id": "GenXdev.Data",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module with helpers for working with data and databases",
-    "Score": 75,
-    "Published": "2025-10-20T09:09:35.85"
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2025-10-21T15:59:38.9"
   },
   {
-    "id": "GenXdev",
-    "Owners": "genXdev",
-    "Description": "GenXdev PowerShell Utilities and helpers",
-    "Score": 75,
-    "Published": "2025-10-20T09:18:50.773"
+    "id": "MvRAdaptiveCards",
+    "Owners": "Michael198422",
+    "Description": "This module provides functions for working with Adaptive Cards in PowerShell in a similar fashion as the popular module PSWriteHTML does for HTML generation. Please read the documentation on GitHub for more information. (https://github.com/Michael19842/PowerShell.MvRAdaptiveCards.Module)",
+    "Score": 80,
+    "Published": "2025-10-21T20:13:23.177"
   },
   {
-    "id": "ps-jsonlogger",
-    "Owners": "BryanCuneo",
-    "Description": "ps-jsonlogger is a small, dependency-free structured logging module for PowerShell that offers both compact JSON logs on-disk and human-readble console output. It supports log levels, context objects, full call stack inclusion, and more.",
-    "Score": 70,
-    "Published": "2025-10-20T03:57:42.79"
+    "id": "OCI.PSModules.Apiplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:28:44.007"
   },
   {
-    "id": "GenXdev.Media",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that helps with converting media files like pictures and video files.",
-    "Score": 70,
-    "Published": "2025-10-20T09:17:42.647"
+    "id": "OCI.PSModules.Dbmulticloud",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dbmulticloud Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:33:13.98"
   },
   {
-    "id": "GenXdev.Webbrowser",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that allows you to run scripts against your casual desktop webbrowser-tab",
-    "Score": 70,
-    "Published": "2025-10-20T09:11:53.923"
+    "id": "OCI.PSModules.Apiaccesscontrol",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiaccesscontrol Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:28:32.2"
   },
   {
-    "id": "GenXdev.Windows",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that provides UI Windows manipulation helpers",
-    "Score": 65,
-    "Published": "2025-10-20T09:10:45.637"
+    "id": "OCI.PSModules.Distributeddatabase",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Distributeddatabase Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:33:47.603"
   },
   {
-    "id": "GenXdev.Helpers",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module with helpers mostly used by other GenXdev modules",
-    "Score": 65,
-    "Published": "2025-10-20T09:08:25.857"
+    "id": "OCI.PSModules.Modeldeployment",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Modeldeployment Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:38:12.477"
   },
   {
-    "id": "GenXdev.Queries",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module for finding resources and information on the internet",
-    "Score": 55,
-    "Published": "2025-10-20T09:14:12.21"
+    "id": "OCI.PSModules.Lustrefilestorage",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Lustrefilestorage Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:37:21.297"
   },
   {
-    "id": "GenXdev.FileSystem",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module for basic and advanced file management tasks",
-    "Score": 55,
-    "Published": "2025-10-20T09:07:14.19"
+    "id": "OCI.PSModules.Mngdmac",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Mngdmac Service",
+    "Score": 80,
+    "Published": "2025-10-21T15:38:07.767"
   }
 ]
