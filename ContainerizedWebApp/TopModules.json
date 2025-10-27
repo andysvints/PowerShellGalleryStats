@@ -1,72 +1,72 @@
 [
   {
-    "id": "powerCat",
-    "Owners": "TheOnliestMattastic",
-    "Description": "powerCat is a single-shot concatenator that bundles markdown and code files into one text file. Supports recursion, Markdown formatting, custom extensions, and sorting.",
-    "Score": 70,
-    "Published": "2025-10-25T19:09:26.76"
+    "id": "MvRAdaptiveCards",
+    "Owners": "Michael198422",
+    "Description": "This module provides functions for working with Adaptive Cards in PowerShell in a similar fashion as the popular module PSWriteHTML does for HTML generation. Please read the documentation on GitHub for more information. (https://github.com/Michael19842/PowerShell.MvRAdaptiveCards.Module)",
+    "Score": 80,
+    "Published": "2025-10-26T22:23:56.817"
   },
   {
-    "id": "FarNet.ScottPlot",
-    "Owners": "nightroman",
-    "Description": "ScottPlot plots in PowerShell.",
+    "id": "Evergreen",
+    "Owners": "aaronparker",
+    "Description": "Create evergreen Windows image builds with the latest versions of applications. Evergreen is a simple PowerShell module that retrieves the latest version numbers and download URLs for various software products directly from the vendor source.",
     "Score": 65,
-    "Published": "2025-10-25T17:58:27.367"
+    "Published": "2025-10-26T05:48:10.38"
   },
   {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop.",
+    "id": "ConsoleInk",
+    "Owners": "JonDavis",
+    "Description": "PowerShell module for rendering Markdown in the console using ConsoleInk.Net. Supports pipeline, string, and file input, with theming and color options.",
     "Score": 60,
-    "Published": "2025-10-25T13:43:50.493"
+    "Published": "2025-10-26T06:14:11.62"
   },
   {
-    "id": "MiToken",
-    "Owners": "DanielBradley2",
-    "Description": "A PowerShell module to obtain an managed identity token and exchange it for an access token to access multi-tenant resources.",
+    "id": "ASRRules",
+    "Owners": "Emin",
+    "Description": "ASRRules is a module that will help view and modify Attack Surface Reduction Rules provided by Windows Defender",
     "Score": 60,
-    "Published": "2025-10-25T11:14:43.59"
+    "Published": "2025-10-26T19:36:27.62"
   },
   {
-    "id": "K.PSGallery.Smartagr",
-    "Owners": "1d70f",
-    "Description": "Smart Git Tag Management with Semantic Versioning Intelligence. Automatically creates and manages Git tags with sophisticated version progression logic, smart tag intelligence, and moving tag management.",
+    "id": "PSMouseJiggler",
+    "Owners": "PoShYoungTeam",
+    "Description": "A PowerShell module to simulate mouse movements and prevent system idle. Includes GUI interface, configurable movement patterns, and scheduled task support.",
     "Score": 55,
-    "Published": "2025-10-26T00:08:17.573"
+    "Published": "2025-10-26T19:45:50.43"
   },
   {
-    "id": "SystemAdmins.MsMfaToolbox",
-    "Owners": "SystemAdmins",
-    "Description": "Module for Microsoft MFA related tasks",
-    "Score": 55,
-    "Published": "2025-10-25T10:17:04.423"
+    "id": "BuildPhpExtension",
+    "Owners": "shivammathur",
+    "Description": "Build PHP Extension",
+    "Score": 40,
+    "Published": "2025-10-26T19:45:50.707"
   },
   {
-    "id": "ColorScripts-Enhanced",
-    "Owners": "Typpi",
-    "Description": "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.\r\n\r\nFeatures:\r\n• 245+ beautiful colorscripts - Extensive collection of ANSI art\r\n• Intelligent Caching - 6-19x performance improvement (5-20ms load times)\r\n• OS-Wide Cache - Consistent caching across all terminal sessions\r\n• Simple API - Easy-to-use cmdlets with tab completion\r\n• Configurable Defaults - Persist cache locations and startup behaviour\r\n• Auto-Update - Cache automatically invalidates when scripts change\r\n• Centralized Storage - Cache stored in AppData/ColorScripts-Enhanced/cache\r\n• Cross-platform - Works on Windows, Linux, and macOS\r\n• PowerShell 5.1+ and PowerShell Core 7+ compatible\r\n\r\nQuick Start: Show-ColorScript (or alias: scs)\r\nFull documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced",
-    "Score": 50,
-    "Published": "2025-10-25T05:37:44.523"
+    "id": "BuildPhp",
+    "Owners": "shivammathur",
+    "Description": "Build PHP",
+    "Score": 40,
+    "Published": "2025-10-26T19:45:43.343"
   },
   {
-    "id": "Eigenverft.Manifested.Drydock",
-    "Owners": "Eigenverft",
-    "Description": "PowerShell helper functions for the Eigenverft Manifested Drydock, optimized for lightning-fast iteration and reliable local + CI/CD workflows. Expect frequent releases—auto-versioning is built in. Tasks are parity-driven: the same commands run locally and in CI/CD, so local builds remain fully functional even if the pipeline is down.",
-    "Score": 50,
-    "Published": "2025-10-25T08:26:43.88"
+    "id": "Support.AksArc",
+    "Owners": "madhanrajm",
+    "Description": "Support Module for Aks Arc. This module provides support for known issues and remediation steps for Azure Kubernetes Service on Azure Arc.",
+    "Score": 40,
+    "Published": "2025-10-26T01:20:59.357"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2025-10-25T06:58:28.507"
+    "id": "qbo4.Infrastructure",
+    "Owners": "quandiscto,KevinFoley",
+    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
+    "Score": 40,
+    "Published": "2025-10-26T06:18:11.607"
   },
   {
-    "id": "apitools",
-    "Owners": "RuslanDubas",
-    "Description": "apitools is a comprehensive PowerShell toolkit for modern API development and database tooling.\r\n\r\nDesigned to be completely dependency-free (no dbatools or SimplySql required), apitools provides:\r\n- Native database connectivity using System.Data.SqlClient and System.Data.Odbc\r\n- Automatic PostgreSQL ODBC driver discovery\r\n- Sample database generation (Hospital schema) for SQL Server and PostgreSQL\r\n- Complete CRUD Web API scaffolding from existing databases\r\n- Entity Framework Core model and DbContext generation\r\n- Automatic ASP.NET Core controller generation with Swagger integration\r\n- Interactive mode with helpful connection string examples\r\n- ShouldProcess support with -DryRun capability for safe testing\r\n- Cross-platform support (Windows, Linux, macOS)\r\n\r\nBuilt in the spirit of dbatools, apitools gives you powerful API development capabilities with zero external PowerShell dependencies. Only requires .NET SDK and standard CLI tools (dotnet-ef, aspnet-codegenerator).\r\n\r\nPerfect for developers who want lightweight, transparent, and scriptable API development workflows!",
-    "Score": 45,
-    "Published": "2025-10-25T22:04:24.47"
+    "id": "OSD",
+    "Owners": "Segura",
+    "Description": "OSD PowerShell Module for Windows Deployment",
+    "Score": 40,
+    "Published": "2025-10-26T22:07:32.68"
   }
 ]
