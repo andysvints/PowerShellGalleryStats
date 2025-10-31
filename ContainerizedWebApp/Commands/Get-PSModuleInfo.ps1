@@ -96,7 +96,7 @@ function Get-PSModuleInfo
  <div class=`"card-name`">$($apiResponse[$i].id)</div>
  ")
   if($apiResponse[$i].Scoring.Details.SourceCode.ScriptSecurity -eq 0){
-     $null=$HTMLResults.AppendLine("<li title=`"Does not follow Security best practices`" class=`"fa fa-exclamation-triangle`" style=`"color: orange;`"></li>")
+     $null=$HTMLResults.AppendLine("<li title=`"Does not follow Security best practices`" class=`"fa fa-exclamation-triangle`" style=`"color: orange;`">&nbsp;Code Security</li>")
  }
  $null = $HTMLResults.AppendLine("<div class=`"card-title`">Author: $($Author)</div>
  <div class=`"card-name`">Score: $Score/100</div>
