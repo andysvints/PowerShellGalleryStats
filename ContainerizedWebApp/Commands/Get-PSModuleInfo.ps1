@@ -95,7 +95,7 @@ function Get-PSModuleInfo
  <div class=`"card-content`">
  <div class=`"card-name`">$($apiResponse[$i].id)</div>
  ")
-  if($apiResponse[$i].Scoring.Details.SourceCode.ScriptSecurity=0){
+  if($apiResponse[$i].Scoring.Details.SourceCode.ScriptSecurity -eq 0){
      $null=$HTMLResults.AppendLine("<li class=`"fa fa-exclamation-triangle`" style=`"color: orange;`"></li>")
  }
  $null = $HTMLResults.AppendLine("<div class=`"card-title`">Author: $($Author)</div>
