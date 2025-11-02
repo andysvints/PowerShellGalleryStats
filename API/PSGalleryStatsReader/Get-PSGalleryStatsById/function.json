@@ -20,7 +20,7 @@
     "direction": "in", 
     "databaseName": "psgallerystats", 
     "containerName": "psgallery", 
-    "sqlQuery": "SELECT c.id, c.IconUrl, c.Owners, c.Description, c.LicenseUrl, c.ProjectUrl, c.DownloadCount,c.Scoring, c.cp_TotalScore, c.cp_SourceCodeScore, c.cp_MetadataScore, c.Tags, c.Published, c.CompanyName, c.Version FROM c WHERE LOWER(c.id)=LOWER({module})", 
+    "sqlQuery": "SELECT c.id, c.IconUrl, c.Owners, c.Description, c.LicenseUrl, c.ProjectUrl, c.DownloadCount,c.Scoring, c.cp_TotalScore, c.cp_SourceCodeScore, c.cp_MetadataScore, c.Tags, c.Published, c.CompanyName, c.Version, c.GalleryDetailsUrl FROM c WHERE LOWER(c.id)=LOWER({module})", 
     "connection": "CosmosDB",
     "identity": "systemAssigned"
    }
