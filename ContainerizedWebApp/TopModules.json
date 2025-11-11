@@ -1,72 +1,72 @@
 [
   {
-    "id": "MvRAdaptiveCards",
-    "Owners": "Michael198422",
-    "Description": "This module provides functions for working with Adaptive Cards in PowerShell in a similar fashion as the popular module PSWriteHTML does for HTML generation. Please read the documentation on GitHub for more information. (https://github.com/Michael19842/PowerShell.MvRAdaptiveCards.Module)",
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2025-11-10T20:09:03.21"
+  },
+  {
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2025-11-10T20:43:36.647"
+  },
+  {
+    "id": "OCI.PSModules.Managedkafka",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Managedkafka Service",
     "Score": 80,
-    "Published": "2025-11-09T22:20:47.48"
+    "Published": "2025-11-10T20:20:05.15"
   },
   {
-    "id": "Dapper",
-    "Owners": "CedX",
-    "Description": "A high performance micro-ORM supporting MariaDB, PostgreSQL, SQL Server, SQLite and more.",
-    "Score": 70,
-    "Published": "2025-11-09T16:45:09.4"
+    "id": "OCI.PSModules.Apiplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:11:19.423"
   },
   {
-    "id": "GitRepoUpdater",
-    "Owners": "ExiledEye",
-    "Description": "A PowerShell module to easily pull updates from multiple Git repositories at once. Git must be installed and available in PATH.",
-    "Score": 65,
-    "Published": "2025-11-09T11:09:07.843"
+    "id": "OCI.PSModules.Dbmulticloud",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dbmulticloud Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:15:38.11"
   },
   {
-    "id": "EmojiTools",
-    "Owners": "JeremyBrown",
-    "Description": "EmojiTools provides powerful emoji search and management capabilities with local dataset caching, fuzzy search, and safe command dispatching.",
-    "Score": 50,
-    "Published": "2025-11-09T21:28:36.71"
+    "id": "OCI.PSModules.Apiaccesscontrol",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiaccesscontrol Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:11:06.537"
   },
   {
-    "id": "ColorScripts-Enhanced",
-    "Owners": "Typpi",
-    "Description": "🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience\r\n\r\n![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)\r\n\r\nA powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 498 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.\r\n\r\n⚡ PERFORMANCE BOOST\r\n• 6-19x faster performance with smart caching\r\n• 5-20ms average load time (cached)\r\n• OS-wide cache across all terminal sessions\r\n• Automatic cache invalidation on script updates\r\n\r\n✨ FEATURES\r\n• 498 beautiful colorscripts included\r\n• Professional-grade ANSI art collection\r\n• Cross-platform support (Windows, macOS, Linux)\r\n• PowerShell 5.1+ and PowerShell 7+ compatible\r\n• Tab completion and intelligent parameter handling\r\n• Centralized cache in AppData/ColorScripts-Enhanced\r\n• Configuration persistence for user preferences\r\n• Rich metadata and script discovery\r\n\r\n🚀 QUICK START\r\nDisplay random art: Show-ColorScript (or use alias: scs)\r\nList available scripts: Get-ColorScriptList\r\nPre-build cache: New-ColorScriptCache\r\n\r\n📖 DOCUMENTATION\r\nFull guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced\r\nIssues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues\r\n\r\nCOMMANDS INCLUDED\r\n• Show-ColorScript - Display colorscripts with caching\r\n• Get-ColorScriptList - Browse available scripts\r\n• New-ColorScriptCache - Pre-generate cache for speed\r\n• Clear-ColorScriptCache - Manage cache storage\r\n• Add-ColorScriptProfile - Integrate into PowerShell profile\r\n• Get-ColorScriptConfiguration - View settings\r\n• Set-ColorScriptConfiguration - Persist preferences\r\n• Export-ColorScriptMetadata - Export script metadata\r\n• New-ColorScript - Create new colorscripts\r\n\r\nPERFECT FOR\r\n✓ Making your terminal visually stunning\r\n✓ Terminal startup customization\r\n✓ System administration dashboards\r\n✓ Development environments\r\n✓ DevOps automation\r\n✓ Learning ANSI art and terminal graphics",
-    "Score": 50,
-    "Published": "2025-11-09T16:34:58.64"
+    "id": "OCI.PSModules.Distributeddatabase",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Distributeddatabase Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:16:20.22"
   },
   {
-    "id": "EasyPIM",
-    "Owners": "LoicMichel",
-    "Description": "Manage PIM Azure Resource, PIM Entra role and PIM for Group settings and assignments with simplicity in mind",
-    "Score": 50,
-    "Published": "2025-11-09T16:04:01.467"
+    "id": "OCI.PSModules.Lustrefilestorage",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Lustrefilestorage Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:20:00.14"
   },
   {
-    "id": "PSWEE",
-    "Owners": "Sharlihe",
-    "Description": "PowerShell WinRM Exmulated Explorer Module",
-    "Score": 40,
-    "Published": "2025-11-09T16:29:19.607"
+    "id": "OCI.PSModules.Dblm",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dblm Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:15:22.103"
   },
   {
-    "id": "DevDirManager",
-    "Owners": "AndiBellstedt",
-    "Description": "A PowerShell module the easily manage local development folder with various git repositories across multiple computers.",
-    "Score": 40,
-    "Published": "2025-11-09T19:46:22.283"
-  },
-  {
-    "id": "PSBITE",
-    "Owners": "Sharlihe",
-    "Description": "Powershell Buffer Insert Text Editor",
-    "Score": 40,
-    "Published": "2025-11-09T20:08:19.453"
-  },
-  {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2025-11-09T06:17:57.32"
+    "id": "OCI.PSModules.Generativeaiagentruntime",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Generativeaiagentruntime Service",
+    "Score": 80,
+    "Published": "2025-11-10T20:17:38.477"
   }
 ]
