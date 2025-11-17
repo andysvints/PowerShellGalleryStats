@@ -1,76 +1,72 @@
 [
   {
-    "id": "Celerium",
-    "Owners": "Celerium",
-    "Description": "Celerium PowerShell - A collection of modules, functions, scripts, and more to help automate, audit, and manage your IT environment.",
-    "Score": 80,
-    "Published": "2025-11-15T17:38:01.057"
-  },
-  {
-    "id": "Diagrammer.Microsoft.AD",
-    "Owners": "jcolonfzenpr",
-    "Description": "A PowerShell module to generate an as built report on the configuration of Microsoft AD.",
-    "Score": 80,
-    "Published": "2025-11-15T01:42:41.257"
-  },
-  {
-    "id": "Diagrammer.Core",
-    "Owners": "jcolonfzenpr",
-    "Description": "A PowerShell module which provides the core framework for generating Diagrams for many common datacentre systems.",
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "A completion manager for a better and simpler experience in PowerShell.\r\n It provides a better completion menu to enhance the command line experience.\r\n For more information, please visit the project or website:\r\n  - Website: https://pscompletions.abgox.com\r\n  - Github:  https://github.com/abgox/PSCompletions\r\n  - Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 65,
-    "Published": "2025-11-15T01:39:49.09"
-  },
-  {
-    "id": "Get-UEFICertificate",
-    "Owners": "richardhicks",
-    "Description": [
-      []
-    ],
-    "Score": 60,
-    "Published": "2025-11-15T21:42:44.04"
-  },
-  {
-    "id": "AsBuiltReport.Microsoft.AD",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module to generate an as built report on the configuration of Microsoft AD.",
-    "Score": 60,
-    "Published": "2025-11-15T01:49:37.707"
+    "Published": "2025-11-16T13:50:45.807"
   },
   {
     "id": "ALZ",
-    "Owners": "oZakari,jaredfholgate,matt-ffffff,jtracey93,ganepomu",
-    "Description": "Azure Landing Zones Powershell Module",
+    "Owners": "jtracey93,ganepomu,oZakari,jaredfholgate,matt-ffffff",
+    "Description": "Azure Landing Zones Powershell Module\r\n\r\nThis module provides cmdlets to help deploy and manage Azure Landing Zones (ALZ) in your Azure environment.\r\n\r\nIncluded Cmdlets:\r\n- Test-AcceleratorRequirement: Tests if the current environment meets the requirements for deploying ALZ.\r\n- Deploy-Accelerator: Deploys the Azure Landing Zone accelerator to your Azure subscription.\r\n- Grant-SubscriptionCreatorRole: Grants the Subscription Creator role to a specified user or service principal.\r\n- Remove-PlatformLandingZone: Removes the deployed Azure Landing Zone from your Azure subscription",
+    "Score": 65,
+    "Published": "2025-11-16T13:27:00.457"
+  },
+  {
+    "id": "realax-powershell-v7",
+    "Owners": "amellenthin",
+    "Description": "realax Powershell Administration",
     "Score": 60,
-    "Published": "2025-11-15T17:55:56.387"
+    "Published": "2025-11-16T12:17:26.283"
   },
   {
-    "id": "Get-IntuneAssignments",
-    "Owners": "amirjs",
-    "Description": [
-      []
-    ],
+    "id": "realax-powershell",
+    "Owners": "amellenthin",
+    "Description": "realax Powershell Administration",
+    "Score": 60,
+    "Published": "2025-11-16T14:07:06.02"
+  },
+  {
+    "id": "TreeView",
+    "Owners": "AlpacaZhang",
+    "Description": "A Tree View command with icons and colors",
     "Score": 55,
-    "Published": "2025-11-15T11:34:05.787"
+    "Published": "2025-11-16T16:39:04.623"
   },
   {
-    "id": "Uninstall-Graph",
-    "Owners": "merill",
-    "Description": "Completely uninstalls and removes all Microsoft Graph PowerShell modules from the system. Microsoft Graph comes with a large number of modules and the installed versions and dependencies can sometimes cause issues when trying to update or reinstall them. This module ensures that all Microsoft Graph modules are thoroughly removed from your system, and restore your PowerShell environment to a clean state.",
-    "Score": 50,
-    "Published": "2025-11-15T22:07:06.463"
+    "id": "K.PSGallery.Smartagr",
+    "Owners": "1d70f",
+    "Description": "Smart Git Tag Management with Semantic Versioning Intelligence. Automatically creates and manages Git tags with sophisticated version progression logic, smart tag intelligence, and moving tag management.",
+    "Score": 55,
+    "Published": "2025-11-16T22:56:07.077"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2025-11-15T21:09:25.56"
+    "id": "EntraExporter",
+    "Owners": "merill,MicrosoftAzureActiveDirectoryTeam",
+    "Description": "This module exports an Entra tenant's identity related configuration settings and objects and writes them to json files.",
+    "Score": 55,
+    "Published": "2025-11-16T04:37:05.863"
   },
   {
-    "id": "EasyPIM",
-    "Owners": "LoicMichel",
-    "Description": "EasyPIM simplifies Microsoft PIM management by abstracting complex Graph and ARM APIs into intuitive PowerShell cmdlets. Overcome portal limitations with bulk operations, export/import policies across tenants, manage Azure RBAC and Entra roles using friendly role names instead of GUIDs, track changes with interactive HTML reports, and automate what the portal cannot. One unified module for Azure Resources, Entra Roles, and PIM Groups—built for ease and automation at scale.",
+    "id": "PSProfileWatcher",
+    "Owners": "griff.systems",
+    "Description": "A simple script module for checking if there were changes to your Powershell profile between sessions.",
     "Score": 50,
-    "Published": "2025-11-15T12:32:47.643"
+    "Published": "2025-11-16T06:29:38.587"
+  },
+  {
+    "id": "CIS-M365-Benchmark",
+    "Owners": "Mohammedsiddiqui",
+    "Description": "Comprehensive PowerShell script that audits Microsoft 365 environments against all 130 CIS Microsoft 365 Foundations Benchmark v5.0.0 controls. Features 68% automated compliance checks with HTML and CSV reporting. Covers M365 Admin Center, Defender, Purview, Intune, Entra ID, Exchange, SharePoint, Teams, and Power BI security controls.",
+    "Score": 50,
+    "Published": "2025-11-17T00:17:58.86"
+  },
+  {
+    "id": "DHCPClient-PS",
+    "Owners": "mkht",
+    "Description": "PowerShell DHCP Client module",
+    "Score": 50,
+    "Published": "2025-11-16T14:31:02.007"
   }
 ]
