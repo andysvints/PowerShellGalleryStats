@@ -1,74 +1,67 @@
 [
   {
-    "id": "ThirdPartyLibraries",
-    "Owners": "MaxIeremenko",
-    "Description": [
-      []
-    ],
-    "Score": 75,
-    "Published": "2025-11-22T16:08:44"
-  },
-  {
-    "id": "PSImmich",
-    "Owners": "hannespalmquist",
-    "Description": "Powershell wrapper for the Immich API",
-    "Score": 75,
-    "Published": "2025-11-22T22:46:51.103"
-  },
-  {
     "id": "PSCompletions",
     "Owners": "abgox",
-    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\n It provides a better completion menu to enhance the command line experience.\r\n  - Website: https://pscompletions.abgox.com\r\n  - Github:  https://github.com/abgox/PSCompletions\r\n  - Gitee:   https://gitee.com/abgox/PSCompletions",
+    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\n It provides a more powerful completion menu to enhance the command line experience.\r\n  - Website: https://pscompletions.abgox.com\r\n  - Github:  https://github.com/abgox/PSCompletions\r\n  - Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 65,
-    "Published": "2025-11-22T08:02:15.67"
+    "Published": "2025-11-23T15:36:04.713"
   },
   {
     "id": "EasyGUI",
     "Owners": "SecretProgrammer",
-    "Description": "EasyGUI is a lightweight PowerShell module for quickly creating graphical user interfaces (GUIs). It provides simple, easy-to-use functions for creating windows, buttons, input boxes, dropdowns, radio buttons, tabs, and more, without requiring deep knowledge of WPF or WinForms. Designed for simplicity and rapid development, EasyGUI lets PowerShell users build GUIs efficiently for scripts, tools, or utilities.",
+    "Description": "EasyGUI is a lightweight PowerShell module for quickly creating graphical user interfaces (GUIs). It provides simple, easy-to-use functions for creating windows, buttons, input boxes, dropdowns, radio buttons, tabs, and more. Designed for simplicity and rapid development, EasyGUI lets PowerShell users build GUIs efficiently for scripts, tools, or utilities.",
+    "Score": 50,
+    "Published": "2025-11-23T08:10:40.057"
+  },
+  {
+    "id": "DatabricksDsc",
+    "Owners": "GijsReijn",
+    "Description": "This module contains class-based DSC resources for Databricks",
+    "Score": 50,
+    "Published": "2025-11-23T05:37:12.73"
+  },
+  {
+    "id": "CleanupMonster",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "This module provides an easy way to cleanup Active Directory from dead/old objects based on various criteria. It can also disable, move or delete objects. It can utilize Azure AD, Intune and Jamf to get additional information about objects before deleting them.",
     "Score": 45,
-    "Published": "2025-11-22T17:17:43.373"
+    "Published": "2025-11-23T16:50:06.037"
   },
   {
-    "id": "POSH-ADO-NugetArtefact",
-    "Owners": "MS-LUF",
-    "Description": "a few cmdlets to manage your ADO Artifact Nuget Packages and feed from PowerShell",
-    "Score": 45,
-    "Published": "2025-11-22T14:23:13.86"
-  },
-  {
-    "id": "SqlServer-Version-Management",
-    "Owners": "devizer",
-    "Description": "SQL Server Setup and Version Management Guide: https://devizer.github.io/SqlServer-Version-Management\r\n\r\nIt installs Developer, Express, or LocalDB editions.\r\nThe intended use of this project is for Continuous Integration (CI) scenarios, where:\r\n     1) SQL Server or LocalDB needs to be installed without user interaction.\r\n     2) SQL Server or LocalDB installation doesn't need to persist across multiple CI runs.\r\n\r\nBy default it installs SQL Engine and full text search, adds built-in Administrators to SQL Server Administrators, and turns on TCP/IP and Named Pipe protocols. Default sa password is 'Meaga$tr0ng'.",
-    "Score": 45,
-    "Published": "2025-11-22T03:56:24.687"
-  },
-  {
-    "id": "BuildPhpExtension",
-    "Owners": "shivammathur",
-    "Description": "Build PHP Extension",
+    "id": "CommandWatch",
+    "Owners": "r0tifer",
+    "Description": "A watch-like command runner for PowerShell.",
     "Score": 40,
-    "Published": "2025-11-22T23:58:43.52"
+    "Published": "2025-11-23T17:03:08.64"
   },
   {
-    "id": "BuildPhp",
-    "Owners": "shivammathur",
-    "Description": "Build PHP",
+    "id": "PSSharedGoods",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Module covering functions that are shared within multiple projects",
     "Score": 40,
-    "Published": "2025-11-22T23:58:35.393"
-  },
-  {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2025-11-22T06:44:37.9"
+    "Published": "2025-11-23T13:01:26.383"
   },
   {
     "id": "OSD",
     "Owners": "Segura",
     "Description": "OSD PowerShell Module for Windows Deployment",
     "Score": 40,
-    "Published": "2025-11-22T22:07:08.05"
+    "Published": "2025-11-23T22:07:56.387"
+  },
+  {
+    "id": "PsAstViewer",
+    "Owners": "Krinopotam",
+    "Description": "A graphical viewer and explorer for PowerShell Abstract Syntax Trees (AST)",
+    "Score": 25,
+    "Published": "2025-11-23T09:13:49.05"
+  },
+  {
+    "id": "Office365IPAddress",
+    "Owners": "timmcmic",
+    "Description": [
+      []
+    ],
+    "Score": 20,
+    "Published": "2025-11-23T22:36:53.53"
   }
 ]
