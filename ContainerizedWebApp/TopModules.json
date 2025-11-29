@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSPreworkout",
-    "Owners": "SamErde",
-    "Description": "A special mix of tools to help jump start your PowerShell session!",
-    "Score": 80,
-    "Published": "2025-11-27T13:19:17.067"
-  },
-  {
-    "id": "MASES.JNetPS",
+    "id": "MASES.KNetPS",
     "Owners": "MASESGroupPSTeam",
-    "Description": "JNet (.NET suite for Java™/JVM™) PowerShell (aka JNetPS) is a PowerShell Module to use JVM and PowerShell side-by-side. With JNetPS it is possible to:\r\n- create and use JVM objects from PowerShell: initialize JVM object (Java, Scala, Kotlin, ...), execute mehods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/JNet for further information.",
-    "Score": 80,
-    "Published": "2025-11-27T14:54:40.287"
-  },
-  {
-    "id": "VcRedist",
-    "Owners": "aaronparker",
-    "Description": "A module for lifecycle management of the Microsoft Visual C++ Redistributables. VcRedist downloads, installs and uninstalls the supported (and unsupported) Redistributables. Use for local install, gold image creation and update, or importing as applications into the Microsoft Deployment Toolkit, Microsoft Configuration Manager or Microsoft Intune. Supports passive and silent installs, and uninstalls of the Visual C++ Redistributables.",
-    "Score": 75,
-    "Published": "2025-11-27T05:59:43.39"
-  },
-  {
-    "id": "GoogleFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
-    "Score": 75,
-    "Published": "2025-11-27T09:13:53.38"
-  },
-  {
-    "id": "RelaxedIT.EnergySaver",
-    "Owners": "josy1024",
-    "Description": "relaxed IT EnergySaver",
-    "Score": 70,
-    "Published": "2025-11-27T15:33:59.617"
-  },
-  {
-    "id": "dbatools",
-    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
-    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
-    "Score": 70,
-    "Published": "2025-11-27T12:25:47.33"
+    "Description": "KNet PowerShell command line interface is a PowerShell Module to use Apache Kafka and PowerShell side-by-side. With KNet PowerShell it is possible to:\r\n- execute all tools of Apache Kafka within a PowerShell shell: Administration tools, Console Consumer, Console Producer, manage Apache Kafka Streams, activate Apache Kafka Connect, server side (start KRaft), etc\r\n- create consumers and producers objects to interact with an Apache Kafka cluster\r\n- send data to and receive data from an Apache Kafka cluster\r\n- create a Kafka Admin Client object to manage an Apache Kafka cluster\r\n\r\nMore information within the project hosted on GitHub. Further information at https://github.com/masesgroup/KNet.",
+    "Score": 85,
+    "Published": "2025-11-28T23:43:23.523"
   },
   {
     "id": "Rnwood.Dataverse.Data.PowerShell",
     "Owners": "rnwood",
     "Description": "Dataverse data manipulation cmdlets",
     "Score": 60,
-    "Published": "2025-11-27T15:32:11.44"
+    "Published": "2025-11-28T20:09:17.963"
   },
   {
-    "id": "XDRInternals",
-    "Owners": "FBader",
-    "Description": "XDRInternals",
-    "Score": 55,
-    "Published": "2025-11-27T21:18:54.387"
+    "id": "compass",
+    "Owners": "adil-adysh",
+    "Description": "A PowerShell utility that surfaces recently modified files with date, size, and extension filters plus readable output.",
+    "Score": 45,
+    "Published": "2025-11-28T19:58:48.08"
   },
   {
-    "id": "DatabricksDsc",
-    "Owners": "GijsReijn",
-    "Description": "This module contains class-based DSC resources for Databricks and Unity Catalog with a focus on Azure.",
-    "Score": 55,
-    "Published": "2025-11-27T04:45:30.14"
+    "id": "SysMan.WebApi",
+    "Owners": "eKlientRobert,martennarbe",
+    "Description": "The official eKlient Powershell module to simplify integration with SysMan",
+    "Score": 45,
+    "Published": "2025-11-28T16:00:27.333"
   },
   {
-    "id": "PIMActivation",
-    "Owners": "SebastianMarkdanner",
-    "Description": "PowerShell module for managing Microsoft Entra ID Privileged Identity Management (PIM) role activations through a modern GUI interface. Supports authentication context, bulk operations, and policy compliance. Developed with AI assistance. Requires PowerShell 7+.",
-    "Score": 55,
-    "Published": "2025-11-27T21:15:47.227"
+    "id": "Invoke-AzHealthCheck",
+    "Owners": "jpsantoscosta",
+    "Description": "This script generates a Azure Health Check HTML report for governance, compute, storage, network and Key Vault.",
+    "Score": 40,
+    "Published": "2025-11-28T21:35:03.177"
+  },
+  {
+    "id": "qbo4.Infrastructure",
+    "Owners": "quandiscto,KevinFoley",
+    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
+    "Score": 40,
+    "Published": "2025-11-28T06:23:34.043"
+  },
+  {
+    "id": "OSD",
+    "Owners": "Segura",
+    "Description": "OSD PowerShell Module for Windows Deployment",
+    "Score": 40,
+    "Published": "2025-11-28T22:08:18.563"
+  },
+  {
+    "id": "MCSAssessment",
+    "Owners": "merola",
+    "Description": "MCS Assessment module for evaluating and analyzing Mission Critical Services for Azure Workloads.",
+    "Score": 35,
+    "Published": "2025-11-28T14:03:28.637"
+  },
+  {
+    "id": "Nexthink-Citrix-Connector",
+    "Owners": "smusy-nexthink,sbarraud,marianafarinha,FelipeT,jfiuza,bkuntze-nexthink",
+    "Description": "Nexthink Citrix Connector Module for PowerShell",
+    "Score": 35,
+    "Published": "2025-11-28T10:18:01.71"
+  },
+  {
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 30,
+    "Published": "2025-11-28T04:25:36.923"
   }
 ]
