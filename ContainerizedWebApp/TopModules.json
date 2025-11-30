@@ -1,72 +1,72 @@
 [
   {
-    "id": "MASES.KNetPS",
+    "id": "MASES.NavenPS",
     "Owners": "MASESGroupPSTeam",
-    "Description": "KNet PowerShell command line interface is a PowerShell Module to use Apache Kafka and PowerShell side-by-side. With KNet PowerShell it is possible to:\r\n- execute all tools of Apache Kafka within a PowerShell shell: Administration tools, Console Consumer, Console Producer, manage Apache Kafka Streams, activate Apache Kafka Connect, server side (start KRaft), etc\r\n- create consumers and producers objects to interact with an Apache Kafka cluster\r\n- send data to and receive data from an Apache Kafka cluster\r\n- create a Kafka Admin Client object to manage an Apache Kafka cluster\r\n\r\nMore information within the project hosted on GitHub. Further information at https://github.com/masesgroup/KNet.",
-    "Score": 85,
-    "Published": "2025-11-28T23:43:23.523"
+    "Description": "Naven (.NET suite for Apache Maven™) PowerShell (aka NavenPS) is a PowerShell Module to use Apache Maven™ and PowerShell side-by-side. With NavenPS it is possible to:\r\n- create and use Apache Maven™ objects from PowerShell: initialize Apache Maven™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/Naven for further information.",
+    "Score": 80,
+    "Published": "2025-11-29T08:26:55.07"
   },
   {
-    "id": "Rnwood.Dataverse.Data.PowerShell",
-    "Owners": "rnwood",
-    "Description": "Dataverse data manipulation cmdlets",
+    "id": "MASES.PLCOnNetPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "PLCOnNet (.NET suite for PLC4X™) PowerShell (aka PLCOnNetPS) is a PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to:\r\n- create and use PLC4X™ objects from PowerShell: initialize PLC4X™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/PLCOnNet for further information.",
+    "Score": 80,
+    "Published": "2025-11-29T07:59:17.463"
+  },
+  {
+    "id": "MASES.NetPDFPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "NetPDF (.NET suite for PDFBox™) PowerShell (aka NetPDFPS) is a PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to:\r\n- create and use PDFBox™ objects from PowerShell: initialize PDFBox™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/NetPDF for further information.",
+    "Score": 80,
+    "Published": "2025-11-29T08:10:45.493"
+  },
+  {
+    "id": "dbatools",
+    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
+    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+    "Score": 70,
+    "Published": "2025-11-29T17:41:26.98"
+  },
+  {
+    "id": "PSTcpIp",
+    "Owners": "anthonyg-1",
+    "Description": "Provides cmdlets to perform various TCPIP and TLS/SSL related tasks.",
     "Score": 60,
-    "Published": "2025-11-28T20:09:17.963"
+    "Published": "2025-11-29T20:54:18.27"
   },
   {
-    "id": "compass",
-    "Owners": "adil-adysh",
-    "Description": "A PowerShell utility that surfaces recently modified files with date, size, and extension filters plus readable output.",
-    "Score": 45,
-    "Published": "2025-11-28T19:58:48.08"
+    "id": "RandomString",
+    "Owners": "deathbyharakira",
+    "Description": "Generates random strings with customizable character sets and lengths.",
+    "Score": 50,
+    "Published": "2025-11-29T21:14:37.007"
   },
   {
-    "id": "SysMan.WebApi",
-    "Owners": "eKlientRobert,martennarbe",
-    "Description": "The official eKlient Powershell module to simplify integration with SysMan",
+    "id": "Trilium",
+    "Owners": "ptmorris",
+    "Description": "Powershell wrapper for the Trilium Notes API",
+    "Score": 50,
+    "Published": "2025-11-29T20:35:53.343"
+  },
+  {
+    "id": "Ndimensions.Automation.NafSetup",
+    "Owners": "lukash2",
+    "Description": "N-DIMENSIONS Automation Framework Setup. `n- Prepare machine for downloading git repositories. Installs git related client software `n- Downloads the NAF repositories",
+    "Score": 50,
+    "Published": "2025-11-29T17:45:10.637"
+  },
+  {
+    "id": "dbatools.library",
+    "Owners": "chrissylemaire",
+    "Description": "The library that powers dbatools, the community module for SQL Server Pros",
     "Score": 45,
-    "Published": "2025-11-28T16:00:27.333"
+    "Published": "2025-11-29T17:20:32.95"
   },
   {
     "id": "Invoke-AzHealthCheck",
     "Owners": "jpsantoscosta",
     "Description": "This script generates a Azure Health Check HTML report for governance, compute, storage, network and Key Vault.",
     "Score": 40,
-    "Published": "2025-11-28T21:35:03.177"
-  },
-  {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2025-11-28T06:23:34.043"
-  },
-  {
-    "id": "OSD",
-    "Owners": "Segura",
-    "Description": "OSD PowerShell Module for Windows Deployment",
-    "Score": 40,
-    "Published": "2025-11-28T22:08:18.563"
-  },
-  {
-    "id": "MCSAssessment",
-    "Owners": "merola",
-    "Description": "MCS Assessment module for evaluating and analyzing Mission Critical Services for Azure Workloads.",
-    "Score": 35,
-    "Published": "2025-11-28T14:03:28.637"
-  },
-  {
-    "id": "Nexthink-Citrix-Connector",
-    "Owners": "smusy-nexthink,sbarraud,marianafarinha,FelipeT,jfiuza,bkuntze-nexthink",
-    "Description": "Nexthink Citrix Connector Module for PowerShell",
-    "Score": 35,
-    "Published": "2025-11-28T10:18:01.71"
-  },
-  {
-    "id": "IntuneHydrationKit",
-    "Owners": "jorgeasaurus",
-    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
-    "Score": 30,
-    "Published": "2025-11-28T04:25:36.923"
+    "Published": "2025-11-29T11:02:02.4"
   }
 ]
