@@ -1,51 +1,72 @@
 [
   {
+    "id": "Akismet",
+    "Owners": "CedX",
+    "Description": "Prevent comment spam using the Akismet service.",
+    "Score": 70,
+    "Published": "2025-12-07T18:13:36.797"
+  },
+  {
+    "id": "FreeMobile",
+    "Owners": "CedX",
+    "Description": "Send SMS messages to your Free Mobile device.",
+    "Score": 70,
+    "Published": "2025-12-07T17:37:50.413"
+  },
+  {
+    "id": "Shuffle",
+    "Owners": "Start-Automating",
+    "Description": "Simple Shuffling with PowerShell",
+    "Score": 60,
+    "Published": "2025-12-07T03:33:39.503"
+  },
+  {
     "id": "PSNtfy",
     "Owners": "hudsonm62",
     "Description": "PowerShell module to assist with building and sending notifications to Ntfy instances.",
-    "Score": 70,
-    "Published": "2025-12-06T07:15:25.24"
+    "Score": 50,
+    "Published": "2025-12-07T03:06:43.9"
   },
   {
-    "id": "Maester",
-    "Owners": "FBader,merill,Thomas.Naunheim",
-    "Description": "Maester is an automation framework to assess and monitor your Microsoft 365 security configuration.",
-    "Score": 55,
-    "Published": "2025-12-06T13:25:17.43"
+    "id": "EasyGUI",
+    "Owners": "SecretProgrammer",
+    "Description": "EasyGUI is a lightweight PowerShell module for quickly creating graphical user interfaces (GUIs). It provides simple, easy-to-use functions for creating windows, buttons, input boxes, dropdowns, radio buttons, tabs, and more. Designed for simplicity and rapid development, EasyGUI lets PowerShell users build GUIs efficiently for scripts, tools, or utilities.",
+    "Score": 50,
+    "Published": "2025-12-07T14:17:03.653"
+  },
+  {
+    "id": "ColorScripts-Enhanced",
+    "Owners": "Typpi",
+    "Description": "🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience\r\n\r\n![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)\r\n\r\nA powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 3156 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.\r\n\r\n⚡ PERFORMANCE BOOST\r\n• 6-19x faster performance with smart caching\r\n• 5-20ms average load time (cached)\r\n• OS-wide cache across all terminal sessions\r\n• Automatic cache invalidation on script updates\r\n\r\n✨ FEATURES\r\n• 3156 beautiful colorscripts included\r\n• Professional-grade ANSI art collection\r\n• Cross-platform support (Windows, macOS, Linux)\r\n• PowerShell 5.1+ and PowerShell 7+ compatible\r\n• Tab completion and intelligent parameter handling\r\n• Centralized cache in AppData/ColorScripts-Enhanced\r\n• Configuration persistence for user preferences\r\n• Rich metadata and script discovery\r\n\r\n🚀 QUICK START\r\nDisplay random art: Show-ColorScript (or use alias: scs)\r\nList available scripts: Get-ColorScriptList\r\nPre-build cache: New-ColorScriptCache\r\n\r\n📖 DOCUMENTATION\r\nFull guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced\r\nIssues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues\r\n\r\nCOMMANDS INCLUDED\r\n• Show-ColorScript - Display colorscripts with caching\r\n• Get-ColorScriptList - Browse available scripts\r\n• New-ColorScriptCache - Pre-generate cache for speed\r\n• Clear-ColorScriptCache - Manage cache storage\r\n• Add-ColorScriptProfile - Integrate into PowerShell profile\r\n• Get-ColorScriptConfiguration - View settings\r\n• Set-ColorScriptConfiguration - Persist preferences\r\n• Export-ColorScriptMetadata - Export script metadata\r\n• New-ColorScript - Create new colorscripts\r\n\r\nPERFECT FOR\r\n✓ Making your terminal visually stunning\r\n✓ Terminal startup customization\r\n✓ System administration dashboards\r\n✓ Development environments\r\n✓ DevOps automation\r\n✓ Learning ANSI art and terminal graphics",
+    "Score": 50,
+    "Published": "2025-12-08T00:07:24.3"
+  },
+  {
+    "id": "aitools",
+    "Owners": "chrissylemaire",
+    "Description": "PowerShell wrapper for AI coding assistants. Batch process files using Claude Code, Aider, Gemini CLI, GitHub Copilot CLI, and Codex CLI with unified commands and pipeline support.",
+    "Score": 50,
+    "Published": "2025-12-07T18:54:00.947"
   },
   {
     "id": "K.PSGallery.Smartagr",
     "Owners": "1d70f",
     "Description": "Smart Git Tag Management with Semantic Versioning Intelligence. Automatically creates and manages Git tags with sophisticated version progression logic, smart tag intelligence, and moving tag management.",
     "Score": 45,
-    "Published": "2025-12-06T23:54:13.923"
+    "Published": "2025-12-07T12:12:51.953"
   },
   {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2025-12-06T06:35:28.883"
+    "id": "SqlServer-Version-Management",
+    "Owners": "devizer",
+    "Description": "SQL Server Setup and Version Management Guide: https://devizer.github.io/SqlServer-Version-Management\r\n\r\nIt installs Developer, Express, or LocalDB editions.\r\nThe intended use of this project is for Continuous Integration (CI) scenarios, where:\r\n     1) SQL Server or LocalDB needs to be installed without user interaction.\r\n     2) SQL Server or LocalDB installation doesn't need to persist across multiple CI runs.\r\n\r\nBy default it installs SQL Engine and full text search, adds built-in Administrators to SQL Server Administrators, and turns on TCP/IP and Named Pipe protocols. Default sa password is 'Meaga$tr0ng'.",
+    "Score": 45,
+    "Published": "2025-12-07T17:29:08.507"
   },
   {
-    "id": "OSD",
-    "Owners": "Segura",
-    "Description": "OSD PowerShell Module for Windows Deployment",
-    "Score": 40,
-    "Published": "2025-12-06T22:07:11.97"
-  },
-  {
-    "id": "PSOpenAI",
-    "Owners": "mkht",
-    "Description": "PowerShell module for OpenAI API",
-    "Score": 30,
-    "Published": "2025-12-06T15:18:58.96"
-  },
-  {
-    "id": "Bricklead.BCDev.Tools",
-    "Owners": "Yves.DESRUMAUX",
-    "Description": "PowerShell module, which makes it easier to work Around AL developments.",
-    "Score": 25,
-    "Published": "2025-12-06T08:53:06.783"
+    "id": "Dotenvrc",
+    "Owners": "karino2",
+    "Description": "Execute approved .psenvrc file and store diff, then unload when go out of that directory. Similar to direnv with powershell instead of bash. PS-Dotenv fork to use .psenvrc",
+    "Score": 35,
+    "Published": "2025-12-07T12:03:27.123"
   }
 ]
