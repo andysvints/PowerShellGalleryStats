@@ -19,7 +19,8 @@ function Get-PSModuleInfo
                    ValueFromPipeline=$true)]
         [ValidateNotNullOrEmpty()]
         [Alias("Module","Name")] 
-        $Query
+        $Query,
+        [switch]$ById=$false
     )
     Begin
     {
@@ -33,7 +34,11 @@ function Get-PSModuleInfo
             $KeyVaultName="PSGalleryStats-KV"
             $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
             ###########################################
-            $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystats?subscription-key=$apiKey&module=$query"
+            if($ById){
+                $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystatsbyid?subscription-key=$apiKey&module=$query"
+            }else{
+                $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystats?subscription-key=$apiKey&module=$query"
+            }
             $apiResponse = Invoke-RestMethod -Uri $apiUrl
 
             $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html") -Raw
@@ -88,8 +93,12 @@ function Get-PSModuleInfo
  </div>
  <div class=`"card-right`">
  <div class=`"card-content`">
- <div class=`"card-name`">$($apiResponse[$i].id)</div>       
- <div class=`"card-title`">Author: $($Author)</div>
+ <div class=`"card-name`">$($apiResponse[$i].id)</div>
+ ")
+  if($apiResponse[$i].Scoring.Details.SourceCode.ScriptSecurity -eq 0){
+     $null=$HTMLResults.AppendLine("<li title=`"Does not follow Security best practices`" class=`"fa fa-exclamation-triangle`" style=`"color: orange;`">&nbsp;Code Security</li>")
+ }
+ $null = $HTMLResults.AppendLine("<div class=`"card-title`">Author: $($Author)</div>
  <div class=`"card-name`">Score: $Score/100</div>
  <div class=`"card-title`">$($Description)</div>
  <ul class=`"card-skills`">         

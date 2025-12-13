@@ -51,7 +51,7 @@ function Get-PSTopModule
                 $HTMLTable.AppendLine("<tr>")
                 $Author=if($TopModules[$i].Owners -like "*,*"){$TopModules[$i].Owners.split(',')[0]}else{$TopModules[$i].Owners}
                 $HTMLTable.AppendLine("
-                <td title=`"$($TopModules[$i].id)`"><b><a href='/search?query=$($TopModules[$i].id)' target='_blank'>$($TopModules[$i].id)</a></b></td>
+                <td title=`"$($TopModules[$i].id)`"><b><a href='/searchbyid?query=$($TopModules[$i].id)' target='_blank'>$($TopModules[$i].id)</a></b></td>
                     <td title=`"Author:`">$Author</td>
                     <td title=`"Score:`">$($TopModules[$i].Score)</td>")
                 $HTMLTable.AppendLine("</tr>")

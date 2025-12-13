@@ -1,7 +1,7 @@
 using namespace System.Net
 
 # Input bindings are passed in via param block.
-param($Request,$PSDocument, $TriggerMetadata)
+param($Request, $PSDocument, $TriggerMetadata)
 
 # Write to the Azure Functions log stream.
 Write-Host "PowerShell HTTP trigger function processed a request."
@@ -21,6 +21,7 @@ if (-not $module) {
 }
 Write-Host "sqlQuery param: $module"
 $body=$($PSDocument | ConvertTo-Json -Depth 10)
+Write-Host "$($PSDocument.id)"
 # Associate values to output bindings by calling 'Push-OutputBinding'.
 Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
     StatusCode = [HttpStatusCode]::OK

@@ -89,11 +89,6 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         if ($request.Url.LocalPath -eq '/search' -and $request.HttpMethod -eq 'GET') {
             $query = $request.QueryString['query']-replace '[^a-zA-Z0-9.-]', ''
 
-            #Get-PSModuleInfo -Query $query
-            #$searchResultsPath = Join-Path -Path "$PSScriptRoot\Web" -ChildPath "search.html"
-            #$outputBuffer=[System.IO.File]::ReadAllBytes($searchResultsPath)
-            #$response.OutputStream.Write($outputBuffer, 0, $outputBuffer.Length)
-            #$response.StatusCode = 200
             $html  = Get-PSModuleInfo -Query $query
             $bytes = [Text.Encoding]::UTF8.GetBytes($html)
             $response.StatusCode = 200
@@ -103,6 +98,20 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $response.Close()
             return
         }
+
+        if ($request.Url.LocalPath -eq '/searchbyid' -and $request.HttpMethod -eq 'GET') {
+            $query = $request.QueryString['query']-replace '[^a-zA-Z0-9.-]', ''
+
+            $html  = Get-PSModuleInfo -Query $query -ById
+            $bytes = [Text.Encoding]::UTF8.GetBytes($html)
+            $response.StatusCode = 200
+            $response.ContentType = 'text/html; charset=utf-8'
+            $response.ContentLength64 = $bytes.Length
+            $response.OutputStream.Write($bytes, 0, $bytes.Length)
+            $response.Close()
+            return
+        }
+
 
         # Handle static file serving
         $localPath = $request.Url.LocalPath.TrimStart('/')
