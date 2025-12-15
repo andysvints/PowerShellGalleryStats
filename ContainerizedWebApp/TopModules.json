@@ -1,74 +1,72 @@
 [
   {
-    "id": "ConvertFrom-JsonAsHashtable",
-    "Owners": "abgox",
-    "Description": [
-      []
-    ],
-    "Score": 75,
-    "Published": "2025-12-13T14:53:30.777"
+    "id": "DevDirManager",
+    "Owners": "AndiBellstedt",
+    "Description": "A PowerShell module the easily manage local development folder with various git repositories across multiple computers.",
+    "Score": 80,
+    "Published": "2025-12-14T16:18:50.157"
   },
   {
-    "id": "GoodEnoughRules",
-    "Owners": "HeyItsGilbert",
-    "Description": "A set of PSScriptAnalyzer rules that help make it Good Enough!",
+    "id": "PackageUpdateInfo",
+    "Owners": "AndiBellstedt",
+    "Description": "Module to version check all installed modules. Helps to stay up-to-date with further developing on modules in the community",
     "Score": 75,
-    "Published": "2025-12-14T00:07:22.24"
+    "Published": "2025-12-14T15:45:13.507"
   },
   {
     "id": "Sql",
     "Owners": "CedX",
     "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
     "Score": 70,
-    "Published": "2025-12-13T23:04:28.827"
+    "Published": "2025-12-14T18:10:13.31"
   },
   {
-    "id": "SearchScript",
-    "Owners": "Start-Automating",
-    "Description": "Search PowerShell Scripts",
-    "Score": 65,
-    "Published": "2025-12-13T01:47:43.34"
+    "id": "ImpliedReflection",
+    "Owners": "SeeminglyScience",
+    "Description": "Explore private properties and methods as if they were public.",
+    "Score": 70,
+    "Published": "2025-12-14T21:51:40.6"
   },
   {
     "id": "Rnwood.Dataverse.Data.PowerShell",
     "Owners": "rnwood",
     "Description": "Dataverse data manipulation cmdlets",
     "Score": 60,
-    "Published": "2025-12-13T15:17:25.24"
+    "Published": "2025-12-14T10:07:58.717"
   },
   {
-    "id": "SqlServer-Version-Management",
-    "Owners": "devizer",
-    "Description": "SQL Server Setup and Version Management Guide: https://devizer.github.io/SqlServer-Version-Management\r\n\r\nIt installs Developer, Express, or LocalDB editions.\r\nThe intended use of this project is for Continuous Integration (CI) scenarios, where:\r\n     1) SQL Server or LocalDB needs to be installed without user interaction.\r\n     2) SQL Server or LocalDB installation doesn't need to persist across multiple CI runs.\r\n\r\nBy default it installs SQL Engine and full text search, adds built-in Administrators to SQL Server Administrators, and turns on TCP/IP and Named Pipe protocols. Default sa password is 'Meaga$tr0ng'.",
+    "id": "EasyGUI",
+    "Owners": "SecretProgrammer",
+    "Description": "EasyGUI is a lightweight PowerShell module for quickly creating graphical user interfaces (GUIs). It provides simple, easy-to-use functions for creating windows, buttons, input boxes, dropdowns, radio buttons, tabs, and more. Designed for simplicity and rapid development, EasyGUI lets PowerShell users build GUIs efficiently for scripts, tools, or utilities.",
+    "Score": 50,
+    "Published": "2025-12-14T17:06:21.293"
+  },
+  {
+    "id": "PowerNetbox",
+    "Owners": "ctrl-alt-automate",
+    "Description": "PowerNetbox - The comprehensive PowerShell module for Netbox REST API with 100% coverage. Fork of NetboxPS (Ben Claussen) with full Netbox 4.x compatibility. 488+ functions for DCIM, IPAM, Virtualization, Circuits, Tenancy, VPN, Wireless, Extras, Core, Users. Cross-platform (Windows, Linux, macOS).",
     "Score": 45,
-    "Published": "2025-12-13T23:22:44.873"
+    "Published": "2025-12-14T09:56:52.907"
   },
   {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2025-12-13T06:25:50.487"
+    "id": "PsPatchMyPC",
+    "Owners": "thomastysong",
+    "Description": "Enterprise application patching module integrating winget with PatchMyPC-style orchestration and Nudge-inspired progressive enforcement. Supports deferrals, notifications, dual logging, and orchestrator-agnostic deployment.",
+    "Score": 45,
+    "Published": "2025-12-14T14:16:14.79"
   },
   {
-    "id": "OSD",
-    "Owners": "Segura",
-    "Description": "OSD PowerShell Module for Windows Deployment",
-    "Score": 40,
-    "Published": "2025-12-13T22:07:47.3"
+    "id": "DriverManagement",
+    "Owners": "thomastysong",
+    "Description": "Enterprise driver and Windows update management for Dell, Lenovo, and Intel endpoints. Supports individual driver updates, full pack reinstalls, Windows cumulative updates, update blocking/approval workflows, driver rollback, and offline catalog support.",
+    "Score": 45,
+    "Published": "2025-12-14T18:43:46.27"
   },
   {
-    "id": "GitlabCli",
-    "Owners": "chris-peterson",
-    "Description": "Interact with GitLab via PowerShell",
-    "Score": 40,
-    "Published": "2025-12-14T00:26:54.19"
-  },
-  {
-    "id": "PowerShellRun",
-    "Owners": "mdgrs-mei",
-    "Description": "Terminal Based Launcher and Fuzzy Finder for PowerShell",
-    "Score": 35,
-    "Published": "2025-12-13T13:30:36.123"
+    "id": "Microsoft.PowerPlatform.EnterprisePolicies",
+    "Owners": "Crmsdk",
+    "Description": "Microsoft PowerPlatform Enterprise policies module",
+    "Score": 45,
+    "Published": "2025-12-14T20:07:45.247"
   }
 ]
