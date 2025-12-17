@@ -6,4 +6,5 @@
      'Az.Accounts' = '3.*'
      'Az.KeyVault' = '6.*'
      'Az.Websites' = '3.*'
+     'AzTable' = '2.*'
 }
