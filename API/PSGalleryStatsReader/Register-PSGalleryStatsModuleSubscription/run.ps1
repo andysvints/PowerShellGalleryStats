@@ -21,8 +21,8 @@ if ([string]::IsNullOrWhiteSpace($emailRaw) -or [string]::IsNullOrWhiteSpace($mo
         $body = @{ ok = $false; error = "Body must include non-empty 'email' and 'moduleId'." }
     }
 
-$email = $emailRaw.Trim().ToLowerInvariant()
-$moduleId = $moduleRaw.Trim().ToLowerInvariant()
+$email = $emailRaw.Trim().ToLower()
+$moduleId = $moduleRaw.Trim().ToLower()
 
 if ($email -notmatch '^[^@\s]+@[^@\s]+\.[^@\s]+$') {
     $statusCode = [HttpStatusCode]::BadRequest
