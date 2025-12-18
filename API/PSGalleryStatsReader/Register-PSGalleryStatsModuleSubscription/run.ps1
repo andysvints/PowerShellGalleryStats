@@ -12,7 +12,7 @@ $body = @{
         $statusCode = [HttpStatusCode]::BadRequest
         $body = @{ ok = $false; error = "Missing request body. Expected JSON: { email, moduleId }." }
     }
-$payload = $Request.Body | ConvertFrom-Json
+$payload = $Request.Body 
 $emailRaw  = $payload.email
 $moduleRaw = $payload.moduleId
 
