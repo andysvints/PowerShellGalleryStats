@@ -12,7 +12,30 @@ $body = @{
         $statusCode = [HttpStatusCode]::BadRequest
         $body = @{ ok = $false; error = "Missing request body. Expected JSON: { email, moduleId }." }
     }
+$payload = $Request.Body | ConvertFrom-Json
+$emailRaw  = [string]$payload.email
+$moduleRaw = [string]$payload.moduleId
 
+if ([string]::IsNullOrWhiteSpace($emailRaw) -or [string]::IsNullOrWhiteSpace($moduleRaw)) {
+        $statusCode = [HttpStatusCode]::BadRequest
+        $body = @{ ok = $false; error = "Body must include non-empty 'email' and 'moduleId'." }
+    }
+
+$email = $emailRaw.Trim().ToLowerInvariant()
+$moduleId = $moduleRaw.Trim().ToLowerInvariant()
+
+if ($email -notmatch '^[^@\s]+@[^@\s]+\.[^@\s]+$') {
+    $statusCode = [HttpStatusCode]::BadRequest
+    $body = @{ ok = $false; error = "Invalid email format." }
+}
+
+$body = @{
+    ok        = $true
+    action    = if ($existing) { "updated" } else { "created" }
+    email     = $email
+    moduleId  = $moduleId
+    timestamp = $now
+}
 # Associate values to output bindings by calling 'Push-OutputBinding'.
 Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
     StatusCode = $statusCode
