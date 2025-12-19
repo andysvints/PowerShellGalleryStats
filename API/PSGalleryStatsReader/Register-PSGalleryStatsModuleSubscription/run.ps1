@@ -34,8 +34,6 @@ $rowKey = New-Guid
 $partitionKey = $email
 $now=get-date -Format o
 $entity = @{
-    PartitionKey   = $partitionKey
-    RowKey         = $rowKey
     Email          = $email
     ModuleId       = $moduleId
     CreatedAt      = $now
@@ -43,8 +41,11 @@ $entity = @{
     UnsubscribedAt = $null
     Source         = "module-page"
 }
-Upsert-AzTableRow -Table $($env:SUBSCRIPTIONS_TABLE_NAME) -Entity $entity -ErrorAction Stop 
-
+Add-AzTableRow `
+    -table $($env:SUBSCRIPTIONS_TABLE_NAME) `
+    -partitionKey $partitionKey `
+    -rowKey $rowKey -property $entity
+    
 $body = @{
     ok        = $true
     action    = "created"
