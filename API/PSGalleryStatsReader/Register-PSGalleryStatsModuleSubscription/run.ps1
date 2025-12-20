@@ -39,7 +39,7 @@ $entity = @{
     ModuleId       = $moduleId
     CreatedAt      = $now
     Unsubscribed   = $false
-    UnsubscribedAt = $null
+    UnsubscribedAt = $false
     Source         = "module-page"
 }
 Add-AzTableRow `
