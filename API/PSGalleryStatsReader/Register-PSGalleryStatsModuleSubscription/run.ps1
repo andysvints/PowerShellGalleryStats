@@ -29,7 +29,8 @@ if ($email -notmatch '^[^@\s]+@[^@\s]+\.[^@\s]+$') {
     $body = @{ ok = $false; error = "Invalid email format." }
 }
 Import-Module AzTable -ErrorAction Stop
-$storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
+$AzureContext = (Connect-AzAccount -Identity).context
+$storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $AzureContext
 $rowKey = New-Guid
 $partitionKey = $email
 $now=get-date -Format o
@@ -44,10 +45,10 @@ $entity = @{
 Add-AzTableRow `
     -table $storageTable.CloudTable `
     -partitionKey $partitionKey `
-    -rowKey $rowKey -property $entity
+    -rowKey $rowKey -property $entity -ErrorVariable e
     
 $body = @{
-    ok        = $true
+    ok        = $e ? $false : $true
     action    = "created"
     email     = $email
     moduleId  = $moduleId
