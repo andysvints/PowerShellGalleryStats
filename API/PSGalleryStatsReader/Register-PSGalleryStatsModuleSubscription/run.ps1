@@ -29,8 +29,8 @@ if ($email -notmatch '^[^@\s]+@[^@\s]+\.[^@\s]+$') {
     $body = @{ ok = $false; error = "Invalid email format." }
 }
 Import-Module AzTable -ErrorAction Stop
-$AzureContext = (Connect-AzAccount -Identity).context
-$storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $AzureContext
+$ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOUNT -UseConnectedAccount -Endpoint "core.windows.net"
+$storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
 $rowKey = New-Guid
 $partitionKey = $email
 $now=get-date -Format o
