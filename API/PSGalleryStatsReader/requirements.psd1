@@ -8,5 +8,4 @@
      'Az.Websites' = '3.*'
      'AzTable' = '2.*'
      'Az.Storage' = '9.*'
-     'Az.Resources' = '9.*'
 }
