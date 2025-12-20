@@ -34,18 +34,17 @@ $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Conte
 $rowKey = New-Guid
 $partitionKey = $email
 $now=get-date -Format o
-$entity = @{
-    Email          = $email
-    ModuleId       = $moduleId
-    CreatedAt      = $now
-    Unsubscribed   = $false
-    UnsubscribedAt = $false
-    Source         = "module-page"
-}
-Add-AzTableRow `
-    -table $storageTable.CloudTable `
-    -partitionKey $partitionKey `
-    -rowKey $rowKey -property $entity -ErrorVariable e
+$entity = [Azure.Data.Tables.TableEntity]::new($partitionKey, $rowKey)
+$entity["Email"]        = $email
+$entity["ModuleId"]     = $moduleId
+$entity["CreatedAt"]    = $now
+$entity["UpdatedAt"]    = $now
+$entity["Unsubscribed"] = $false
+$entity["Source"]       = "module-page"
+
+$updateMode = [Azure.Data.Tables.TableUpdateMode]::Merge
+$ct = [System.Threading.CancellationToken]::None
+$storageTable.TableClient.UpsertEntity($entity, $updateMode, $ct)
     
 $body = @{
     ok        = $e ? $false : $true
