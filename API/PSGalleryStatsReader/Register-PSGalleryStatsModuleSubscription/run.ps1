@@ -49,7 +49,7 @@ Add-AzTableRow `
     
 $body = @{
     ok        = $e ? $false : $true
-    action    = "created"
+    action    = $e ? "failed" : "created"
     email     = $email
     moduleId  = $moduleId
     timestamp = $now
