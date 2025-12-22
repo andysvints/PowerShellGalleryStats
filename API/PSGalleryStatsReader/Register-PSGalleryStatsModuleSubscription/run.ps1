@@ -31,8 +31,8 @@ if ($email -notmatch '^[^@\s]+@[^@\s]+\.[^@\s]+$') {
 Import-Module AzTable -ErrorAction Stop
 $ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOUNT -UseConnectedAccount -Endpoint "core.windows.net"
 $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
-$rowKey = New-Guid
-$partitionKey = $email
+$rowKey = $moduleid+","+$email
+$partitionKey = $moduleid
 $now=get-date -Format o
 $entity = [Azure.Data.Tables.TableEntity]::new($partitionKey, $rowKey)
 $entity["Email"]        = [string]$email
