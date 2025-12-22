@@ -1,72 +1,72 @@
 [
   {
-    "id": "Microsoft.Graph.DeviceManagement.Functions",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
+    "id": "PSPhlebotomist",
+    "Owners": "RosettaStoned",
+    "Description": "A tool no one asked for, nor wanted: Injecting a DLL/arbitrary code into a target process via PowerShell!",
     "Score": 80,
-    "Published": "2025-12-20T17:29:20.163"
+    "Published": "2025-12-21T17:43:59.567"
   },
   {
-    "id": "Microsoft.Graph.Beta.DeviceManagement.Functions",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 80,
-    "Published": "2025-12-20T17:29:19.11"
+    "id": "FastPing",
+    "Owners": "austoonz",
+    "Description": "A PowerShell Module for faster pings.",
+    "Score": 75,
+    "Published": "2025-12-21T21:18:49.24"
   },
   {
-    "id": "Microsoft.Graph.Authentication",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Authentication Module.",
+    "id": "dbatools",
+    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
+    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
     "Score": 70,
-    "Published": "2025-12-20T17:28:46.883"
-  },
-  {
-    "id": "Lcov",
-    "Owners": "CedX",
-    "Description": "Parse and format to LCOV your code coverage reports.",
-    "Score": 65,
-    "Published": "2025-12-20T12:17:25.9"
-  },
-  {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "Enables PowerShell console to function as an MCP server for Claude Desktop.",
-    "Score": 65,
-    "Published": "2025-12-20T05:57:45.697"
+    "Published": "2025-12-21T23:55:23.277"
   },
   {
     "id": "PSCompletions",
     "Owners": "abgox",
     "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\n It provides an enhanced scrollable completion menu with sorting and filtering.\r\n  - Website: https://pscompletions.abgox.com\r\n  - Github:  https://github.com/abgox/PSCompletions\r\n  - Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 65,
-    "Published": "2025-12-20T01:21:09.04"
+    "Published": "2025-12-21T02:00:37.827"
   },
   {
-    "id": "Microsoft.Graph.DirectoryObjects",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
+    "id": "Azure.DevOps.PSModule",
+    "Owners": "MSc356Admin",
+    "Description": "A PowerShell module that wraps the Azure DevOps REST API into clean, task-oriented cmdlets. It simplifies automation and scripting across your DevOps workflows, making it easier to manage pipelines, repositories, builds, releases, and work items directly from PowerShell.",
     "Score": 60,
-    "Published": "2025-12-20T17:29:39.033"
+    "Published": "2025-12-21T11:51:42.7"
   },
   {
-    "id": "Microsoft.Graph.Devices.ServiceAnnouncement",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
+    "id": "powerCat",
+    "Owners": "TheOnliestMattastic",
+    "Description": "PowerCat is a single-shot concatenator that bundles markdown and code files into one text file. Outputs to stdout (Unix cat-style) or file. Supports recursion, Markdown fencing, custom extensions, sorting, minification, and token estimation for AI context planning.",
     "Score": 60,
-    "Published": "2025-12-20T17:29:36.87"
+    "Published": "2025-12-21T09:35:21.047"
   },
   {
-    "id": "Microsoft.Graph.Devices.CorporateManagement",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
+    "id": "Rnwood.Dataverse.Data.PowerShell",
+    "Owners": "rnwood",
+    "Description": "Dataverse data manipulation cmdlets",
     "Score": 60,
-    "Published": "2025-12-20T17:29:32.463"
+    "Published": "2025-12-21T10:05:15.99"
   },
   {
-    "id": "Microsoft.Graph.Devices.CloudPrint",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 60,
-    "Published": "2025-12-20T17:29:27.003"
+    "id": "EasyPIM.Orchestrator",
+    "Owners": "LoicMichel",
+    "Description": "PIM-as-Code orchestration for EasyPIM. Deploy role policies and assignments from JSON configuration files with WhatIf validation, delta mode for incremental changes, and drift detection. Automate PIM governance across Azure Resources, Entra Roles, and PIM Groups with reusable templates, CI/CD integration, and comprehensive audit trails. Turn configuration files into enforceable PIM state.",
+    "Score": 50,
+    "Published": "2025-12-21T20:50:33.567"
+  },
+  {
+    "id": "WindowsUpdateTools",
+    "Owners": "AlexAppleton",
+    "Description": "Comprehensive PowerShell module for diagnosing, analyzing, and remediating Windows Update issues in enterprise environments. Includes SetupDiag integration, automated remediation, and detailed health reporting.",
+    "Score": 45,
+    "Published": "2025-12-21T02:50:10.607"
+  },
+  {
+    "id": "SqlServer-Version-Management",
+    "Owners": "devizer",
+    "Description": "SQL Server Setup and Version Management Guide: https://devizer.github.io/SqlServer-Version-Management\r\n\r\nIt installs Developer, Express, or LocalDB editions.\r\nThe intended use of this project is for Continuous Integration (CI) scenarios, where:\r\n     1) SQL Server or LocalDB needs to be installed without user interaction.\r\n     2) SQL Server or LocalDB installation doesn't need to persist across multiple CI runs.\r\n\r\nBy default it installs SQL Engine and full text search, adds built-in Administrators to SQL Server Administrators, and turns on TCP/IP and Named Pipe protocols. Default sa password is 'Meaga$tr0ng'.",
+    "Score": 45,
+    "Published": "2025-12-21T03:24:31.273"
   }
 ]
