@@ -1,13 +1,13 @@
 # Input bindings are passed in via param block.
 param($Timer)
 
-# Get the current universal time in the default string format
-$currentUTCtime = (Get-Date).ToUniversalTime()
-
-# The 'IsPastDue' porperty is 'true' when the current function invocation is later than scheduled.
-if ($Timer.IsPastDue) {
-    Write-Host "PowerShell timer is running late!"
+Import-Module -Name Az.Communication
+$message = @{
+    ContentSubject = "Test Email"
+    RecipientTo = @($env:emailRecipientTo)  
+    SenderAddress = 'donotreply@stats.psfundamentals.com'   
+    ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
+    ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
 }
 
-# Write an information log with the current time.
-Write-Host "PowerShell timer trigger function ran! TIME: $currentUTCtime"
+Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint>)
