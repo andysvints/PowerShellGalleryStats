@@ -10,4 +10,4 @@ $message = @{
     ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
 }
 
-Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint>)
+Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint)
