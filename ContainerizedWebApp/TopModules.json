@@ -1,58 +1,72 @@
 [
   {
-    "id": "Azure.DevOps.PSModule",
-    "Owners": "MSc356Admin",
-    "Description": "A PowerShell module that wraps the Azure DevOps REST API into clean, task-oriented cmdlets. It simplifies automation and scripting across your DevOps workflows, making it easier to manage pipelines, repositories, builds, releases, and work items directly from PowerShell.",
-    "Score": 60,
-    "Published": "2025-12-24T18:00:50.993"
+    "id": "PowerShell.MCP",
+    "Owners": "ytsuda",
+    "Description": "Enables AI assistants (such as Claude Desktop) to execute PowerShell commands and CLI tools within a persistent PowerShell console. Supports Windows, Linux, and macOS.",
+    "Score": 70,
+    "Published": "2025-12-25T03:09:37.847"
   },
   {
-    "id": "Rnwood.Dataverse.Data.PowerShell",
-    "Owners": "rnwood",
-    "Description": "Dataverse data manipulation cmdlets",
-    "Score": 60,
-    "Published": "2025-12-24T17:59:48.373"
+    "id": "dbatools",
+    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
+    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+    "Score": 70,
+    "Published": "2025-12-25T22:46:46.423"
   },
   {
-    "id": "MarkX",
-    "Owners": "Start-Automating",
-    "Description": "MarkX - Markdown, XML, and PowerShell",
+    "id": "NativeCommandCompleter.psm",
+    "Owners": "teramako",
+    "Description": "Native Command Completer",
     "Score": 50,
-    "Published": "2025-12-24T20:46:28.723"
+    "Published": "2025-12-25T13:50:15.827"
   },
   {
     "id": "IntuneToFleetMDM",
     "Owners": "thomastysong",
     "Description": "Migrate Windows devices from Intune MDM to Fleet Windows MDM using supported Windows MDM registration APIs, with strong verification and event/file logging.",
     "Score": 50,
-    "Published": "2025-12-24T22:16:05.56"
+    "Published": "2025-12-25T13:15:22.343"
+  },
+  {
+    "id": "PsModuleManagement",
+    "Owners": "Morten_Knudsen",
+    "Description": "Powershell Module Management with install, repair, uninstall, test connectivity, monitoring, clean-up\r\n    Features: \r\n        Version management of Azure, Microsoft.Graph, ExchangeOnlineManagement and more PS modules \r\n        Installing latest version of modules, if not found \r\n        Automatic repair of PS module, if connectivity fails \r\n        Automatic update to latest version of module from PSGallery \r\n        Testing connectivity and doing rollback if it fails \r\n        Send status emails of PS module management progress (success and/or issues) \r\n        Automatic clean-up old versions",
+    "Score": 50,
+    "Published": "2025-12-25T12:13:43.11"
   },
   {
     "id": "WindmillClient",
     "Owners": "rubenfiszel",
     "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2025-12-24T21:05:42.93"
+    "Published": "2025-12-25T16:47:36.097"
   },
   {
-    "id": "PsPatchMyPC",
+    "id": "GitlabCli",
+    "Owners": "chris-peterson",
+    "Description": "Interact with GitLab via PowerShell",
+    "Score": 50,
+    "Published": "2025-12-25T21:46:41.483"
+  },
+  {
+    "id": "DriverManagement",
     "Owners": "thomastysong",
-    "Description": "Enterprise application patching module integrating winget with PatchMyPC-style orchestration and Nudge-inspired progressive enforcement. Supports deferrals, notifications, dual logging, and orchestrator-agnostic deployment.",
+    "Description": "Enterprise driver and Windows update management for Dell, Lenovo, and Intel endpoints. Supports individual driver updates, full pack reinstalls, Windows cumulative updates, update blocking/approval workflows, driver rollback, and offline catalog support.",
     "Score": 45,
-    "Published": "2025-12-24T22:31:52.523"
+    "Published": "2025-12-25T14:01:24.78"
   },
   {
-    "id": "PaperinikDB",
-    "Owners": "OpusTecnica",
-    "Description": "PaperinikDB is a PowerShell module that provides seamless integration with DuckDB.",
-    "Score": 35,
-    "Published": "2025-12-24T22:05:25.823"
+    "id": "PowerShellAstSearch",
+    "Owners": "DougFinke",
+    "Description": "Search PowerShell files fast for function definitions, params, variables, using AST.",
+    "Score": 45,
+    "Published": "2025-12-25T01:02:38.88"
   },
   {
-    "id": "Stepper",
-    "Owners": "jakehildreth",
-    "Description": "A PowerShell module for creating resumable, step-by-step automation scripts with automatic state persistence and cross-platform support.",
-    "Score": 30,
-    "Published": "2025-12-24T14:32:40.673"
+    "id": "dbatools.library",
+    "Owners": "chrissylemaire",
+    "Description": "The library that powers dbatools, the community module for SQL Server Pros",
+    "Score": 45,
+    "Published": "2025-12-25T20:12:46.487"
   }
 ]
