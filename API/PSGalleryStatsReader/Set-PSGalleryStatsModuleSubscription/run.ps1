@@ -21,7 +21,7 @@ $ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOU
 $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
 $rowKey = $moduleid+","+$email
 $partitionKey = $moduleid
-
+$now=get-date -Format o
 $client = $storageTable.TableClient
 $entity = $client.GetEntity($partitionKey, $rowKey, $null, [System.Threading.CancellationToken]::None)
 $entity.Value["Unsubscribed"] = [bool]$true
