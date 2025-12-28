@@ -16,23 +16,34 @@ $payload = $Request.Body
 $emailRaw  = $payload.email
 $moduleRaw = $payload.moduleid
 
+if ([string]::IsNullOrWhiteSpace($emailRaw) -or [string]::IsNullOrWhiteSpace($moduleRaw)) {
+        $statusCode = [HttpStatusCode]::BadRequest
+        $body = @{ ok = $false; error = "Body must include non-empty 'email' and 'moduleid'." }
+    }
+
+$email = $emailRaw.Trim().ToLower()
+$moduleId = $moduleRaw.Trim().ToLower()
+
+if ($email -notmatch '^[^@\s]+@[^@\s]+\.[^@\s]+$') {
+    $statusCode = [HttpStatusCode]::BadRequest
+    $body = @{ ok = $false; error = "Invalid email format." }
+}
+
 Import-Module AzTable -ErrorAction Stop
 $ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOUNT -UseConnectedAccount -Endpoint "core.windows.net"
 $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
 $rowKey = $moduleid+","+$email
 $partitionKey = $moduleid
 $now=get-date -Format o
-$client = $storageTable.TableClient
-$entity = $client.GetEntity($partitionKey, $rowKey)
+
+$entity = $storageTable.TableClient.GetEntity($partitionKey, $rowKey)
 $entity.Value["Unsubscribed"] = [bool]$true
 $entity.Value["UpdatedAt"]    = [string]$now
 $entity.Value["UnsubscribedAt"] = [string]$now
 
-$client.UpsertEntity(
-            $entity.Value,
-            [TableUpdateMode]::Merge,
-            [System.Threading.CancellationToken]::None
-        )
+$updateMode = [Azure.Data.Tables.TableUpdateMode]::Merge
+$ct = [System.Threading.CancellationToken]::None
+$storageTable.TableClient.UpsertEntity($entity, $updateMode, $ct)
 
 $body = @{
     ok      = $true
