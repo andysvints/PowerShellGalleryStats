@@ -41,7 +41,7 @@ $entity.Value["UpdatedAt"]    = [string]$now
 $entity.Value["UnsubscribedAt"] = [string]$now
 
 $updateMode = [Azure.Data.Tables.TableUpdateMode]::Merge
-$storageTable.TableClient.UpsertEntity($entity, $updateMode, $ct)
+$storageTable.TableClient.UpsertEntity[Azure.Data.Tables.TableEntity]($entity,$entity.Value.ETag, $updateMode, $ct)
 
 $body = @{
     ok      = $true
