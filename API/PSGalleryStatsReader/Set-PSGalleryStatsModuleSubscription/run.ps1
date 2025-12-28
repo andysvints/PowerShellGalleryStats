@@ -3,21 +3,45 @@ using namespace System.Net
 # Input bindings are passed in via param block.
 param($Request, $TriggerMetadata)
 
-# Write to the Azure Functions log stream.
-Write-Host "PowerShell HTTP trigger function processed a request."
-
-# Interact with query parameters or the body of the request.
-$name = $Request.Query.Name
-if (-not $name) {
-    $name = $Request.Body.Name
+$statusCode = [HttpStatusCode]::OK
+$body = @{
+    ok = $true
 }
 
-$body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
+ if ([string]::IsNullOrWhiteSpace($Request.Body)) {
+        $statusCode = [HttpStatusCode]::BadRequest
+        $body = @{ ok = $false; error = "Missing request body. Expected JSON: { email, moduleId }." }
+    }
+$payload = $Request.Body 
+$emailRaw  = $payload.email
+$moduleRaw = $payload.moduleid
 
-if ($name) {
-    $body = "Hello, $name. This HTTP triggered function executed successfully."
+Import-Module AzTable -ErrorAction Stop
+$ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOUNT -UseConnectedAccount -Endpoint "core.windows.net"
+$storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
+$rowKey = $moduleid+","+$email
+$partitionKey = $moduleid
+
+$client = $storageTable.TableClient
+$entity = $client.GetEntity($partitionKey, $rowKey, $null, [System.Threading.CancellationToken]::None)
+$entity.Value["Unsubscribed"] = [bool]$true
+$entity.Value["UpdatedAt"]    = [string]$now
+$entity.Value["UnsubscribedAt"] = [string]$now
+
+$client.UpsertEntity(
+            $entity.Value,
+            [TableUpdateMode]::Merge,
+            [System.Threading.CancellationToken]::None
+        )
+
+$body = @{
+    ok      = $true
+    status  = "unsubscribed"
+    email   = $email
+    moduleId = $moduleId
+    timestamp = $now
 }
-
+        
 # Associate values to output bindings by calling 'Push-OutputBinding'.
 Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
     StatusCode = [HttpStatusCode]::OK
