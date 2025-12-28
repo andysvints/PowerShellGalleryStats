@@ -35,14 +35,13 @@ $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Conte
 $rowKey = $moduleid+","+$email
 $partitionKey = $moduleid
 $now=get-date -Format o
-
-$entity = $storageTable.TableClient.GetEntity($partitionKey, $rowKey)
+$ct = [System.Threading.CancellationToken]::None
+$entity = $storageTable.TableClient.GetEntity($partitionKey, $rowKey, $null, $ct)
 $entity.Value["Unsubscribed"] = [bool]$true
 $entity.Value["UpdatedAt"]    = [string]$now
 $entity.Value["UnsubscribedAt"] = [string]$now
 
 $updateMode = [Azure.Data.Tables.TableUpdateMode]::Merge
-$ct = [System.Threading.CancellationToken]::None
 $storageTable.TableClient.UpsertEntity($entity, $updateMode, $ct)
 
 $body = @{
