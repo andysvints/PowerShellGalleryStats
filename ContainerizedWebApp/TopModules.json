@@ -1,74 +1,74 @@
 [
   {
-    "id": "DevDirManager",
-    "Owners": "AndiBellstedt",
-    "Description": "A PowerShell module the easily manage local development folder with various git repositories across multiple computers.",
-    "Score": 80,
-    "Published": "2025-12-27T14:21:33.513"
+    "id": "DscResource.Base",
+    "Owners": "dsccommunity",
+    "Description": "This module contains common classes that can be used for class-based DSC resources development.",
+    "Score": 75,
+    "Published": "2025-12-28T20:57:03.057"
   },
   {
     "id": "dbatools",
     "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
     "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
     "Score": 70,
-    "Published": "2025-12-27T09:01:47.12"
+    "Published": "2025-12-28T10:24:56.963"
   },
   {
-    "id": "PlexAutomationToolkit",
-    "Owners": "trent.blackburn",
-    "Description": "A PowerShell module for managing Plex servers",
-    "Score": 65,
-    "Published": "2025-12-27T23:25:12.233"
-  },
-  {
-    "id": "FileInspectorX",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "FileInspectorX is PowerShell module that allows you to query files and folders for information. It supports multiple types of file queries and can be used to query local file systems, network shares.",
-    "Score": 60,
-    "Published": "2025-12-27T16:03:19.703"
-  },
-  {
-    "id": "Install-NdesServer",
-    "Owners": "richardhicks",
+    "id": "New-TextareaUrl",
+    "Owners": "blindpete",
     "Description": [
       []
     ],
     "Score": 60,
-    "Published": "2025-12-27T19:13:38.933"
+    "Published": "2025-12-28T17:43:53.9"
   },
   {
-    "id": "PsModuleManagement",
-    "Owners": "Morten_Knudsen",
-    "Description": "Powershell Module Management with install, repair, uninstall, test connectivity, monitoring, clean-up\r\n    Features: \r\n        Version management of Azure, Microsoft.Graph, ExchangeOnlineManagement and more PS modules \r\n        Installing latest version of modules, if not found \r\n        Automatic repair of PS module, if connectivity fails \r\n        Automatic update to latest version of module from PSGallery \r\n        Testing connectivity and doing rollback if it fails \r\n        Send status emails of PS module management progress (success and/or issues) \r\n        Automatic clean-up old versions",
+    "id": "SrrDBAutomationToolkit",
+    "Owners": "trent.blackburn",
+    "Description": "A PowerShell module for interacting with srrdb.com scene release database",
+    "Score": 60,
+    "Published": "2025-12-28T07:14:17.023"
+  },
+  {
+    "id": "WinGetLookup",
+    "Owners": "Ringo",
+    "Description": "A PowerShell module to query the WinGet (Windows Package Manager) repository for package availability. Uses the winget.run API to check if applications exist in the WinGet repository without requiring WinGet to be installed locally.",
+    "Score": 60,
+    "Published": "2025-12-28T23:32:01.407"
+  },
+  {
+    "id": "Rnwood.Dataverse.Data.PowerShell",
+    "Owners": "rnwood",
+    "Description": "Dataverse data manipulation cmdlets",
+    "Score": 60,
+    "Published": "2025-12-28T10:21:36.353"
+  },
+  {
+    "id": "SlnLauncher",
+    "Owners": "pasta0126",
+    "Description": "Open the first (or selected) Visual Studio solution (.sln) found under the current directory.",
+    "Score": 55,
+    "Published": "2025-12-28T15:14:39.19"
+  },
+  {
+    "id": "PSRedditTUI",
+    "Owners": "jorgeasaurus",
+    "Description": "A PowerShell module for browsing Reddit in a Terminal UI using ConsoleGui tools. Features include subreddit browsing, favorites management, and JSON API integration.",
     "Score": 50,
-    "Published": "2025-12-27T10:02:59.83"
+    "Published": "2025-12-28T22:13:33.05"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
+    "id": "WinPath-Clean",
+    "Owners": "imigueldiaz",
+    "Description": "A PowerShell 7 TUI tool to analyze, clean, and optimize your Windows PATH environment variable. Detects duplicates, obsolete paths, and bypasses the 2047 character GUI limit.",
     "Score": 50,
-    "Published": "2025-12-27T15:41:55.34"
+    "Published": "2025-12-28T08:41:21.5"
   },
   {
-    "id": "GitlabCli",
-    "Owners": "chris-peterson",
-    "Description": "Interact with GitLab via PowerShell",
+    "id": "EasyPIM.Orchestrator",
+    "Owners": "LoicMichel",
+    "Description": "PIM-as-Code orchestration for EasyPIM. Deploy role policies and assignments from JSON configuration files with WhatIf validation, delta mode for incremental changes, and drift detection. Automate PIM governance across Azure Resources, Entra Roles, and PIM Groups with reusable templates, CI/CD integration, and comprehensive audit trails. Turn configuration files into enforceable PIM state.",
     "Score": 50,
-    "Published": "2025-12-27T23:13:23.977"
-  },
-  {
-    "id": "fount-pwsh",
-    "Owners": "steve02081504",
-    "Description": "Allows you:\r\n- easily invoke, launch, and install fount in pwsh\r\n- linking fount characters to pwsh for companion and AI assist",
-    "Score": 45,
-    "Published": "2025-12-27T05:40:15.84"
-  },
-  {
-    "id": "LoraxMod",
-    "Owners": "jackyHD",
-    "Description": "Tree-sitter AST parsing and analysis via PowerShell. Native C# implementation with schema-driven extraction. Supports 28+ languages.",
-    "Score": 40,
-    "Published": "2025-12-28T00:02:29.6"
+    "Published": "2025-12-28T13:33:31.51"
   }
 ]
