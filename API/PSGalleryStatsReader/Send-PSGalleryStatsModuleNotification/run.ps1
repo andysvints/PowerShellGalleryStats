@@ -9,6 +9,18 @@ Import-Module -Name Az.Communication
 $ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOUNT -UseConnectedAccount -Endpoint "core.windows.net"
 $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
 
+foreach ($e in $storageTable.TableClient.Query[TableEntity]($(env:SubscriptionQueryFilter), $null, $null, $ct)) {
+    $moduleId = [string]$e.PartitionKey
+    if ([string]::IsNullOrWhiteSpace($moduleId)) { continue }
+
+    if (-not $groups.ContainsKey($moduleId)) {
+        $groups[$moduleId] = [List[TableEntity]]::new()
+    }
+    $null = $groups[$moduleId].Add($e)
+}
+
+Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module partitions."
+
 $to = @(
     @{
         Address = $env:emailRecipientTo
@@ -24,4 +36,4 @@ $message = @{
     ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
 }
 
-Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint)
+# Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint)
