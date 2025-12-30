@@ -25,7 +25,7 @@ foreach ($moduleId in $groups.Keys) {
 
     
     $currentScore = 51 #Get-CurrentModuleScore -ModuleId $moduleId
-
+    Write-Host "Module $moduleId score $currentScore"
     foreach ($e in $groups[$moduleId]) {
 
         $email = [string]$e.Email
@@ -43,7 +43,7 @@ foreach ($moduleId in $groups.Keys) {
             }
         )
         $message = @{
-            ContentSubject = "PSGallery Stats - Score Changes for $($e["ModuleId"])"
+            ContentSubject = "PSGallery Stats - Score Changes for $moduleId"
             RecipientTo = $to 
             SenderAddress = $($env:SenderAddress) 
             ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
