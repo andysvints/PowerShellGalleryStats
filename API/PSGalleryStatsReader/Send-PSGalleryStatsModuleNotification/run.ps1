@@ -15,7 +15,7 @@ foreach ($e in $storageTable.TableClient.Query[Azure.Data.Tables.TableEntity]($(
     if ([string]::IsNullOrWhiteSpace($moduleId)) { continue }
 
     if (-not $groups.ContainsKey($moduleId)) {
-        $groups[$moduleId] = [List[Azure.Data.Tables.TableEntity]]::new()
+        $groups[$moduleId] = [System.Collections.Generic.List[Azure.Data.Tables.TableEntity]]::new()
     }
     $null = $groups[$moduleId].Add($e)
 }
