@@ -8,6 +8,7 @@ Import-Module -Name Az.Communication
 
 $ctx = New-AzStorageContext -StorageAccountName $env:SUBSCRIPTIONS_STORAGE_ACCOUNT -UseConnectedAccount -Endpoint "core.windows.net"
 $storageTable = Get-AzStorageTable -Name $($env:SUBSCRIPTIONS_TABLE_NAME) -Context $ctx
+$groups = @{}
 
 foreach ($e in $storageTable.TableClient.Query[Azure.Data.Tables.TableEntity]($($env:SubscriptionQueryFilter), $null, $null, $ct)) {
     $moduleId = [string]$e.PartitionKey
