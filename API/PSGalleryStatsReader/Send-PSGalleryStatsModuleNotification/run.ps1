@@ -56,19 +56,13 @@ foreach ($moduleId in $groups.Keys) {
         $e["LastNotifiedScore"] = $currentScore
         $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
 
-        $client.UpdateEntity[TableEntity](
+        $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
             $e,
             $e.ETag,                       # or [Azure.ETag]::All
-            [TableUpdateMode]::Merge,
+            [Azure.Data.Tables.TableUpdateMode]::Merge,
             $ct
         ) | Out-Null
     }
 }
 
-$to = @(
-    @{
-        Address = $env:emailRecipientTo
-        DisplayName = $env:emailRecipientTo
-    }
-)
 
