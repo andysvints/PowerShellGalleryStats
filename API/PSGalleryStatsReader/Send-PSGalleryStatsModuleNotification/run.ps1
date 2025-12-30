@@ -49,18 +49,18 @@ foreach ($moduleId in $groups.Keys) {
             ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
             ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
         }
-
+         Write-Host "Sending email to $email"
          Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) 
         
         $e["LastNotifiedScore"] = $currentScore
         $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
-    
+        Write-Host "Updating the entity"
         $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
             $e,
             $e.ETag, 
             [Azure.Data.Tables.TableUpdateMode]::Merge,
             $ct
-        ) | Out-Null
+        ) 
         
     }
 }
