@@ -57,7 +57,7 @@ foreach ($moduleId in $groups.Keys) {
     
         $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
             $e,
-            $e.ETag,                       # or [Azure.ETag]::All
+            $e.ETag, 
             [Azure.Data.Tables.TableUpdateMode]::Merge,
             $ct
         ) | Out-Null
