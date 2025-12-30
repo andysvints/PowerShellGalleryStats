@@ -21,6 +21,7 @@ foreach ($e in $storageTable.TableClient.Query[Azure.Data.Tables.TableEntity]($(
 }
 
 Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module partitions."
+Write-Host "Groups - $groups.Keys"
 foreach ($moduleId in $groups.Keys) {
 Write-Host "Processing module $moduleId"
     
@@ -65,4 +66,4 @@ Write-Host "Processing module $moduleId"
     }
 }
 
-Write-Host "The End."
+
