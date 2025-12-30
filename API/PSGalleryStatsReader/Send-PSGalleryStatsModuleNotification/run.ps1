@@ -21,7 +21,7 @@ foreach ($e in $storageTable.TableClient.Query[Azure.Data.Tables.TableEntity]($(
 }
 
 Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module partitions."
-Write-Host "Groups - $groups.Keys"
+
 foreach ($moduleId in $groups.Keys) {
 Write-Host "Processing module $moduleId"
     
@@ -36,6 +36,7 @@ Write-Host "Processing module $moduleId"
         if ($e.ContainsKey("LastNotifiedScore")) { $last = $e["LastNotifiedScore"] }
 
         $shouldSend = ($null -eq $last) -or ([string]$last -ne [string]$currentScore)
+        Write-Host "Should Send Email - $shouldSend"
         if (-not $shouldSend) { continue }
         $to = @(
             @{
