@@ -24,7 +24,7 @@ Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module parti
 foreach ($moduleId in $groups.Keys) {
 
     
-    $currentScore = 46 #Get-CurrentModuleScore -ModuleId $moduleId
+    $currentScore = 51 #Get-CurrentModuleScore -ModuleId $moduleId
 
     foreach ($e in $groups[$moduleId]) {
 
@@ -43,26 +43,25 @@ foreach ($moduleId in $groups.Keys) {
             }
         )
         $message = @{
-            ContentSubject = "PSGallery Stats - Score Changes for $e"
+            ContentSubject = "PSGallery Stats - Score Changes for $($e["ModuleId"])"
             RecipientTo = $to 
             SenderAddress = $($env:SenderAddress) 
             ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
             ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
         }
 
-         Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) -ErrorVariable EmailSendingError
-
-        if(!$EmailSendingError){
-            $e["LastNotifiedScore"] = $currentScore
-            $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
+         Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) 
+        
+        $e["LastNotifiedScore"] = $currentScore
+        $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
     
-            $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
-                $e,
-                $e.ETag,                       # or [Azure.ETag]::All
-                [Azure.Data.Tables.TableUpdateMode]::Merge,
-                $ct
-            ) | Out-Null
-        }
+        $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
+            $e,
+            $e.ETag,                       # or [Azure.ETag]::All
+            [Azure.Data.Tables.TableUpdateMode]::Merge,
+            $ct
+        ) | Out-Null
+        
     }
 }
 
