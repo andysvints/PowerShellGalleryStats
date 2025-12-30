@@ -22,7 +22,7 @@ foreach ($e in $storageTable.TableClient.Query[Azure.Data.Tables.TableEntity]($(
 
 Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module partitions."
 foreach ($moduleId in $groups.Keys) {
-
+Write-Host "Processing module $moduleId"
     
     $currentScore = 51 #Get-CurrentModuleScore -ModuleId $moduleId
     Write-Host "Module $moduleId score $currentScore"
@@ -65,4 +65,4 @@ foreach ($moduleId in $groups.Keys) {
     }
 }
 
-
+Write-Host "The End."
