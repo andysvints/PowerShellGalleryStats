@@ -21,6 +21,49 @@ foreach ($e in $storageTable.TableClient.Query[Azure.Data.Tables.TableEntity]($(
 }
 
 Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module partitions."
+foreach ($moduleId in $groups.Keys) {
+
+    
+    $currentScore = 45 #Get-CurrentModuleScore -ModuleId $moduleId
+
+    foreach ($e in $groups[$moduleId]) {
+
+        $email = [string]$e.RowKey
+        if ([string]::IsNullOrWhiteSpace($email)) { continue }
+
+        $last = $null
+        if ($e.ContainsKey("LastNotifiedScore")) { $last = $e["LastNotifiedScore"] }
+
+        $shouldSend = ($null -eq $last) -or ([string]$last -ne [string]$currentScore)
+        if (-not $shouldSend) { continue }
+        $to = @(
+            @{
+                Address = $email
+                DisplayName = $email
+            }
+        )
+        $message = @{
+            ContentSubject = "PSGallery Stats - Score Changes for $e"
+            RecipientTo = $to 
+            SenderAddress = $($env:SenderAddress) 
+            ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
+            ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
+        }
+
+ Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint)
+
+        # if success update + UpdateEntity/UpsertEntity
+        $e["LastNotifiedScore"] = $currentScore
+        $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
+
+        $client.UpdateEntity[TableEntity](
+            $e,
+            $e.ETag,                       # or [Azure.ETag]::All
+            [TableUpdateMode]::Merge,
+            $ct
+        ) | Out-Null
+    }
+}
 
 $to = @(
     @{
@@ -29,12 +72,3 @@ $to = @(
     }
 )
 
-$message = @{
-    ContentSubject = "Test Email"
-    RecipientTo = $to 
-    SenderAddress = $($env:SenderAddress) 
-    ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
-    ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
-}
-
-# Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint)
