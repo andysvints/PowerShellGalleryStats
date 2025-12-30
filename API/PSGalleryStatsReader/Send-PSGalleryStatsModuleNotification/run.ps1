@@ -24,11 +24,11 @@ Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module parti
 foreach ($moduleId in $groups.Keys) {
 
     
-    $currentScore = 45 #Get-CurrentModuleScore -ModuleId $moduleId
+    $currentScore = 46 #Get-CurrentModuleScore -ModuleId $moduleId
 
     foreach ($e in $groups[$moduleId]) {
 
-        $email = [string]$e.RowKey
+        $email = [string]$e.Email
         if ([string]::IsNullOrWhiteSpace($email)) { continue }
 
         $last = $null
@@ -50,18 +50,19 @@ foreach ($moduleId in $groups.Keys) {
             ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
         }
 
- Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint)
+         Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) -ErrorVariable EmailSendingError
 
-        # if success update + UpdateEntity/UpsertEntity
-        $e["LastNotifiedScore"] = $currentScore
-        $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
-
-        $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
-            $e,
-            $e.ETag,                       # or [Azure.ETag]::All
-            [Azure.Data.Tables.TableUpdateMode]::Merge,
-            $ct
-        ) | Out-Null
+        if(!$EmailSendingError){
+            $e["LastNotifiedScore"] = $currentScore
+            $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
+    
+            $storageTable.TableClient.UpdateEntity[Azure.Data.Tables.TableEntity](
+                $e,
+                $e.ETag,                       # or [Azure.ETag]::All
+                [Azure.Data.Tables.TableUpdateMode]::Merge,
+                $ct
+            ) | Out-Null
+        }
     }
 }
 
