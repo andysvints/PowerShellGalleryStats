@@ -46,7 +46,7 @@ Write-Host "Processing module $moduleId"
                 DisplayName = $email
             }
         )
-        $EmailHTML=@"
+$EmailHTML=@"
 <table width="100%" cellpadding="0" cellspacing="0" style="font-family:Segoe UI, Arial, sans-serif; background:#f4f6f8; padding:20px;">
   <tr>
     <td align="center">
@@ -97,10 +97,7 @@ Write-Host "Processing module $moduleId"
               View More Details
             </a>
           </td>
-        </tr>
-
-        <tr><td height="24"></td></tr>
-
+        </tr><tr><td height="24"></td></tr>
         <tr>
           <td style="font-size:12px; color:#6b7280;" align="center">
             You’re receiving this email because you subscribed to updates for PowerShell Module $moduleid.<br/>
@@ -111,9 +108,10 @@ Write-Host "Processing module $moduleId"
     </td>
   </tr>
 </table>
-@"
-        $EmailPlain=@"
-@"
+"@
+$EmailPlain=@"
+ Plain text
+"@
         $message = @{
             ContentSubject = "[PSGallery Stats] $moduleId Module Score Update "
             RecipientTo = $to 
