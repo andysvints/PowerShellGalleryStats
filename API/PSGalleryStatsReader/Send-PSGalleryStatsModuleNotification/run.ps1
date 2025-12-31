@@ -29,7 +29,7 @@ Write-Host "Processing module $moduleId"
     Write-Host "Module $moduleId score $currentScore"
     foreach ($e in $groups[$moduleId]) {
 
-        $email = [string]$e.Email
+        $email = [string]$e["Email"]
         if ([string]::IsNullOrWhiteSpace($email)) { continue }
 
         $last = $null
