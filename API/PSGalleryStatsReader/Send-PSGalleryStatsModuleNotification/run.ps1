@@ -53,7 +53,7 @@ $EmailHTML=@"
       <table width="600" cellpadding="0" cellspacing="0" style="background:#e2f0fb; border-radius:6px; padding:24px;">
         <tr>
           <td style="font-size:18px; font-weight:600; color:#1f2937;">
-            PowerShell Gallery Stats — Module Score Update
+            PowerShell Gallery Stats - Module Score Update
           </td>
         </tr>
         <tr><td height="16"></td></tr>
@@ -110,10 +110,29 @@ $EmailHTML=@"
 </table>
 "@
 $EmailPlain=@"
- Plain text
+PowerShell Gallery Stats — Module Score Update
+───────────────────────
+$($moduleId.ToUpper()) by $(if($apiResponse.Owners -like "*,*"){$apiResponse.Owners.split(',')[0]}else{$apiResponse.Owners})
+Score: $currentScore ($("{0:+#;-#;0}" -f $($currentScore-$last)) / $("{0:+#;-#;0}" -f $(($currentScore-$last)/$last*100))%)
+
+Module Info
+ - Version: $($apiResponse.Version)
+ - License: $(if($apiResponse.LicenseUrl){"$($apiResponse.LicenseUrl)"}else{"NaN"})
+ - Last published: $($apiResponse.Published)
+ - Project: $(if($apiResponse.ProjectUrl){"$($apiResponse.ProjectUrl)"}else{"NaN"})
+
+View full analysis:
+https://stats.psfundamentals.com/searchbyid?query=$moduleid
+
+Unsubscribe from $($moduleId.ToUpper()) updates:
+https://stats.psfundamentals.com/unsubscribe
+
+───────────────────────
+You are receiving this email because you subscribed to updates for the
+PowerShell module "$($moduleId.ToUpper())".
 "@
         $message = @{
-            ContentSubject = "[PSGallery Stats] $($moduleId.ToUpper()) Module Score Update "
+            ContentSubject = "[PSGallery Stats] $($moduleId.ToUpper()) - Score Update "
             RecipientTo = $to 
             SenderAddress = $($env:SenderAddress) 
             ContentHtml = $EmailHTML
