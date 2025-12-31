@@ -24,8 +24,10 @@ Write-Host "Active subscriptions grouped into $($groups.Keys.Count) module parti
 
 foreach ($moduleId in $groups.Keys) {
 Write-Host "Processing module $moduleId"
-    
-    $currentScore = 51 #Get-CurrentModuleScore -ModuleId $moduleId
+    $apiKey=Get-AzKeyVaultSecret -VaultName "PSGalleryStats-KV" -Name "PSGlrStatsFprEmailNotif" -AsPlainText
+    $apiUrl = "https://psgallerystats.azure-api.net/get-psgallerystatsbyid?subscription-key=$apiKey&module=$moduleId"
+    $apiResponse = Invoke-RestMethod -Uri $apiUrl
+    $currentScore = $apiResponse.cp_TotalScore
     Write-Host "Module $moduleId score $currentScore"
     foreach ($e in $groups[$moduleId]) {
 
