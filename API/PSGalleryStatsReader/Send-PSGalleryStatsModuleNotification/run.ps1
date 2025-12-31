@@ -101,7 +101,7 @@ $EmailHTML=@"
         <tr>
           <td style="font-size:12px; color:#6b7280;" align="center">
             You’re receiving this email because you subscribed to updates for PowerShell Module $($moduleId.ToUpper()).<br/>
-            <a href="{{unsubscribeUrl}}">Unsubscribe</a>
+            <a href="https://stats.psfundamentals.com/unsubscribe">Unsubscribe</a>
           </td>
         </tr>
       </table>
@@ -113,14 +113,14 @@ $EmailPlain=@"
  Plain text
 "@
         $message = @{
-            ContentSubject = "[PSGallery Stats] $moduleId Module Score Update "
+            ContentSubject = "[PSGallery Stats] $($moduleId.ToUpper()) Module Score Update "
             RecipientTo = $to 
             SenderAddress = $($env:SenderAddress) 
             ContentHtml = $EmailHTML
             ContentPlainText = $EmailPlain  
         }
          Write-Host "Sending email to $email"
-         Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) 
+         Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) -NoWait
         
         $e["LastNotifiedScore"] = $currentScore
         $e["LastNotifiedAt"]    = (Get-Date).ToUniversalTime().ToString("o")
