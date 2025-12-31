@@ -46,12 +46,80 @@ Write-Host "Processing module $moduleId"
                 DisplayName = $email
             }
         )
+        $EmailHTML=@"
+<table width="100%" cellpadding="0" cellspacing="0" style="font-family:Segoe UI, Arial, sans-serif; background:#f4f6f8; padding:20px;">
+  <tr>
+    <td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="background:#e2f0fb; border-radius:6px; padding:24px;">
+        <tr>
+          <td style="font-size:18px; font-weight:600; color:#1f2937;">
+            PowerShell Gallery Stats — Module Score Update
+          </td>
+        </tr>
+        <tr><td height="16"></td></tr>
+        <tr>
+          <td style="font-size:20px; font-weight:700;">
+            $moduleId
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#6b7280;">
+            by $($apiResponse.Owners)
+          </td>
+        </tr>
+        <tr><td height="12"></td></tr>
+        <tr>
+          <td style="font-size:16px;">
+            <strong>Score:</strong> $currentScore  
+            <span style="color:#16a34a;">(+7 / +20%)</span>
+          </td>
+        </tr>
+        <tr><td height="16"></td></tr>
+        <tr>
+          <td>
+            <strong>Module Info</strong>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-size:14px; line-height:1.6;">
+            Version: $($apiResponse.Version)<br/>
+            License: $($apiResponse.LicenseUrl)<br/>
+            Last published: $($apiResponse.Published)<br/>
+            Project: <a href="$($apiResponse.ProjectUrl)">$($apiResponse.ProjectUrl)</a>
+          </td>
+        </tr>
+        <tr><td height="16"></td></tr>
+        <tr><td height="20"></td></tr>
+        <tr>
+          <td align="center">
+            <a href="https://stats.psfundamentals.com/searchbyid?query=$moduleid"
+               style="display:inline-block; padding:10px 16px; background:#2563eb; color:#ffffff; text-decoration:none; border-radius:4px;" target="_about">
+              View More Details
+            </a>
+          </td>
+        </tr>
+
+        <tr><td height="24"></td></tr>
+
+        <tr>
+          <td style="font-size:12px; color:#6b7280;" align="center">
+            You’re receiving this email because you subscribed to updates for PowerShell Module $moduleid.<br/>
+            <a href="{{unsubscribeUrl}}">Unsubscribe</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+@"
+        $EmailPlain=@"
+@"
         $message = @{
-            ContentSubject = "PSGallery Stats - Score Changes for $moduleId"
+            ContentSubject = "[PSGallery Stats] $moduleId Module Score Update "
             RecipientTo = $to 
             SenderAddress = $($env:SenderAddress) 
-            ContentHtml = "<html><head><title>Enter title</title></head><body><img src='cid:inline-attachment' alt='Company Logo'/><h1>This is the first email from ACS - Azure PowerShell</h1></body></html>"
-            ContentPlainText = "This is the first email from ACS - Azure PowerShell"  
+            ContentHtml = $EmailHTML
+            ContentPlainText = $EmailPlain  
         }
          Write-Host "Sending email to $email"
          Send-AzEmailServicedataEmail -Message $Message -endpoint $($env:ACSEndpoint) 
