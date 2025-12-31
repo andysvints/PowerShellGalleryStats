@@ -71,7 +71,7 @@ $EmailHTML=@"
         <tr>
           <td style="font-size:16px;">
             <strong>Score:</strong> $currentScore  
-            <span style="color:#16a34a;">(+7 / +20%)</span>
+            <span style="color:$(($currentScore -gt $last) ? "#00A36C;" : "#DE3163")">($("{0:+#;-#;0}" -f $($currentScore-$last)) / $("{0:+#;-#;0}" -f $(($currentScore-$last)/$last*100))%)</span>
           </td>
         </tr>
         <tr><td height="16"></td></tr>
