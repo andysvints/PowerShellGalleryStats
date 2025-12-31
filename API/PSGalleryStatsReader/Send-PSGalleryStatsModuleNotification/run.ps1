@@ -59,12 +59,12 @@ $EmailHTML=@"
         <tr><td height="16"></td></tr>
         <tr>
           <td style="font-size:20px; font-weight:700;">
-            $moduleId
+            $($moduleId.ToUpper())
           </td>
         </tr>
         <tr>
           <td style="color:#6b7280;">
-            by $($apiResponse.Owners)
+            by $(if($apiResponse.Owners -like "*,*"){$apiResponse.Owners.split(',')[0]}else{$apiResponse.Owners})
           </td>
         </tr>
         <tr><td height="12"></td></tr>
@@ -83,9 +83,9 @@ $EmailHTML=@"
         <tr>
           <td style="font-size:14px; line-height:1.6;">
             Version: $($apiResponse.Version)<br/>
-            License: $($apiResponse.LicenseUrl)<br/>
+            License: $(if($apiResponse.LicenseUrl){"<a href=`"$($apiResponse.LicenseUrl)`" target=`"_blank`">$($apiResponse.LicenseUrl)</a>"}else{"NaN"})<br/>
             Last published: $($apiResponse.Published)<br/>
-            Project: <a href="$($apiResponse.ProjectUrl)">$($apiResponse.ProjectUrl)</a>
+            Project: $(if($apiResponse.ProjectUrl){"<a href=`"$($apiResponse.ProjectUrl)`" target=`"_blank`">$($apiResponse.ProjectUrl)</a>"}else{"NaN"})
           </td>
         </tr>
         <tr><td height="16"></td></tr>
@@ -93,14 +93,14 @@ $EmailHTML=@"
         <tr>
           <td align="center">
             <a href="https://stats.psfundamentals.com/searchbyid?query=$moduleid"
-               style="display:inline-block; padding:10px 16px; background:#2563eb; color:#ffffff; text-decoration:none; border-radius:4px;" target="_about">
+               style="display:inline-block; padding:10px 16px; background:#2563eb; color:#ffffff; text-decoration:none; border-radius:4px;" target="_blank">
               View More Details
             </a>
           </td>
         </tr><tr><td height="24"></td></tr>
         <tr>
           <td style="font-size:12px; color:#6b7280;" align="center">
-            You’re receiving this email because you subscribed to updates for PowerShell Module $moduleid.<br/>
+            You’re receiving this email because you subscribed to updates for PowerShell Module $($moduleId.ToUpper()).<br/>
             <a href="{{unsubscribeUrl}}">Unsubscribe</a>
           </td>
         </tr>
