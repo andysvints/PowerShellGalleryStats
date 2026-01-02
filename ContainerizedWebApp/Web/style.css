@@ -46,7 +46,7 @@ html, body, .page {
 #t3:target #p3,
 #t4:target #p4,
 #t5:target #p5,
-#t6:target #p6,{
+#t6:target #p6 {
   transform: translateX(-190%);
   -webkit-transform: translateX(-190%);
   -moz-transform: translateX(-190%);
@@ -58,7 +58,7 @@ html, body, .page {
 #t3:target #p1,
 #t4:target #p1,
 #t5:target #p1,
-#t6:target #p1,{
+#t6:target #p1 {
   background: black;
 }
 
