@@ -204,7 +204,8 @@ a {
 #t2:target .page#p2 .icon,
 #t3:target .page#p3 .icon,
 #t4:target .page#p4 .icon,
-#t5:target .page#p5 .icon {
+#t5:target .page#p5 .icon,
+#t6:target .page#p6 .icon{
   transform: translateX(0) !important;
   -webkit-transform: translateX(0) !important;
   -moz-transform: translateX(0) !important;
