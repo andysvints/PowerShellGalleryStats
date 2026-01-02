@@ -31,7 +31,7 @@ html, body, .page {
   left: 0;
 }
 
-#p2, #p3, #p4, #p5 {
+#p2, #p3, #p4, #p5, #p6 {
   left: 200%;
 }
 
@@ -87,7 +87,8 @@ ul .icon:hover {
 #t2:target ul .icon,
 #t3:target ul .icon,
 #t4:target ul .icon,
-#t5:target ul .icon{
+#t5:target ul .icon,
+#t6:target ul .icon {
   transform: scale(.6);
   -webkit-transform: scale(.6);
   -moz-transform: scale(.6);
