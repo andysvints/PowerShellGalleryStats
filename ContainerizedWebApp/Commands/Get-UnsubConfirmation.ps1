@@ -43,7 +43,7 @@ function Get-UnsubConfirmation
               email=$email,
               moduleid=$module
             }
-            $apiResponse = Invoke-RestMethod -Uri $apiUrl -Body
+            $apiResponse = Invoke-RestMethod -Uri $apiUrl -Body $($Body | ConvertTo-JSON) -Method POST
 
             $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html") -Raw
             $TextResult="You have successufully unsubscribed from the $module score updates"
