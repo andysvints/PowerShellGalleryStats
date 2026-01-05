@@ -13,6 +13,7 @@ $body = @{
         $body = @{ ok = $false; error = "Missing request body. Expected JSON: { email, moduleId }." }
     }
 $payload = $Request.Body 
+if($payload -is [string]) {$payload=$payload | ConvertFrom-Json}
 $emailRaw  = $payload.email
 $moduleRaw = $payload.moduleid
 
