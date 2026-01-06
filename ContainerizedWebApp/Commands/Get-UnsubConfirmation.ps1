@@ -18,7 +18,6 @@ function Get-UnsubConfirmation
         [Parameter(Mandatory=$true, 
                    ValueFromPipeline=$true)]
         [ValidateNotNullOrEmpty()]
-        [Alias("Module","Name")] 
         $Module,
         
        # Email to unsubscribe
