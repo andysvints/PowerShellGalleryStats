@@ -101,7 +101,7 @@ $EmailHTML=@"
         <tr>
           <td style="font-size:12px; color:#6b7280;" align="center">
             You’re receiving this email because you subscribed to updates for PowerShell Module $($moduleId.ToUpper()).<br/>
-            <a href="https://stats.psfundamentals.com/unsubscribe">Unsubscribe</a>
+            <a href="https://stats.psfundamentals.com/unsubscribe?email=$email&$moduleid">Unsubscribe</a>
           </td>
         </tr>
       </table>
@@ -125,7 +125,7 @@ View full analysis:
 https://stats.psfundamentals.com/searchbyid?query=$moduleid
 
 Unsubscribe from $($moduleId.ToUpper()) updates:
-https://stats.psfundamentals.com/unsubscribe
+https://stats.psfundamentals.com/unsubscribe?email=$email&$moduleid
 
 ───────────────────────
 You are receiving this email because you subscribed to updates for the
