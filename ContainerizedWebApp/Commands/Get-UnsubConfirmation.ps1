@@ -40,7 +40,7 @@ function Get-UnsubConfirmation
             $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGlrStatsFprEmailNotif" -AsPlainText
             $apiUrl = "https://psgallerystats.azure-api.net/Set-PSGalleryStatsModuleSubscription?subscription-key=$apiKey"
             $Body=@{
-              email=$email,
+              email=$email
               moduleid=$module
             }
             $apiResponse = Invoke-RestMethod -Uri $apiUrl -Body $($Body | ConvertTo-JSON) -Method POST
