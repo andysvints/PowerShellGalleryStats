@@ -46,7 +46,7 @@ function Get-UnsubConfirmation
 
             $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html") -Raw
             $TextResult="You have successufully unsubscribed from the $($module.ToUpper()) score updates"
-            $htmlResponse = $HTMLTemplate.Replace("<TextTemplate>","`'$TextResult`'")
+            $htmlResponse = $HTMLTemplate.Replace("<TextTemplate>","$TextResult")
             $targetUrl =  "/unsubscribe#t6"
             $targetUrlJs = $targetUrl -replace "'", "\\'"   # escape single quotes for JS string
             $forceHash = @"
