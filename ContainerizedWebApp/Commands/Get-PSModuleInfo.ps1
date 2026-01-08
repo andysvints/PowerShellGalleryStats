@@ -132,7 +132,7 @@ function Get-PSModuleInfo
                         }else{
                             $null =$HTMLResults.AppendLine("<p><strong>Recommendations:</strong> Nothing to add here. You are doing great!</p>")   
                         }
-                        $null =$HTMLResults.AppendLine("</div></div>")  
+                        $null =$HTMLResults.AppendLine("<p><i class="fa fa-bell"></i>&nbsp; Subcribe for module updates</p></div></div>")  
                     }
                 }else{
                     $null =$HTMLResults.AppendLine("<h2>Not Found, please check the module name and try again.</h2>")
