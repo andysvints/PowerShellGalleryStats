@@ -144,9 +144,6 @@
         // Select all cards
         document.querySelectorAll('.card').forEach(card => {
             card.addEventListener('click', function() {
-                if (e.target.closest('.subscribe-btn')) {
-                  return;
-                }
                 const expanded = this.querySelector('.card-expanded');
                 // Toggle the display style
                 expanded.style.display = expanded.style.display === 'block' ? 'none' : 'block';
