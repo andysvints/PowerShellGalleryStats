@@ -132,7 +132,7 @@ function Get-PSModuleInfo
                         }else{
                             $null =$HTMLResults.AppendLine("<p><strong>Recommendations:</strong> Nothing to add here. You are doing great!</p>")   
                         }
-                        $null =$HTMLResults.AppendLine("<p><i class=`"fa fa-bell`"></i>&nbsp; Subcribe to module score updates</p></div></div>")  
+                        $null =$HTMLResults.AppendLine("<button class=`"subscribe-btn`" data-moduleid=`"$($apiResponse[$i].id)`" type=`"button`" title=`"Subscribe to score updates for this module`"><i class=`"fa fa-bell`"></i>&nbsp; Get module score updates</button></div></div>")  
                     }
                 }else{
                     $null =$HTMLResults.AppendLine("<h2>Not Found, please check the module name and try again.</h2>")
