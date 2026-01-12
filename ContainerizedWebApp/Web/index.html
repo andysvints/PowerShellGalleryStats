@@ -192,7 +192,7 @@
           const emailInput = document.getElementById('subscribe-email');
           const statusBox = document.getElementById('subscribe-status');
       
-          function openModal(moduleId){
+          function openSubscribeModal(moduleId){
             moduleIdInput.value = moduleId;
             moduleLabel.textContent = `Module: ${moduleId}`;
             statusBox.style.display = 'none';
@@ -230,7 +230,7 @@
               btn.closest('.card')?.getAttribute('data-moduleid');
       
             if(!moduleId) return;
-            openModal(moduleId);
+            openSubscribeModal(moduleId);
           });
         })();
       </script>
