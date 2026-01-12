@@ -1,72 +1,72 @@
 [
   {
-    "id": "DLLPickle",
-    "Owners": "SamErde",
-    "Description": "A PowerShell module that helps you get un-stuck from version conflicts that occur when using modules that depend on different versions of the same dependency (such as the Microsoft Authentication Library (MSAL)).",
-    "Score": 75,
-    "Published": "2026-01-10T16:54:00.61"
+    "id": "ModernMailTools",
+    "Owners": "wey",
+    "Description": "Send emails in PowerShell via Graph API, or SMTP (MailKit) with Modern Auth (OAuth) support.",
+    "Score": 70,
+    "Published": "2026-01-11T17:09:37.877"
   },
   {
-    "id": "ScheduledTasksManager",
-    "Owners": "trent.blackburn",
-    "Description": "Manages local and clustered scheduled tasks in standalone or failover cluster environments,\r\nextending the ScheduledTasks module from Microsoft",
-    "Score": 75,
-    "Published": "2026-01-10T23:18:53.06"
-  },
-  {
-    "id": "PlugEvents",
-    "Owners": "AutoSysOps",
-    "Description": "PowerShell module to interact with plug.events.",
-    "Score": 65,
-    "Published": "2026-01-10T16:39:04.513"
-  },
-  {
-    "id": "ALZ",
-    "Owners": "jtracey93,ganepomu,oZakari,jaredfholgate,matt-ffffff",
-    "Description": "Azure Landing Zones Powershell Module\r\n\r\nThis module provides cmdlets to help deploy and manage Azure Landing Zones (ALZ) in your Azure environment.\r\n\r\nIncluded Cmdlets:\r\n- Test-AcceleratorRequirement: Tests if the current environment meets the requirements for deploying ALZ.\r\n- Deploy-Accelerator: Deploys the Azure Landing Zone accelerator to your Azure subscription.\r\n- Grant-SubscriptionCreatorRole: Grants the Subscription Creator role to a specified user or service principal.\r\n- Remove-PlatformLandingZone: Removes the deployed Azure Landing Zone from your Azure subscription\r\n- New-AcceleratorFolderStructure: Creates a new folder structure for the Azure Landing Zone accelerator with necessary configuration files.",
-    "Score": 65,
-    "Published": "2026-01-10T11:31:49.593"
-  },
-  {
-    "id": "Azure.DevOps.PSModule",
-    "Owners": "MSc356Admin",
-    "Description": "A PowerShell module that wraps the Azure DevOps REST API into clean, task-oriented cmdlets. It simplifies automation and scripting across your DevOps workflows, making it easier to manage pipelines, repositories, builds, releases, and work items directly from PowerShell.",
+    "id": "Pri.Essentials.DotnetPsCmds",
+    "Owners": "peterritchie",
+    "Description": "DotNet PowerShell Commands",
     "Score": 60,
-    "Published": "2026-01-10T15:41:12.34"
-  },
-  {
-    "id": "Rnwood.Dataverse.Data.PowerShell",
-    "Owners": "rnwood",
-    "Description": "Dataverse data manipulation cmdlets",
-    "Score": 60,
-    "Published": "2026-01-10T11:57:42.077"
-  },
-  {
-    "id": "NexusIQ",
-    "Owners": "variableresistor",
-    "Description": "Module acts as a wrapper for the Nexus IQ REST API",
-    "Score": 60,
-    "Published": "2026-01-10T10:07:25.787"
+    "Published": "2026-01-11T15:55:44.153"
   },
   {
     "id": "Deck",
     "Owners": "jakehildreth",
     "Description": "Deck makes terminal presentations easy!",
     "Score": 55,
-    "Published": "2026-01-10T23:11:17.32"
+    "Published": "2026-01-11T16:48:34.12"
   },
   {
-    "id": "MedhaCloud-ExchangeDiagnostics",
-    "Owners": "medhacloud",
-    "Description": "Exchange Server diagnostic toolkit - comprehensive health checks, mail flow analysis, DAG status monitoring, certificate validation, and queue management. Built by Microsoft Partners with 9+ years of Exchange expertise. Professional Support: https://medhacloud.com/professional-services/server-support/exchange-server-support",
+    "id": "PoshJohn",
+    "Owners": "ArmaanMcleod",
+    "Description": "Binary PowerShell module which contains cmdlets to help with extracting and cracking password hashes from password-protected files using John the Ripper (https://www.openwall.com/john/).",
     "Score": 55,
-    "Published": "2026-01-10T12:27:26.083"
+    "Published": "2026-01-11T07:19:22.56"
   },
   {
-    "id": "AppLocate",
-    "Owners": "0xaf_dev",
-    "Description": "Find any app on Windows instantly. PowerShell wrapper for the applocate CLI tool that searches registry, Start Menu, running processes, package managers (Scoop, Chocolatey, WinGet), and more. Returns ranked results with confidence scores in JSON/CSV/text format.",
+    "id": "ScheduledTasksManager",
+    "Owners": "trent.blackburn",
+    "Description": "Manages local and clustered scheduled tasks in standalone or failover cluster environments,\r\nextending the ScheduledTasks module from Microsoft",
     "Score": 55,
-    "Published": "2026-01-10T11:02:07.557"
+    "Published": "2026-01-11T17:42:58.077"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
+    "Score": 50,
+    "Published": "2026-01-11T10:03:49.127"
+  },
+  {
+    "id": "PlexAutomationToolkit",
+    "Owners": "trent.blackburn",
+    "Description": "A PowerShell module for managing Plex servers",
+    "Score": 45,
+    "Published": "2026-01-11T18:18:48.083"
+  },
+  {
+    "id": "WindowsUpdateTools",
+    "Owners": "AlexAppleton",
+    "Description": "Comprehensive PowerShell module for diagnosing, analyzing, and remediating Windows Update issues in enterprise environments. Includes SetupDiag integration, automated remediation, and detailed health reporting.",
+    "Score": 45,
+    "Published": "2026-01-11T20:34:11.95"
+  },
+  {
+    "id": "IdLE",
+    "Owners": "blindzero",
+    "Description": "IdentityLifecycleEngine (IdLE) meta-module. Imports IdLE.Core and optional packs.",
+    "Score": 40,
+    "Published": "2026-01-11T01:14:11.69"
+  },
+  {
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 40,
+    "Published": "2026-01-11T23:13:11.193"
   }
 ]
