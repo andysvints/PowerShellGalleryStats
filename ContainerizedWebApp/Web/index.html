@@ -193,5 +193,58 @@
         </form>
       </div>
     </div>
+      <script>
+        (function(){
+          const modal = document.getElementById('subscribe-modal');
+          const closeBtn = document.getElementById('subscribe-close');
+          const cancelBtn = document.getElementById('subscribe-cancel');
+          const moduleLabel = document.getElementById('subscribe-module-label');
+          const moduleIdInput = document.getElementById('subscribe-moduleid');
+          const emailInput = document.getElementById('subscribe-email');
+          const statusBox = document.getElementById('subscribe-status');
+      
+          function openModal(moduleId){
+            moduleIdInput.value = moduleId;
+            moduleLabel.textContent = `Module: ${moduleId}`;
+            statusBox.style.display = 'none';
+            statusBox.textContent = '';
+            emailInput.value = '';
+            modal.style.display = 'flex';
+            setTimeout(() => emailInput.focus(), 50);
+          }
+      
+          function closeModal(){
+            modal.style.display = 'none';
+          }
+      
+          closeBtn.addEventListener('click', closeModal);
+          cancelBtn.addEventListener('click', closeModal);
+      
+          // close on background click
+          modal.addEventListener('click', function(e){
+            if(e.target === modal) closeModal();
+          });
+      
+          // ESC closes
+          document.addEventListener('keydown', function(e){
+            if(e.key === 'Escape' && modal.style.display !== 'none') closeModal();
+          });
+      
+          // event delegation: works even if cards are injected dynamically
+          document.addEventListener('click', function(e){
+            const btn = e.target.closest('.subscribe-btn');
+            if(!btn) return;
+      
+            // get moduleId from button or parent card
+            const moduleId =
+              btn.getAttribute('data-moduleid') ||
+              btn.closest('.card')?.getAttribute('data-moduleid');
+      
+            if(!moduleId) return;
+            openModal(moduleId);
+          });
+        })();
+      </script>
+
   </body>
 </html>
