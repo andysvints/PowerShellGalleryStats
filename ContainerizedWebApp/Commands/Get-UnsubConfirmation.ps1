@@ -45,7 +45,7 @@ function Get-UnsubConfirmation
             $apiResponse = Invoke-RestMethod -Uri $apiUrl -Body $($Body | ConvertTo-JSON) -Method POST
 
             $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html") -Raw
-            $TextResult="You have successufully unsubscribed from the $($module.ToUpper()) score updates"
+            $TextResult="You have successfully unsubscribed from the $($module.ToUpper()) score updates"
             $htmlResponse = $HTMLTemplate.Replace("<TextTemplate>","$TextResult")
             $targetUrl =  "/unsubscribe#t6"
             $targetUrlJs = $targetUrl -replace "'", "\\'"   # escape single quotes for JS string
