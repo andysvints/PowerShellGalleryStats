@@ -125,7 +125,19 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             return
         }
 
-
+        if ($request.Url.LocalPath -eq '/subscribe' -and $request.HttpMethod -eq 'POST') {
+            $module =$request.Body['moduleId']-replace '[^a-zA-Z0-9.-]', ''
+            $email= $request.Body['email']
+            $html  = Register-PSGalleryStatsModuleSubscription -Module $module -Email $email
+            $bytes = [Text.Encoding]::UTF8.GetBytes($html)
+            $response.StatusCode = 200
+            $response.ContentType = 'text/html; charset=utf-8'
+            $response.ContentLength64 = $bytes.Length
+            $response.OutputStream.Write($bytes, 0, $bytes.Length)
+            $response.Close()
+            return
+        }
+        
         # Handle static file serving
         $localPath = $request.Url.LocalPath.TrimStart('/')
         if ([string]::IsNullOrEmpty($localPath)) {
