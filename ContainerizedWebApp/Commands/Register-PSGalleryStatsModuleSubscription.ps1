@@ -1,0 +1,70 @@
+function Register-PSGalleryStatsModuleSubscription
+{
+    <#
+    .Synopsis
+       Short description
+    .DESCRIPTION
+       Long description
+    .EXAMPLE
+       Example of how to use this cmdlet
+    #>
+    [CmdletBinding(SupportsShouldProcess=$true, 
+                  ConfirmImpact='Medium')]
+    [Alias()]
+    Param
+    (
+        # ModuleId to unsubscribe
+        [Parameter(Mandatory=$true, 
+                   ValueFromPipeline=$true)]
+        [ValidateNotNullOrEmpty()]
+        $Module,
+        
+       # Email to unsubscribe
+        [Parameter(Mandatory=$true, 
+                   ValueFromPipeline=$true)]
+        [ValidateNotNullOrEmpty()]
+        $Email
+    )
+    Begin
+    {
+    }
+    Process
+    {
+        if ($pscmdlet.ShouldProcess("$Module module and email - $Email"))
+        {
+
+            connect-AzAccount -Subscription "6e606d01-ff42-4cab-bcf2-b8888ab2fdc4" -Identity | Out-Null
+            $KeyVaultName="PSGalleryStats-KV"
+            $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGlrStatsFprEmailNotif" -AsPlainText
+            $apiUrl = "https://psgallerystats.azure-api.net/Register-PSGalleryStatsModuleSubscription?subscription-key=$apiKey"
+            $Body=@{
+              email=$email
+              moduleid=$module
+            }
+            $apiResponse = Invoke-RestMethod -Uri $apiUrl -Body $($Body | ConvertTo-JSON) -Method POST
+
+            $HTMLTemplate=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html") -Raw
+            $TextResult="$email have successfully subscribed to the $($module.ToUpper()) score updates"
+            $htmlResponse = $HTMLTemplate.Replace("<TextTemplate>","$TextResult")
+            $targetUrl =  "/subscribe#t6"
+            $targetUrlJs = $targetUrl -replace "'", "\\'"   # escape single quotes for JS string
+            $forceHash = @"
+<script>
+(function () {
+var target = '$targetUrlJs';
+// Only rewrite if needed (no extra history entry)
+if (location.pathname + location.search + location.hash !== target) {
+history.replaceState(null, '', target);
+}
+})();
+</script>
+"@
+        $htmlResponse = $htmlResponse.Replace("<DefaultHashScriptTemplate>", $forceHash)
+        return $htmlResponse
+           
+        }
+    }
+    End
+    {
+    }
+}
