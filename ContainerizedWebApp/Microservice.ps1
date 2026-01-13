@@ -130,8 +130,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $reader = [System.IO.StreamReader]::new($request.InputStream, $request.ContentEncoding)
             $rawBody = $reader.ReadToEnd()
             $reader.Close()
-            Write-Host "SUBSCRIBE rawBody: [$rawBody]"
-            Write-Host "ContentType: $($request.ContentType) Method: $($request.HttpMethod)"
+
 
             $pairs = $rawBody -split '&' | Where-Object { $_ -match '=' }
             $form = @{}
@@ -142,9 +141,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
                 $form[$k] = $v
             }
             
-            $module =$request.Body['moduleId']-replace '[^a-zA-Z0-9.-]', ''
-            $email= $request.Body['email']
-            $module = ($form['module'] ?? '') -replace '[^a-zA-Z0-9\.\-_]', ''
+            $module = ($form['moduleid'] ?? '') -replace '[^a-zA-Z0-9\.\-_]', ''
             $email  = ($form['email']  ?? '').Trim().ToLowerInvariant()
             
             $html  = Register-PSGalleryStatsModuleSubscription -Module $module -Email $email
