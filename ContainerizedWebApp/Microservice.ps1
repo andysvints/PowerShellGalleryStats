@@ -130,6 +130,9 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             $reader = [System.IO.StreamReader]::new($request.InputStream, $request.ContentEncoding)
             $rawBody = $reader.ReadToEnd()
             $reader.Close()
+            Write-Host "SUBSCRIBE rawBody: [$rawBody]"
+            Write-Host "ContentType: $($request.ContentType) Method: $($request.HttpMethod)"
+
             $pairs = $rawBody -split '&' | Where-Object { $_ -match '=' }
             $form = @{}
             foreach ($p in $pairs) {
