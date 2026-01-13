@@ -126,8 +126,24 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         }
 
         if ($request.Url.LocalPath -eq '/subscribe' -and $request.HttpMethod -eq 'POST') {
+            # Read raw body
+            $reader = [System.IO.StreamReader]::new($request.InputStream, $request.ContentEncoding)
+            $rawBody = $reader.ReadToEnd()
+            $reader.Close()
+            $pairs = $rawBody -split '&' | Where-Object { $_ -match '=' }
+            $form = @{}
+            foreach ($p in $pairs) {
+                $k, $v = $p -split '=', 2
+                $k = [System.Uri]::UnescapeDataString($k.Replace('+',' '))
+                $v = [System.Uri]::UnescapeDataString($v.Replace('+',' '))
+                $form[$k] = $v
+            }
+            
             $module =$request.Body['moduleId']-replace '[^a-zA-Z0-9.-]', ''
             $email= $request.Body['email']
+            $module = ($form['module'] ?? '') -replace '[^a-zA-Z0-9\.\-_]', ''
+            $email  = ($form['email']  ?? '').Trim().ToLowerInvariant()
+            
             $html  = Register-PSGalleryStatsModuleSubscription -Module $module -Email $email
             $bytes = [Text.Encoding]::UTF8.GetBytes($html)
             $response.StatusCode = 200
