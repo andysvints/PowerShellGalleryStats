@@ -4,71 +4,69 @@
     "Owners": "MariusStorhaug",
     "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
     "Score": 80,
-    "Published": "2026-01-17T22:00:26.227"
+    "Published": "2026-01-18T02:57:21.887"
   },
   {
-    "id": "GoogleFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
-    "Score": 75,
-    "Published": "2026-01-17T17:57:43.21"
-  },
-  {
-    "id": "Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
+    "id": "SqlServerMaintenance",
+    "Owners": "netsec4u",
+    "Description": "Provides maintenance functions to manage SQL Server.",
     "Score": 70,
-    "Published": "2026-01-17T21:17:16.043"
+    "Published": "2026-01-18T03:21:38.807"
   },
   {
-    "id": "Cli",
-    "Owners": "CedX",
-    "Description": "Command line interface of Cédric Belin, full stack developer.",
+    "id": "MailTools",
+    "Owners": "netsec4u",
+    "Description": "Module provides eMail functions.",
     "Score": 70,
-    "Published": "2026-01-17T15:49:26.55"
+    "Published": "2026-01-18T02:02:30.553"
   },
   {
-    "id": "AsBuiltReport.Microsoft.AD",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module to generate an as built report on the configuration of Microsoft AD.",
+    "id": "SHIMSOFT-Fundamentals",
+    "Owners": "SHIMSOFT",
+    "Description": "PowerShell の利用に関する支援機能を提供します。",
     "Score": 70,
-    "Published": "2026-01-17T02:17:37.977"
+    "Published": "2026-01-18T04:48:04.497"
   },
   {
-    "id": "NetillimarCitsmart",
-    "Owners": "netillimar",
-    "Description": "Provides cmdlets for configuration and usage of Citsmart API",
+    "id": "DnsServerDsc",
+    "Owners": "dsccommunity",
+    "Description": "This module contains DSC resources for the management and configuration of Windows Server DNS Server.",
+    "Score": 65,
+    "Published": "2026-01-18T15:11:39.067"
+  },
+  {
+    "id": "Rnwood.Dataverse.Data.PowerShell",
+    "Owners": "rnwood",
+    "Description": "Dataverse data manipulation cmdlets",
     "Score": 60,
-    "Published": "2026-01-17T04:03:35.073"
+    "Published": "2026-01-18T17:35:07.75"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
+    "id": "PSModuleDevelopment",
+    "Owners": "FWN",
+    "Description": "A module designed to speed up the development of PowerShell modules",
+    "Score": 55,
+    "Published": "2026-01-18T17:08:57.48"
+  },
+  {
+    "id": "SQLServerAgentTools",
+    "Owners": "netsec4u",
+    "Description": "Provides SQL Agent management functions.",
     "Score": 50,
-    "Published": "2026-01-17T21:31:50.947"
+    "Published": "2026-01-18T03:19:02.293"
   },
   {
-    "id": "WinClean",
-    "Owners": "biv",
-    "Description": [
-      []
-    ],
-    "Score": 40,
-    "Published": "2026-01-17T22:17:03.863"
+    "id": "UtilityFunctions",
+    "Owners": "pavel.stsefanovich",
+    "Description": "Common utilities and standardized console output messages for PowerShell admins.",
+    "Score": 50,
+    "Published": "2026-01-18T19:02:20.37"
   },
   {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
     "Score": 40,
-    "Published": "2026-01-17T06:25:31.363"
-  },
-  {
-    "id": "OSD",
-    "Owners": "Segura",
-    "Description": "OSD PowerShell Module for Windows Deployment",
-    "Score": 40,
-    "Published": "2026-01-17T22:05:56.027"
+    "Published": "2026-01-18T04:49:46.733"
   }
 ]
