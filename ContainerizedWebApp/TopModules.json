@@ -4,69 +4,69 @@
     "Owners": "MariusStorhaug",
     "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
     "Score": 80,
-    "Published": "2026-01-18T02:57:21.887"
+    "Published": "2026-01-20T00:27:07.25"
   },
   {
-    "id": "SqlServerMaintenance",
-    "Owners": "netsec4u",
-    "Description": "Provides maintenance functions to manage SQL Server.",
+    "id": "SqlServerDsc",
+    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
+    "Description": "This module contains commands and DSC resources for deployment and configuration of Microsoft SQL Server, SQL Server Reporting Services and Power BI Report Server.",
     "Score": 70,
-    "Published": "2026-01-18T03:21:38.807"
+    "Published": "2026-01-19T16:01:11.17"
   },
   {
-    "id": "MailTools",
-    "Owners": "netsec4u",
-    "Description": "Module provides eMail functions.",
+    "id": "LAM-PowerShell",
+    "Owners": "dynasys",
+    "Description": "LAM-PowerShell CmdLets to manage LAM",
     "Score": 70,
-    "Published": "2026-01-18T02:02:30.553"
+    "Published": "2026-01-19T13:12:02.25"
   },
   {
-    "id": "SHIMSOFT-Fundamentals",
-    "Owners": "SHIMSOFT",
-    "Description": "PowerShell の利用に関する支援機能を提供します。",
-    "Score": 70,
-    "Published": "2026-01-18T04:48:04.497"
-  },
-  {
-    "id": "DnsServerDsc",
-    "Owners": "dsccommunity",
-    "Description": "This module contains DSC resources for the management and configuration of Windows Server DNS Server.",
+    "id": "YourModuleName",
+    "Owners": "Mynster",
+    "Description": "This is a test PowerShell module",
     "Score": 65,
-    "Published": "2026-01-18T15:11:39.067"
+    "Published": "2026-01-19T21:43:42.637"
+  },
+  {
+    "id": "NetillimarCitsmart",
+    "Owners": "netillimar",
+    "Description": "Provides cmdlets for configuration and usage of Citsmart API",
+    "Score": 60,
+    "Published": "2026-01-19T16:50:37.213"
   },
   {
     "id": "Rnwood.Dataverse.Data.PowerShell",
     "Owners": "rnwood",
     "Description": "Dataverse data manipulation cmdlets",
     "Score": 60,
-    "Published": "2026-01-18T17:35:07.75"
+    "Published": "2026-01-19T20:42:47.607"
   },
   {
-    "id": "PSModuleDevelopment",
-    "Owners": "FWN",
-    "Description": "A module designed to speed up the development of PowerShell modules",
-    "Score": 55,
-    "Published": "2026-01-18T17:08:57.48"
+    "id": "PSAppDeployToolkit",
+    "Owners": "sintaxasn",
+    "Description": "Enterprise App Deployment, Simplified.",
+    "Score": 60,
+    "Published": "2026-01-19T11:09:49.55"
   },
   {
-    "id": "SQLServerAgentTools",
-    "Owners": "netsec4u",
-    "Description": "Provides SQL Agent management functions.",
+    "id": "PdfLexer",
+    "Owners": "plaisted",
+    "Description": "PdfLexer is a powershell pdf manipulation library for Powershell 7+.\n https://github.com/pdflexer/pdflexer",
+    "Score": 60,
+    "Published": "2026-01-19T21:13:57.147"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2026-01-18T03:19:02.293"
+    "Published": "2026-01-19T20:41:26.187"
   },
   {
-    "id": "UtilityFunctions",
-    "Owners": "pavel.stsefanovich",
-    "Description": "Common utilities and standardized console output messages for PowerShell admins.",
-    "Score": 50,
-    "Published": "2026-01-18T19:02:20.37"
-  },
-  {
-    "id": "IntuneHydrationKit",
-    "Owners": "jorgeasaurus",
-    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
-    "Score": 40,
-    "Published": "2026-01-18T04:49:46.733"
+    "id": "ReverseDSC",
+    "Owners": "NikCharleboisPFE",
+    "Description": "This DSC module is used to extract the DSC Configuration of existing environments.",
+    "Score": 45,
+    "Published": "2026-01-19T18:45:52.93"
   }
 ]
