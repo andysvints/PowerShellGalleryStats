@@ -1,72 +1,72 @@
 [
   {
-    "id": "MariusTestModule",
-    "Owners": "MariusStorhaug",
-    "Description": "A PowerShell module to test the PSModule framework from a personal repo.",
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2026-01-20T17:23:01.197"
+  },
+  {
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2026-01-20T17:55:39.643"
+  },
+  {
+    "id": "OCI.PSModules.Resourceanalytics",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Resourceanalytics Service",
     "Score": 80,
-    "Published": "2026-01-20T00:27:07.25"
+    "Published": "2026-01-20T17:37:48.943"
   },
   {
-    "id": "SqlServerDsc",
-    "Owners": "PowerShellTeam,gaelcolas,dsccommunity",
-    "Description": "This module contains commands and DSC resources for deployment and configuration of Microsoft SQL Server, SQL Server Reporting Services and Power BI Report Server.",
-    "Score": 70,
-    "Published": "2026-01-19T16:01:11.17"
+    "id": "OCI.PSModules.Multicloud",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Multicloud Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:35:03.9"
   },
   {
-    "id": "LAM-PowerShell",
-    "Owners": "dynasys",
-    "Description": "LAM-PowerShell CmdLets to manage LAM",
-    "Score": 70,
-    "Published": "2026-01-19T13:12:02.25"
+    "id": "OCI.PSModules.Iot",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Iot Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:32:48.52"
   },
   {
-    "id": "YourModuleName",
-    "Owners": "Mynster",
-    "Description": "This is a test PowerShell module",
-    "Score": 65,
-    "Published": "2026-01-19T21:43:42.637"
+    "id": "OCI.PSModules.Jmsutils",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:33:04.85"
   },
   {
-    "id": "NetillimarCitsmart",
-    "Owners": "netillimar",
-    "Description": "Provides cmdlets for configuration and usage of Citsmart API",
-    "Score": 60,
-    "Published": "2026-01-19T16:50:37.213"
+    "id": "OCI.PSModules.Aidataplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:24:26.653"
   },
   {
-    "id": "Rnwood.Dataverse.Data.PowerShell",
-    "Owners": "rnwood",
-    "Description": "Dataverse data manipulation cmdlets",
-    "Score": 60,
-    "Published": "2026-01-19T20:42:47.607"
+    "id": "OCI.PSModules.Managedkafka",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Managedkafka Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:34:08.163"
   },
   {
-    "id": "PSAppDeployToolkit",
-    "Owners": "sintaxasn",
-    "Description": "Enterprise App Deployment, Simplified.",
-    "Score": 60,
-    "Published": "2026-01-19T11:09:49.55"
+    "id": "OCI.PSModules.Apiplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:25:27.193"
   },
   {
-    "id": "PdfLexer",
-    "Owners": "plaisted",
-    "Description": "PdfLexer is a powershell pdf manipulation library for Powershell 7+.\n https://github.com/pdflexer/pdflexer",
-    "Score": 60,
-    "Published": "2026-01-19T21:13:57.147"
-  },
-  {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2026-01-19T20:41:26.187"
-  },
-  {
-    "id": "ReverseDSC",
-    "Owners": "NikCharleboisPFE",
-    "Description": "This DSC module is used to extract the DSC Configuration of existing environments.",
-    "Score": 45,
-    "Published": "2026-01-19T18:45:52.93"
+    "id": "OCI.PSModules.Dbmulticloud",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dbmulticloud Service",
+    "Score": 80,
+    "Published": "2026-01-20T17:29:38.533"
   }
 ]
