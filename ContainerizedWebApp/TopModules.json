@@ -1,74 +1,72 @@
 [
   {
-    "id": "PS-DnD2024-ToonFactory",
-    "Owners": "archibaldburnsteel",
-    "Description": "Generates random, fully-featured D&D 2024 characters with species, class, background, skills, equipment, and origin stories.",
-    "Score": 50,
-    "Published": "2026-01-24T17:59:11.267"
+    "id": "DNSServer.DebugLogParser",
+    "Owners": "AndiBellstedt",
+    "Description": "A PowerShell module that easily parses DNS Server debug log files into structured data formats like CSV.",
+    "Score": 80,
+    "Published": "2026-01-25T22:42:47.51"
   },
   {
-    "id": "Disable-DownloadsGrouping",
-    "Owners": "D-Ogi",
-    "Description": [
-      []
-    ],
-    "Score": 50,
-    "Published": "2026-01-24T13:06:43.227"
+    "id": "DLLPickle",
+    "Owners": "SamErde",
+    "Description": "A PowerShell module that helps you get un-stuck from version conflicts that occur when using modules that depend on different versions of the same dependency (such as the Microsoft Authentication Library (MSAL)).",
+    "Score": 75,
+    "Published": "2026-01-25T15:31:16.393"
   },
   {
-    "id": "Merc",
-    "Owners": "gluk",
-    "Description": "Interactive process killer with fzf and window title support. Merc your processes with style.",
-    "Score": 45,
-    "Published": "2026-01-24T01:24:15.59"
+    "id": "Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
+    "Score": 70,
+    "Published": "2026-01-25T14:57:03.65"
   },
   {
-    "id": "IdLE",
-    "Owners": "blindzero",
-    "Description": "IdentityLifecycleEngine (IdLE) meta-module. Imports IdLE.Core and optional packs.",
-    "Score": 45,
-    "Published": "2026-01-24T23:19:35.12"
+    "id": "PowerShell.MCP",
+    "Owners": "ytsuda",
+    "Description": "Enables AI assistants (such as Claude Desktop) to execute PowerShell commands and CLI tools within a persistent PowerShell console. Supports Windows, Linux, and macOS.",
+    "Score": 70,
+    "Published": "2026-01-25T02:50:53.947"
   },
   {
-    "id": "PowerShellUniversal.Apps.Bookworm",
-    "Owners": "steviecoaster",
-    "Description": "A personal library application for PowerShell Universal.",
-    "Score": 45,
-    "Published": "2026-01-24T20:33:31.213"
+    "id": "dbatools",
+    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
+    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+    "Score": 70,
+    "Published": "2026-01-25T20:05:21.883"
   },
   {
-    "id": "Microsoft.PowerPlatform.EnterprisePolicies",
-    "Owners": "Crmsdk",
-    "Description": "Microsoft PowerPlatform Enterprise policies module",
-    "Score": 45,
-    "Published": "2026-01-24T01:27:07.387"
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\n It provides an enhanced scrollable completion menu with sorting and filtering.\r\n  - Website: https://pscompletions.abgox.com\r\n  - Github:  https://github.com/abgox/PSCompletions\r\n  - Gitee:   https://gitee.com/abgox/PSCompletions",
+    "Score": 65,
+    "Published": "2026-01-25T10:51:59.06"
   },
   {
-    "id": "MakeMeAdminCLI",
-    "Owners": "HarrisonA",
-    "Description": "PowerShell module for requesting and managing temporary local administrator rights through a secure named pipe service. Allows non-elevated users to request time-limited admin privileges that are automatically revoked.",
-    "Score": 40,
-    "Published": "2026-01-24T12:46:54.203"
+    "id": "Diagrammer.Core",
+    "Owners": "jcolonfzenpr",
+    "Description": "A PowerShell module which provides the core framework for generating Diagrams for many common datacentre systems.",
+    "Score": 65,
+    "Published": "2026-01-25T23:25:43.29"
   },
   {
-    "id": "PSAdapter",
+    "id": "CTAN",
     "Owners": "Start-Automating",
-    "Description": "Adapt anything to PowerShell",
-    "Score": 40,
-    "Published": "2026-01-24T07:39:53.007"
+    "Description": "PowerShell Module for CTAN - The Comprehensive TeX Archive Network",
+    "Score": 60,
+    "Published": "2026-01-25T03:00:47.65"
   },
   {
-    "id": "DirwTools",
-    "Owners": "zxHunter",
-    "Description": "Multi-column compact \"dir /w\" style directory list with optional calculating folders size and sorting",
-    "Score": 40,
-    "Published": "2026-01-24T20:14:02.91"
+    "id": "Azure.DevOps.PSModule",
+    "Owners": "MSc356Admin",
+    "Description": "A PowerShell module that wraps the Azure DevOps REST API into clean, task-oriented cmdlets. It simplifies automation and scripting across your DevOps workflows, making it easier to manage pipelines, repositories, builds, releases, and work items directly from PowerShell.",
+    "Score": 60,
+    "Published": "2026-01-25T19:02:36.17"
   },
   {
-    "id": "qbo4.Infrastructure",
-    "Owners": "quandiscto,KevinFoley",
-    "Description": "Quandis Infrastructure Management, including publishing of qbo databases and websites.",
-    "Score": 40,
-    "Published": "2026-01-24T06:26:30.127"
+    "id": "ScreenRecorder",
+    "Owners": "ytsuda",
+    "Description": "Screen capture tool with clock overlay for debugging and log correlation. No external dependencies required. Can be run directly without module installation.",
+    "Score": 50,
+    "Published": "2026-01-25T09:51:32.277"
   }
 ]
