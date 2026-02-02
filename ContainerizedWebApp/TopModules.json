@@ -1,68 +1,72 @@
 [
   {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "Enables AI assistants (such as Claude Desktop) to execute PowerShell commands and CLI tools within a persistent PowerShell console. Supports Windows, Linux, and macOS.",
+    "id": "XDRInternals",
+    "Owners": "FBader",
+    "Description": "The unofficial API cmdlet to interact with the Microsoft Defender XDR portal",
     "Score": 70,
-    "Published": "2026-01-31T05:47:53.08"
+    "Published": "2026-02-01T17:54:31.687"
   },
   {
-    "id": "dbatools",
-    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
-    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+    "id": "Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
     "Score": 70,
-    "Published": "2026-01-31T03:39:07.787"
+    "Published": "2026-02-01T20:41:47.017"
   },
   {
-    "id": "ron",
-    "Owners": "euaaron",
-    "Description": "Run on Node (ron) - A PowerShell-based Node.js version manager for Windows. Easily install, switch, and manage multiple Node.js versions.",
+    "id": "AzureDevOpsDscv3",
+    "Owners": "mimachniak",
+    "Description": "Module with DSC Resources for deployment and configuration of Azure DevOps Server/Services supporting DSC v3.",
+    "Score": 65,
+    "Published": "2026-02-01T18:11:08.4"
+  },
+  {
+    "id": "systemchecks",
+    "Owners": "mmhilbert",
+    "Description": "PowerShell module for building comprehensive system health checks and infrastructure validations",
+    "Score": 50,
+    "Published": "2026-02-01T21:13:50.39"
+  },
+  {
+    "id": "Microsoft-Secure-Score-Assessment-Toolkit",
+    "Owners": "Mohammedsiddiqui",
+    "Description": "A powerful PowerShell toolkit for assessing Microsoft 365 security posture through the Microsoft Secure Score API. Generate comprehensive, interactive HTML reports with 411+ security controls directly from Microsoft Graph API. Features include real-time data fetching, interactive filtering, floating action buttons, and direct links to configuration portals. Perfect for security assessments, compliance reporting, and continuous security monitoring.",
+    "Score": 50,
+    "Published": "2026-02-01T10:06:36.153"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
+    "Score": 50,
+    "Published": "2026-02-01T21:04:16.933"
+  },
+  {
+    "id": "PsPatchMyPC",
+    "Owners": "thomastysong",
+    "Description": "Enterprise application patching module integrating winget with PatchMyPC-style orchestration and Nudge-inspired progressive enforcement. Supports deferrals, notifications, dual logging, and orchestrator-agnostic deployment.",
     "Score": 45,
-    "Published": "2026-01-31T19:15:37.37"
+    "Published": "2026-02-01T13:09:26.573"
   },
   {
-    "id": "ScreenRecorder",
-    "Owners": "ytsuda",
-    "Description": "Screen capture tool with clock overlay for debugging and log correlation. Displays an always-on-top clock and captures screenshots only when the screen changes.\n\nUsage: Start-ScreenRecorder\n       Start-ScreenRecorder -RecordFor 00:05:00\n\nNo external dependencies required. Can be run directly without module installation.\nSee https://github.com/yotsuda/ScreenRecorder for detailed usage and parameters.",
+    "id": "WindowsUpdateTools",
+    "Owners": "AlexAppleton",
+    "Description": "Comprehensive PowerShell module for diagnosing, analyzing, and remediating Windows Update issues in enterprise environments. Includes SetupDiag integration, automated remediation, and detailed health reporting.",
+    "Score": 45,
+    "Published": "2026-02-02T00:17:39.48"
+  },
+  {
+    "id": "HermesConsoleUI",
+    "Owners": "DavidPrietoDev",
+    "Description": "Professional PowerShell Console UI Framework - A comprehensive, zero-dependency toolkit for building beautiful terminal applications. Includes 40 functions (11 text, 7 visual, 10 interactive, 12 core) with full theme support, internationalization (i18n), and PowerShell 2.0+ compatibility.",
     "Score": 40,
-    "Published": "2026-01-31T04:04:00.64"
+    "Published": "2026-02-01T12:16:40.307"
   },
   {
-    "id": "Entra-PIM",
-    "Owners": "markorr321",
-    "Description": "Manage Microsoft Entra PIM roles for both Entra ID and Azure Resources with an interactive console experience. Features browser-based authentication with ForceLogin, cross-platform support (Windows/macOS), automatic step-up MFA handling, one-command activation/deactivation of eligible roles, and auto-installation of dependencies. Just run Start-EntraPIM - no app registration or complex configuration required.",
+    "id": "ArgosCCF",
+    "Owners": "DavidPrietoDev",
+    "Description": "ArgosCCF (formerly CCF) is a professional PowerShell framework for secure configuration, logging, plugin management, and parallel execution. Designed for high-integrity automation and security hardening.",
     "Score": 40,
-    "Published": "2026-01-31T12:03:14.92"
-  },
-  {
-    "id": "ADSyncTools",
-    "Owners": "Nuno.Alex",
-    "Description": "This module provides functions to support Azure AD Connect operations, diagnostics and troubleshooting.",
-    "Score": 25,
-    "Published": "2026-01-31T08:16:51.737"
-  },
-  {
-    "id": "Microsoft.Graph.Beta.Migrations",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Published": "2026-01-31T21:15:42.933"
-  },
-  {
-    "id": "AzNetworkDiagram",
-    "Owners": "DanMadsen",
-    "Description": "Creates a diagram of your Azure infrastructure.",
-    "Published": "2026-01-31T21:07:58.317"
-  },
-  {
-    "id": "Microsoft.Graph.BackupRestore",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Published": "2026-01-31T21:13:42.37"
-  },
-  {
-    "id": "Microsoft.Graph.Beta.NetworkAccess",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Published": "2026-01-31T21:15:46.153"
+    "Published": "2026-02-01T12:16:43.28"
   }
 ]
