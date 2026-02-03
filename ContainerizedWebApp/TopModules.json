@@ -1,72 +1,72 @@
 [
   {
-    "id": "XDRInternals",
-    "Owners": "FBader",
-    "Description": "The unofficial API cmdlet to interact with the Microsoft Defender XDR portal",
+    "id": "NetApp.ONTAP",
+    "Owners": "SomyaneelSinha,DeepakPallai,raghuvs82",
+    "Description": "NetApp.ONTAP PowerShell Toolkit. The ONTAP 9.18.1 PowerShell Toolkit provides end-to-end automation and enables more efficient and scalable administration of NetApp storage. This module contains over 2340 PowerShell cmdlets to help you automate ONTAP administration on FAS and AFF systems, commodity hardware, and the cloud. This toolkit also supports REST API with 9.10 and later version of ONTAP. The toolkit also provides cross-platform support for Windows, Ubuntu, Red Hat Enterprise Linux (RHEL), and macOS.",
+    "Score": 85,
+    "Published": "2026-02-02T09:29:03.853"
+  },
+  {
+    "id": "PSDevOpsBackup",
+    "Owners": "MichalGajda",
+    "Description": "PowerShell module for backup DevOps repos.",
     "Score": 70,
-    "Published": "2026-02-01T17:54:31.687"
+    "Published": "2026-02-02T10:57:49.23"
   },
   {
-    "id": "Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
-    "Score": 70,
-    "Published": "2026-02-01T20:41:47.017"
-  },
-  {
-    "id": "AzureDevOpsDscv3",
-    "Owners": "mimachniak",
-    "Description": "Module with DSC Resources for deployment and configuration of Azure DevOps Server/Services supporting DSC v3.",
-    "Score": 65,
-    "Published": "2026-02-01T18:11:08.4"
-  },
-  {
-    "id": "systemchecks",
-    "Owners": "mmhilbert",
-    "Description": "PowerShell module for building comprehensive system health checks and infrastructure validations",
+    "id": "PowerSteph",
+    "Owners": "Problemli",
+    "Description": "Stop Wishing, Start Scripting",
     "Score": 50,
-    "Published": "2026-02-01T21:13:50.39"
+    "Published": "2026-02-02T11:03:29.507"
   },
   {
-    "id": "Microsoft-Secure-Score-Assessment-Toolkit",
-    "Owners": "Mohammedsiddiqui",
-    "Description": "A powerful PowerShell toolkit for assessing Microsoft 365 security posture through the Microsoft Secure Score API. Generate comprehensive, interactive HTML reports with 411+ security controls directly from Microsoft Graph API. Features include real-time data fetching, interactive filtering, floating action buttons, and direct links to configuration portals. Perfect for security assessments, compliance reporting, and continuous security monitoring.",
+    "id": "Devolutions.PowerShell",
+    "Owners": "Devolutions",
+    "Description": "The Devolutions.PowerShell module is a set of cmdlets that allow administrators to manage Remote Desktop Manager, Devolutions Server and Devolutions Hub Business using PowerShell. This module provides a simple and consistent interface for interacting with these products, making it easy to automate various tasks, such as creating and managing connections, sessions, and credentials, configuring security settings, and generating reports. The module can be easily integrated with other PowerShell modules, allowing administrators to automate tasks across multiple products and platforms, streamline their workflows and increase efficiency.",
     "Score": 50,
-    "Published": "2026-02-01T10:06:36.153"
+    "Published": "2026-02-02T14:08:34.653"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2026-02-01T21:04:16.933"
-  },
-  {
-    "id": "PsPatchMyPC",
-    "Owners": "thomastysong",
-    "Description": "Enterprise application patching module integrating winget with PatchMyPC-style orchestration and Nudge-inspired progressive enforcement. Supports deferrals, notifications, dual logging, and orchestrator-agnostic deployment.",
+    "id": "IntuneWinAppUtilGUI",
+    "Owners": "Gioxx",
+    "Description": "GUI wrapper for IntuneWinAppUtil.exe with config file support and WPF interface.",
     "Score": 45,
-    "Published": "2026-02-01T13:09:26.573"
+    "Published": "2026-02-02T09:22:18.737"
   },
   {
-    "id": "WindowsUpdateTools",
-    "Owners": "AlexAppleton",
-    "Description": "Comprehensive PowerShell module for diagnosing, analyzing, and remediating Windows Update issues in enterprise environments. Includes SetupDiag integration, automated remediation, and detailed health reporting.",
-    "Score": 45,
-    "Published": "2026-02-02T00:17:39.48"
-  },
-  {
-    "id": "HermesConsoleUI",
-    "Owners": "DavidPrietoDev",
-    "Description": "Professional PowerShell Console UI Framework - A comprehensive, zero-dependency toolkit for building beautiful terminal applications. Includes 40 functions (11 text, 7 visual, 10 interactive, 12 core) with full theme support, internationalization (i18n), and PowerShell 2.0+ compatibility.",
+    "id": "HPECOMCmdlets",
+    "Owners": "lionel.jullien",
+    "Description": "The HPE Compute Ops Management PowerShell library offers a comprehensive suite of cmdlets designed to manage and automate your HPE GreenLake environment. By leveraging this library, users can seamlessly interact with HPE GreenLake and Compute Ops Management services directly from the PowerShell command line, enabling efficient integration into existing automation workflows and enhancing operational efficiency.",
     "Score": 40,
-    "Published": "2026-02-01T12:16:40.307"
+    "Published": "2026-02-02T09:48:16.987"
   },
   {
-    "id": "ArgosCCF",
-    "Owners": "DavidPrietoDev",
-    "Description": "ArgosCCF (formerly CCF) is a professional PowerShell framework for secure configuration, logging, plugin management, and parallel execution. Designed for high-integrity automation and security hardening.",
+    "id": "WhiteboardAdmin",
+    "Owners": "whiteboard-ps",
+    "Description": "Administration cmdlets for Microsoft Whiteboard.",
     "Score": 40,
-    "Published": "2026-02-01T12:16:43.28"
+    "Published": "2026-02-02T07:54:26.16"
+  },
+  {
+    "id": "Microsoft.PowerPlatform.DevOps",
+    "Owners": "Haskins242,eugenevs",
+    "Description": "A Toolset for Implementing and Adopting a full ALM strategy for the Microsoft PowerPlatform.",
+    "Score": 40,
+    "Published": "2026-02-02T04:26:48.88"
+  },
+  {
+    "id": "AppVentiX",
+    "Owners": "AppVentiX",
+    "Description": "Provide extra functionality for AppVentiX.",
+    "Score": 40,
+    "Published": "2026-02-02T13:37:08.127"
+  },
+  {
+    "id": "VSAModule",
+    "Owners": "Vladislav.Semko",
+    "Description": "PowerShell wrapper module for the Kaseya VSA 9 REST API. Provides cmdlets for automating tasks, retrieving data, and managing resources within the Kaseya VSA 9 environment.",
+    "Score": 35,
+    "Published": "2026-02-02T14:04:10.06"
   }
 ]
