@@ -1,72 +1,37 @@
 [
   {
-    "id": "NetApp.ONTAP",
-    "Owners": "SomyaneelSinha,DeepakPallai,raghuvs82",
-    "Description": "NetApp.ONTAP PowerShell Toolkit. The ONTAP 9.18.1 PowerShell Toolkit provides end-to-end automation and enables more efficient and scalable administration of NetApp storage. This module contains over 2340 PowerShell cmdlets to help you automate ONTAP administration on FAS and AFF systems, commodity hardware, and the cloud. This toolkit also supports REST API with 9.10 and later version of ONTAP. The toolkit also provides cross-platform support for Windows, Ubuntu, Red Hat Enterprise Linux (RHEL), and macOS.",
-    "Score": 85,
-    "Published": "2026-02-02T09:29:03.853"
+    "id": "GWS.CloudDepot",
+    "Owners": "xgwsgrs",
+    "Description": "CloudDepot PowerShell Module",
+    "Score": 60,
+    "Published": "2026-02-04T14:25:45.957"
   },
   {
-    "id": "PSDevOpsBackup",
-    "Owners": "MichalGajda",
-    "Description": "PowerShell module for backup DevOps repos.",
-    "Score": 70,
-    "Published": "2026-02-02T10:57:49.23"
+    "id": "Devolutions.CIEM",
+    "Owners": "adbertram",
+    "Description": "Cloud Infrastructure Entitlement Management (CIEM) module for Azure identity and access security checks. Provides 46 identity-focused checks for Entra ID, IAM/RBAC, KeyVault, and Storage services.",
+    "Score": 50,
+    "Published": "2026-02-04T14:20:05.13"
   },
   {
     "id": "PowerSteph",
     "Owners": "Problemli",
     "Description": "Stop Wishing, Start Scripting",
-    "Score": 50,
-    "Published": "2026-02-02T11:03:29.507"
-  },
-  {
-    "id": "Devolutions.PowerShell",
-    "Owners": "Devolutions",
-    "Description": "The Devolutions.PowerShell module is a set of cmdlets that allow administrators to manage Remote Desktop Manager, Devolutions Server and Devolutions Hub Business using PowerShell. This module provides a simple and consistent interface for interacting with these products, making it easy to automate various tasks, such as creating and managing connections, sessions, and credentials, configuring security settings, and generating reports. The module can be easily integrated with other PowerShell modules, allowing administrators to automate tasks across multiple products and platforms, streamline their workflows and increase efficiency.",
-    "Score": 50,
-    "Published": "2026-02-02T14:08:34.653"
-  },
-  {
-    "id": "IntuneWinAppUtilGUI",
-    "Owners": "Gioxx",
-    "Description": "GUI wrapper for IntuneWinAppUtil.exe with config file support and WPF interface.",
-    "Score": 45,
-    "Published": "2026-02-02T09:22:18.737"
-  },
-  {
-    "id": "HPECOMCmdlets",
-    "Owners": "lionel.jullien",
-    "Description": "The HPE Compute Ops Management PowerShell library offers a comprehensive suite of cmdlets designed to manage and automate your HPE GreenLake environment. By leveraging this library, users can seamlessly interact with HPE GreenLake and Compute Ops Management services directly from the PowerShell command line, enabling efficient integration into existing automation workflows and enhancing operational efficiency.",
     "Score": 40,
-    "Published": "2026-02-02T09:48:16.987"
+    "Published": "2026-02-04T13:52:03.697"
   },
   {
-    "id": "WhiteboardAdmin",
-    "Owners": "whiteboard-ps",
-    "Description": "Administration cmdlets for Microsoft Whiteboard.",
-    "Score": 40,
-    "Published": "2026-02-02T07:54:26.16"
+    "id": "PSDify",
+    "Owners": "kurokobo",
+    "Description": "PowerShell module for Dify.",
+    "Score": 30,
+    "Published": "2026-02-04T14:24:35.323"
   },
   {
-    "id": "Microsoft.PowerPlatform.DevOps",
-    "Owners": "Haskins242,eugenevs",
-    "Description": "A Toolset for Implementing and Adopting a full ALM strategy for the Microsoft PowerPlatform.",
-    "Score": 40,
-    "Published": "2026-02-02T04:26:48.88"
-  },
-  {
-    "id": "AppVentiX",
-    "Owners": "AppVentiX",
-    "Description": "Provide extra functionality for AppVentiX.",
-    "Score": 40,
-    "Published": "2026-02-02T13:37:08.127"
-  },
-  {
-    "id": "VSAModule",
-    "Owners": "Vladislav.Semko",
-    "Description": "PowerShell wrapper module for the Kaseya VSA 9 REST API. Provides cmdlets for automating tasks, retrieving data, and managing resources within the Kaseya VSA 9 environment.",
-    "Score": 35,
-    "Published": "2026-02-02T14:04:10.06"
+    "id": "OptWin",
+    "Owners": "Problemli",
+    "Description": "Windows is Awesome but not out of the box",
+    "Score": 20,
+    "Published": "2026-02-04T13:56:32.683"
   }
 ]
