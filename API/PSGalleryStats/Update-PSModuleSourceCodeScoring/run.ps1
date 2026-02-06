@@ -11,7 +11,7 @@ foreach($Module in $InboundPSModuleDocument){
         Write-Host "Document Id: $($Module.id)"
         #1. Download nupkg
         #2. Rename to .zip
-        $moduleDir="$($env:temp)/$($Module.id)"
+        $moduleDir="/tmp/$($Module.id)"
         Invoke-WebRequest -Uri $Module.NugetPkgLink -OutFile "$moduleDir.zip"
         #3. unzip Expand-Archive
         Expand-Archive "$moduleDir.zip" -Force -DestinationPath $moduleDir
