@@ -59,6 +59,16 @@ function Get-PSTopModule
             $HTMLTable.AppendLine("<tbody></table>")
             #Inject Into index.html
             $IndexPageHTML=$IndexPageHTML.Replace("<TableTemplate>",$($HTMLTable.ToString())) 
+
+$CommunityImpact=Get-Content "/usr/local/share/powershell/Modules/PSGalleryModuleScore/CommunityImpact.json" | ConvertFrom-Json -Depth 10
+
+$HTMLSection=[System.Text.StringBuilder]::new()
+$HTMLSection.AppendLine("
+            Community impact: $($CommunityImpact.PRsSubmitted)+ PRs, $($CommunityImpact.IssuesOpened)+ issues · Updated daily <br>
+<a href=`"https://github.com/search?q=stats.psfundamentals.com&type=pullrequests`" target=`"_blank`">See Details</a>
+            ")
+
+$IndexPageHTML=$IndexPageHTML.Replace("<CommunityImpactTemplate>",$($HTMLSection.ToString()))
             
             $IndexPageHTML.Replace("<CurrentYear>",$((Get-Date).Year))| Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/index.html" -Force
         }
