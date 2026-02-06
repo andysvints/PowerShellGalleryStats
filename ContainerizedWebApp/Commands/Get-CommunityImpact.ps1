@@ -33,6 +33,7 @@ function Get-CommunityImpact
             ")
             #Inject Into index.html
             $IndexPageHTML=$IndexPageHTML.Replace("<communityimpacttemplate>",$($HTMLTable.ToString())) 
+            $IndexPageHTML | Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/index.html" -Force
             
         }
     }
