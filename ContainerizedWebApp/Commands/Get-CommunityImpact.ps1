@@ -32,7 +32,7 @@ function Get-CommunityImpact
 <a href=`"https://github.com/search?q=stats.psfundamentals.com&type=pullrequests`" target=`"_blank`">See Details</a>
             ")
             #Inject Into index.html
-            $IndexPageHTML=$IndexPageHTML.Replace("<communityimpacttemplate>",$($HTMLTable.ToString())) 
+            $IndexPageHTML=$IndexPageHTML.Replace("<CommunityImpactTemplate>",$($HTMLTable.ToString())) 
             $IndexPageHTML | Out-file "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web/index.html" -Force
             
         }
