@@ -78,10 +78,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             
             Get-PSTopModule -Top 10
         }
-        if($IndexPageHTML -match "<CommunityImpactTemplate>" ){
-            
-            Get-CommunityImpact
-        }
+        
         # Forget favicons.
         if ($request.Url.LocalPath -eq '/favicon.ico') {
             $response.StatusCode = 404
