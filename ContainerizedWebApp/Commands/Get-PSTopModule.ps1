@@ -64,7 +64,7 @@ $CommunityImpact=Get-Content "/usr/local/share/powershell/Modules/PSGalleryModul
 
 $HTMLSection=[System.Text.StringBuilder]::new()
 $HTMLSection.AppendLine("
-            Community impact: $($CommunityImpact.PRsSubmitted)+ PRs, $($CommunityImpact.IssuesOpened)+ issues · Updated daily <br>
+            Community impact: $($CommunityImpact.PRsSubmitted) PRs, $($CommunityImpact.IssuesOpened) issues · Updated daily <br>
 <a href=`"https://github.com/search?q=stats.psfundamentals.com&type=pullrequests`" target=`"_blank`">See Details</a>
             ")
 
