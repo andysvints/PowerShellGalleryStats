@@ -80,7 +80,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         }
         if($IndexPageHTML -match "<CommunityImpactTemplate>" ){
             
-            Get-CommunityImpact.ps1
+            Get-CommunityImpact
         }
         
         # Forget favicons.
