@@ -27,9 +27,9 @@ steps:
 
 # Deploy
 - task: AzureFunctionApp@2
-  displayName: Deploy PSGalleryStats
   inputs:
-    azureSubscription: '$(AZURE_CONN)'
-    appType: functionApp
-    appName: '$(APP_NAME)'
-    package: '$(PACKAGE)'
+    connectedServiceNameARM: 'Andys Azure Subscription(6e606d01-ff42-4cab-bcf2-b8888ab2fdc4)'
+    appType: 'functionAppLinux'
+    appName: 'PSGalleryStats'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
