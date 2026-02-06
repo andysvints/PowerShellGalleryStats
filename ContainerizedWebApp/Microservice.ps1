@@ -78,6 +78,10 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             
             Get-PSTopModule -Top 10
         }
+        if($IndexPageHTML -match "<CommunityImpactTemplate>" ){
+            
+            Get-CommunityImpact.ps1
+        }
         
         # Forget favicons.
         if ($request.Url.LocalPath -eq '/favicon.ico') {
