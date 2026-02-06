@@ -78,7 +78,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
             
             Get-PSTopModule -Top 10
         }
-        if($IndexPageHTML -match "<CommunityImpactTemplate>" ){
+        if($IndexPageHTML -match "<communityimpacttemplate>" ){
             
             Get-CommunityImpact
         }
