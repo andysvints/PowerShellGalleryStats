@@ -21,9 +21,9 @@ function Get-CommunityImpact
     {
         if ($pscmdlet.ShouldProcess(""))
         {
-            $ModulesFilePath = Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore" -ChildPath "CommunityImpact.json"
-            Write-Verbose "Community impact data path - $ModulesFilePath"
-            $CommunityImpact=Get-Content $ModulesFilePath | ConvertFrom-Json -Depth 10
+            $FilePath = Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore" -ChildPath "CommunityImpact.json"
+            Write-Verbose "Community impact data path - $FilePath"
+            $CommunityImpact=Get-Content $FilePath | ConvertFrom-Json -Depth 10
             $IndexPageHTML=Get-Content $(Join-Path -Path "/usr/local/share/powershell/Modules/PSGalleryModuleScore/Web" -ChildPath "index.html")
             #Generate HTML 
             $HTMLTable=[System.Text.StringBuilder]::new()
