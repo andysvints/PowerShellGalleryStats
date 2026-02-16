@@ -1,72 +1,72 @@
 [
   {
-    "id": "Speech",
-    "Owners": "ytsuda",
-    "Description": "PowerShell module for speech synthesis and recognition - includes Windows, Azure, OpenAI, and Google speech services",
+    "id": "PollinationsAiPS",
+    "Owners": "BananaAcid",
+    "Description": "Power up your PowerShell scripts with AI! A seamless interface for Pollinations.ai to generate images, text, and audio. 🤖",
     "Score": 75,
-    "Published": "2026-02-14T16:13:03.097"
+    "Published": "2026-02-15T18:38:23.847"
   },
   {
-    "id": "ADCSTools",
-    "Owners": "richardhicks",
-    "Description": "PowerShell module for performing administrative tasks on Microsoft Active Directory Certificate Services (AD CS) servers.",
+    "id": "Pup",
+    "Owners": "n7on",
+    "Description": "Browser automation for PowerShell using the Chrome DevTools Protocol. Scrape websites, fill forms, take screenshots, export PDFs, and record interactions as replayable scripts. Works with PowerShell 5.1+ on Windows, Linux, and macOS.",
     "Score": 75,
-    "Published": "2026-02-14T22:13:22.817"
+    "Published": "2026-02-15T23:57:06.893"
   },
   {
-    "id": "PSBinaryModule",
-    "Owners": "mstanojevic",
-    "Description": "A PowerShell binary module template with complete CI/CD pipeline, unit testing, and development container support.",
+    "id": "GitHub",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
+    "Score": 75,
+    "Published": "2026-02-15T21:07:40.31"
+  },
+  {
+    "id": "IdLE.Steps.Mailbox",
+    "Owners": "blindzero",
+    "Description": "Provider-agnostic mailbox step pack for IdLE.",
     "Score": 70,
-    "Published": "2026-02-14T23:59:38.687"
+    "Published": "2026-02-15T19:05:59.057"
   },
   {
-    "id": "Speech.Windows",
-    "Owners": "ytsuda",
-    "Description": "Windows Speech API module for Speech - TTS and STT using System.Speech",
+    "id": "IdLE.Steps.DirectorySync",
+    "Owners": "blindzero",
+    "Description": "Generic directory sync steps for IdLE.",
     "Score": 70,
-    "Published": "2026-02-14T16:11:25.903"
+    "Published": "2026-02-15T19:05:24.31"
   },
   {
-    "id": "Speech.OpenAI",
-    "Owners": "ytsuda",
-    "Description": "OpenAI Speech module - TTS using OpenAI API and STT using Whisper",
-    "Score": 70,
-    "Published": "2026-02-14T16:12:17.013"
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\n It provides a more powerful module completion menu with sorting and filtering.\r\n  - Website: https://pscompletions.abgox.com\r\n  - Github:  https://github.com/abgox/PSCompletions\r\n  - Gitee:   https://gitee.com/abgox/PSCompletions",
+    "Score": 65,
+    "Published": "2026-02-15T04:33:26.673"
   },
   {
-    "id": "Speech.Google",
-    "Owners": "ytsuda",
-    "Description": "Google Cloud Speech Services for Speech module - Text-to-Speech and Speech-to-Text",
-    "Score": 70,
-    "Published": "2026-02-14T16:12:36.847"
+    "id": "ROI",
+    "Owners": "Start-Automating",
+    "Description": "Calculate Return on Investment",
+    "Score": 60,
+    "Published": "2026-02-15T03:14:41.023"
   },
   {
-    "id": "Speech.Core",
-    "Owners": "ytsuda",
-    "Description": "Core module for Speech - configuration management and utilities",
-    "Score": 70,
-    "Published": "2026-02-14T16:10:58.433"
-  },
-  {
-    "id": "Speech.Azure",
-    "Owners": "ytsuda",
-    "Description": "Azure Speech Services module for Speech - TTS and STT using Azure Cognitive Services",
-    "Score": 70,
-    "Published": "2026-02-14T16:11:52.51"
-  },
-  {
-    "id": "WinUIShell",
-    "Owners": "mdgrs-mei",
-    "Description": "Scripting WinUI 3 with PowerShell",
-    "Score": 55,
-    "Published": "2026-02-14T13:49:21.61"
-  },
-  {
-    "id": "UncommonSense.Verification",
-    "Owners": "jhoek",
-    "Description": "PowerShell verification utility cmdlets",
+    "id": "DscSchemaBuilder",
+    "Owners": "GijsReijn",
+    "Description": "Generate Microsoft Desired State Configuration (DSC) resource manifests and JSON Schema from PowerShell DSC resources",
     "Score": 50,
-    "Published": "2026-02-14T14:27:31.873"
+    "Published": "2026-02-15T14:45:30.51"
+  },
+  {
+    "id": "IdLE.Steps.Common",
+    "Owners": "blindzero",
+    "Description": "Common built-in steps for IdLE.",
+    "Score": 50,
+    "Published": "2026-02-15T19:04:13.31"
+  },
+  {
+    "id": "IdLE.Provider.Mock",
+    "Owners": "blindzero",
+    "Description": "Mock provider implementation for IdLE (in-memory, deterministic).",
+    "Score": 50,
+    "Published": "2026-02-15T19:08:46.713"
   }
 ]
