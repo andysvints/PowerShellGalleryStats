@@ -64,3 +64,40 @@ $response = Invoke-WebRequest -Uri $commitUrl -Headers $headers -Method Put -Bod
 
 # Output the response
 Write-Host "$response"
+
+$CommunityImpactReqHeaders=@{Accept="application/vnd.github+json";"X-GitHub-Api-Version"='2022-11-28'}
+$r=Invoke-RestMethod -Uri "https://api.github.com/search/issues?q=stats.psfundamentals.com" -Headers $CommunityImpactReqHeaders
+$issue=$r.items | Where {$_.issue_dependencies_summary -ne $null}
+$pr=$r.items | Where {$_.pull_request -ne $null}
+$openPR=$pr | where {$_.state -eq "open"}
+$openissue=$issue | where {$_.state -eq "open"}
+
+$CommunityImpact=New-Object System.Collections.Generic.List[PSObject]
+$CommunityImpact.Add(@{"PRsSubmitted"=$pr.count})
+$CommunityImpact.Add(@{"PRsMerged"=$pr.count-$openPR.count})
+$CommunityImpact.Add(@{"IssuesOpened"=$issue.count})
+$CommunityImpact.Add(@{"IssuesClosed"=$issue.count-$openIssue.count})
+$CommunityImpactJSON=$CommunityImpact | ConvertTo-Json -Depth 10
+
+$filePath = "ContainerizedWebApp/CommunityImpact.json"
+$commitMessage = "Update CommunityImpact.json from Azure Function"
+$fileApiUrl = "https://api.github.com/repos/$owner/$repo/contents/$($filePath)?ref=$($branch)"
+$response = Invoke-RestMethod -Uri $fileApiUrl -Headers $headers -Method Get
+$fileSha = $response.sha
+$CommunityImpactBase64=[Convert]::ToBase64String($OutputEncoding.GetBytes($CommunityImpactJSON))
+
+$body = @{
+    message = $commitMessage
+    content = $CommunityImpactBase64
+    sha     = $fileSha 
+    branch  = $branch
+}
+
+$jsonBody = $body | ConvertTo-Json
+
+
+$commitUrl = "https://api.github.com/repos/$owner/$repo/contents/$filePath"
+$response = Invoke-WebRequest -Uri $commitUrl -Headers $headers -Method Put -Body $jsonBody
+
+# Output the response
+Write-Host "$response"
