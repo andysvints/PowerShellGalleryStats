@@ -1,52 +1,17 @@
 [
   {
-    "id": "AsBuiltReport.Chart",
-    "Owners": "tpcarman",
-    "Description": "AsBuiltReport.Chart is a PowerShell module that aims to provide chart generation capabilities. Underneath it uses ScottPlot and SkiaSharp libraries.",
+    "id": "GitHub",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
     "Score": 75,
-    "Published": "2026-02-21T14:59:01.67"
+    "Published": "2026-02-22T15:29:30.167"
   },
   {
-    "id": "AOVPNTools",
-    "Owners": "richardhicks",
-    "Description": "PowerShell module for configuring, optimizing, and troubleshooting Windows Server Routing and Remote Access Service (RRAS) for Always On VPN.",
+    "id": "7Zip4Powershell",
+    "Owners": "thoemmi",
+    "Description": "Powershell module for creating and extracting 7-Zip archives",
     "Score": 75,
-    "Published": "2026-02-21T22:49:46.56"
-  },
-  {
-    "id": "PSEventViewer",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple module allowing parsing of event logs. Has its own quirks...",
-    "Score": 70,
-    "Published": "2026-02-21T14:17:04.287"
-  },
-  {
-    "id": "AsBuiltReport.Microsoft.AD",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module to generate an as built report on the configuration of Microsoft AD.",
-    "Score": 70,
-    "Published": "2026-02-21T17:42:05.45"
-  },
-  {
-    "id": "Diagrammer.Core",
-    "Owners": "jcolonfzenpr",
-    "Description": "A PowerShell module which provides the core framework for generating Diagrams for many common datacentre systems.",
-    "Score": 65,
-    "Published": "2026-02-21T17:39:34.95"
-  },
-  {
-    "id": "GitHubCli",
-    "Owners": "chris-peterson",
-    "Description": "Interact with Github via PowerShell",
-    "Score": 60,
-    "Published": "2026-02-21T04:17:18.08"
-  },
-  {
-    "id": "ForgeCli",
-    "Owners": "chris-peterson",
-    "Description": "Unified interface for GitHub, GitLab, and other software forges",
-    "Score": 60,
-    "Published": "2026-02-21T04:10:55.767"
+    "Published": "2026-02-22T23:07:32.937"
   },
   {
     "id": "Get-TlsCertificate",
@@ -55,20 +20,55 @@
       []
     ],
     "Score": 60,
-    "Published": "2026-02-21T22:41:22.24"
+    "Published": "2026-02-22T03:15:25.93"
   },
   {
-    "id": "MMADsc",
-    "Owners": "jhp",
-    "Description": "Module to manage settings of the Microsoft Monitoring Agent",
+    "id": "AsBuiltReport.System.Resources",
+    "Owners": "tpcarman",
+    "Description": "A PowerShell module to generate an as built report on the configuration of System Resources.",
     "Score": 60,
-    "Published": "2026-02-21T14:59:38.593"
+    "Published": "2026-02-22T21:27:43.62"
   },
   {
-    "id": "CIS-M365-Benchmark",
-    "Owners": "Mohammedsiddiqui",
-    "Description": "Comprehensive PowerShell script that audits Microsoft 365 environments against all 140 CIS Microsoft 365 Foundations Benchmark v6.0.0 controls. Features 68% automated compliance checks with HTML and CSV reporting. Covers M365 Admin Center, Defender, Purview, Intune, Entra ID, Exchange, SharePoint, Teams, and Power BI security controls.",
+    "id": "WinUIShell",
+    "Owners": "mdgrs-mei",
+    "Description": "Scripting WinUI 3 with PowerShell",
     "Score": 55,
-    "Published": "2026-02-21T16:15:22.827"
+    "Published": "2026-02-22T13:50:16.163"
+  },
+  {
+    "id": "Microsoft-Secure-Score-Assessment-Toolkit",
+    "Owners": "Mohammedsiddiqui",
+    "Description": "A powerful PowerShell toolkit for assessing Microsoft 365 security posture through the Microsoft Secure Score API. Generate comprehensive, interactive HTML reports with 411+ security controls directly from Microsoft Graph API. Features include real-time data fetching, interactive filtering, floating action buttons, and direct links to configuration portals. Perfect for security assessments, compliance reporting, and continuous security monitoring.",
+    "Score": 50,
+    "Published": "2026-02-22T12:55:24.263"
+  },
+  {
+    "id": "EnterprisePolicyAsCode",
+    "Owners": "anwather",
+    "Description": "Enterprise Policy as Code PowerShell Module",
+    "Score": 50,
+    "Published": "2026-02-22T22:46:50.45"
+  },
+  {
+    "id": "fscps.tools",
+    "Owners": "remixod",
+    "Description": "fscps.tools",
+    "Score": 45,
+    "Published": "2026-02-22T04:04:22.71"
+  },
+  {
+    "id": "ModernActiveDirectoryEnhanced",
+    "Owners": "JCh_Labs",
+    "Description": "Enhanced fork of Modern Active Directory (original by Mehdi Dakhama / Alphorm). Adds a complete End-of-Life tracking engine, refactored structure, and updated documentation.",
+    "Score": 40,
+    "Published": "2026-02-22T20:42:30.503"
+  },
+  {
+    "id": "NinjaOne",
+    "Owners": "homotechsual",
+    "Description": "This module provides an interface to the NinjaOne API.",
+    "Score": 40,
+    "Published": "2026-02-22T21:58:45.357"
   }
 ]
