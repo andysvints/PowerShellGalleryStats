@@ -17,7 +17,8 @@ COPY . ./usr/local/share/powershell/Modules/$ModuleName
 
 # Set an environment variable to indicate we are in a container
 ENV IN_CONTAINER=true
-
+ENV ModuleName=$ModuleName
+ENV InstallModules=$InstallModules
 # Set the shell to PowerShell
 SHELL ["/bin/pwsh", "-nologo", "-command"]
 # Next we will do the following:
