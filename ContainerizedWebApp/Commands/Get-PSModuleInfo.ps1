@@ -29,7 +29,7 @@ function Get-PSModuleInfo
     {
         if ($pscmdlet.ShouldProcess("query $Query"))
         {
-
+            Import-Module Az.Accounts 
             connect-AzAccount -Subscription "6e606d01-ff42-4cab-bcf2-b8888ab2fdc4" -Identity | Out-Null
             $KeyVaultName="PSGalleryStats-KV"
             $apiKey=Get-AzKeyVaultSecret -VaultName $KeyVaultName -Name "PSGalleryStatsAPIKey" -AsPlainText
