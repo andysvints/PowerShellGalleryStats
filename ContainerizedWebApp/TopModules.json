@@ -1,72 +1,74 @@
 [
   {
-    "id": "GoogleFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
-    "Score": 75,
-    "Published": "2026-03-01T16:57:09.26"
+    "id": "Intersight.PowerShell",
+    "Owners": "Cisco",
+    "Description": "Intersight Powershell module provides the cmdlets to manage, analyze, and automate the IT infrastructure in Intersight.",
+    "Score": 80,
+    "Published": "2026-03-02T05:32:54.967"
   },
   {
     "id": "PoSh.FluidTemplateEngine",
     "Owners": "jul-m",
     "Description": "A PowerShell module for easy rendering of Liquid templates using the high-performance Fluid .NET library.",
-    "Score": 70,
-    "Published": "2026-03-02T00:18:24.52"
+    "Score": 75,
+    "Published": "2026-03-02T01:44:24.49"
   },
   {
     "id": "Html",
     "Owners": "CedX",
-    "Description": "A simple template engine for rendering HTML documents.",
+    "Description": "A set of PowerShell cmdlets for rendering HTML documents.",
     "Score": 70,
-    "Published": "2026-03-01T17:39:22.65"
+    "Published": "2026-03-02T22:05:09.97"
   },
   {
-    "id": "PowerPlatformChecker",
-    "Owners": "AutoSysOps",
-    "Description": "PowerShell module to check Power Platform solutions. This module will use the exported json files so it can be used inside a deployment pipeline. No connection to the Power Platform is required. For now the module is limited to checking Power Automate flows to check which connectors require a premium license. And it can check the flow for actions with the default name.",
-    "Score": 70,
-    "Published": "2026-03-01T17:32:07.507"
+    "id": "SinglePrompt",
+    "Owners": "henriquedoval",
+    "Description": "Clears the previous prompt on command acceptance and implements Windows Terminal shell integration",
+    "Score": 65,
+    "Published": "2026-03-02T05:12:28.97"
   },
   {
-    "id": "MountAws",
-    "Owners": "andyalm",
-    "Description": "An experimental powershell provider that allows you to browse various aws services as a filesystem",
-    "Score": 70,
-    "Published": "2026-03-01T18:47:35.65"
+    "id": "Diagrammer.Core",
+    "Owners": "jcolonfzenpr",
+    "Description": "A PowerShell module which provides the core framework for generating Diagrams for many common datacentre systems.",
+    "Score": 65,
+    "Published": "2026-03-02T17:36:57.853"
   },
   {
-    "id": "PSFzfHistory",
-    "Owners": "kachick",
-    "Description": "Tiny fzf integration for history substring search in PowerShell",
+    "id": "uc",
+    "Owners": "MaxDiesel",
+    "Description": [
+      []
+    ],
     "Score": 60,
-    "Published": "2026-03-01T19:46:58.787"
-  },
-  {
-    "id": "SBPowerShell",
-    "Owners": "Andrey.Vernigora",
-    "Description": "PowerShell cmdlets for Azure Service Bus and Service Bus Emulator.",
-    "Score": 55,
-    "Published": "2026-03-01T22:51:59.5"
-  },
-  {
-    "id": "MarkdownPointer",
-    "Owners": "ytsuda",
-    "Description": "Vibe editing for Markdown. Point at anything, tell AI to fix it.\r\n\r\nClick any element in the rendered preview to copy a location reference:\r\n  \"Rewrite this: [C:\\docs\\notes.md:42] ## My Section\"\r\n\r\nRenders Markdown with Mermaid diagrams, KaTeX math, and SVG. Includes MCP server for Claude Code / Claude Desktop.\r\n\r\nRequirements:\r\n  .NET 8 Desktop Runtime - https://dotnet.microsoft.com/download/dotnet/8.0\r\n  Pandoc (optional, for .docx export) - https://pandoc.org\r\n\r\nQuick start:\r\n  mdp .\\README.md           # Open a file\r\n  mdp .\\docs\\*.md           # Open multiple files\r\n  ConvertTo-Docx .\\*.md     # Convert to .docx via Pandoc\r\n\r\nMCP setup for Claude Code:\r\n  claude mcp add mdp -s user -- \"$(Get-MarkdownPointerMCPPath)\"\r\n\r\nMCP setup for Claude Desktop (add to claude_desktop_config.json):\r\n  { \"mcpServers\": { \"mdp\": { \"command\": \"C:\\\\...\\\\mdp-mcp.exe\" } } }\r\n  Use Get-MarkdownPointerMCPPath -Escape to get the path with escaped backslashes.\r\n\r\nExample prompts for AI:\r\n  \"open README.md in mdp\"\r\n  \"show the report in mdp and scroll to line 50\"\r\n  \"export report.md to docx\"",
-    "Score": 55,
-    "Published": "2026-03-01T04:16:43.533"
-  },
-  {
-    "id": "PowerNetbox",
-    "Owners": "ctrl-alt-automate",
-    "Description": "PowerNetbox - The comprehensive PowerShell module for Netbox REST API with 100% coverage. Fork of NetboxPS (Ben Claussen) with full Netbox 4.x compatibility. 488+ functions for DCIM, IPAM, Virtualization, Circuits, Tenancy, VPN, Wireless, Extras, Core, Users. Cross-platform (Windows, Linux, macOS).",
-    "Score": 55,
-    "Published": "2026-03-01T09:01:07.77"
+    "Published": "2026-03-02T02:50:22.15"
   },
   {
     "id": "TLSleuth",
     "Owners": "MadCrabCyder",
     "Description": "TLSleuth is an open-source PowerShell module for inspecting TLS\r\nendpoints and certificate details from scripts or the command line.\r\n\r\nIt provides clean, structured, script-friendly output for operators,\r\nengineers, and automation pipelines that need reliable TLS insight.",
     "Score": 55,
-    "Published": "2026-03-01T04:01:39.42"
+    "Published": "2026-03-02T01:56:16.133"
+  },
+  {
+    "id": "AdminToolbox",
+    "Owners": "TaylorLee",
+    "Description": "Master module for a collection of modules. These modules are varied in their tasks. The overall purpose of them being to provide a powerfull Toolset to improve IT Admin workflows.",
+    "Score": 55,
+    "Published": "2026-03-02T01:27:12.347"
+  },
+  {
+    "id": "PurviewMetadataPolicy",
+    "Owners": "nick.tarrant",
+    "Description": "PowerShell Module for managing Microsoft Purview Metadata Policies and Role Members",
+    "Score": 50,
+    "Published": "2026-03-02T13:44:07.52"
+  },
+  {
+    "id": "pubs",
+    "Owners": "Andrey.Vernigora",
+    "Description": "PowerShell cmdlets for Azure Service Bus and Service Bus Emulator.",
+    "Score": 50,
+    "Published": "2026-03-02T02:20:23.77"
   }
 ]
