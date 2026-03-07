@@ -1,74 +1,72 @@
 [
   {
-    "id": "AutomatedLab.Recipe",
-    "Owners": "AutomatedLabTeam",
-    "Description": "This module enables easy to use recipes to create lab environments",
-    "Score": 85,
-    "Published": "2026-03-05T18:27:22.257"
-  },
-  {
-    "id": "PSFileTransfer",
-    "Owners": "Raimund,AutomatedLabTeam",
-    "Description": "This module packages functions created by Lee Holmes for transfering files over PowerShell Remoting",
-    "Score": 80,
-    "Published": "2026-03-05T18:49:22.81"
-  },
-  {
-    "id": "AutomatedLab",
-    "Owners": "Raimund,AutomatedLabTeam",
-    "Description": "Automated lab environments with ease - Linux and Windows, Hyper-V and Azure",
-    "Score": 80,
-    "Published": "2026-03-05T18:26:22.357"
-  },
-  {
-    "id": "AzAuth",
-    "Owners": "PalmEmanuel",
-    "Description": "A lightweight PowerShell module to handle Azure authentication, using the Azure.Identity MSAL library.",
+    "id": "PSTetris",
+    "Owners": "Romero126",
+    "Description": "A fully playable Tetris game that runs directly in your PowerShell console. Supports ANSI text and Sixel pixel graphics.",
     "Score": 75,
-    "Published": "2026-03-05T21:38:01.593"
+    "Published": "2026-03-06T19:40:56.097"
   },
   {
-    "id": "PSLog",
-    "Owners": "Raimund,AutomatedLabTeam",
-    "Description": "Redirects stanard Write-* cmdlets to a log and offers some basic tracing functions",
-    "Score": 70,
-    "Published": "2026-03-05T18:50:15.22"
+    "id": "GoogleFonts",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
+    "Score": 75,
+    "Published": "2026-03-06T08:38:11.277"
   },
   {
-    "id": "MsrcSecurityUpdates",
-    "Owners": "phjohnso,viparekh,carrieplank",
-    "Description": [
-      []
-    ],
+    "id": "Html",
+    "Owners": "CedX",
+    "Description": "A set of PowerShell cmdlets for rendering HTML documents.",
     "Score": 70,
-    "Published": "2026-03-05T21:57:40"
+    "Published": "2026-03-06T22:24:50.82"
   },
   {
-    "id": "AzBobbyTables",
-    "Owners": "PalmEmanuel",
-    "Description": "A module for handling Azure Table Storage operations by wrapping the Azure Data Tables SDK.",
+    "id": "Liquit.Server.PowerShell",
+    "Owners": "Liquit,RecastSoftware",
+    "Description": "Recast Application Workspace PowerShell Module",
     "Score": 70,
-    "Published": "2026-03-05T20:12:48.017"
-  },
-  {
-    "id": "AutomatedLabNotifications",
-    "Owners": "Raimund,AutomatedLabTeam",
-    "Description": "This module uses pluggable providers to send various kinds of notifications for AutomatedLab",
-    "Score": 70,
-    "Published": "2026-03-05T18:31:13.47"
+    "Published": "2026-03-06T12:23:52.88"
   },
   {
     "id": "QiitaDrive",
     "Owners": "ytsuda",
     "Description": "PowerShell Provider for Qiita API v2. Browse Qiita articles as a virtual filesystem.",
     "Score": 65,
-    "Published": "2026-03-05T23:03:59.647"
+    "Published": "2026-03-06T17:14:34.73"
   },
   {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "The universal MCP server for Claude Code and other MCP-compatible clients. One installation gives AI access to 10,000+ PowerShell modules and any CLI tool. You and AI collaborate in the same console with full transparency. Supports Windows, Linux, and macOS.",
+    "id": "itfabrik.stepper",
+    "Owners": "DevITFabrik",
+    "Description": "itfabrik.stepper: Encapsulates steps with logging and error handling.",
+    "Score": 65,
+    "Published": "2026-03-06T15:43:50.773"
+  },
+  {
+    "id": "WindowsReleaseInformation",
+    "Owners": "JoseS",
+    "Description": "Parse Windows release information from the Microsoft official release information page",
+    "Score": 65,
+    "Published": "2026-03-06T04:18:59.693"
+  },
+  {
+    "id": "ALZ",
+    "Owners": "jtracey93,ganepomu,oZakari,jaredfholgate,matt-ffffff",
+    "Description": "Azure Landing Zones Powershell Module\r\n\r\nThis module provides cmdlets to help deploy and manage Azure Landing Zones (ALZ) in your Azure environment.\r\n\r\nIncluded Cmdlets:\r\n- Test-AcceleratorRequirement: Tests if the current environment meets the requirements for deploying ALZ.\r\n- Deploy-Accelerator: Deploys the Azure Landing Zone accelerator to your Azure subscription.\r\n- Grant-SubscriptionCreatorRole: Grants the Subscription Creator role to a specified user or service principal.\r\n- Remove-PlatformLandingZone: Removes the deployed Azure Landing Zone from your Azure subscription\r\n- New-AcceleratorFolderStructure: Creates a new folder structure for the Azure Landing Zone accelerator with necessary configuration files.\r\n- Remove-GitHubAccelerator: Removes GitHub resources (repositories, teams, runner groups) created by the ALZ accelerator bootstrap.\r\n- Remove-AzureDevOpsAccelerator: Removes Azure DevOps resources (projects, agent pools) created by the ALZ accelerator bootstrap.",
+    "Score": 65,
+    "Published": "2026-03-06T22:27:09.203"
+  },
+  {
+    "id": "Rnwood.Dataverse.Data.PowerShell",
+    "Owners": "rnwood",
+    "Description": "Dataverse data manipulation cmdlets",
     "Score": 60,
-    "Published": "2026-03-05T11:37:58.443"
+    "Published": "2026-03-06T17:49:02.907"
+  },
+  {
+    "id": "Cohesity.PowerShell.Core",
+    "Owners": "shubham.kumar,amanprataprao,parag_cohesity,deepak.patel,nikitha.t.j,kavinagrawal",
+    "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
+    "Score": 60,
+    "Published": "2026-03-06T05:33:54.053"
   }
 ]
