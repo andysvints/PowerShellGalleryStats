@@ -1,72 +1,72 @@
 [
   {
-    "id": "AsBuiltReport.Chart",
-    "Owners": "tpcarman",
-    "Description": "AsBuiltReport.Chart is a PowerShell module that aims to provide chart generation capabilities. Underneath it uses ScottPlot and SkiaSharp libraries.",
+    "id": "Celerium",
+    "Owners": "Celerium",
+    "Description": "Celerium PowerShell - A collection of modules, functions, scripts, and more to help automate, audit, and manage your IT environment.",
     "Score": 80,
-    "Published": "2026-03-14T17:10:16.18"
+    "Published": "2026-03-15T16:49:53.513"
   },
   {
-    "id": "JSON-LD",
-    "Owners": "Start-Automating",
-    "Description": "Get JSON Linked Data with PowerShell",
-    "Score": 70,
-    "Published": "2026-03-14T18:42:03.02"
+    "id": "AzureDevOpsDscv3",
+    "Owners": "mimachniak",
+    "Description": "Module with DSC Resources for deployment and configuration of Azure DevOps Server/Services supporting DSC v3.",
+    "Score": 75,
+    "Published": "2026-03-15T12:00:51.403"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 70,
-    "Published": "2026-03-14T08:22:58.13"
-  },
-  {
-    "id": "MarkdownPointer",
+    "id": "ProcessDrive",
     "Owners": "ytsuda",
-    "Description": "Vibe editing for Markdown. Point at anything, tell AI to fix it.\r\n\r\nClick any element in the rendered preview to copy a location reference:\r\n  \"Rewrite this: [C:\\docs\\notes.md:42] ## My Section\"\r\n\r\nRenders Markdown with Mermaid diagrams, KaTeX math, and SVG. Includes MCP server for Claude Code / Claude Desktop.\r\n\r\nRequirements:\r\n  .NET 8 Desktop Runtime - https://dotnet.microsoft.com/download/dotnet/8.0\r\n  Pandoc (optional, for .docx export) - https://pandoc.org\r\n\r\nQuick start:\r\n  mdp .\\README.md           # Open a file\r\n  mdp .\\docs\\*.md           # Open multiple files\r\n  ConvertTo-Docx .\\*.md     # Convert to .docx via Pandoc\r\n\r\nMCP setup for Claude Code:\r\n  claude mcp add mdp -s user -- \"$(Get-MarkdownPointerMCPPath)\"\r\n\r\nMCP setup for Claude Desktop (add to claude_desktop_config.json):\r\n  { \"mcpServers\": { \"mdp\": { \"command\": \"C:\\\\...\\\\mdp-mcp.exe\" } } }\r\n  Use Get-MarkdownPointerMCPPath -Escape to get the path with escaped backslashes.\r\n\r\nExample prompts for AI:\r\n  \"open README.md in mdp\"\r\n  \"show the report in mdp and scroll to line 50\"\r\n  \"export report.md to docx\"",
-    "Score": 55,
-    "Published": "2026-03-14T03:19:51.21"
+    "Description": "Navigate Windows process tree as a PowerShell drive (Windows only). A CLI alternative to Process Explorer. Provides cd/dir navigation through parent-child process hierarchy, virtual folders for Modules, Threads, Services, and Network connections, detailed process properties via Get-Item, and process kill via Remove-Item.",
+    "Score": 70,
+    "Published": "2026-03-15T07:54:11.22"
   },
   {
-    "id": "WinUIShell",
-    "Owners": "mdgrs-mei",
-    "Description": "Scripting WinUI 3 with PowerShell",
-    "Score": 55,
-    "Published": "2026-03-14T06:19:15.547"
+    "id": "PSWinOps",
+    "Owners": "k9fr4n",
+    "Description": "A collection of PowerShell utilities for Windows system administrators",
+    "Score": 70,
+    "Published": "2026-03-15T23:04:11.787"
   },
   {
-    "id": "Eigenverft.Manifested.Sandbox",
-    "Owners": "Eigenverft",
-    "Description": "Windows-focused PowerShell module for quickly bringing up a usable Windows sandbox or fresh Windows developer environment, while also supporting the same bootstrap flow and state tracking on a normal Windows machine.",
+    "id": "SinglePrompt",
+    "Owners": "henriquedoval",
+    "Description": "Clears the previous prompt on command acceptance and implements Windows Terminal shell integration",
+    "Score": 65,
+    "Published": "2026-03-15T08:01:12.83"
+  },
+  {
+    "id": "AsBuiltReport.Diagram",
+    "Owners": "tpcarman",
+    "Description": "A PowerShell module which provides the core framework for generating Diagrams for many common datacentre systems.",
+    "Score": 60,
+    "Published": "2026-03-15T20:02:08.35"
+  },
+  {
+    "id": "M365Documentation",
+    "Owners": "ThomasKur",
+    "Description": "Automatic Documentation of M365 to simplify the life of admins and consultants.",
+    "Score": 60,
+    "Published": "2026-03-15T13:26:45.91"
+  },
+  {
+    "id": "PSWatchdog",
+    "Owners": "marco.torello",
+    "Description": "A modern PowerShell module for monitoring file system events. Provides a seamless, Python-like experience for monitoring Create, Modify, Delete, and Rename events using .NET FileSystemWatcher.",
     "Score": 50,
-    "Published": "2026-03-14T22:43:46.38"
+    "Published": "2026-03-15T21:26:35.543"
   },
   {
-    "id": "Eigenverft.Manifested.Codex",
-    "Owners": "Eigenverft",
-    "Description": "Windows-focused PowerShell module that provides a thin wrapper around the OpenAI Codex CLI for task execution, named sessions, and lightweight local state inspection.",
+    "id": "Celerium.DattoRMM",
+    "Owners": "Celerium",
+    "Description": "This module provides a PowerShell wrapper for the DattoRMM API. Datto provides an Application Programming Interface (API) to enable programmatic access to information and operations available in Datto RMM.",
     "Score": 50,
-    "Published": "2026-03-14T21:56:44.56"
+    "Published": "2026-03-15T15:44:03.507"
   },
   {
     "id": "WindmillClient",
     "Owners": "rubenfiszel",
     "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2026-03-14T23:26:16.4"
-  },
-  {
-    "id": "EnvironmentVariableItems",
-    "Owners": "a1publishing",
-    "Description": "Module with cmdlets to easily add or remove items from `'collection type`' Windows environment variables.  For example, adding `'C:\\foo`' to `$env:Path.",
-    "Score": 50,
-    "Published": "2026-03-14T14:52:19.9"
-  },
-  {
-    "id": "MatterMostV4",
-    "Owners": "faithless-padre",
-    "Description": "PowerShell module for interacting with the MatterMost REST API. Supports user, channel, team, and role management.",
-    "Score": 45,
-    "Published": "2026-03-14T08:43:04.8"
+    "Published": "2026-03-15T05:07:19.16"
   }
 ]
