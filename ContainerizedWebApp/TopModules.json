@@ -1,72 +1,74 @@
 [
   {
-    "id": "PSScriptAnalyzer",
-    "Owners": "PowerShellTeam,andschwa",
-    "Description": "PSScriptAnalyzer provides script analysis and checks for potential code defects in the scripts by applying a group of built-in or customized rules on the scripts being analyzed.",
-    "Score": 85,
-    "Published": "2026-03-20T19:25:00.213"
+    "id": "NativeCommandCompleter.psm",
+    "Owners": "teramako",
+    "Description": "Native Command Completer",
+    "Score": 60,
+    "Published": "2026-03-21T11:28:33.577"
   },
   {
-    "id": "Fossil",
-    "Owners": "DustinEstes",
-    "Description": "Fossil is an advanced logging module for creating output from your projects that provides some advanced features above basic or transcript logging.",
-    "Score": 75,
-    "Published": "2026-03-20T21:34:52.113"
+    "id": "CpmfUipsPack",
+    "Owners": "cprima",
+    "Description": "Bumps projectVersion, packs a UiPath project with uipcli, and stages the .nupkg to a local NuGet feed. Supports uipcli 23.x (.NET 6) and 25.x+ (.NET 8). Self-installs required runtimes without admin rights. UiPath and UiPath Studio are trademarks of UiPath Inc. This module is not affiliated with or endorsed by UiPath Inc.",
+    "Score": 55,
+    "Published": "2026-03-21T12:59:38.893"
   },
   {
-    "id": "AWS.Tools.Wickr",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The Wickr module of AWS Tools for PowerShell lets developers and administrators manage AWS Wickr Admin API from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:31:32.15"
+    "id": "CpmfUipsCLI",
+    "Owners": "cprima",
+    "Description": "Thin CLI wrapper around CpmfUipsPack. Provides a single Invoke-CpmfUipsCLI entry point that dispatches to all CpmfUipsPack public functions. Env-var injection, SupportsShouldProcess, and machine-readable output throughout. UiPath and UiPath Studio are trademarks of UiPath Inc. This module is not affiliated with or endorsed by UiPath Inc.",
+    "Score": 45,
+    "Published": "2026-03-21T13:03:34.733"
   },
   {
-    "id": "AWS.Tools.WorkspacesInstances",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The WorkspacesInstances module of AWS Tools for PowerShell lets developers and administrators manage Amazon Workspaces Instances from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:31:36.22"
+    "id": "SolarWinds.ServiceDesk",
+    "Owners": "skatterbrainz",
+    "Description": "SolarWinds Service Desk API Module - based on REST API reference https://apidoc.samanage.com/#section/General-Concepts",
+    "Score": 45,
+    "Published": "2026-03-21T03:58:10"
   },
   {
-    "id": "AWS.Tools.SSMGuiConnect",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The SSMGuiConnect module of AWS Tools for PowerShell lets developers and administrators manage AWS SSM-GUIConnect from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:31:05.777"
+    "id": "HPESvtCmdlets",
+    "Owners": "dshivaprakash,prabhukumara",
+    "Description": "HPE SimpliVity cmdlets perform REST API operations to the HPE SimpliVity system.\r\nThese cmdlets can be used to get and set HPE SimpliVity data and invoke actions on the HPE Simplivity system.",
+    "Score": 45,
+    "Published": "2026-03-21T09:44:13.81"
   },
   {
-    "id": "AWS.Tools.Signin",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The Signin module of AWS Tools for PowerShell lets developers and administrators manage AWS Sign-In Data Plane from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:30:56.717"
+    "id": "PSChromeDevToolsServer",
+    "Owners": "Exathi",
+    "Description": "@\nAutomate any Chromium browser with Powershell using the Chrome DevTools Protocol.\nUses anonymous pipes to connect to remote-debugging-pipes to control the browser.\n@",
+    "Score": 40,
+    "Published": "2026-03-21T22:02:03.793"
   },
   {
-    "id": "AWS.Tools.RTBFabric",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The RTBFabric module of AWS Tools for PowerShell lets developers and administrators manage Amazon RTBFabric from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:30:01.267"
+    "id": "PSSupermicroIPMI",
+    "Owners": "NielsKok",
+    "Description": "PowerShell module for Supermicro IPMI management",
+    "Score": 40,
+    "Published": "2026-03-21T12:02:14.507"
   },
   {
-    "id": "AWS.Tools.S3Vectors",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The S3Vectors module of AWS Tools for PowerShell lets developers and administrators manage Amazon S3 Vectors from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:30:05.04"
+    "id": "yeet",
+    "Owners": "fabmnt",
+    "Description": "AI-powered Git PR Creator CLI - Generates commit messages, PR titles, and descriptions using AI",
+    "Score": 40,
+    "Published": "2026-03-21T21:30:23.417"
   },
   {
-    "id": "AWS.Tools.BCMDashboards",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:26:02.967"
+    "id": "universal-intel-wifi-bt-driver-updater",
+    "Owners": "FirstEver",
+    "Description": [
+      []
+    ],
+    "Score": 40,
+    "Published": "2026-03-21T11:44:53.627"
   },
   {
-    "id": "AWS.Tools.BCMRecommendedActions",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-03-20T21:26:04.75"
+    "id": "d365bap.tools",
+    "Owners": "splaxi",
+    "Description": "Tools used for Business Application Platform, One Dynamics One Platform - D365FO + Dataverse",
+    "Score": 40,
+    "Published": "2026-03-21T16:56:45.357"
   }
 ]
