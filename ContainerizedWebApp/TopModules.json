@@ -1,72 +1,72 @@
 [
   {
-    "id": "DSInternals",
-    "Owners": "MichaelGrafnetter",
-    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
-    "Score": 75,
-    "Published": "2026-03-28T19:39:28.19"
-  },
-  {
     "id": "PowerLiquid",
     "Owners": "PaulDash",
     "Description": "Implementation of the Liquid templating language with dialect and extension registry support.",
+    "Score": 75,
+    "Published": "2026-03-29T01:20:12.577"
+  },
+  {
+    "id": "NativeCommandCompleter.psm",
+    "Owners": "teramako",
+    "Description": "Native Command Completer",
     "Score": 70,
-    "Published": "2026-03-28T23:27:44.013"
+    "Published": "2026-03-29T09:36:22.78"
   },
   {
-    "id": "RTShell",
-    "Owners": "dearingdev",
-    "Description": "PowerShell module for Request Tracker (RT) via REST API v2. Supports API token auth, config persistence, structured ticket search, write operations, and response templates.",
-    "Score": 60,
-    "Published": "2026-03-28T19:54:02.7"
+    "id": "PSEventViewer",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple module allowing parsing of event logs. Has its own quirks...",
+    "Score": 70,
+    "Published": "2026-03-29T16:10:41.417"
   },
   {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "The universal MCP server for Claude Code and other MCP-compatible clients. One installation gives AI access to 10,000+ PowerShell modules and any CLI tool. You and AI collaborate in the same console with full transparency. Supports Windows, Linux, and macOS.",
-    "Score": 60,
-    "Published": "2026-03-28T16:11:17.817"
+    "id": "EasyTCM",
+    "Owners": "LoicMichel",
+    "Description": "Simplify Microsoft 365 Tenant Configuration Management (TCM) APIs. The EasyPIM approach for tenant-wide configuration monitoring, drift detection, and Maester integration.",
+    "Score": 65,
+    "Published": "2026-03-29T08:04:47.4"
   },
   {
-    "id": "UncommonSense.Cinema",
-    "Owners": "jhoek",
-    "Description": "Film listing for my favorite cinemas",
-    "Score": 60,
-    "Published": "2026-03-28T16:40:27.33"
+    "id": "AzResourceTest",
+    "Owners": "TaoYang_MSFT",
+    "Description": "Azure resource configuration tests using Pester and Azure Resource Graph",
+    "Score": 65,
+    "Published": "2026-03-29T03:22:28.263"
+  },
+  {
+    "id": "NativeCommandCompleter.completions",
+    "Owners": "teramako",
+    "Description": "Completion definitions for NativeCommandCompleter.psm",
+    "Score": 50,
+    "Published": "2026-03-29T15:19:40.417"
   },
   {
     "id": "WindmillClient",
     "Owners": "rubenfiszel",
     "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2026-03-28T21:06:29.597"
+    "Published": "2026-03-29T15:26:54.667"
   },
   {
-    "id": "PSChromeDevToolsServer",
-    "Owners": "Exathi",
-    "Description": "Automate any Chromium browser with Powershell using the Chrome DevTools Protocol.\nUses anonymous pipes to connect to remote-debugging-pipes to control the browser.",
-    "Score": 45,
-    "Published": "2026-03-29T00:14:34.083"
+    "id": "SACD",
+    "Owners": "KReddy",
+    "Description": "Read SACD ISO files list & extract tracks using sacd_extract",
+    "Score": 35,
+    "Published": "2026-03-29T17:00:57.487"
   },
   {
-    "id": "MarkdownPointer",
-    "Owners": "ytsuda",
-    "Description": "Vibe writing for Markdown. Point at anything, tell AI to fix it.\r\n\r\nClick any element in the rendered preview to copy a location reference:\r\n  \"Rewrite this: [C:\\docs\\notes.md:42] ## My Section\"\r\n  \"Fix the grammar here [ref]\"\r\n  \"Translate this section to Japanese [ref]\"\r\n  \"Swap these two: [ref] [ref]\"\r\n  \"Add a code example after this section [ref]\"\r\n\r\nRenders Markdown with Mermaid diagrams, KaTeX math, and SVG. Includes MCP server for Claude Code / Claude Desktop.\r\n\r\nRequirements:\r\n  .NET 10 Desktop Runtime - https://dotnet.microsoft.com/download/dotnet/10.0\r\n  Pandoc (optional, for .docx export) - https://pandoc.org\r\n\r\nQuick start:\r\n  mdp .\\README.md             # Open a file\r\n  mdp .\\docs\\*.md             # Open multiple files\r\n  ConvertTo-Docx .\\*.md       # Convert to .docx via Pandoc\r\n  ConvertTo-Pptx .\\slides.md  # Convert to .pptx\r\n\r\nMCP setup:\r\n  Register-MdpToClaudeCode       # Register in Claude Code\r\n  Register-MdpToClaudeDesktop    # Register in Claude Desktop\r\n\r\nExample prompts for AI:\r\n  \"open README.md in mdp\"\r\n  \"show the report in mdp and scroll to line 50\"\r\n  \"export report.md to docx\"",
-    "Score": 45,
-    "Published": "2026-03-28T11:25:27.11"
+    "id": "RubrikSecurityCloud",
+    "Owners": "guirava",
+    "Description": "PowerShell Module for Rubrik Security Cloud. GraphQL schema version: v20260316-43 .",
+    "Score": 35,
+    "Published": "2026-03-29T23:23:59.653"
   },
   {
-    "id": "fount-pwsh",
-    "Owners": "steve02081504",
-    "Description": "Allows you:\r\n- easily invoke, launch, and install fount in pwsh\r\n- linking fount characters to pwsh for companion and AI assist",
-    "Score": 45,
-    "Published": "2026-03-28T03:12:59.827"
-  },
-  {
-    "id": "FrontNox",
-    "Owners": "gordeychepikov",
-    "Description": "Frontend developer toolkit: manage project shortcuts (proj) and run a local CORS proxy (corsproxy). Zero dependencies, pure PowerShell.",
-    "Score": 40,
-    "Published": "2026-03-28T09:36:29.34"
+    "id": "SanxLog",
+    "Owners": "Sanx",
+    "Description": "Logging library - supports file, console and multiple cloud log aggregators",
+    "Score": 30,
+    "Published": "2026-03-29T23:23:08.263"
   }
 ]
