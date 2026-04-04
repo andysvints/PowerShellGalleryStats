@@ -1,72 +1,72 @@
 [
   {
-    "id": "StrictAclTools",
-    "Owners": "djstomp",
-    "Description": "Utilities for inspecting and enforcing strict Windows ACLs.",
-    "Score": 70,
-    "Published": "2026-04-02T01:22:38.443"
+    "id": "LeastPrivilegedMSGraph",
+    "Owners": "Mynster",
+    "Description": "Analyzes Microsoft Graph permissions and provides least privileged recommendations",
+    "Score": 75,
+    "Published": "2026-04-03T10:58:25.447"
+  },
+  {
+    "id": "GitHub",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
+    "Score": 75,
+    "Published": "2026-04-03T09:03:17.96"
   },
   {
     "id": "PowerCode.PsMcp",
     "Owners": "PowerCode",
     "Description": "Exposes PowerShell commands as Model Context Protocol (MCP) tools over stdio.",
-    "Score": 65,
-    "Published": "2026-04-02T11:10:07.017"
+    "Score": 70,
+    "Published": "2026-04-03T02:34:18.36"
   },
   {
-    "id": "VCF.StorageAdvanced",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.StorageAdvanced automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:57:39.623"
+    "id": "DeviceManager",
+    "Owners": "MartinGC94",
+    "Description": "Manage devices and device drivers for Windows.",
+    "Score": 60,
+    "Published": "2026-04-03T21:34:59.57"
   },
   {
-    "id": "VCF.SecurityBaseline",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.SecurityBaseline automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:57:11.51"
+    "id": "AsBuiltReport.System.Resources",
+    "Owners": "tpcarman",
+    "Description": "A PowerShell module to generate an as built report on the configuration of System Resources.",
+    "Score": 60,
+    "Published": "2026-04-03T22:21:35.957"
   },
   {
-    "id": "VCF.SecurityAdvanced",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.SecurityAdvanced automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:56:57.447"
+    "id": "Indago",
+    "Owners": "FrantzDhin",
+    "Description": "Self-contained Windows admin toolkit designed for RMM/SYSTEM sessions.\n\nIndago provides pre-built troubleshooting and repair scriptlets that\nyou can invoke with simple commands - no copy-paste, no special characters,\nno script blocks, no pipe characters, no module downloads required.\n\nThe module includes a user-context execution engine (based on RunAsUser)\nthat uses Win32 CreateProcessAsUser to run tasks as the logged-on user\nwith admin elevation, without passwords ever touching the command line.\n\nKey features:\n- Zero external dependencies - everything is self-contained\n- Type-friendly interface - Param1 through Param5, no braces or pipes needed\n- Invisible user-context execution - no window flash, no Task Scheduler artifacts\n- Metadata-driven scriptlet catalog - add tasks via JSON, no code changes\n- Structured logging to C:\\ProgramData\\Indago\\Logs\n- RMM job breakaway support (CREATE_BREAKAWAY_FROM_JOB)",
+    "Score": 55,
+    "Published": "2026-04-03T21:56:38.957"
   },
   {
-    "id": "VCF.NetworkManager",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.NetworkManager automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:55:59.487"
+    "id": "LISSTech.DrainCtl",
+    "Owners": "mwisniowski",
+    "Description": "Monitor and manage Remote Desktop Session Host drain mode (TSServerDrainMode). Reads the registry natively via a Go shared library, maintains a 90-day JSONL audit trail of state changes, and attributes changes to specific users via Windows Security Event Log (Event ID 4657). Ships drainctl.exe CLI for N-central automation and drainctl.dll for PowerShell cmdlet integration. Supports the DrainCtl Windows Service for continuous monitoring.",
+    "Score": 55,
+    "Published": "2026-04-03T23:50:52.543"
   },
   {
-    "id": "VCF.LifecycleManager",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.LifecycleManager automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:55:15.953"
+    "id": "DefenderEval",
+    "Owners": "jonade",
+    "Description": "Verify configuration are aligning with recommended settings when performing an evaluation of Microsoft Defender Antivirus and Microsoft Defender for Endpoint. After installation use the Get-DefenderEvaluationReport command to run a report.",
+    "Score": 55,
+    "Published": "2026-04-03T06:03:59.843"
   },
   {
-    "id": "VCF.IdentityManager",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.IdentityManager automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:55:01.73"
+    "id": "PureStorage.Pure1",
+    "Owners": "codyhosterman",
+    "Description": "Pure Storage Pure1 REST API integration with PowerShell.",
+    "Score": 55,
+    "Published": "2026-04-03T09:36:29.79"
   },
   {
-    "id": "VCF.HostEvacuation",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.HostEvacuation automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:54:33.277"
-  },
-  {
-    "id": "VCF.DRValidator",
-    "Owners": "eblack099",
-    "Description": "Enterprise module for VCF.DRValidator automation and management.",
-    "Score": 65,
-    "Published": "2026-04-02T10:54:07.19"
+    "id": "M365Permissions",
+    "Owners": "Jos",
+    "Description": "M365Permissions - Microsoft 365 & Azure Permission Scanner\r\n\r\nFor the enterprise Azure-native version, see https://www.m365permissions.com\r\n\r\nThis module reports on permissions across SharePoint, Entra ID, Exchange Online, OneDrive, Power BI, Power Platform, Azure RBAC, and Azure DevOps.\r\n\r\nINSTALLATION:\r\n    Install-PSResource -Name M365Permissions -Repository PSGallery\r\n\r\nUSAGE:\r\n    Import-Module M365Permissions   # Opens GUI automatically in your browser\r\n\r\nFree for non-commercial use. See https://www.lieben.nu/liebensraum/commercial-use/",
+    "Score": 50,
+    "Published": "2026-04-03T11:36:43.537"
   }
 ]
