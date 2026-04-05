@@ -1,72 +1,72 @@
 [
   {
-    "id": "LeastPrivilegedMSGraph",
-    "Owners": "Mynster",
-    "Description": "Analyzes Microsoft Graph permissions and provides least privileged recommendations",
+    "id": "GitDrive",
+    "Owners": "ytsuda",
+    "Description": "Navigate Git branches as a PSDrive. Browse branches with cd/ls, view commit diffs, checkout with Invoke-Item, and analyze branches with PowerShell pipelines.",
     "Score": 75,
-    "Published": "2026-04-03T10:58:25.447"
+    "Published": "2026-04-04T13:17:10.67"
+  },
+  {
+    "id": "Microsoft.Online.SharePoint.PowerShell",
+    "Owners": "MicrosoftSharePoint",
+    "Description": "Microsoft SharePoint Online Services Module for Windows PowerShell",
+    "Score": 75,
+    "Published": "2026-04-04T01:03:46.467"
   },
   {
     "id": "GitHub",
     "Owners": "PSModule.io",
     "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
     "Score": 75,
-    "Published": "2026-04-03T09:03:17.96"
+    "Published": "2026-04-04T10:20:57.133"
   },
   {
-    "id": "PowerCode.PsMcp",
-    "Owners": "PowerCode",
-    "Description": "Exposes PowerShell commands as Model Context Protocol (MCP) tools over stdio.",
+    "id": "Fortytwo.IAM.Core.Admin",
+    "Owners": "fortytwo",
+    "Description": "Admin module for Fortytwo Core IAM, responsible for managing administrative tasks and configurations.",
     "Score": 70,
-    "Published": "2026-04-03T02:34:18.36"
+    "Published": "2026-04-04T18:27:46.787"
   },
   {
-    "id": "DeviceManager",
-    "Owners": "MartinGC94",
-    "Description": "Manage devices and device drivers for Windows.",
-    "Score": 60,
-    "Published": "2026-04-03T21:34:59.57"
+    "id": "EntraReporter",
+    "Owners": "kovergard",
+    "Description": "PowerShell module for generating reports about Entra ID.",
+    "Score": 70,
+    "Published": "2026-04-04T17:51:27.513"
   },
   {
-    "id": "AsBuiltReport.System.Resources",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module to generate an as built report on the configuration of System Resources.",
-    "Score": 60,
-    "Published": "2026-04-03T22:21:35.957"
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-04-04T08:34:46.94"
   },
   {
-    "id": "Indago",
-    "Owners": "FrantzDhin",
-    "Description": "Self-contained Windows admin toolkit designed for RMM/SYSTEM sessions.\n\nIndago provides pre-built troubleshooting and repair scriptlets that\nyou can invoke with simple commands - no copy-paste, no special characters,\nno script blocks, no pipe characters, no module downloads required.\n\nThe module includes a user-context execution engine (based on RunAsUser)\nthat uses Win32 CreateProcessAsUser to run tasks as the logged-on user\nwith admin elevation, without passwords ever touching the command line.\n\nKey features:\n- Zero external dependencies - everything is self-contained\n- Type-friendly interface - Param1 through Param5, no braces or pipes needed\n- Invisible user-context execution - no window flash, no Task Scheduler artifacts\n- Metadata-driven scriptlet catalog - add tasks via JSON, no code changes\n- Structured logging to C:\\ProgramData\\Indago\\Logs\n- RMM job breakaway support (CREATE_BREAKAWAY_FROM_JOB)",
-    "Score": 55,
-    "Published": "2026-04-03T21:56:38.957"
+    "id": "crwd-hbfw",
+    "Owners": "Shadowbq",
+    "Description": "CrowdStrike Powershell module for parsing WFP for Falcon Host Based Firewall Debugging",
+    "Score": 70,
+    "Published": "2026-04-04T17:50:50.247"
   },
   {
-    "id": "LISSTech.DrainCtl",
-    "Owners": "mwisniowski",
-    "Description": "Monitor and manage Remote Desktop Session Host drain mode (TSServerDrainMode). Reads the registry natively via a Go shared library, maintains a 90-day JSONL audit trail of state changes, and attributes changes to specific users via Windows Security Event Log (Event ID 4657). Ships drainctl.exe CLI for N-central automation and drainctl.dll for PowerShell cmdlet integration. Supports the DrainCtl Windows Service for continuous monitoring.",
-    "Score": 55,
-    "Published": "2026-04-03T23:50:52.543"
+    "id": "Belin.Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
+    "Score": 65,
+    "Published": "2026-04-04T11:44:16.55"
   },
   {
-    "id": "DefenderEval",
-    "Owners": "jonade",
-    "Description": "Verify configuration are aligning with recommended settings when performing an evaluation of Microsoft Defender Antivirus and Microsoft Defender for Endpoint. After installation use the Get-DefenderEvaluationReport command to run a report.",
-    "Score": 55,
-    "Published": "2026-04-03T06:03:59.843"
+    "id": "PSWinOps",
+    "Owners": "k9fr4n",
+    "Description": "A collection of PowerShell utilities for Windows system administrators",
+    "Score": 65,
+    "Published": "2026-04-04T20:05:16.15"
   },
   {
-    "id": "PureStorage.Pure1",
-    "Owners": "codyhosterman",
-    "Description": "Pure Storage Pure1 REST API integration with PowerShell.",
-    "Score": 55,
-    "Published": "2026-04-03T09:36:29.79"
-  },
-  {
-    "id": "M365Permissions",
-    "Owners": "Jos",
-    "Description": "M365Permissions - Microsoft 365 & Azure Permission Scanner\r\n\r\nFor the enterprise Azure-native version, see https://www.m365permissions.com\r\n\r\nThis module reports on permissions across SharePoint, Entra ID, Exchange Online, OneDrive, Power BI, Power Platform, Azure RBAC, and Azure DevOps.\r\n\r\nINSTALLATION:\r\n    Install-PSResource -Name M365Permissions -Repository PSGallery\r\n\r\nUSAGE:\r\n    Import-Module M365Permissions   # Opens GUI automatically in your browser\r\n\r\nFree for non-commercial use. See https://www.lieben.nu/liebensraum/commercial-use/",
-    "Score": 50,
-    "Published": "2026-04-03T11:36:43.537"
+    "id": "PowerLFM",
+    "Owners": "camusicjunkie",
+    "Description": "Module to leverage the Last.fm API",
+    "Score": 65,
+    "Published": "2026-04-04T08:08:20.713"
   }
 ]
