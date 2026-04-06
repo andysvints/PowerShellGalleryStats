@@ -1,72 +1,74 @@
 [
   {
-    "id": "GitDrive",
-    "Owners": "ytsuda",
-    "Description": "Navigate Git branches as a PSDrive. Browse branches with cd/ls, view commit diffs, checkout with Invoke-Item, and analyze branches with PowerShell pipelines.",
-    "Score": 75,
-    "Published": "2026-04-04T13:17:10.67"
-  },
-  {
-    "id": "Microsoft.Online.SharePoint.PowerShell",
-    "Owners": "MicrosoftSharePoint",
-    "Description": "Microsoft SharePoint Online Services Module for Windows PowerShell",
-    "Score": 75,
-    "Published": "2026-04-04T01:03:46.467"
-  },
-  {
-    "id": "GitHub",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to interact with GitHub, both interactively and via automation.",
-    "Score": 75,
-    "Published": "2026-04-04T10:20:57.133"
-  },
-  {
-    "id": "Fortytwo.IAM.Core.Admin",
-    "Owners": "fortytwo",
-    "Description": "Admin module for Fortytwo Core IAM, responsible for managing administrative tasks and configurations.",
+    "id": "Belin.Cli",
+    "Owners": "CedX",
+    "Description": "A set of command-line tools for common administrative tasks, such as database management, service management and software installation.",
     "Score": 70,
-    "Published": "2026-04-04T18:27:46.787"
+    "Published": "2026-04-05T20:01:04.287"
+  },
+  {
+    "id": "Fylgyr",
+    "Owners": "pthoor",
+    "Description": "Audits GitHub repositories and organizations for supply chain risks mapped to real-world attack campaigns.",
+    "Score": 70,
+    "Published": "2026-04-05T20:10:36.82"
   },
   {
     "id": "EntraReporter",
     "Owners": "kovergard",
     "Description": "PowerShell module for generating reports about Entra ID.",
     "Score": 70,
-    "Published": "2026-04-04T17:51:27.513"
+    "Published": "2026-04-05T05:09:27.643"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 70,
-    "Published": "2026-04-04T08:34:46.94"
-  },
-  {
-    "id": "crwd-hbfw",
-    "Owners": "Shadowbq",
-    "Description": "CrowdStrike Powershell module for parsing WFP for Falcon Host Based Firewall Debugging",
-    "Score": 70,
-    "Published": "2026-04-04T17:50:50.247"
-  },
-  {
-    "id": "Belin.Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
+    "id": "pt.EntraGraphUtils",
+    "Owners": "PowerShell.Today",
+    "Description": "PowerShell utilities for the Microsoft Graph REST API. Provides Invoke-ptGraphBatchRequest for high-performance JSON batch operations (up to 20 requests per HTTP call), Invoke-ptGraphRequest for individual API calls, and New-ptGraphRequestItem for building request objects. Features automatic retry handling, rate-limit backoff, auto-pagination, OData query parameter support, and multi-cloud (GCC, DoD, Germany, China) compatibility.",
     "Score": 65,
-    "Published": "2026-04-04T11:44:16.55"
+    "Published": "2026-04-05T15:43:50.163"
   },
   {
-    "id": "PSWinOps",
-    "Owners": "k9fr4n",
-    "Description": "A collection of PowerShell utilities for Windows system administrators",
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\nIt provides a more powerful module completion menu with sorting and filtering.\r\n- Website: https://pscompletions.abgox.com\r\n- Github:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 65,
-    "Published": "2026-04-04T20:05:16.15"
+    "Published": "2026-04-05T01:41:01.843"
   },
   {
-    "id": "PowerLFM",
-    "Owners": "camusicjunkie",
-    "Description": "Module to leverage the Last.fm API",
-    "Score": 65,
-    "Published": "2026-04-04T08:08:20.713"
+    "id": "PowerShell.MCP",
+    "Owners": "ytsuda",
+    "Description": "The universal MCP server for Claude Code and other MCP-compatible clients. One installation gives AI access to 10,000+ PowerShell modules and any CLI tool. You and AI collaborate in the same console with full transparency. Supports Windows, Linux, and macOS.",
+    "Score": 60,
+    "Published": "2026-04-05T14:18:48.547"
+  },
+  {
+    "id": "PsBash",
+    "Owners": "abrummer",
+    "Description": "Real bash commands for PowerShell with typed objects. 68 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
+    "Score": 55,
+    "Published": "2026-04-05T01:45:06.613"
+  },
+  {
+    "id": "LISSTech.DrainCtl",
+    "Owners": "mwisniowski",
+    "Description": "Know the instant someone blocks new connections on your RDSH servers. DrainCtl monitors drain mode in real time, tracks who changed it, counts active sessions, and alerts you before capacity runs out. Includes a multi-server dashboard with Kerberos SSO, webhook and ntfy.sh notifications with granular triggers, and a 90-day audit trail. Works standalone or as a Windows Service.",
+    "Score": 55,
+    "Published": "2026-04-05T08:59:11.86"
+  },
+  {
+    "id": "Fortytwo.IAM.Core.Connector",
+    "Owners": "fortytwo",
+    "Description": "Connector for Fortytwo Core IAM, responsible for talking to the Connector Data APIs and synchronizing data between connectors the the API.",
+    "Score": 55,
+    "Published": "2026-04-05T19:01:39.15"
+  },
+  {
+    "id": "IntuneAppAssigner",
+    "Owners": "ennbee",
+    "Description": [
+      []
+    ],
+    "Score": 50,
+    "Published": "2026-04-05T12:47:44.063"
   }
 ]
