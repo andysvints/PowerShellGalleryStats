@@ -1,72 +1,72 @@
 [
   {
+    "id": "DLLPickle",
+    "Owners": "SamErde",
+    "Description": "A PowerShell module that helps you get un-stuck from dependency version conflicts that can occur when connecting to multiple Microsoft services in the same session.",
+    "Score": 80,
+    "Published": "2026-04-12T12:38:49.917"
+  },
+  {
     "id": "Devdeer.Caf",
     "Owners": "devdeer-alex",
     "Description": "This package contains functionality to prepare and manage Microsoft Azure Tenants aligned to Microsoft Cloud Adoption Framework.",
     "Score": 80,
-    "Published": "2026-04-11T20:40:14.61"
+    "Published": "2026-04-12T11:47:40.357"
   },
   {
-    "id": "GoogleFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
-    "Score": 75,
-    "Published": "2026-04-11T07:48:45.58"
-  },
-  {
-    "id": "PSDataRepository",
-    "Owners": "ondrej",
-    "Description": "A PowerShell module for working with data repositories (FileSystem, AzureBlob, AzureQueue, AzureKeyVault, etc.) in a session-based approach.",
+    "id": "andrewplaclips",
+    "Owners": "Mynster",
+    "Description": "A module grabing some of the best sound bites of the one and only Andrew Pla",
     "Score": 70,
-    "Published": "2026-04-11T19:56:58.28"
+    "Published": "2026-04-12T20:35:25.077"
   },
   {
-    "id": "KustoCmdlets",
-    "Owners": "benapple",
-    "Description": "PowerShell Cmdlets providing thin-wrapper cmdlets around the Microsoft.Azure.Kusto.Data SDK for executing KQL queries against Azure Data Explorer clusters.",
+    "id": "Fylgyr",
+    "Owners": "pthoor",
+    "Description": "Audits GitHub repositories and organizations for supply chain risks mapped to real-world attack campaigns.",
     "Score": 70,
-    "Published": "2026-04-11T20:00:13.82"
+    "Published": "2026-04-12T18:15:53.53"
   },
   {
-    "id": "EntraReporter",
-    "Owners": "kovergard",
-    "Description": "PowerShell module for generating reports about Entra ID.",
-    "Score": 70,
-    "Published": "2026-04-11T05:29:50.607"
-  },
-  {
-    "id": "SqlServerConfiguration",
-    "Owners": "netsec4u",
-    "Description": "Module provides function to configure SQL Server.",
-    "Score": 70,
-    "Published": "2026-04-11T03:08:01.47"
-  },
-  {
-    "id": "SqlServerMaintenance",
-    "Owners": "netsec4u",
-    "Description": "Provides maintenance functions to manage SQL Server.",
-    "Score": 70,
-    "Published": "2026-04-11T03:06:46.773"
+    "id": "PocketMarkdown",
+    "Owners": "Start-Automating",
+    "Description": "Pocket Blog to Markdown",
+    "Score": 65,
+    "Published": "2026-04-12T22:57:32.743"
   },
   {
     "id": "CopilotCmdlets",
     "Owners": "benapple",
     "Description": "PowerShell Cmdlets for the GitHub Copilot SDK",
     "Score": 65,
-    "Published": "2026-04-11T20:11:43.793"
+    "Published": "2026-04-12T18:02:57.867"
   },
   {
-    "id": "PSWinOps",
-    "Owners": "k9fr4n",
-    "Description": "A collection of PowerShell utilities for Windows system administrators",
+    "id": "MouseSettings",
+    "Owners": "MartinGC94",
+    "Description": "Module for managing mouse settings on Windows.",
     "Score": 65,
-    "Published": "2026-04-11T14:12:08.07"
+    "Published": "2026-04-12T19:59:45.763"
   },
   {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\nIt provides a more powerful module completion menu with sorting and filtering.\r\n- Website: https://pscompletions.abgox.com\r\n- Github:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
-    "Score": 65,
-    "Published": "2026-04-11T12:07:27.71"
+    "id": "PsBash",
+    "Owners": "abrummer",
+    "Description": "Real bash commands for PowerShell with typed objects. 69 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
+    "Score": 55,
+    "Published": "2026-04-12T05:41:29.18"
+  },
+  {
+    "id": "SendDrop",
+    "Owners": "subo",
+    "Description": "PowerShell Module for the SendDrop.com API",
+    "Score": 50,
+    "Published": "2026-04-12T21:38:16.277"
+  },
+  {
+    "id": "PX2PS",
+    "Owners": "jakehildreth",
+    "Description": "Converts Pixquare .px files to terminal pixel graphics using ANSI True Color",
+    "Score": 50,
+    "Published": "2026-04-12T13:31:27.827"
   }
 ]
