@@ -1,72 +1,72 @@
 [
   {
-    "id": "GitHubActionsHero",
-    "Owners": "adamdriscoll",
-    "Description": "PowerShell helpers for GitHub Actions workflows and runners.",
-    "Score": 70,
-    "Published": "2026-04-14T04:32:34.257"
-  },
-  {
-    "id": "DeviceManager",
-    "Owners": "MartinGC94",
-    "Description": "Manage devices and device drivers for Windows.",
-    "Score": 65,
-    "Published": "2026-04-15T00:11:46.49"
+    "id": "GoogleFonts",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
+    "Score": 75,
+    "Published": "2026-04-15T01:00:19.193"
   },
   {
     "id": "LISSTech.DrainCtl",
     "Owners": "mwisniowski",
     "Description": "Know the instant someone blocks new connections on your RDSH servers. DrainCtl monitors drain mode in real time, tracks who changed it, counts active sessions, and alerts you before capacity runs out. Includes a multi-server dashboard with Kerberos SSO, webhook and ntfy.sh notifications with granular triggers, and a 90-day audit trail. Works standalone or as a Windows Service.",
     "Score": 55,
-    "Published": "2026-04-14T22:34:00.033"
+    "Published": "2026-04-16T00:13:17.903"
   },
   {
-    "id": "AdminToolbox",
-    "Owners": "TaylorLee",
-    "Description": "Master module for a collection of modules. These modules are varied in their tasks. The overall purpose of them being to provide a powerfull Toolset to improve IT Admin workflows.",
+    "id": "NetillimarCitsmart",
+    "Owners": "netillimar",
+    "Description": "Provides cmdlets for configuration and usage of Citsmart API",
     "Score": 55,
-    "Published": "2026-04-14T04:06:07.253"
+    "Published": "2026-04-15T01:23:02.48"
   },
   {
-    "id": "AdminToolbox.SecOps",
-    "Owners": "TaylorLee",
-    "Description": "Functions for Security Operations and Investigations",
+    "id": "AzureLocalRanger",
+    "Owners": "countrycloudboy",
+    "Description": "AzureLocalRanger performs automated, read-only discovery and reporting against Azure Local (formerly Azure Stack HCI) clusters. It collects cluster topology, storage and networking health, VM workload inventory, security posture, and Azure Arc registration state — then renders HTML, Markdown, JSON, and SVG as-built report packages. Run from any Windows machine with WinRM access to the cluster.",
     "Score": 50,
-    "Published": "2026-04-14T04:04:42.88"
+    "Published": "2026-04-15T23:51:11.143"
   },
   {
-    "id": "NCRestAPI",
-    "Owners": "znfrazier",
-    "Description": "PowerShell module for interacting with N-able N-central REST API",
+    "id": "VB.NextCloud",
+    "Owners": "Vibhu_Bhatnagar",
+    "Description": "VB.NextCloud -- WebDAV utilities for Nextcloud. Provides Set-VBNextcloudFile (single PUT), Start-VBNextcloudUpload (batch orchestrator), and Get-VBNextcloudFiles (PROPFIND directory listing).",
     "Score": 50,
-    "Published": "2026-04-14T22:45:44.413"
-  },
-  {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2026-04-14T21:49:57.48"
+    "Published": "2026-04-15T04:53:19.723"
   },
   {
     "id": "EnterprisePolicyAsCode",
     "Owners": "anwather",
     "Description": "Enterprise Policy as Code PowerShell Module",
     "Score": 50,
-    "Published": "2026-04-14T03:15:27.643"
+    "Published": "2026-04-15T01:58:48.477"
   },
   {
-    "id": "AdminToolbox.VMWareAutomate",
-    "Owners": "TaylorLee",
-    "Description": "Functions to Automate Bulk VMWare Tasks",
-    "Score": 50,
-    "Published": "2026-04-14T04:03:28.683"
+    "id": "PwrSearch",
+    "Owners": "OscarCalvo",
+    "Description": "Fast directory and file search backed by a native SearchDir.dll, plus a go navigation command.",
+    "Score": 45,
+    "Published": "2026-04-15T04:29:27.447"
   },
   {
-    "id": "AdminToolbox.Remoting",
-    "Owners": "TaylorLee",
-    "Description": "Functions for remote management and access.",
-    "Score": 50,
-    "Published": "2026-04-14T04:03:21.913"
+    "id": "PsBash",
+    "Owners": "abrummer",
+    "Description": "Real bash commands for PowerShell with typed objects. 76 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
+    "Score": 45,
+    "Published": "2026-04-15T23:42:26.35"
+  },
+  {
+    "id": "Eigenverft.Manifested.Drydock",
+    "Owners": "Eigenverft",
+    "Description": "A comprehensive PowerShell module providing automation and deployment tools for the Eigenverft Manifested Drydock environment. Features include Git operations, .NET project handling, process management, scheduled tasks, logging, and IO operations. Optimized for lightning-fast iteration with built-in auto-versioning and seamless local/CI/CD workflow integration. Supports both PowerShell Desktop and Core editions, ensuring consistent behavior across development and deployment environments. For CI/CD examples, see https://github.com/eigenverft/Eigenverft.Manifested.Drydock/blob/main/.github/workflows/cicd.ps1.",
+    "Score": 45,
+    "Published": "2026-04-15T05:49:02.657"
+  },
+  {
+    "id": "PwrCortex",
+    "Owners": "OscarCalvo",
+    "Description": "PwrCortex - Agentic LLM swarm engine for PowerShell. Environment-aware, pipeline-native, claude.md-driven.",
+    "Score": 40,
+    "Published": "2026-04-15T06:06:55.727"
   }
 ]
