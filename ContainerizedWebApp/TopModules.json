@@ -1,72 +1,72 @@
 [
   {
-    "id": "Dargslan.WsusHealth",
-    "Owners": "dargslan",
-    "Description": "Audit WSUS server health: client compliance, missing critical updates, sync state. JSON / HTML report.",
+    "id": "Fonts",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for managing fonts.",
     "Score": 75,
-    "Published": "2026-04-18T19:18:38.77"
+    "Published": "2026-04-19T17:11:51.053"
   },
   {
     "id": "PSChristmasTree",
     "Owners": "Sofiane-77",
     "Description": "An animated Christmas tree for PowerShell terminals, with configurable styles, decorations, colors, and localization.",
     "Score": 70,
-    "Published": "2026-04-18T04:15:23.877"
+    "Published": "2026-04-19T18:57:49.11"
   },
   {
-    "id": "Dargslan.ResolvCheck",
-    "Owners": "dargslan",
-    "Description": "Check DNS resolver configuration and connectivity — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:21.593"
+    "id": "JSON-LD",
+    "Owners": "Start-Automating",
+    "Description": "Get JSON Linked Data with PowerShell",
+    "Score": 70,
+    "Published": "2026-04-19T21:45:25.9"
   },
   {
-    "id": "Dargslan.RedisHealth",
-    "Owners": "dargslan",
-    "Description": "Check Redis server health and performance metrics — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
+    "id": "CopilotCmdlets",
+    "Owners": "benapple",
+    "Description": "PowerShell Cmdlets for the GitHub Copilot SDK",
     "Score": 65,
-    "Published": "2026-04-18T19:19:19.597"
+    "Published": "2026-04-19T16:56:23.457"
   },
   {
-    "id": "Dargslan.RaidMonitor",
-    "Owners": "dargslan",
-    "Description": "Monitor Storage Spaces and RAID array health — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:18.623"
+    "id": "Pode",
+    "Owners": "Badgerati",
+    "Description": "A Cross-Platform PowerShell framework for creating web servers to host REST APIs and Websites. Pode also has support for being used in Azure Functions and AWS Lambda.",
+    "Score": 55,
+    "Published": "2026-04-19T15:53:30.35"
   },
   {
-    "id": "Dargslan.ProcessMonitor",
-    "Owners": "dargslan",
-    "Description": "Monitor system processes, CPU and memory usage — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:16.66"
+    "id": "M365-Assess",
+    "Owners": "Galvnyz",
+    "Description": "Comprehensive read-only Microsoft 365 security assessment tool for IT consultants and administrators. Covers Entra ID, Exchange Online, Intune, Defender, SharePoint, Teams, Purview, and Active Directory.",
+    "Score": 50,
+    "Published": "2026-04-19T16:53:17.023"
   },
   {
-    "id": "Dargslan.PostgresHealth",
-    "Owners": "dargslan",
-    "Description": "Check PostgreSQL database server health on Windows — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:12.147"
+    "id": "PSDuo",
+    "Owners": "rcfmartin",
+    "Description": "wrapper for the DUO API",
+    "Score": 50,
+    "Published": "2026-04-19T17:58:42.897"
   },
   {
-    "id": "Dargslan.PortMonitor",
-    "Owners": "dargslan",
-    "Description": "Monitor open TCP/UDP ports and listening services — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:11.153"
+    "id": "Cool",
+    "Owners": "andot",
+    "Description": "A PowerShell module that provides Linux-style color and icon support for the Windows terminal, enhancing the visual experience of command-line interactions.",
+    "Score": 45,
+    "Published": "2026-04-19T18:14:09.85"
   },
   {
-    "id": "Dargslan.PasswdAudit",
-    "Owners": "dargslan",
-    "Description": "Audit local user password policies and expiration — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:08.967"
+    "id": "PSCumulus",
+    "Owners": "adilio",
+    "Description": "Cross-cloud PowerShell module for Azure, AWS, and GCP. Unified commands (Get-CloudInstance, Get-CloudStorage, etc.) return normalized objects with a consistent output shape across all three providers.",
+    "Score": 45,
+    "Published": "2026-04-19T03:01:58.74"
   },
   {
-    "id": "Dargslan.PamAudit",
-    "Owners": "dargslan",
-    "Description": "Audit Windows authentication policies and credential providers — Part of the Dargslan Windows Admin Tools collection. More at https://dargslan.com",
-    "Score": 65,
-    "Published": "2026-04-18T19:19:08.08"
+    "id": "AppVeyorTestPsGallery",
+    "Owners": "appveyor",
+    "Description": "The test module to verify publishing to PSGallery from AppVeyor.",
+    "Score": 45,
+    "Published": "2026-04-19T20:26:27.38"
   }
 ]
