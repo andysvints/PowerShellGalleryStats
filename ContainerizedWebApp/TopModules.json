@@ -1,72 +1,72 @@
 [
   {
-    "id": "Fonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module for managing fonts.",
+    "id": "Fortytwo.IAM.Core.Admin",
+    "Owners": "fortytwo",
+    "Description": "Admin module for Fortytwo Core IAM, responsible for managing administrative tasks and configurations.",
     "Score": 75,
-    "Published": "2026-04-19T17:11:51.053"
-  },
-  {
-    "id": "PSChristmasTree",
-    "Owners": "Sofiane-77",
-    "Description": "An animated Christmas tree for PowerShell terminals, with configurable styles, decorations, colors, and localization.",
-    "Score": 70,
-    "Published": "2026-04-19T18:57:49.11"
-  },
-  {
-    "id": "JSON-LD",
-    "Owners": "Start-Automating",
-    "Description": "Get JSON Linked Data with PowerShell",
-    "Score": 70,
-    "Published": "2026-04-19T21:45:25.9"
+    "Published": "2026-04-20T07:31:03.83"
   },
   {
     "id": "CopilotCmdlets",
     "Owners": "benapple",
     "Description": "PowerShell Cmdlets for the GitHub Copilot SDK",
     "Score": 65,
-    "Published": "2026-04-19T16:56:23.457"
+    "Published": "2026-04-20T02:45:25.72"
   },
   {
-    "id": "Pode",
-    "Owners": "Badgerati",
-    "Description": "A Cross-Platform PowerShell framework for creating web servers to host REST APIs and Websites. Pode also has support for being used in Azure Functions and AWS Lambda.",
+    "id": "InformationProtection",
+    "Owners": "Fred",
+    "Description": "Wraps the Microsoft Information Protection SDK",
+    "Score": 60,
+    "Published": "2026-04-20T06:07:04.64"
+  },
+  {
+    "id": "LISSTech.DrainCtl",
+    "Owners": "mwisniowski",
+    "Description": "Know the instant someone blocks new connections on your RDSH servers. DrainCtl monitors drain mode in real time, tracks who changed it, counts active sessions, and alerts you before capacity runs out. Includes a multi-server dashboard with Kerberos SSO, webhook and ntfy.sh notifications with granular triggers, and a 90-day audit trail. Works standalone or as a Windows Service.",
     "Score": 55,
-    "Published": "2026-04-19T15:53:30.35"
+    "Published": "2026-04-20T02:16:18.533"
+  },
+  {
+    "id": "MMedia.Deliverability",
+    "Owners": "mmediasoftwarelab",
+    "Description": "Email deliverability diagnostics for any domain - SPF, DKIM, DMARC, MX, PTR, and blacklist sweep (41 lists).",
+    "Score": 50,
+    "Published": "2026-04-20T10:26:03.89"
   },
   {
     "id": "M365-Assess",
     "Owners": "Galvnyz",
     "Description": "Comprehensive read-only Microsoft 365 security assessment tool for IT consultants and administrators. Covers Entra ID, Exchange Online, Intune, Defender, SharePoint, Teams, Purview, and Active Directory.",
     "Score": 50,
-    "Published": "2026-04-19T16:53:17.023"
+    "Published": "2026-04-20T05:08:00.46"
   },
   {
-    "id": "PSDuo",
-    "Owners": "rcfmartin",
-    "Description": "wrapper for the DUO API",
+    "id": "EnterprisePolicyAsCode",
+    "Owners": "anwather",
+    "Description": "Enterprise Policy as Code PowerShell Module",
     "Score": 50,
-    "Published": "2026-04-19T17:58:42.897"
+    "Published": "2026-04-20T23:27:11.32"
   },
   {
-    "id": "Cool",
-    "Owners": "andot",
-    "Description": "A PowerShell module that provides Linux-style color and icon support for the Windows terminal, enhancing the visual experience of command-line interactions.",
+    "id": "WinMole",
+    "Owners": "jorgeasaurus",
+    "Description": "A PowerShell-powered Windows system cleaner and optimizer with an interactive Spectre Console UI. Clean temp files, uninstall apps, optimize services, analyze disk usage, and monitor system status.",
     "Score": 45,
-    "Published": "2026-04-19T18:14:09.85"
+    "Published": "2026-04-20T02:05:30.453"
   },
   {
-    "id": "PSCumulus",
-    "Owners": "adilio",
-    "Description": "Cross-cloud PowerShell module for Azure, AWS, and GCP. Unified commands (Get-CloudInstance, Get-CloudStorage, etc.) return normalized objects with a consistent output shape across all three providers.",
+    "id": "PsBash",
+    "Owners": "abrummer",
+    "Description": "Real bash commands for PowerShell with typed objects. 76 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
     "Score": 45,
-    "Published": "2026-04-19T03:01:58.74"
+    "Published": "2026-04-20T03:30:56.617"
   },
   {
-    "id": "AppVeyorTestPsGallery",
-    "Owners": "appveyor",
-    "Description": "The test module to verify publishing to PSGallery from AppVeyor.",
+    "id": "git-aliases-extra",
+    "Owners": "PhysShell",
+    "Description": "Custom git aliases and robust tab completion helpers for PowerShell.",
     "Score": 45,
-    "Published": "2026-04-19T20:26:27.38"
+    "Published": "2026-04-20T05:41:15.63"
   }
 ]
