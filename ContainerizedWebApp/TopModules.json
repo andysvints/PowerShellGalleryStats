@@ -1,72 +1,72 @@
 [
   {
-    "id": "Omnicit.PIM",
-    "Owners": "PhilipHaglund,OmnicitAB",
-    "Description": "Entra ID Privileged Identity Management (PIM) Self Activation Commands for Directory Roles, Azure Resources, and Entra ID Groups",
-    "Score": 85,
-    "Published": "2026-04-21T18:01:13.493"
-  },
-  {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
-    "Score": 85,
-    "Published": "2026-04-21T18:16:29.333"
-  },
-  {
-    "id": "SPOService.CrossPlatform",
-    "Owners": "nstop",
-    "Description": "Cross-platform Connect-SPOService replacement for PowerShell 7 on macOS and Linux only (import fails on Windows). Works around two defects in Microsoft.Online.SharePoint.PowerShell (null Win32 registry dereference in SPOServiceHelper.InstantiateSPOService, and empty-body HTTP requests from the 16.0.0.0 Microsoft.SharePoint.Client.Runtime on .NET Core) so the official SPO cmdlets run unmodified on the repaired CSOM pipeline.",
+    "id": "ScriptModuleRepositoryTemplate",
+    "Owners": "deadlydog",
+    "Description": "Create new PowerShell script module repositories quickly and easily with boilerplate files and CI/CD workflows already defined. See the project site for more information.",
     "Score": 80,
-    "Published": "2026-04-21T20:44:20.55"
+    "Published": "2026-04-22T22:50:45.313"
   },
   {
-    "id": "OCI.PSModules.Batch",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:21:35.547"
+    "id": "GoogleFonts",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
+    "Score": 75,
+    "Published": "2026-04-22T22:13:18.35"
   },
   {
-    "id": "OCI.PSModules.Dif",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:26:55.35"
+    "id": "LogicV-M365-Assess",
+    "Owners": "Rajat",
+    "Description": "Logic V branded Microsoft 365 security assessment module",
+    "Score": 45,
+    "Published": "2026-04-22T23:33:01.193"
   },
   {
-    "id": "OCI.PSModules.Aidataplatform",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:18:31.4"
+    "id": "ShowTree",
+    "Owners": "beesley",
+    "Description": "Modern tree.com replacement with graphical, listing, and compatibility modes.",
+    "Score": 45,
+    "Published": "2026-04-23T00:19:12.013"
   },
   {
-    "id": "OCI.PSModules.Apiplatform",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:19:59.88"
+    "id": "PsBash",
+    "Owners": "abrummer",
+    "Description": "Real bash commands for PowerShell with typed objects. 76 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
+    "Score": 45,
+    "Published": "2026-04-22T04:05:22.86"
   },
   {
-    "id": "OCI.PSModules.Dbmulticloud",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dbmulticloud Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:25:39.58"
+    "id": "UTCM.Tools",
+    "Owners": "tadda",
+    "Description": "Unified Tenant Configuration Management (UTCM) tooling for Microsoft 365: create and retrieve configuration snapshots, compare snapshots to current tenant state, detect drift via server-side monitors, and export/report results as JSON, CSV, and HTML via the Microsoft Graph beta UTCM APIs.",
+    "Score": 40,
+    "Published": "2026-04-22T21:34:55.397"
   },
   {
-    "id": "OCI.PSModules.Apiaccesscontrol",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiaccesscontrol Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:19:41.59"
+    "id": "PDU",
+    "Owners": "SirBiggin",
+    "Description": "Interactive TUI disk usage browser for PowerShell, modelled on NCDU. Navigate your filesystem by size with keyboard-driven browsing.",
+    "Score": 40,
+    "Published": "2026-04-22T01:12:44.4"
   },
   {
-    "id": "OCI.PSModules.Distributeddatabase",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Distributeddatabase Service",
-    "Score": 80,
-    "Published": "2026-04-21T18:27:12.77"
+    "id": "PsModelUI",
+    "Owners": "Exathi",
+    "Description": "Create a UI with viewmodels and xaml using powershell only.",
+    "Score": 40,
+    "Published": "2026-04-22T01:42:36.163"
+  },
+  {
+    "id": "AzureArtifactsPowerShellModuleHelper",
+    "Owners": "deadlydog",
+    "Description": "Provides cmdlets to make it easier to work with PowerShell modules hosted in Azure Artifacts.",
+    "Score": 40,
+    "Published": "2026-04-22T22:54:38.98"
+  },
+  {
+    "id": "clihelper.userconfig",
+    "Owners": "chadnpc",
+    "Description": "A collection of script files by alain",
+    "Score": 35,
+    "Published": "2026-04-22T04:56:35.963"
   }
 ]
