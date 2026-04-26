@@ -1,72 +1,72 @@
 [
   {
-    "id": "AsBuiltReport.Chart",
-    "Owners": "tpcarman",
-    "Description": "AsBuiltReport.Chart is a PowerShell module that aims to provide chart generation capabilities. Underneath it uses ScottPlot and SkiaSharp libraries.",
-    "Score": 85,
-    "Published": "2026-04-24T01:07:05.263"
-  },
-  {
-    "id": "ScriptModuleRepositoryTemplate",
-    "Owners": "deadlydog",
-    "Description": "Create new PowerShell script module repositories quickly and easily with boilerplate files and CI/CD workflows already defined. See the project site for more information.",
+    "id": "Works4me.Xurrent.GraphQL",
+    "Owners": "Works4Me",
+    "Description": "This PowerShell module provides an easy and efficient way to interact with the Xurrent GraphQL API. The module leverages the Works4me.Xurrent.GraphQL library to simplify the process of interacting with the Xurrent GraphQL API, allowing you to take full advantage of its query and mutation capabilities.",
     "Score": 80,
-    "Published": "2026-04-24T16:42:27.27"
+    "Published": "2026-04-25T01:21:31.63"
   },
   {
-    "id": "Intersight.PowerShell",
-    "Owners": "Cisco",
-    "Description": "Intersight Powershell module provides the cmdlets to manage, analyze, and automate the IT infrastructure in Intersight.",
-    "Score": 80,
-    "Published": "2026-04-24T04:42:10.98"
+    "id": "CopilotCmdlets",
+    "Owners": "benapple",
+    "Description": "PowerShell Cmdlets for the GitHub Copilot SDK",
+    "Score": 65,
+    "Published": "2026-04-25T18:42:34.447"
   },
   {
-    "id": "AWS.Tools.PartnerCentralChannel",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The PartnerCentralChannel module of AWS Tools for PowerShell lets developers and administrators manage Partner Central Channel API from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:47:51.64"
+    "id": "ArtifactSigning",
+    "Owners": "jrojaslopez",
+    "Description": "Enables the signing of a set of files with the Artifact Signing service.",
+    "Score": 60,
+    "Published": "2026-04-25T02:36:07.323"
   },
   {
-    "id": "AWS.Tools.PartnerCentralBenefits",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The PartnerCentralBenefits module of AWS Tools for PowerShell lets developers and administrators manage Amazon PartnerCentral Benefits Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:47:50.553"
+    "id": "PwrHass",
+    "Owners": "OscarCalvo",
+    "Description": "PowerShell client for Home Assistant. Persists base URL + long-lived access token under ~/.pwrhass and exposes service-call / state-query cmdlets that read it.",
+    "Score": 55,
+    "Published": "2026-04-25T23:27:01.423"
   },
   {
-    "id": "AWS.Tools.PartnerCentralAccount",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The PartnerCentralAccount module of AWS Tools for PowerShell lets developers and administrators manage Partner Central Account API from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:47:49.473"
+    "id": "LISSTech.DrainCtl",
+    "Owners": "mwisniowski",
+    "Description": "Know the instant someone blocks new connections on your RDSH servers. DrainCtl monitors drain mode in real time, tracks who changed it, counts active sessions, and alerts you before capacity runs out. Includes a multi-server dashboard with Kerberos SSO, webhook and ntfy.sh notifications with granular triggers, and a 90-day audit trail. Works standalone or as a Windows Service.",
+    "Score": 55,
+    "Published": "2026-04-26T00:11:11.99"
   },
   {
-    "id": "AWS.Tools.NovaAct",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The NovaAct module of AWS Tools for PowerShell lets developers and administrators manage Amazon Nova Act from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:47:33.79"
+    "id": "Belin.Akismet",
+    "Owners": "CedX",
+    "Description": "Prevent comment spam using the Akismet service.",
+    "Score": 50,
+    "Published": "2026-04-25T20:38:06.67"
   },
   {
-    "id": "AWS.Tools.MWAAServerless",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The MWAAServerless module of AWS Tools for PowerShell lets developers and administrators manage AmazonMWAAServerless from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:44:49.85"
+    "id": "GraphApiHelper",
+    "Owners": "JiriF",
+    "Description": "Module provides simple commands for working with Microsoft Graph API, such as GET/POST/PATCH/DELETE requests, handling large file upload, retry logic, etc.",
+    "Score": 50,
+    "Published": "2026-04-25T18:56:26.62"
   },
   {
-    "id": "AWS.Tools.Odb",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The Odb module of AWS Tools for PowerShell lets developers and administrators manage Oracle Database@Amazon Web Services from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:47:38.133"
+    "id": "CopilotShell",
+    "Owners": "knicknic",
+    "Description": "PowerShell 7+ module wrapping the GitHub Copilot SDK. Provides cmdlets for managing Copilot clients, sessions, and messages with full system-message customization and streaming support.",
+    "Score": 50,
+    "Published": "2026-04-25T19:32:48.94"
   },
   {
-    "id": "AWS.Tools.MPA",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The MPA module of AWS Tools for PowerShell lets developers and administrators manage AWS Multi-party Approval from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-04-24T21:43:23.673"
+    "id": "SysUtils",
+    "Owners": "manalcjim",
+    "Description": "Read-only Windows PE / COM / .NET inspector for sysadmins. Parses DLL/OCX/EXE/SYS without LoadLibrary; reports PE headers, version info, COM TypeLibs (CoClasses, interfaces, methods), .NET assembly metadata (PEKind, CorFlags, AssemblyName, types) and Authenticode signatures. Cross-bitness inspection.",
+    "Score": 45,
+    "Published": "2026-04-25T15:25:01.19"
+  },
+  {
+    "id": "Cool",
+    "Owners": "andot",
+    "Description": "A PowerShell module that provides Linux-style color and icon support for the Windows terminal, enhancing the visual experience of command-line interactions.",
+    "Score": 45,
+    "Published": "2026-04-25T16:14:57.37"
   }
 ]
