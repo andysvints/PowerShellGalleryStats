@@ -1,72 +1,72 @@
 [
   {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
-    "Score": 85,
-    "Published": "2026-04-28T19:43:36.413"
-  },
-  {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
-    "Score": 85,
-    "Published": "2026-04-28T20:20:38.587"
-  },
-  {
-    "id": "OCI.PSModules.Batch",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "id": "CheckPQC",
+    "Owners": "Aegyrix",
+    "Description": "Verify post-quantum TLS readiness (TLS 1.3 + ML-KEM hybrid) from PowerShell. Hosted checks require only PowerShell + HTTPS; offline checks can use the @aegyrix/check-pqc CLI.",
     "Score": 80,
-    "Published": "2026-04-28T19:47:48.477"
+    "Published": "2026-04-29T18:07:16.46"
   },
   {
-    "id": "OCI.PSModules.Dif",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "id": "SimplySql",
+    "Owners": "Mithrandyr",
+    "Description": "Querying SQL (SQL Server, Oracle, PostgreSql, SQLite, & mySql) the PowerShell way: simple commands... powerful opportunities.\r\n\r\nSimplySql is a module that provides an intuitive set of cmdlets for talking to databases that abstracts the vendor specifics, allowing you to focus on getting work done.  The basic pattern is to connect to a database, execute one or more sql statements and then close your database connection.  This module provides cmdlets that map to this basic pattern.  Each provider has its own Open-*Connection cmdlet -> Open-SqlConnection, Open-SQLiteConnection, Open-OracleConnection, Open-PostGreConnection, Open-MySqlConnection.  The rest of the commands are provider agnostic.\r\n\r\nOpen/Close/Show/Test/Set/Get -SqlConnection >> Control as many active connections as you want.\r\nInvoke- SqlScalar/SqlQuery/SqlUpdate >> Interact with those connections.\r\nGet/Clear -SqlMessage >> Get Informational messages, if provider supports it.\r\nInvoke-SqlBulkCopy >> Bulk Dataload from one connection to another.\r\nStart/Complete/Undo -SqlTransaction >> Utilize transactions!",
     "Score": 80,
-    "Published": "2026-04-28T19:52:03.717"
+    "Published": "2026-04-29T03:15:52.3"
   },
   {
-    "id": "OCI.PSModules.Iot",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Iot Service",
-    "Score": 80,
-    "Published": "2026-04-28T19:54:42.553"
+    "id": "AWS.Tools.ConnectHealth",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ConnectHealth module of AWS Tools for PowerShell lets developers and administrators manage Connect Health from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:33:15.89"
   },
   {
-    "id": "OCI.PSModules.Jmsutils",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
-    "Score": 80,
-    "Published": "2026-04-28T19:55:00.567"
+    "id": "NovaModuleTools",
+    "Owners": "sgcourage",
+    "Description": "NovaModuleTools is an enterprise-focused evolution of ModuleTools, designed for large-scale PowerShell projects with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
+    "Score": 75,
+    "Published": "2026-04-29T10:58:32.853"
   },
   {
-    "id": "OCI.PSModules.Aidataplatform",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
-    "Score": 80,
-    "Published": "2026-04-28T19:45:16.2"
+    "id": "AWS.Tools.ComputeOptimizerAutomation",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ComputeOptimizerAutomation module of AWS Tools for PowerShell lets developers and administrators manage Compute Optimizer Automation Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:33:04.53"
   },
   {
-    "id": "OCI.PSModules.Apiplatform",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
-    "Score": 80,
-    "Published": "2026-04-28T19:46:29.27"
+    "id": "AWS.Tools.BCMDashboards",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:31:25.33"
   },
   {
-    "id": "OCI.PSModules.Dbmulticloud",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dbmulticloud Service",
-    "Score": 80,
-    "Published": "2026-04-28T19:51:34.733"
+    "id": "AWS.Tools.BCMRecommendedActions",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:31:30.463"
   },
   {
-    "id": "OCI.PSModules.Apiaccesscontrol",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiaccesscontrol Service",
-    "Score": 80,
-    "Published": "2026-04-28T19:46:14.413"
+    "id": "AWS.Tools.ARCRegionswitch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:30:49.99"
+  },
+  {
+    "id": "AWS.Tools.BedrockAgentCoreControl",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock Agent Core Control Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:31:37.317"
+  },
+  {
+    "id": "AWS.Tools.BedrockAgentCore",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Data Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-04-29T20:31:35.933"
   }
 ]
