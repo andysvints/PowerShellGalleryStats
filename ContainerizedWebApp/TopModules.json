@@ -1,74 +1,74 @@
 [
   {
-    "id": "PSTree",
-    "Owners": "santisq",
-    "Description": "Tree-like cmdlets for file system and registry exploration!",
+    "id": "Hcl",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for working with HCL language.",
+    "Score": 75,
+    "Published": "2026-05-03T13:11:34.703"
+  },
+  {
+    "id": "Toml",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module to manage conversion of Toml to objects and objects to Toml",
+    "Score": 75,
+    "Published": "2026-05-03T08:20:30.26"
+  },
+  {
+    "id": "Banxico.CLABE",
+    "Owners": "fbe75380fbd4",
+    "Description": "This module provides functions to retrieve/verify catalogs and to get details about a given CLABE as well as validating/testing its control digit.",
+    "Score": 75,
+    "Published": "2026-05-03T17:06:05.89"
+  },
+  {
+    "id": "httping",
+    "Owners": "fbe75380fbd4",
+    "Description": "Tests HTTP connectivity to a URI by sending repeated requests, measuring latency, and returning HTTP response details for diagnosis and endpoint monitoring.",
     "Score": 70,
-    "Published": "2026-05-02T15:15:20.73"
+    "Published": "2026-05-03T17:24:41.83"
   },
   {
-    "id": "DisplayConfig",
-    "Owners": "MartinGC94",
-    "Description": "Manage Windows display settings like resolution, DPI scale, HDR and more.",
+    "id": "CompleterActions",
+    "Owners": "tstager1428",
+    "Description": "CompleterActions is a PowerShell module for registering, discovering, querying, and removing PowerShell argument completers in a consistent way.\r\nIt wraps Register-ArgumentCompleter with module-managed registration tracking, while also discovering completers that were registered directly in the current PowerShell runtime.",
     "Score": 70,
-    "Published": "2026-05-02T20:56:03.427"
+    "Published": "2026-05-03T23:44:37.1"
   },
   {
-    "id": "AzPolicyTest",
-    "Owners": "tao.yang",
-    "Description": "Provides pre-defined pester tests for Azure Policy and Initiative definitions",
+    "id": "Belin.Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
     "Score": 70,
-    "Published": "2026-05-02T07:47:55.667"
+    "Published": "2026-05-03T21:32:55.003"
   },
   {
-    "id": "AsBuiltReport.Diagram",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module which provides the core framework for generating Diagrams for many common datacentre systems.",
-    "Score": 65,
-    "Published": "2026-05-02T21:32:08.28"
+    "id": "NativeCommandCompleter.psm",
+    "Owners": "teramako",
+    "Description": "Native Command Completer",
+    "Score": 70,
+    "Published": "2026-05-03T17:10:59.42"
   },
   {
-    "id": "KeepAChangelog",
-    "Owners": "sgcourage",
-    "Description": "PowerShell helpers for creating, validating, and releasing Keep a Changelog files.",
-    "Score": 60,
-    "Published": "2026-05-02T13:49:04.54"
-  },
-  {
-    "id": "PowerShell.MCP",
-    "Owners": "ytsuda",
-    "Description": "The universal MCP server for Claude Code and other MCP-compatible clients. One installation gives AI access to 10,000+ PowerShell modules and any CLI tool. You and AI collaborate in the same console with full transparency. Supports Windows, Linux, and macOS.",
-    "Score": 60,
-    "Published": "2026-05-02T10:46:34.507"
-  },
-  {
-    "id": "Maester",
-    "Owners": "FBader,merill,Thomas.Naunheim",
-    "Description": "Maester is an automation framework to assess and monitor your Microsoft 365 security configuration.",
-    "Score": 55,
-    "Published": "2026-05-02T08:38:11.82"
-  },
-  {
-    "id": "Invoke-LnvCVPolicyManager",
-    "Owners": "lenovocdrt",
+    "id": "khd",
+    "Owners": "Mahtwo",
     "Description": [
       []
     ],
-    "Score": 50,
-    "Published": "2026-05-02T15:52:23.727"
+    "Score": 65,
+    "Published": "2026-05-03T19:37:32.987"
   },
   {
-    "id": "AsBuiltReport.Microsoft.AD",
-    "Owners": "tpcarman",
-    "Description": "A PowerShell module to generate an as built report on the configuration of Microsoft AD.",
-    "Score": 50,
-    "Published": "2026-05-02T22:01:31.5"
+    "id": "视频工坊",
+    "Owners": "Ebola-Chan",
+    "Description": "视频工坊是面向本地视频处理的 PowerShell 工具模块，封装 ffmpeg、ffprobe 和 mkvmerge，提供烧录字幕、DV转HDR10、超级合并三个中文命令。烧录字幕会选取第一个视频轨和第一个字幕轨，将文本字幕或常见位图字幕硬烧到画面，视频转 HEVC，音频和其它轨道尽量直接复制。DV转HDR10 使用带 libplacebo 滤镜的 ffmpeg 将 Dolby Vision 片源处理为 BT.2020、PQ、TV range 的 HDR10 HEVC 输出，支持质量参数和短样本测试。超级合并按列表文件或剪贴板顺序合并多个片段；同构轨道优先走 mkvmerge 精剪与 ffmpeg concat 的无损快速路径，异构片段按视频、音频、字幕兼容性选择 copy 或最小化重编码，编码格式允许动态分辨率时尽量保留原始尺寸，必要时才统一分辨率、补静音或补空字幕。适合本地片段整理、字幕硬烧、Dolby Vision 兼容转换和合集封装。依赖 ffmpeg/ffprobe，超级合并还需要 mkvmerge；缺少依赖时相关命令会尝试通过辅助安装脚本补齐。",
+    "Score": 60,
+    "Published": "2026-05-03T03:41:49.52"
   },
   {
-    "id": "Cool",
-    "Owners": "andot",
-    "Description": "A PowerShell module that provides Linux-style color and icon support for the Windows terminal, enhancing the visual experience of command-line interactions.",
-    "Score": 45,
-    "Published": "2026-05-02T06:19:36.173"
+    "id": "Screenshot",
+    "Owners": "diecknet",
+    "Description": "Take Screenshots with PowerShell",
+    "Score": 55,
+    "Published": "2026-05-03T09:59:50.743"
   }
 ]
