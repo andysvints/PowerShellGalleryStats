@@ -1,59 +1,66 @@
 [
   {
-    "id": "M365CustomerKeyOnboarding1",
-    "Owners": "vzgherea",
-    "Description": "Minimal dummy PowerShell module used to smoke-test PS Gallery publishing flows. Exports Get-VzgDummyGreeting and Get-VzgDummyVersion.",
-    "Score": 80,
-    "Published": "2026-05-09T02:00:10.287"
-  },
-  {
-    "id": "PSCaffeinate",
-    "Owners": "VertigoRay",
-    "Description": "PSCaffeinate prevents Windows from sleeping -- a drop-in equivalent of the macOS caffeinate command. Supports all major caffeinate flags (-d, -i, -s, -u), timeout (-t), wait-for-PID (-w), and running a subprocess, using the Win32 SetThreadExecutionState API. Exports Invoke-Caffeinate with the alias caffeinate.",
+    "id": "PromptAI",
+    "Owners": "ytsuda",
+    "Description": "Call AI models from PowerShell with real-time streaming. Supports Anthropic Claude, OpenAI GPT, Google Gemini, Meta Llama (via Groq/Meta/Together), and DeepSeek. Works with PowerShell.MCP or @ytsuda/ripple for AI-to-AI communication.",
     "Score": 75,
-    "Published": "2026-05-09T16:10:51.037"
+    "Published": "2026-05-10T23:15:00.16"
   },
   {
-    "id": "EtwInspector",
-    "Owners": "jonathan_johnson",
-    "Description": "EtwInspector is a toolkit to research ETW components",
+    "id": "NovaModuleTools",
+    "Owners": "sgcourage",
+    "Description": "NovaModuleTools is an enterprise-focused evolution of ModuleTools, designed for large-scale PowerShell projects with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
+    "Score": 75,
+    "Published": "2026-05-10T10:22:58.373"
+  },
+  {
+    "id": "PSWriteOffice",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerShell module to create and read Microsoft Word, Excel, PowerPoint (experimental), Markdown, and CSV documents without Microsoft Office installed. Powered by OfficeIMO.*.",
+    "Score": 75,
+    "Published": "2026-05-10T21:43:09.59"
+  },
+  {
+    "id": "Plumber",
+    "Owners": "WillCodeForPizza",
+    "Description": "A set of Invoke-Build tasks for Powershell validation pipelines",
     "Score": 70,
-    "Published": "2026-05-09T14:20:12.72"
+    "Published": "2026-05-10T22:12:46.76"
   },
   {
-    "id": "BicepConsoleTTK",
-    "Owners": "andrew-d-wilson",
-    "Description": "Bicep Console Test Tool Kit (BicepConsoleTTK) — test Bicep imported types, functions and variables via the Bicep Console REPL using Pester",
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-05-10T16:19:47.603"
+  },
+  {
+    "id": "PSParseHTML",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
+    "Score": 70,
+    "Published": "2026-05-10T16:24:57.023"
+  },
+  {
+    "id": "JsmOperations",
+    "Owners": "trent.blackburn",
+    "Description": "PowerShell module for the Atlassian Jira Service Management (JSM) Operations REST API (formerly Opsgenie) - manage alerts, on-call schedules, and teams from PowerShell.",
     "Score": 65,
-    "Published": "2026-05-09T12:16:53.783"
+    "Published": "2026-05-10T06:42:28.023"
   },
   {
-    "id": "Fortytwo.IAM.Core.Admin",
-    "Owners": "fortytwo",
-    "Description": "Admin module for Fortytwo Core IAM, responsible for managing administrative tasks and configurations.",
+    "id": "RoughDraft",
+    "Owners": "Start-Automating",
+    "Description": "A Fun PowerShell Module for Multimedia",
+    "Score": 60,
+    "Published": "2026-05-10T20:34:21.977"
+  },
+  {
+    "id": "IPInfoLite",
+    "Owners": "PSRyan",
+    "Description": "Retrieves geolocation and ASN information from the IPinfo Lite API, with optional structured output optimized for LLM-based analysis.",
     "Score": 55,
-    "Published": "2026-05-09T21:35:11.903"
-  },
-  {
-    "id": "Brevo",
-    "Owners": "fasteiner,subo",
-    "Description": "PowerShell module for managing Brevo contacts, lists, folders, segments, attributes, email campaigns and related resources",
-    "Score": 55,
-    "Published": "2026-05-09T16:47:23.863"
-  },
-  {
-    "id": "Belin.UI",
-    "Owners": "CedX",
-    "Description": "Component library by Cédric Belin, full stack developer.",
-    "Score": 50,
-    "Published": "2026-05-09T11:38:19.077"
-  },
-  {
-    "id": "osquery",
-    "Owners": "skatterbrainz",
-    "Description": "A PowerShell module for interacting with osquery.",
-    "Score": 45,
-    "Published": "2026-05-09T15:45:32.733"
+    "Published": "2026-05-10T06:15:20.053"
   },
   {
     "id": "Enter-Elevated",
@@ -61,14 +68,7 @@
     "Description": [
       []
     ],
-    "Score": 40,
-    "Published": "2026-05-09T22:45:34.953"
-  },
-  {
-    "id": "SurgicalAutodeskCleaner",
-    "Owners": "dailen",
-    "Description": "A professional, enterprise-grade PowerShell module for surgical extraction and total system purging of Autodesk software.\r\n    \r\n    Compatible with PowerShell 5.1 and 7.0+. Note: Interactive Mode (TUI) is best experienced in PowerShell 7+.\r\n\r\nFeatures:\r\n- Start-SACInteractive (Alias: Start-SAC): Full interactive main menu — Cleanup, Purge, Profile Reset, Licensing Reset, Scan, and Restore.\r\n- Start-SACCleanup: Surgical background removal tool for RMMs (e.g., N-Central, Automate).\r\n- Start-SACPurge: Scorched-earth registry and file system master purge.\r\n- Start-SACScan: Generates CSV pre-flight scan reports of targeted deletions.\r\n- Reset-SACUserProfile: Resets per-user Autodesk AppData (rename Roaming, delete Local) for a clean-start experience without destroying user customizations.\r\n- Reset-SACLicensing: Wipes CLM, AdskLicensing, and SSO token cache to force clean re-authentication. Resolves stuck activation and seat reservation issues.\r\n- Restore-SACUserProfile: Lists, restores, or purges Roaming profile backups created by Reset-SACUserProfile.\r\n\r\nExample RMM usage: Start-SACCleanup -TargetProducts \"AutoCAD\", \"Revit\" -TargetYears 2019, 2020 -Silent\r\n\r\nDeepWiki Documentation: https://deepwiki.com/DailenG/SurgicalAutodeskCleaner",
-    "Score": 40,
-    "Published": "2026-05-09T21:35:56.78"
+    "Score": 50,
+    "Published": "2026-05-10T09:43:59.26"
   }
 ]
