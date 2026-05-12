@@ -1,74 +1,72 @@
 [
   {
-    "id": "PromptAI",
-    "Owners": "ytsuda",
-    "Description": "Call AI models from PowerShell with real-time streaming. Supports Anthropic Claude, OpenAI GPT, Google Gemini, Meta Llama (via Groq/Meta/Together), and DeepSeek. Works with PowerShell.MCP or @ytsuda/ripple for AI-to-AI communication.",
-    "Score": 75,
-    "Published": "2026-05-10T23:15:00.16"
+    "id": "PSPreworkout",
+    "Owners": "SamErde",
+    "Description": "A special mix of tools to help jump start your PowerShell session!",
+    "Score": 80,
+    "Published": "2026-05-11T16:02:09.027"
   },
   {
-    "id": "NovaModuleTools",
-    "Owners": "sgcourage",
-    "Description": "NovaModuleTools is an enterprise-focused evolution of ModuleTools, designed for large-scale PowerShell projects with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
+    "id": "PSNetScanners",
+    "Owners": "santisq",
+    "Description": "tcp and icmp async scanners for powershell",
+    "Score": 80,
+    "Published": "2026-05-11T16:13:01.503"
+  },
+  {
+    "id": "SPClientCore",
+    "Owners": "karamem0",
+    "Description": "SharePoint Service Module for PowerShell",
     "Score": 75,
-    "Published": "2026-05-10T10:22:58.373"
+    "Published": "2026-05-11T06:12:51.783"
   },
   {
     "id": "PSWriteOffice",
     "Owners": "Przemyslaw.Klys",
     "Description": "PowerShell module to create and read Microsoft Word, Excel, PowerPoint (experimental), Markdown, and CSV documents without Microsoft Office installed. Powered by OfficeIMO.*.",
     "Score": 75,
-    "Published": "2026-05-10T21:43:09.59"
+    "Published": "2026-05-11T10:56:16.877"
   },
   {
-    "id": "Plumber",
+    "id": "PSPiHole",
     "Owners": "WillCodeForPizza",
-    "Description": "A set of Invoke-Build tasks for Powershell validation pipelines",
+    "Description": "PowerShell wrapper around the Pi-hole v6 API.",
     "Score": 70,
-    "Published": "2026-05-10T22:12:46.76"
+    "Published": "2026-05-11T22:02:09.573"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "id": "PSTree",
+    "Owners": "santisq",
+    "Description": "Tree-like cmdlets for file system and registry exploration!",
     "Score": 70,
-    "Published": "2026-05-10T16:19:47.603"
+    "Published": "2026-05-11T21:15:12.903"
   },
   {
-    "id": "PSParseHTML",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
+    "id": "PnP.PowerShell",
+    "Owners": "erwinvanhunen",
+    "Description": "Microsoft 365 Patterns and Practices PowerShell Cmdlets",
     "Score": 70,
-    "Published": "2026-05-10T16:24:57.023"
+    "Published": "2026-05-11T17:43:08.42"
   },
   {
-    "id": "JsmOperations",
-    "Owners": "trent.blackburn",
-    "Description": "PowerShell module for the Atlassian Jira Service Management (JSM) Operations REST API (formerly Opsgenie) - manage alerts, on-call schedules, and teams from PowerShell.",
-    "Score": 65,
-    "Published": "2026-05-10T06:42:28.023"
+    "id": "Cohesity.PowerShell.Core",
+    "Owners": "shubham.kumar,amanprataprao,parag_cohesity,deepak.patel,nikitha.t.j,kavinagrawal",
+    "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
+    "Score": 70,
+    "Published": "2026-05-11T12:40:48.913"
   },
   {
-    "id": "RoughDraft",
-    "Owners": "Start-Automating",
-    "Description": "A Fun PowerShell Module for Multimedia",
-    "Score": 60,
-    "Published": "2026-05-10T20:34:21.977"
+    "id": "Cohesity.PowerShell",
+    "Owners": "shubham.kumar,amanprataprao,parag_cohesity,deepak.patel,nikitha.t.j,kavinagrawal",
+    "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
+    "Score": 70,
+    "Published": "2026-05-11T12:15:54.677"
   },
   {
-    "id": "IPInfoLite",
-    "Owners": "PSRyan",
-    "Description": "Retrieves geolocation and ASN information from the IPinfo Lite API, with optional structured output optimized for LLM-based analysis.",
-    "Score": 55,
-    "Published": "2026-05-10T06:15:20.053"
-  },
-  {
-    "id": "Enter-Elevated",
-    "Owners": "Wallby",
-    "Description": [
-      []
-    ],
-    "Score": 50,
-    "Published": "2026-05-10T09:43:59.26"
+    "id": "APIManagementTemplate",
+    "Owners": "lfalck,MLogdberg",
+    "Description": "Extract Azure API Management to ARM templates",
+    "Score": 70,
+    "Published": "2026-05-11T15:21:35.45"
   }
 ]
