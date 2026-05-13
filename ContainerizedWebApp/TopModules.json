@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSPreworkout",
-    "Owners": "SamErde",
-    "Description": "A special mix of tools to help jump start your PowerShell session!",
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2026-05-12T19:40:35.89"
+  },
+  {
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2026-05-12T20:22:49.147"
+  },
+  {
+    "id": "OCI.PSModules.Limitsincrease",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
     "Score": 80,
-    "Published": "2026-05-11T16:02:09.027"
+    "Published": "2026-05-12T19:52:28.117"
   },
   {
-    "id": "PSNetScanners",
-    "Owners": "santisq",
-    "Description": "tcp and icmp async scanners for powershell",
+    "id": "OCI.PSModules.Gdp",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Gdp Service",
     "Score": 80,
-    "Published": "2026-05-11T16:13:01.503"
+    "Published": "2026-05-12T19:50:09.18"
   },
   {
-    "id": "SPClientCore",
-    "Owners": "karamem0",
-    "Description": "SharePoint Service Module for PowerShell",
-    "Score": 75,
-    "Published": "2026-05-11T06:12:51.783"
+    "id": "OCI.PSModules.Batch",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "Score": 80,
+    "Published": "2026-05-12T19:44:32.693"
   },
   {
-    "id": "PSWriteOffice",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerShell module to create and read Microsoft Word, Excel, PowerPoint (experimental), Markdown, and CSV documents without Microsoft Office installed. Powered by OfficeIMO.*.",
-    "Score": 75,
-    "Published": "2026-05-11T10:56:16.877"
+    "id": "OCI.PSModules.Dif",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "Score": 80,
+    "Published": "2026-05-12T19:48:40.003"
   },
   {
-    "id": "PSPiHole",
-    "Owners": "WillCodeForPizza",
-    "Description": "PowerShell wrapper around the Pi-hole v6 API.",
-    "Score": 70,
-    "Published": "2026-05-11T22:02:09.573"
+    "id": "OCI.PSModules.Iot",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Iot Service",
+    "Score": 80,
+    "Published": "2026-05-12T19:51:44.497"
   },
   {
-    "id": "PSTree",
-    "Owners": "santisq",
-    "Description": "Tree-like cmdlets for file system and registry exploration!",
-    "Score": 70,
-    "Published": "2026-05-11T21:15:12.903"
+    "id": "OCI.PSModules.Jmsutils",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
+    "Score": 80,
+    "Published": "2026-05-12T19:52:05.067"
   },
   {
-    "id": "PnP.PowerShell",
-    "Owners": "erwinvanhunen",
-    "Description": "Microsoft 365 Patterns and Practices PowerShell Cmdlets",
-    "Score": 70,
-    "Published": "2026-05-11T17:43:08.42"
+    "id": "OCI.PSModules.Aidataplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
+    "Score": 80,
+    "Published": "2026-05-12T19:42:19.01"
   },
   {
-    "id": "Cohesity.PowerShell.Core",
-    "Owners": "shubham.kumar,amanprataprao,parag_cohesity,deepak.patel,nikitha.t.j,kavinagrawal",
-    "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
-    "Score": 70,
-    "Published": "2026-05-11T12:40:48.913"
-  },
-  {
-    "id": "Cohesity.PowerShell",
-    "Owners": "shubham.kumar,amanprataprao,parag_cohesity,deepak.patel,nikitha.t.j,kavinagrawal",
-    "Description": "Cohesity PowerShell Module provides cmdlets to manage and create workflows using Cohesity DataPlatform.",
-    "Score": 70,
-    "Published": "2026-05-11T12:15:54.677"
-  },
-  {
-    "id": "APIManagementTemplate",
-    "Owners": "lfalck,MLogdberg",
-    "Description": "Extract Azure API Management to ARM templates",
-    "Score": 70,
-    "Published": "2026-05-11T15:21:35.45"
+    "id": "OCI.PSModules.Apiplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Score": 80,
+    "Published": "2026-05-12T19:43:26.5"
   }
 ]
