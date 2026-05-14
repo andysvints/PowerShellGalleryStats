@@ -80,7 +80,7 @@ function Invoke-PSGalleryModulesProcessing
                 @{l="Copyright";e={$_.properties.Copyright}},
                 @{l="Created";e={$_.properties.Created."#text"}}, 
                 @{l="Dependencies";e={$_.properties.Dependencies}},
-                @{l="Description";e={$_.properties.Description}},
+                @{l="Description";e={if($_.properties.Description."#text"){$_.properties.Description."#text"}else{$_.properties.Description}}},
                 @{l="DownloadCount";e={$_.properties.DownloadCount."#text"}},
                 @{l="GalleryDetailsUrl";e={$_.properties.GalleryDetailsUrl}},
                 @{l="IconUrl";e={$_.properties.IconUrl}}, 
