@@ -1,72 +1,72 @@
 [
   {
-    "id": "PS2EXE.Core",
-    "Owners": "FabienTschanz",
-    "Description": "Compiles Powershell scripts to executables. Overworking of the great script of Ingo Karstein with GUI support.\r\n'Invoke-PS2EXE script.ps1' (or 'ps2exe script.ps1') compiles to script.exe. Several control parameters available.\r\nOr use Win-PS2EXE as a graphical front end to the compiler.",
-    "Score": 80,
-    "Published": "2026-05-16T22:19:17.307"
-  },
-  {
-    "id": "ThirdPartyLibraries",
-    "Owners": "MaxIeremenko",
-    "Description": "\r\nThis module helps to manage third party libraries and their licenses in .net applications.\r\nPowerShell versions: core 7.2+.\r\n",
-    "Score": 80,
-    "Published": "2026-05-16T12:38:28.81"
-  },
-  {
-    "id": "PromptAI",
-    "Owners": "ytsuda",
-    "Description": "Call AI models from PowerShell with real-time streaming. Supports Anthropic Claude, OpenAI GPT, Google Gemini, Meta Llama (via Groq/Meta/Together), and DeepSeek. Works with PowerShell.MCP or @ytsuda/ripple for AI-to-AI communication.",
+    "id": "NovaModuleTools",
+    "Owners": "sgcourage",
+    "Description": "NovaModuleTools is an enterprise-focused evolution of ModuleTools, designed for large-scale PowerShell projects with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
     "Score": 75,
-    "Published": "2026-05-16T15:04:44.553"
+    "Published": "2026-05-17T16:35:21.673"
   },
   {
-    "id": "DSInternals",
-    "Owners": "MichaelGrafnetter",
-    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
+    "id": "Sodium",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for handling Sodium encrypted secrets.",
     "Score": 75,
-    "Published": "2026-05-16T19:38:32.69"
+    "Published": "2026-05-17T18:05:43.787"
   },
   {
     "id": "PSPiHole",
     "Owners": "WillCodeForPizza",
     "Description": "PowerShell wrapper around the Pi-hole v6 API.",
     "Score": 70,
-    "Published": "2026-05-16T18:05:55.57"
+    "Published": "2026-05-17T01:48:22.89"
   },
   {
     "id": "Plumber",
     "Owners": "WillCodeForPizza",
     "Description": "A set of Invoke-Build tasks for Powershell validation pipelines",
     "Score": 70,
-    "Published": "2026-05-17T00:11:27.07"
+    "Published": "2026-05-17T18:19:26.537"
   },
   {
-    "id": "SqlServerMaintenance",
-    "Owners": "netsec4u",
-    "Description": "Provides maintenance functions to manage SQL Server.",
+    "id": "Belin.Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
     "Score": 70,
-    "Published": "2026-05-16T03:42:23.673"
+    "Published": "2026-05-17T16:40:42.46"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "id": "MonitorConfig",
+    "Owners": "MartinGC94",
+    "Description": "Manage brightness and other monitor settings with DDC/CI and WMI.",
     "Score": 70,
-    "Published": "2026-05-16T14:12:57.937"
+    "Published": "2026-05-17T23:05:51.033"
   },
   {
-    "id": "Plumber.Release",
-    "Owners": "WillCodeForPizza",
-    "Description": "Invoke-Build release tasks for PowerShell modules.",
-    "Score": 65,
-    "Published": "2026-05-16T18:04:40.93"
-  },
-  {
-    "id": "Screenshot",
-    "Owners": "diecknet",
-    "Description": "Take Screenshots with PowerShell",
+    "id": "dbatools",
+    "Owners": "jpomfret,chrissylemaire,FWN,SQLDBAWithABeard,wsmelton",
+    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
     "Score": 60,
-    "Published": "2026-05-16T17:07:39.767"
+    "Published": "2026-05-17T01:12:30.97"
+  },
+  {
+    "id": "GraphApiHelper",
+    "Owners": "JiriF",
+    "Description": "Module provides simple commands for working with Microsoft Graph API, such as GET/POST/PATCH/DELETE requests, handling large file upload, retry logic, etc.",
+    "Score": 55,
+    "Published": "2026-05-17T08:42:48.48"
+  },
+  {
+    "id": "PIMActivation",
+    "Owners": "SebastianMarkdanner",
+    "Description": "PowerShell module for managing Microsoft Entra ID Privileged Identity Management (PIM) role activations through a modern GUI interface. Supports Entra ID roles, PIM-enabled groups, Azure Resource roles, scheduled activations, activation profiles, Azure reduced scope, authentication-context batching, bulk operations, persistent policy metadata caching, and policy compliance. Developed with AI assistance. Requires PowerShell 7+.",
+    "Score": 55,
+    "Published": "2026-05-17T22:55:02.187"
+  },
+  {
+    "id": "VcfEdgeAtScale",
+    "Owners": "nathan.vmware",
+    "Description": "VcfEdgeAtScale automates end-to-end vSphere Supervisor deployment in VMware Cloud Foundation 9.x,\ndriven by two JSON files (infrastructure.json and supervisor.json).\n\nIt handles the following:\n\n- vSphere cluster creation with host addition and vLCM image compliance\n- VMFS, vSAN OSA, and vSAN ESA storage (including witness, disk claim, and health checks)\n- Virtual Distributed Switch (VDS) creation, port groups, and VMkernel interfaces\n- vSphere Supervisor enablement with auto-updates enabled by default\n- Optional Argo CD instance per edge site for GitOps workflows\n- Optional Harbor registry deployment as a Supervisor Service per edge site\n- Multi-site deployments (-EdgeSite) and compute-only runs (-ComputeOnly)\n- Scoped cleanup (-CleanUp Supervisor|Compute|All|ArgoCD|Harbor) with rollback on failure\n- JSON and YAML pre-flight validation (-ValidateOnly) without a vCenter connection\n- Interactive configuration layout (-Initialize) and support bundle collection (-CollectLogs)\n\nRequires VCF PowerCLI 9.0+, kubectl, and the VCF CLI.",
+    "Score": 50,
+    "Published": "2026-05-17T23:23:05.8"
   }
 ]
