@@ -100,7 +100,7 @@ Register-EngineEvent -SourceIdentifier HTTP.Request -Action {
         }
 
         if ($request.Url.LocalPath -eq '/searchbyid' -and $request.HttpMethod -eq 'GET') {
-            $query = $request.QueryString['query']-replace '[^a-zA-Z0-9.-]', ''
+            $query = $request.QueryString['query']-replace '[^a-zA-Z0-9._-]', ''
 
             $html  = Get-PSModuleInfo -Query $query -ById
             $bytes = [Text.Encoding]::UTF8.GetBytes($html)
