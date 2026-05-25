@@ -1,72 +1,72 @@
 [
   {
-    "id": "PESpy",
-    "Owners": "lordmilko",
-    "Description": "Reverse Engineering toolkit for Microsoft compiler generated files",
+    "id": "PowerBGInfo",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerBGInfo is a module that allows you to create background images with information about your environment.",
+    "Score": 80,
+    "Published": "2026-05-24T10:45:06.07"
+  },
+  {
+    "id": "NovaModuleTools",
+    "Owners": "sgcourage",
+    "Description": "NovaModuleTools is an enterprise-focused build tool for Agentic Copilot PowerShell module development, with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
+    "Score": 75,
+    "Published": "2026-05-24T16:31:11.693"
+  },
+  {
+    "id": "Plumber",
+    "Owners": "WillCodeForPizza",
+    "Description": "A set of Invoke-Build tasks for Powershell validation pipelines",
+    "Score": 70,
+    "Published": "2026-05-24T21:34:46.61"
+  },
+  {
+    "id": "SqlServerMaintenance",
+    "Owners": "netsec4u",
+    "Description": "Provides maintenance functions to manage SQL Server.",
+    "Score": 70,
+    "Published": "2026-05-24T01:53:51.747"
+  },
+  {
+    "id": "GitEasy",
+    "Owners": "greenmtnsun",
+    "Description": "Plain-English Git for sysadmins, change managers, and compliance teams. Five everyday PowerShell commands (Save-Work, Find-CodeChange, Show-History, Set-Token, Test-Login) wrap git on Windows with no raw output, no jargon, and one log file per command. PowerShell 5.1 and 7. MPL-2.0.",
     "Score": 65,
-    "Published": "2026-05-23T10:44:10.223"
+    "Published": "2026-05-25T00:03:57.127"
   },
   {
     "id": "ManageEngine.ServiceDesk.OnPrem",
     "Owners": "griff.systems",
     "Description": "Umbrella module for the ManageEngine ServiceDesk Plus on-premises PowerShell module family. Installing this module installs all sub-modules. Import individual sub-modules (e.g. ManageEngine.ServiceDesk.OnPrem.Requests) to load only what you need.",
     "Score": 65,
-    "Published": "2026-05-23T20:24:10.56"
+    "Published": "2026-05-24T16:41:55.643"
   },
   {
-    "id": "Get-TlsCertificate",
-    "Owners": "richardhicks",
-    "Description": "This PowerShell script is helpful for troubleshooting TLS issues associated with public websites or other HTTPS services like TLS VPNs. Using this script, administrators can view and optionally save the certificate returned during the TLS handshake. Administrators can confirm certificate details and perform revocation checks, if necessary.\n\n",
+    "id": "Plumber.Release",
+    "Owners": "WillCodeForPizza",
+    "Description": "Invoke-Build release tasks for PowerShell modules.",
     "Score": 65,
-    "Published": "2026-05-23T20:44:12.383"
+    "Published": "2026-05-24T19:03:18.63"
   },
   {
-    "id": "msix",
-    "Owners": "sanderdewit",
-    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, PSADT-style standard scripts, TMEditX-style heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
-    "Score": 65,
-    "Published": "2026-05-23T16:04:40.32"
-  },
-  {
-    "id": "ScoreHunter",
-    "Owners": "AnthoChamb",
-    "Description": "A score optimizer for GHTV's Score Chaser",
+    "id": "SqlSpnManager",
+    "Owners": "greenmtnsun",
+    "Description": "Getting SQL Server SPNs right — and keeping them right across Standalone, Always On, and Failover Cluster instances — is harder than it should be. SqlSpnManager takes the guesswork out: checks for duplicate SPNs forest-wide before touching anything, auto-resolves FCI cluster accounts, and handles cross-forest deployments. In shops where the DBA cannot write to AD directly, Export-SqlSpnRegistrationScript produces a clean setspn bundle the AD admin runs on their own schedule. Full audit log and Windows Event Log output on every operation.",
     "Score": 60,
-    "Published": "2026-05-23T01:36:19.843"
+    "Published": "2026-05-24T17:33:38.947"
   },
   {
-    "id": "GraphApiHelper",
-    "Owners": "JiriF",
-    "Description": "Module provides simple commands for working with Microsoft Graph API, such as GET/POST/PATCH/DELETE requests, handling large file upload, retry logic, etc.",
-    "Score": 55,
-    "Published": "2026-05-23T09:37:19.677"
-  },
-  {
-    "id": "Belin.UI",
-    "Owners": "CedX",
-    "Description": "Component library by Cédric Belin, full stack developer.",
+    "id": "Brownserve.PSBuildTools",
+    "Owners": "Brownserve-AutomatedBuild",
+    "Description": "Changelog, versioning, NuGet, PowerShell module scaffolding, and build notification helpers used across Brownserve projects.",
     "Score": 50,
-    "Published": "2026-05-23T13:14:31.603"
+    "Published": "2026-05-24T20:05:19.17"
   },
   {
-    "id": "TerraformCloud",
-    "Owners": "seth.bacon",
-    "Description": "PowerShell module for HCP Terraform (Terraform Cloud/Enterprise) API",
+    "id": "wsl2compact",
+    "Owners": "hyperphantasia",
+    "Description": " Save disk space on WSL2! PowerShell script that helps compacting the distro's ext4.vhdx and reclaim some hard drive space (using Optimize-VHD and diskpart as fallback). More on : https://github.com/hyperphantasia/WSL-VHDX-Compact",
     "Score": 50,
-    "Published": "2026-05-23T05:59:20.037"
-  },
-  {
-    "id": "Brownserve.PSTools",
-    "Owners": "ShoddyGuard,Brownserve-AutomatedBuild",
-    "Description": "A collection of common tools for use in Brownserve projects",
-    "Score": 50,
-    "Published": "2026-05-23T21:22:57.403"
-  },
-  {
-    "id": "wtw",
-    "Owners": "serrnovik",
-    "Description": "Git worktree + VS Code/(vscode based editors like Cursor) workspace manager. Creates, switches, and removes worktrees with auto-generated workspace files, unique Peacock colors, shell aliases, and fuzzy name resolution.",
-    "Score": 45,
-    "Published": "2026-05-23T17:55:38.41"
+    "Published": "2026-05-24T19:55:55.943"
   }
 ]
