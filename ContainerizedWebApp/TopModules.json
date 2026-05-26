@@ -1,72 +1,72 @@
 [
   {
-    "id": "PowerBGInfo",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerBGInfo is a module that allows you to create background images with information about your environment.",
-    "Score": 80,
-    "Published": "2026-05-24T10:45:06.07"
-  },
-  {
-    "id": "NovaModuleTools",
-    "Owners": "sgcourage",
-    "Description": "NovaModuleTools is an enterprise-focused build tool for Agentic Copilot PowerShell module development, with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
-    "Score": 75,
-    "Published": "2026-05-24T16:31:11.693"
-  },
-  {
-    "id": "Plumber",
-    "Owners": "WillCodeForPizza",
-    "Description": "A set of Invoke-Build tasks for Powershell validation pipelines",
+    "id": "UncommonSense.ServiceStatus",
+    "Owners": "jhoek",
+    "Description": "PowerShell module for retrieving selected service statuses",
     "Score": 70,
-    "Published": "2026-05-24T21:34:46.61"
+    "Published": "2026-05-25T08:50:14.963"
   },
   {
-    "id": "SqlServerMaintenance",
-    "Owners": "netsec4u",
-    "Description": "Provides maintenance functions to manage SQL Server.",
-    "Score": 70,
-    "Published": "2026-05-24T01:53:51.747"
-  },
-  {
-    "id": "GitEasy",
-    "Owners": "greenmtnsun",
-    "Description": "Plain-English Git for sysadmins, change managers, and compliance teams. Five everyday PowerShell commands (Save-Work, Find-CodeChange, Show-History, Set-Token, Test-Login) wrap git on Windows with no raw output, no jargon, and one log file per command. PowerShell 5.1 and 7. MPL-2.0.",
+    "id": "msix",
+    "Owners": "sanderdewit",
+    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, PSADT-style standard scripts, TMEditX-style heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
     "Score": 65,
-    "Published": "2026-05-25T00:03:57.127"
+    "Published": "2026-05-25T11:56:27.213"
   },
   {
-    "id": "ManageEngine.ServiceDesk.OnPrem",
-    "Owners": "griff.systems",
-    "Description": "Umbrella module for the ManageEngine ServiceDesk Plus on-premises PowerShell module family. Installing this module installs all sub-modules. Import individual sub-modules (e.g. ManageEngine.ServiceDesk.OnPrem.Requests) to load only what you need.",
+    "id": "Install-NdesServer",
+    "Owners": "richardhicks",
+    "Description": "This script installs and configures the Network Device Enrollment Service (NDES) role on Windows Server to support the Microsoft Intune Certificate Connector. It also configures the server to use a specific TLS certificate and enrollment certificate template for NDES.\n\nIn addition, this script performs several post-installation tasks to ensure the NDES service is properly configured, optimized, and secured.\n\nIMPORTANT NOTE: This script is for configuring NDES to support the Microsoft Intune Certificate Connector. Settings configured by this script will not work with other deployment scenarios.\n\n",
     "Score": 65,
-    "Published": "2026-05-24T16:41:55.643"
+    "Published": "2026-05-25T21:41:52.48"
   },
   {
-    "id": "Plumber.Release",
-    "Owners": "WillCodeForPizza",
-    "Description": "Invoke-Build release tasks for PowerShell modules.",
-    "Score": 65,
-    "Published": "2026-05-24T19:03:18.63"
-  },
-  {
-    "id": "SqlSpnManager",
-    "Owners": "greenmtnsun",
-    "Description": "Getting SQL Server SPNs right — and keeping them right across Standalone, Always On, and Failover Cluster instances — is harder than it should be. SqlSpnManager takes the guesswork out: checks for duplicate SPNs forest-wide before touching anything, auto-resolves FCI cluster accounts, and handles cross-forest deployments. In shops where the DBA cannot write to AD directly, Export-SqlSpnRegistrationScript produces a clean setspn bundle the AD admin runs on their own schedule. Full audit log and Windows Event Log output on every operation.",
+    "id": "UncommonSense.iCalendar",
+    "Owners": "jhoek",
+    "Description": "PowerShell module for creating iCalendar (ics) files",
     "Score": 60,
-    "Published": "2026-05-24T17:33:38.947"
+    "Published": "2026-05-25T08:35:50.433"
+  },
+  {
+    "id": "DashHtml",
+    "Owners": "nicola.vigano",
+    "Description": "Generate interactive self-contained HTML dashboards. Includes sortable / filterable / pageable tables, linked drill-down, client-side CSV / Excel / PDF export, KPI summary tiles (with optional sparklines, trend deltas, big-number and gauge styles), pie / donut / line / area / bar / stacked-bar / bullet charts, RAG status matrix, sequential / diverging 2-D heatmaps, parent-child topology trees, inline tabbed content blocks, chronological event feeds, dismissible alert banners, threshold cell colouring with a unified -Rag parameter, and a sticky nav bar. Six built-in theme families (Default, Azure, VMware, Grey, Company, Rag — the v1.4 family using the Office/Excel-compatible RAG palette) each with embedded light / dark variants and a runtime toggle button.",
+    "Score": 55,
+    "Published": "2026-05-25T13:00:21.66"
   },
   {
     "id": "Brownserve.PSBuildTools",
     "Owners": "Brownserve-AutomatedBuild",
     "Description": "Changelog, versioning, NuGet, PowerShell module scaffolding, and build notification helpers used across Brownserve projects.",
     "Score": 50,
-    "Published": "2026-05-24T20:05:19.17"
+    "Published": "2026-05-25T20:16:56.453"
   },
   {
-    "id": "wsl2compact",
-    "Owners": "hyperphantasia",
-    "Description": " Save disk space on WSL2! PowerShell script that helps compacting the distro's ext4.vhdx and reclaim some hard drive space (using Optimize-VHD and diskpart as fallback). More on : https://github.com/hyperphantasia/WSL-VHDX-Compact",
+    "id": "Devolutions.Psign",
+    "Owners": "Devolutions",
+    "Description": "Portable Authenticode signing and inspection cmdlets backed by psign.",
     "Score": 50,
-    "Published": "2026-05-24T19:55:55.943"
+    "Published": "2026-05-25T18:50:36.68"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
+    "Score": 50,
+    "Published": "2026-05-25T18:21:45.117"
+  },
+  {
+    "id": "UncommonSense.Rss",
+    "Owners": "jhoek",
+    "Description": "PowerShell module for creating RSS feeds",
+    "Score": 50,
+    "Published": "2026-05-25T07:57:55.99"
+  },
+  {
+    "id": "EasyLife365.Collaboration",
+    "Owners": "plamber,tto-easylife365-cloud,Bertolla",
+    "Description": "Use the EasyLife365.Collaboration PowerShell module to retrieve objects and attributes related to EasyLife 365 from the Graph API.",
+    "Score": 50,
+    "Published": "2026-05-25T13:51:53.51"
   }
 ]
