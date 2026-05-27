@@ -1,72 +1,72 @@
 [
   {
-    "id": "UncommonSense.ServiceStatus",
-    "Owners": "jhoek",
-    "Description": "PowerShell module for retrieving selected service statuses",
-    "Score": 70,
-    "Published": "2026-05-25T08:50:14.963"
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2026-05-26T17:27:43.437"
   },
   {
-    "id": "msix",
-    "Owners": "sanderdewit",
-    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, PSADT-style standard scripts, TMEditX-style heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
-    "Score": 65,
-    "Published": "2026-05-25T11:56:27.213"
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2026-05-26T18:34:04.52"
   },
   {
-    "id": "Install-NdesServer",
-    "Owners": "richardhicks",
-    "Description": "This script installs and configures the Network Device Enrollment Service (NDES) role on Windows Server to support the Microsoft Intune Certificate Connector. It also configures the server to use a specific TLS certificate and enrollment certificate template for NDES.\n\nIn addition, this script performs several post-installation tasks to ensure the NDES service is properly configured, optimized, and secured.\n\nIMPORTANT NOTE: This script is for configuring NDES to support the Microsoft Intune Certificate Connector. Settings configured by this script will not work with other deployment scenarios.\n\n",
-    "Score": 65,
-    "Published": "2026-05-25T21:41:52.48"
+    "id": "OCI.PSModules.Limitsincrease",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:47:49.463"
   },
   {
-    "id": "UncommonSense.iCalendar",
-    "Owners": "jhoek",
-    "Description": "PowerShell module for creating iCalendar (ics) files",
-    "Score": 60,
-    "Published": "2026-05-25T08:35:50.433"
+    "id": "OCI.PSModules.Gdp",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Gdp Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:43:52.9"
   },
   {
-    "id": "DashHtml",
-    "Owners": "nicola.vigano",
-    "Description": "Generate interactive self-contained HTML dashboards. Includes sortable / filterable / pageable tables, linked drill-down, client-side CSV / Excel / PDF export, KPI summary tiles (with optional sparklines, trend deltas, big-number and gauge styles), pie / donut / line / area / bar / stacked-bar / bullet charts, RAG status matrix, sequential / diverging 2-D heatmaps, parent-child topology trees, inline tabbed content blocks, chronological event feeds, dismissible alert banners, threshold cell colouring with a unified -Rag parameter, and a sticky nav bar. Six built-in theme families (Default, Azure, VMware, Grey, Company, Rag — the v1.4 family using the Office/Excel-compatible RAG palette) each with embedded light / dark variants and a runtime toggle button.",
-    "Score": 55,
-    "Published": "2026-05-25T13:00:21.66"
+    "id": "OCI.PSModules.Batch",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:34:02.513"
   },
   {
-    "id": "Brownserve.PSBuildTools",
-    "Owners": "Brownserve-AutomatedBuild",
-    "Description": "Changelog, versioning, NuGet, PowerShell module scaffolding, and build notification helpers used across Brownserve projects.",
-    "Score": 50,
-    "Published": "2026-05-25T20:16:56.453"
+    "id": "OCI.PSModules.Dif",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:40:57.537"
   },
   {
-    "id": "Devolutions.Psign",
-    "Owners": "Devolutions",
-    "Description": "Portable Authenticode signing and inspection cmdlets backed by psign.",
-    "Score": 50,
-    "Published": "2026-05-25T18:50:36.68"
+    "id": "OCI.PSModules.Iot",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Iot Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:46:21.3"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2026-05-25T18:21:45.117"
+    "id": "OCI.PSModules.Jmsutils",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:47:02.9"
   },
   {
-    "id": "UncommonSense.Rss",
-    "Owners": "jhoek",
-    "Description": "PowerShell module for creating RSS feeds",
-    "Score": 50,
-    "Published": "2026-05-25T07:57:55.99"
+    "id": "OCI.PSModules.Aidataplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:30:13.953"
   },
   {
-    "id": "EasyLife365.Collaboration",
-    "Owners": "plamber,tto-easylife365-cloud,Bertolla",
-    "Description": "Use the EasyLife365.Collaboration PowerShell module to retrieve objects and attributes related to EasyLife 365 from the Graph API.",
-    "Score": 50,
-    "Published": "2026-05-25T13:51:53.51"
+    "id": "OCI.PSModules.Apiplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Score": 80,
+    "Published": "2026-05-26T17:31:58.327"
   }
 ]
