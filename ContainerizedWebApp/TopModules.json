@@ -1,72 +1,72 @@
 [
   {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "id": "Omnicit.PIM",
+    "Owners": "PhilipHaglund,OmnicitAB",
+    "Description": "Entra ID Privileged Identity Management (PIM) Self Activation Commands for Directory Roles, Azure Resources, and Entra ID Groups",
     "Score": 85,
-    "Published": "2026-05-26T17:27:43.437"
+    "Published": "2026-05-27T13:41:16.753"
   },
   {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
-    "Score": 85,
-    "Published": "2026-05-26T18:34:04.52"
-  },
-  {
-    "id": "OCI.PSModules.Limitsincrease",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
+    "id": "TPHubPS",
+    "Owners": "TPHub,tp-kethi",
+    "Description": "ThinPrint's centralized print system fully eliminates local print servers in branch offices. Here, the ThinPrint Hub is used, which instantly integrates any number of network printers into the corporate network. This module allows easy configuration of your ThinPrint Hubs.",
     "Score": 80,
-    "Published": "2026-05-26T17:47:49.463"
+    "Published": "2026-05-27T09:57:43.283"
   },
   {
-    "id": "OCI.PSModules.Gdp",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Gdp Service",
+    "id": "Kelverion.SqlServer",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with SQL Server databases without the need to write SQL and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:43:52.9"
+    "Published": "2026-05-27T14:01:25.37"
   },
   {
-    "id": "OCI.PSModules.Batch",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "id": "Kelverion.SolarWinds.ServiceDesk",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with SolarWinds ServiceDesk and is designed to be used with Runbook Studio and SolarWinds ServiceDesk.  Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:34:02.513"
+    "Published": "2026-05-27T14:01:43.52"
   },
   {
-    "id": "OCI.PSModules.Dif",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "id": "Kelverion.Salesforce",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with Salesforce and is designed to be used with Runbook Studio and Azure Automation. Get more information and download Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:40:57.537"
+    "Published": "2026-05-27T14:01:35.567"
   },
   {
-    "id": "OCI.PSModules.Iot",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Iot Service",
+    "id": "Kelverion.Freshservice",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with Freshservice and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:46:21.3"
+    "Published": "2026-05-27T14:01:16.16"
   },
   {
-    "id": "OCI.PSModules.Jmsutils",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
+    "id": "Kelverion.EasyVista",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with EasyVista Service Manager and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:47:02.9"
+    "Published": "2026-05-27T14:01:09.543"
   },
   {
-    "id": "OCI.PSModules.Aidataplatform",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
+    "id": "Kelverion.Azure.DevOps",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with Azure DevOps and is designed to be used with Runbook Studio and Azure Automation. Take the Runbook Studio for a test drive on the Azure Marketplace (http://bit.ly/AzureRBS) or get more information and download from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:30:13.953"
+    "Published": "2026-05-27T14:01:01.78"
   },
   {
-    "id": "OCI.PSModules.Apiplatform",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "id": "Kelverion.Atlassian.Jira",
+    "Owners": "Kelverion",
+    "Description": "This Integration Module provides cmdlets for automating interaction with Atlassian Jira and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
     "Score": 80,
-    "Published": "2026-05-26T17:31:58.327"
+    "Published": "2026-05-27T14:00:48.433"
+  },
+  {
+    "id": "DotnetMove",
+    "Owners": "kappasims",
+    "Description": "DEPRECATED: DotnetMove has been renamed to Netscoot. Install the replacement with: Install-Module Netscoot. This package does nothing else.",
+    "Score": 75,
+    "Published": "2026-05-27T17:43:15.313"
   }
 ]
