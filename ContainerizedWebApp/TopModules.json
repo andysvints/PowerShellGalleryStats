@@ -1,72 +1,72 @@
 [
   {
-    "id": "Omnicit.PIM",
-    "Owners": "PhilipHaglund,OmnicitAB",
-    "Description": "Entra ID Privileged Identity Management (PIM) Self Activation Commands for Directory Roles, Azure Resources, and Entra ID Groups",
-    "Score": 85,
-    "Published": "2026-05-27T13:41:16.753"
-  },
-  {
-    "id": "TPHubPS",
-    "Owners": "TPHub,tp-kethi",
-    "Description": "ThinPrint's centralized print system fully eliminates local print servers in branch offices. Here, the ThinPrint Hub is used, which instantly integrates any number of network printers into the corporate network. This module allows easy configuration of your ThinPrint Hubs.",
+    "id": "Devdeer.Caf",
+    "Owners": "devdeer-alex",
+    "Description": "This package contains functionality to prepare and manage Microsoft Azure Tenants aligned to Microsoft Cloud Adoption Framework.",
     "Score": 80,
-    "Published": "2026-05-27T09:57:43.283"
+    "Published": "2026-05-28T06:52:45.43"
   },
   {
-    "id": "Kelverion.SqlServer",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with SQL Server databases without the need to write SQL and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:01:25.37"
-  },
-  {
-    "id": "Kelverion.SolarWinds.ServiceDesk",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with SolarWinds ServiceDesk and is designed to be used with Runbook Studio and SolarWinds ServiceDesk.  Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:01:43.52"
-  },
-  {
-    "id": "Kelverion.Salesforce",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with Salesforce and is designed to be used with Runbook Studio and Azure Automation. Get more information and download Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:01:35.567"
-  },
-  {
-    "id": "Kelverion.Freshservice",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with Freshservice and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:01:16.16"
-  },
-  {
-    "id": "Kelverion.EasyVista",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with EasyVista Service Manager and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:01:09.543"
-  },
-  {
-    "id": "Kelverion.Azure.DevOps",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with Azure DevOps and is designed to be used with Runbook Studio and Azure Automation. Take the Runbook Studio for a test drive on the Azure Marketplace (http://bit.ly/AzureRBS) or get more information and download from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:01:01.78"
-  },
-  {
-    "id": "Kelverion.Atlassian.Jira",
-    "Owners": "Kelverion",
-    "Description": "This Integration Module provides cmdlets for automating interaction with Atlassian Jira and is designed to be used with Runbook Studio and Azure Automation. Get more information and download the Runbook Studio from (https://www.kelverion.com/runbook-studio/). For a free evaluation licence please email info@kelverion.com.",
-    "Score": 80,
-    "Published": "2026-05-27T14:00:48.433"
-  },
-  {
-    "id": "DotnetMove",
-    "Owners": "kappasims",
-    "Description": "DEPRECATED: DotnetMove has been renamed to Netscoot. Install the replacement with: Install-Module Netscoot. This package does nothing else.",
+    "id": "DSInternals",
+    "Owners": "MichaelGrafnetter",
+    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
     "Score": 75,
-    "Published": "2026-05-27T17:43:15.313"
+    "Published": "2026-05-28T10:57:29.597"
+  },
+  {
+    "id": "DesktopManager",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Desktop Manager is a PowerShell module that allows easy way to change wallpaper on multiple screens/monitors.",
+    "Score": 75,
+    "Published": "2026-05-28T14:35:48.603"
+  },
+  {
+    "id": "Belin.Html",
+    "Owners": "CedX",
+    "Description": "PowerShell cmdlets for rendering HTML documents.",
+    "Score": 70,
+    "Published": "2026-05-28T08:45:24.353"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-05-28T13:26:30.91"
+  },
+  {
+    "id": "SeqLogger",
+    "Owners": "brianary",
+    "Description": " Commands to send structured log events to a Seq server.",
+    "Score": 65,
+    "Published": "2026-05-28T03:18:56.997"
+  },
+  {
+    "id": "AutopilotGroupTagger",
+    "Owners": "ennbee",
+    "Description": "The Autopilot GroupTagger script is designed to allow for bulk updating of Autopilot device group tags in Microsoft Intune.\nThe script will connect to the Microsoft Graph API and retrieve all Autopilot devices, then allow for bulk updating of group tags based on various criteria.\n\n",
+    "Score": 65,
+    "Published": "2026-05-28T06:06:34.323"
+  },
+  {
+    "id": "Install-NdesServer",
+    "Owners": "richardhicks",
+    "Description": "This script installs and configures the Network Device Enrollment Service (NDES) role on Windows Server to support the Microsoft Intune Certificate Connector. It also configures the server to use a specific TLS certificate and enrollment certificate template for NDES.\n\nIn addition, this script performs several post-installation tasks to ensure the NDES service is properly configured, optimized, and secured.\n\nIMPORTANT NOTE: This script is for configuring NDES to support the Microsoft Intune Certificate Connector. Settings configured by this script will not work with other deployment scenarios.\n\n",
+    "Score": 65,
+    "Published": "2026-05-28T03:40:11.083"
+  },
+  {
+    "id": "IntuneAppAssigner",
+    "Owners": "ennbee",
+    "Description": "The IntuneAppAssigner script is a PowerShell tool designed to facilitate the bulk assignment of mobile applications within Microsoft Intune.\nIt provides an interactive interface for administrators to select applications, define assignment parameters, and apply these settings across user and device groups efficiently.\n\n",
+    "Score": 55,
+    "Published": "2026-05-28T06:03:24.823"
+  },
+  {
+    "id": "New-SnowflakeLite",
+    "Owners": "tiksn",
+    "Description": "Creates Integer Snowflake based on seconds\n\n\n",
+    "Score": 55,
+    "Published": "2026-05-28T19:27:54.377"
   }
 ]
