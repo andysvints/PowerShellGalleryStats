@@ -1,72 +1,72 @@
 [
   {
-    "id": "Devdeer.Caf",
-    "Owners": "devdeer-alex",
-    "Description": "This package contains functionality to prepare and manage Microsoft Azure Tenants aligned to Microsoft Cloud Adoption Framework.",
-    "Score": 80,
-    "Published": "2026-05-28T06:52:45.43"
+    "id": "Sixel",
+    "Owners": "trackd",
+    "Description": "\r\n    Display images in the terminal using various protocols\r\n\r\n    ✔️ Sixel\r\n        - Gif support using ConvertTo-SixelGif.\r\n    ✔️ Inline Image Protocol (iterm2, \"1337\")\r\n        - Supported by VSCode, xterm2, WezTerm, and others.\r\n    ✔️ Kitty Graphics Protocol\r\n        - Supported by Kitty terminal and WezTerm (newer versions)\r\n    ✔️ Block cells\r\n        - Fallback to block cells if no image protocol is supported.\r\n\r\n    Note: Sixel requires Windows Terminal v1.22+ or VSCode 1.101+.\r\n    VSCode requires \"Enable Images\", \"Windows Enable Conpty\", \"Windows Use Conpty Dll\" enabled.\r\n",
+    "Score": 90,
+    "Published": "2026-05-29T22:35:57.067"
   },
   {
-    "id": "DSInternals",
-    "Owners": "MichaelGrafnetter",
-    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
+    "id": "Omnicit.PIM",
+    "Owners": "PhilipHaglund,OmnicitAB",
+    "Description": "Entra ID Privileged Identity Management (PIM) Self Activation Commands for Directory Roles, Azure Resources, and Entra ID Groups",
+    "Score": 85,
+    "Published": "2026-05-29T07:11:36.327"
+  },
+  {
+    "id": "Microsoft.Online.SharePoint.PowerShell",
+    "Owners": "MicrosoftSharePoint",
+    "Description": "Microsoft SharePoint Online Services Module for Windows PowerShell",
+    "Score": 85,
+    "Published": "2026-05-29T23:09:48.387"
+  },
+  {
+    "id": "AWS.Tools.BCMDashboards",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-05-28T10:57:29.597"
+    "Published": "2026-05-29T20:57:28.877"
   },
   {
-    "id": "DesktopManager",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Desktop Manager is a PowerShell module that allows easy way to change wallpaper on multiple screens/monitors.",
+    "id": "AWS.Tools.BCMRecommendedActions",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-05-28T14:35:48.603"
+    "Published": "2026-05-29T20:57:06.77"
   },
   {
-    "id": "Belin.Html",
-    "Owners": "CedX",
-    "Description": "PowerShell cmdlets for rendering HTML documents.",
-    "Score": 70,
-    "Published": "2026-05-28T08:45:24.353"
+    "id": "AWS.Tools.ARCRegionswitch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-05-29T20:57:43.377"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 70,
-    "Published": "2026-05-28T13:26:30.91"
+    "id": "AWS.Tools.BedrockAgentCoreControl",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock Agent Core Control Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-05-29T20:56:57.023"
   },
   {
-    "id": "SeqLogger",
-    "Owners": "brianary",
-    "Description": " Commands to send structured log events to a Seq server.",
-    "Score": 65,
-    "Published": "2026-05-28T03:18:56.997"
+    "id": "AWS.Tools.BedrockAgentCore",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Data Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-05-29T20:58:31.153"
   },
   {
-    "id": "AutopilotGroupTagger",
-    "Owners": "ennbee",
-    "Description": "The Autopilot GroupTagger script is designed to allow for bulk updating of Autopilot device group tags in Microsoft Intune.\nThe script will connect to the Microsoft Graph API and retrieve all Autopilot devices, then allow for bulk updating of group tags based on various criteria.\n\n",
-    "Score": 65,
-    "Published": "2026-05-28T06:06:34.323"
+    "id": "AWS.Tools.AIOps",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AIOps module of AWS Tools for PowerShell lets developers and administrators manage AWS AI Ops from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-05-29T20:58:25.233"
   },
   {
-    "id": "Install-NdesServer",
-    "Owners": "richardhicks",
-    "Description": "This script installs and configures the Network Device Enrollment Service (NDES) role on Windows Server to support the Microsoft Intune Certificate Connector. It also configures the server to use a specific TLS certificate and enrollment certificate template for NDES.\n\nIn addition, this script performs several post-installation tasks to ensure the NDES service is properly configured, optimized, and secured.\n\nIMPORTANT NOTE: This script is for configuring NDES to support the Microsoft Intune Certificate Connector. Settings configured by this script will not work with other deployment scenarios.\n\n",
-    "Score": 65,
-    "Published": "2026-05-28T03:40:11.083"
-  },
-  {
-    "id": "IntuneAppAssigner",
-    "Owners": "ennbee",
-    "Description": "The IntuneAppAssigner script is a PowerShell tool designed to facilitate the bulk assignment of mobile applications within Microsoft Intune.\nIt provides an interactive interface for administrators to select applications, define assignment parameters, and apply these settings across user and device groups efficiently.\n\n",
-    "Score": 55,
-    "Published": "2026-05-28T06:03:24.823"
-  },
-  {
-    "id": "New-SnowflakeLite",
-    "Owners": "tiksn",
-    "Description": "Creates Integer Snowflake based on seconds\n\n\n",
-    "Score": 55,
-    "Published": "2026-05-28T19:27:54.377"
+    "id": "AWS.Tools.BackupSearch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BackupSearch module of AWS Tools for PowerShell lets developers and administrators manage AWS Backup Search from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-05-29T20:57:45.093"
   }
 ]
