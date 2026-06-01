@@ -4,69 +4,69 @@
     "Owners": "SamErde",
     "Description": "A PowerShell module that helps you get un-stuck from dependency version conflicts that can occur when connecting to multiple Microsoft services in the same session.",
     "Score": 80,
-    "Published": "2026-05-30T21:29:51.623"
+    "Published": "2026-05-31T23:13:55.893"
   },
   {
-    "id": "GoogleFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
+    "id": "NovaModuleTools",
+    "Owners": "sgcourage",
+    "Description": "NovaModuleTools is an enterprise-focused build tool for Agentic Copilot PowerShell module development, with a strong emphasis on structure, maintainability, and automated CI/CD pipelines.",
     "Score": 75,
-    "Published": "2026-05-30T05:19:47.453"
+    "Published": "2026-05-31T12:27:03.79"
   },
   {
-    "id": "TextMate",
-    "Owners": "trackd",
-    "Description": "A PowerShell module for syntax highlighting using TextMate grammars with built-in Spectre rendering.",
+    "id": "SqlSpnManager",
+    "Owners": "greenmtnsun",
+    "Description": "Getting SQL Server Kerberos authentication right means getting SPNs right — and keeping them right across Standalone, Always On, and Failover Cluster instances. SqlSpnManager takes the guesswork out: checks for duplicate SPNs forest-wide before touching anything, auto-resolves FCI cluster accounts, and handles cross-forest deployments. In shops where the DBA cannot write to AD directly, Export-SqlSpnRegistrationScript produces a clean setspn bundle the AD admin runs on their own schedule. Full audit log and Windows Event Log output on every operation.",
     "Score": 70,
-    "Published": "2026-05-30T18:13:06.573"
+    "Published": "2026-05-31T23:39:41.117"
   },
   {
-    "id": "ISpy",
-    "Owners": "trackd",
-    "Description": "PowerShell module for decompiling .NET assemblies using ILSpy decompiler. Provides comprehensive cmdlets for assembly analysis, type discovery, method examination, and source code decompilation with advanced filtering and export capabilities.",
-    "Score": 70,
-    "Published": "2026-05-30T10:25:51.13"
+    "id": "Sabamiso.psm",
+    "Owners": "teramako",
+    "Description": "Native Command Completer",
+    "Score": 65,
+    "Published": "2026-05-31T05:35:57.403"
   },
   {
-    "id": "pslrm",
-    "Owners": "krymtkts",
-    "Description": "A PowerShell module for managing project-based PowerShell resources with lockfile, inspired by package managers like npm and Cargo.",
-    "Score": 60,
-    "Published": "2026-05-30T02:22:09.95"
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 65,
+    "Published": "2026-05-31T16:38:32.863"
   },
   {
-    "id": "RackStack",
-    "Owners": "theabider",
-    "Description": "PowerShell cmdlet wrappers around the RackStack.exe CLI. Invoke any of the 176 CLI actions (SelfTest, UpdateSelf, ExportLogs, Batch, every audit action, etc.) as structured cmdlets from scripts and pipelines. Auto-locates the installed EXE via the Programs-and-Features registry key, PATH, or the RACKSTACK_EXE environment variable. RackStack.exe is downloaded separately from https://github.com/TheAbider/RackStack/releases — the module itself is a thin wrapper, not the tool.",
-    "Score": 60,
-    "Published": "2026-05-30T03:08:09.97"
+    "id": "AwakeCoding.PSRemoting",
+    "Owners": "awakecoding",
+    "Description": "AwakeCoding PSRemoting Extensions",
+    "Score": 65,
+    "Published": "2026-05-31T20:17:08.727"
   },
   {
-    "id": "ColorScripts-Enhanced",
-    "Owners": "Typpi",
-    "Description": "🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience\r\n\r\n![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)\r\n\r\nA powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 3156 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.\r\n\r\n⚡ PERFORMANCE BOOST\r\n• 6-19x faster performance with smart caching\r\n• 5-20ms average load time (cached)\r\n• OS-wide cache across all terminal sessions\r\n• Automatic cache invalidation on script updates\r\n\r\n✨ FEATURES\r\n• 3156 beautiful colorscripts included\r\n• Professional-grade ANSI art collection\r\n• Cross-platform support (Windows, macOS, Linux)\r\n• PowerShell 5.1+ and PowerShell 7+ compatible\r\n• Tab completion and intelligent parameter handling\r\n• Centralized cache in AppData/ColorScripts-Enhanced\r\n• Configuration persistence for user preferences\r\n• Rich metadata and script discovery\r\n\r\n🚀 QUICK START\r\nDisplay random art: Show-ColorScript (or use alias: scs)\r\nList available scripts: Get-ColorScriptList\r\nPre-build cache: New-ColorScriptCache\r\n\r\n📖 DOCUMENTATION\r\nFull guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced\r\nIssues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues\r\n\r\nCOMMANDS INCLUDED\r\n• Show-ColorScript - Display colorscripts with caching\r\n• Get-ColorScriptList - Browse available scripts\r\n• New-ColorScriptCache - Pre-generate cache for speed\r\n• Clear-ColorScriptCache - Manage cache storage\r\n• Add-ColorScriptProfile - Integrate into PowerShell profile\r\n• Get-ColorScriptConfiguration - View settings\r\n• Set-ColorScriptConfiguration - Persist preferences\r\n• Export-ColorScriptMetadata - Export script metadata\r\n• New-ColorScript - Create new colorscripts\r\n\r\nPERFECT FOR\r\n✓ Making your terminal visually stunning\r\n✓ Terminal startup customization\r\n✓ System administration dashboards\r\n✓ Development environments\r\n✓ DevOps automation\r\n✓ Learning ANSI art and terminal graphics",
-    "Score": 55,
-    "Published": "2026-05-31T00:04:31.287"
+    "id": "Get-IntuneAssignments",
+    "Owners": "amirjs",
+    "Description": "This script retrieves assignments and filters for various Intune configuration types including:\n- Device Configuration Profiles\n- Device Management Configuration Policies\n- Compliance Policies\n- Security Baselines\n- Administrative Templates\n- App Protection Policies\n- Apps Assignments\n- Windows Information Protection Policies\n- Remediation Scripts\n- Device Management Scripts\n- Autopilot Profiles (v1)\n- Device Enrollment Configurations\n- Role Assignments\n- Cloud PC Role Assignments\n- Windows Update Policies:\n  * Windows Quality Update Profiles\n  * Windows Feature Update Profiles\n  * Windows Update Rings\n  * Windows Driver Update Profiles\n- Terms and Conditions\n- Compliance Policies (new Settings Catalog-based)\n- Cloud PC Provisioning Policies\n- WDAC Supplemental Policies\n- macOS Shell Scripts\n- macOS Custom Attribute Shell Scripts\n- Intune Branding Profiles\n\nRequired Microsoft Graph API permissions:\n- DeviceManagementConfiguration.Read.All\n- DeviceManagementApps.Read.All\n- DeviceManagementManagedDevices.Read.All\n- DeviceManagementServiceConfig.Read.All\n- Group.Read.All\n- DeviceManagementRBAC.Read.All (for Intune Role Assignments)\n- CloudPC.Read.All (for Cloud PC Role Assignments and Cloud PC Provisioning Policies)\n- DeviceManagementServiceConfig.Read.All (for Terms and Conditions)\n- DeviceManagementScripts.Read.All (for macOS Shell Scripts and Custom Attribute Scripts)\n\n- Shows included and excluded groups for each assignment\n- Displays filter information if configured\n- Export results to CSV\n- Filter by specific Azure AD group\n\n",
+    "Score": 65,
+    "Published": "2026-05-31T08:55:39.773"
   },
   {
     "id": "Clear-Temporary",
     "Owners": "emerson",
-    "Description": "Tool for clean temporary files from system",
+    "Description": "Tool for cleaning temporary files from the system",
     "Score": 55,
-    "Published": "2026-05-30T21:41:18.377"
+    "Published": "2026-05-31T01:23:54.917"
   },
   {
-    "id": "UnitAutogen",
-    "Owners": "munaf-khatri",
-    "Description": "PowerShell module for UnitAutogen — auto-generated tSQLt unit tests with real branch coverage for SQL Server. Installs the framework, runs generation and coverage, and exports Cobertura XML, JUnit XML, and HTML reports for Azure DevOps, GitHub Actions, Jenkins, GitLab CI, and SonarQube.",
+    "id": "UiPathOrch",
+    "Owners": "ytsuda,kiyoshi613",
+    "Description": "Open-source PSDrives and cmdlets for managing UiPath Orchestrator. Not an official abbreviation of, or part of, the Orchestrator product. 💡 First time? Run: Get-OrchHelp",
+    "Score": 55,
+    "Published": "2026-05-31T13:35:41.217"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2026-05-30T16:59:47.287"
-  },
-  {
-    "id": "Secrecy",
-    "Owners": "brianary",
-    "Description": "Secret storage manipulation utilities.",
-    "Score": 45,
-    "Published": "2026-05-30T19:42:00.07"
+    "Published": "2026-05-31T08:45:21.87"
   }
 ]
