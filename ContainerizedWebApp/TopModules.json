@@ -4,69 +4,69 @@
     "Owners": "GraceSolutions",
     "Description": "PSInfisicalAPI is a C# binary PowerShell module for the Infisical REST API, providing cmdlets for authentication, secret retrieval, and export with automatic environment-variable discovery across Process, User, and Machine scopes.",
     "Score": 75,
-    "Published": "2026-06-07T00:22:34.28"
+    "Published": "2026-06-07T14:39:29.963"
+  },
+  {
+    "id": "Pax8-API",
+    "Owners": "dkschruteBeets",
+    "Description": "A PowerShell Module for the Pax8 REST API",
+    "Score": 75,
+    "Published": "2026-06-07T16:49:29.91"
+  },
+  {
+    "id": "EXORBACforAppManagement",
+    "Owners": "ziembor",
+    "Description": "Exchange Online RBAC governance for Entra application service principals: register apps, assign EXO application role scopes, and read them back. Requires the Microsoft.Graph and ExchangeOnlineManagement modules to be installed and connected at runtime (not declared as RequiredModules so the module imports without them for unit testing).",
+    "Score": 70,
+    "Published": "2026-06-07T18:46:26.47"
   },
   {
     "id": "ValidateUnion",
     "Owners": "vike",
     "Description": "A union type argument validation attribute written and for use in pwsh .ps1 code. Currently only supporting one to eight types in the union set.",
     "Score": 70,
-    "Published": "2026-06-06T14:15:16.217"
+    "Published": "2026-06-07T09:52:43.763"
   },
   {
-    "id": "Belin.Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
     "Score": 70,
-    "Published": "2026-06-06T17:12:49.15"
+    "Published": "2026-06-07T17:30:37.11"
   },
   {
-    "id": "PSJsonWebToken",
-    "Owners": "anthonyg-1",
-    "Description": "This PowerShell module contains functions that facilitate the creation, validation, and decoding of JWTs (JSON Web Tokens) as well as the creation of JWKs (JSON Web Keys).",
+    "id": "ps2exe",
+    "Owners": "MScholtes",
+    "Description": "Compiles Powershell scripts to executables. Overworking of the great script of Ingo Karstein with GUI support.\r\n'Invoke-ps2exe script.ps1' (or 'ps2exe script.ps1') compiles to script.exe. Several control parameters available.\r\nOr use Win-PS2EXE as a graphical front end to the compiler.",
+    "Score": 70,
+    "Published": "2026-06-07T07:46:10.36"
+  },
+  {
+    "id": "Screenshot",
+    "Owners": "diecknet",
+    "Description": "Take Screenshots with PowerShell",
+    "Score": 60,
+    "Published": "2026-06-07T22:20:40.34"
+  },
+  {
+    "id": "HexDump",
+    "Owners": "teramako",
+    "Description": "like 'hexdump'",
+    "Score": 60,
+    "Published": "2026-06-07T10:58:33.097"
+  },
+  {
+    "id": "ModuleTools",
+    "Owners": "belibug",
+    "Description": "ModuleTools is a versatile, standalone PowerShell module builder. Create anything from simple to robust modules with ease. Built for CICD and Automation.",
+    "Score": 60,
+    "Published": "2026-06-07T02:21:04.183"
+  },
+  {
+    "id": "ColorScripts-Enhanced",
+    "Owners": "Typpi",
+    "Description": "🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience\r\n\r\n![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)\r\n\r\nA powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 3156 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.\r\n\r\n⚡ PERFORMANCE BOOST\r\n• 6-19x faster performance with smart caching\r\n• 5-20ms average load time (cached)\r\n• OS-wide cache across all terminal sessions\r\n• Automatic cache invalidation on script updates\r\n\r\n✨ FEATURES\r\n• 3156 beautiful colorscripts included\r\n• Professional-grade ANSI art collection\r\n• Cross-platform support (Windows, macOS, Linux)\r\n• PowerShell 5.1+ and PowerShell 7+ compatible\r\n• Tab completion and intelligent parameter handling\r\n• Centralized cache in AppData/ColorScripts-Enhanced\r\n• Configuration persistence for user preferences\r\n• Rich metadata and script discovery\r\n\r\n🚀 QUICK START\r\nDisplay random art: Show-ColorScript (or use alias: scs)\r\nList available scripts: Get-ColorScriptList\r\nPre-build cache: New-ColorScriptCache\r\n\r\n📖 DOCUMENTATION\r\nFull guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced\r\nIssues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues\r\n\r\nCOMMANDS INCLUDED\r\n• Show-ColorScript - Display colorscripts with caching\r\n• Get-ColorScriptList - Browse available scripts\r\n• New-ColorScriptCache - Pre-generate cache for speed\r\n• Clear-ColorScriptCache - Manage cache storage\r\n• Add-ColorScriptProfile - Integrate into PowerShell profile\r\n• Get-ColorScriptConfiguration - View settings\r\n• Set-ColorScriptConfiguration - Persist preferences\r\n• Export-ColorScriptMetadata - Export script metadata\r\n• New-ColorScript - Create new colorscripts\r\n\r\nPERFECT FOR\r\n✓ Making your terminal visually stunning\r\n✓ Terminal startup customization\r\n✓ System administration dashboards\r\n✓ Development environments\r\n✓ DevOps automation\r\n✓ Learning ANSI art and terminal graphics",
     "Score": 55,
-    "Published": "2026-06-06T20:27:47.16"
-  },
-  {
-    "id": "UnitAutogen",
-    "Owners": "munaf-khatri",
-    "Description": "PowerShell module for UnitAutogen — auto-generated tSQLt unit tests with real branch coverage for SQL Server. Installs the framework AND the in-database (SQLCLR) predicate parser, runs generation and coverage, and exports Cobertura XML, JUnit XML, and HTML reports for Azure DevOps, GitHub Actions, Jenkins, GitLab CI, and SonarQube. The single C# predicate parser runs inside SQL Server (no PowerShell-side parser); installation registers it and requires sysadmin once plus 'clr enabled'=1.",
-    "Score": 50,
-    "Published": "2026-06-06T07:02:33.33"
-  },
-  {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2026-06-06T08:18:37.22"
-  },
-  {
-    "id": "JIM",
-    "Owners": "JayVDZ",
-    "Description": "PowerShell module for administering JIM (Junctional Identity Manager). Provides cmdlets for managing Connected Systems, Sync Rules, Run Profiles, Metaverse Objects, Activities, API Keys, Certificates, and more. Supports both interactive (SSO) and non-interactive (API Key) authentication.",
-    "Score": 45,
-    "Published": "2026-06-06T15:14:50.633"
-  },
-  {
-    "id": "Support.AksArc",
-    "Owners": "madhanrajm,rohitjaini",
-    "Description": "Support Module for Aks Arc. This module provides support for known issues and remediation steps for Azure Kubernetes Service on Azure Arc.",
-    "Score": 45,
-    "Published": "2026-06-06T23:43:22.763"
-  },
-  {
-    "id": "Sharpdown",
-    "Owners": "andres_m_quesada",
-    "Description": "Sharpdown is a polyglot documentation convention that enables generating markdown documentation directly from source code.",
-    "Score": 40,
-    "Published": "2026-06-06T16:09:39.713"
-  },
-  {
-    "id": "VBAF-Center",
-    "Owners": "JupyteerPS",
-    "Description": "VBAF-Center - Smart monitoring platform with AI Brain (Mistral/Gemini/Claude), daily HTML briefing, write-back to TMS and dispatcher portal with Accept/Override buttons",
-    "Score": 40,
-    "Published": "2026-06-06T13:22:57.23"
+    "Published": "2026-06-07T06:21:54.95"
   }
 ]
