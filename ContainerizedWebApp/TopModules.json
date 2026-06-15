@@ -1,72 +1,72 @@
 [
   {
-    "id": "JwtDecoder",
-    "Owners": "RustedWizard",
-    "Description": "Offline JSON Web Token decoder and signature verifier. Never makes network calls. Sensitive buffers are zeroed before release. Guards against the JWT algorithm-confusion attack. Cmdlets: ConvertFrom-JsonWebToken, Test-JsonWebTokenSignature.",
+    "id": "PSMustache",
+    "Owners": "SaPl",
+    "Description": "PSMustache is an implementation of the Mustache template system purely in PowerShell without any external dependencies.",
     "Score": 80,
-    "Published": "2026-06-13T01:28:15.05"
+    "Published": "2026-06-14T15:38:54.463"
+  },
+  {
+    "id": "Sashimi",
+    "Owners": "teramako",
+    "Description": "Raw process I/O for PowerShell — execute external commands and handle stdin/stdout/stderr as byte streams.",
+    "Score": 75,
+    "Published": "2026-06-14T11:32:22.357"
   },
   {
     "id": "PSVellumPDF",
     "Owners": "Tim81",
     "Description": "Create PDF files from PowerShell on Windows, Linux, and macOS. PSVellumPDF wraps the VellumPdf .NET 10 engine; you build a document with one pipeline and save it:\n\n  New-VellumPdfDocument | Add-VellumPdf... | Save-VellumPdfDocument\n\nAdd headings with outline bookmarks, paragraphs, mixed-style text runs, ordered and unordered lists, tables, line separators, and running headers and footers that resolve {page}/{pages}. Text carries per-run colour, hyperlinks, alignment, and line spacing; tables take header rows, column widths, borders, and header backgrounds. Embed images in JPEG, PNG, BMP, GIF, TIFF, JBIG2, or JPEG 2000.\n\nSet the page size (A0-A6, Letter, Legal, Ledger), margins, and document info. Use any of the 14 standard PDF fonts, or embed a TrueType font for full Unicode, which PDF/A also requires. Tagged structure, a /Lang language tag, and per-image alt text produce accessible output.\n\nFor archives, emit PDF/A-2b, 2u, or 2a with an output intent from the default sRGB profile, a custom ICC profile, or generic CMYK. To protect a file, apply AES encryption with user and owner passwords and permission flags, or add a PAdES digital signature, optionally with an RFC-3161 timestamp (PAdES B-T).\n\nPSVellumPDF only writes new PDFs. It cannot read, edit, split, or merge an existing file: VellumPdf is a generation engine with no parser.",
     "Score": 75,
-    "Published": "2026-06-13T16:17:07.737"
+    "Published": "2026-06-14T10:04:52.43"
   },
   {
-    "id": "Belin.Cli",
-    "Owners": "CedX",
-    "Description": "PowerShell cmdlets for common administrative tasks, such as database management, service management and software installation.",
+    "id": "AzureDevOpsDscv3",
+    "Owners": "mimachniak",
+    "Description": "Module with DSC Resources for deployment and configuration of Azure DevOps Server/Services supporting DSC v3.",
     "Score": 75,
-    "Published": "2026-06-13T16:32:55.567"
+    "Published": "2026-06-14T18:24:08.537"
   },
   {
-    "id": "CairoVolt-SmartPower",
-    "Owners": "CairoVoltEG",
-    "Description": "CairoVolt Smart Power is a cross-platform PowerShell module for enumerating,\ninspecting, and documenting Anker USB charging devices connected to your system.\n\nFeatures:\n  - Get-AnkerDeviceInfo   : Lists connected USB chargers and power banks\n  - Get-AnkerChargerSpec  : Looks up wattage, port count, and GaN certification\n  - Test-AnkerCableSpeed  : Checks whether your cable supports fast-charge rates\n\nWorks on Windows (PowerShell 5.1+), macOS, and Linux (PowerShell 7+).\n\nFull device catalog and buying guide: https://cairovolt.com/en/anker/power-banks\nWall charger specifications: https://cairovolt.com/en/anker/wall-chargers\nCable compatibility guide:  https://cairovolt.com/en/anker/cables",
-    "Score": 70,
-    "Published": "2026-06-13T18:01:14.08"
-  },
-  {
-    "id": "Plumber",
-    "Owners": "WillCodeForPizza",
-    "Description": "A set of Invoke-Build tasks for Powershell validation pipelines",
-    "Score": 70,
-    "Published": "2026-06-13T16:15:17.317"
-  },
-  {
-    "id": "Belin.Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
-    "Score": 70,
-    "Published": "2026-06-13T23:48:51.353"
-  },
-  {
-    "id": "PSPublishModule",
+    "id": "Transferetto",
     "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Description": "Transferetto is a PowerShell module and reusable .NET library for FTP, FTPS, SFTP, SCP, FXP, SSH commands, SSH shells, and SSH tunnels.",
+    "Score": 75,
+    "Published": "2026-06-14T18:43:50.91"
+  },
+  {
+    "id": "Mailozaurr",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Mailozaurr is a PowerShell module that aims to provide SMTP, POP3, IMAP and few other ways to interact with Email. Underneath it uses MimeKit and MailKit and EmailValidation libraries written by Jeffrey Stedfast.",
+    "Score": 75,
+    "Published": "2026-06-14T18:26:33.433"
+  },
+  {
+    "id": "AOVPNTools",
+    "Owners": "richardhicks",
+    "Description": "PowerShell module for configuring, optimizing, and troubleshooting Windows Server Routing and Remote Access Service (RRAS) for Always On VPN.",
+    "Score": 75,
+    "Published": "2026-06-14T18:18:59.403"
+  },
+  {
+    "id": "ScrewCitySoftware.PwshProfile",
+    "Owners": "screwcitysoftware",
+    "Description": "Reusable building blocks for PowerShell profile startup: timed startup steps, safe module imports, PSReadLine setup, and CLI tool enablers (oh-my-posh, zoxide, fnm, xh).",
     "Score": 70,
-    "Published": "2026-06-13T11:54:26.46"
+    "Published": "2026-06-14T20:18:59.963"
   },
   {
-    "id": "syntax-highlighting",
-    "Owners": "digitalguy99",
-    "Description": "Syntax highlighting for PowerShell",
-    "Score": 60,
-    "Published": "2026-06-13T01:24:56.427"
+    "id": "slmgr-ps",
+    "Owners": "ZaferBalkan",
+    "Description": "A PowerShell replacement for slmgr.vbs script",
+    "Score": 70,
+    "Published": "2026-06-14T09:59:51.657"
   },
   {
-    "id": "Brownserve.PSBuildTools",
-    "Owners": "Brownserve-AutomatedBuild",
-    "Description": "Changelog, versioning, NuGet, PowerShell module scaffolding, and build notification helpers used across Brownserve projects.",
+    "id": "ColorScripts-Enhanced",
+    "Owners": "Typpi",
+    "Description": "🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience\r\n\r\n![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)\r\n\r\nA powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 3156 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.\r\n\r\n⚡ PERFORMANCE BOOST\r\n• 6-19x faster performance with smart caching\r\n• 5-20ms average load time (cached)\r\n• OS-wide cache across all terminal sessions\r\n• Automatic cache invalidation on script updates\r\n\r\n✨ FEATURES\r\n• 3156 beautiful colorscripts included\r\n• Professional-grade ANSI art collection\r\n• Cross-platform support (Windows, macOS, Linux)\r\n• PowerShell 5.1+ and PowerShell 7+ compatible\r\n• Tab completion and intelligent parameter handling\r\n• Centralized cache in AppData/ColorScripts-Enhanced\r\n• Configuration persistence for user preferences\r\n• Rich metadata and script discovery\r\n\r\n🚀 QUICK START\r\nDisplay random art: Show-ColorScript (or use alias: scs)\r\nList available scripts: Get-ColorScriptList\r\nPre-build cache: New-ColorScriptCache\r\n\r\n📖 DOCUMENTATION\r\nFull guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced\r\nIssues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues\r\n\r\nCOMMANDS INCLUDED\r\n• Show-ColorScript - Display colorscripts with caching\r\n• Get-ColorScriptList - Browse available scripts\r\n• New-ColorScriptCache - Pre-generate cache for speed\r\n• Clear-ColorScriptCache - Manage cache storage\r\n• Add-ColorScriptProfile - Integrate into PowerShell profile\r\n• Get-ColorScriptConfiguration - View settings\r\n• Set-ColorScriptConfiguration - Persist preferences\r\n• Export-ColorScriptMetadata - Export script metadata\r\n• New-ColorScript - Create new colorscripts\r\n\r\nPERFECT FOR\r\n✓ Making your terminal visually stunning\r\n✓ Terminal startup customization\r\n✓ System administration dashboards\r\n✓ Development environments\r\n✓ DevOps automation\r\n✓ Learning ANSI art and terminal graphics",
     "Score": 55,
-    "Published": "2026-06-13T09:27:55.417"
-  },
-  {
-    "id": "GraphApiHelper",
-    "Owners": "JiriF",
-    "Description": "Module provides simple commands for working with Microsoft Graph API, such as GET/POST/PATCH/DELETE requests, handling large file upload, retry logic, etc.",
-    "Score": 55,
-    "Published": "2026-06-13T10:36:45.657"
+    "Published": "2026-06-14T07:58:12.013"
   }
 ]
