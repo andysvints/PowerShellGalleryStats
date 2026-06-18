@@ -1,72 +1,72 @@
 [
   {
-    "id": "Microsoft.Graph.Beta.DeviceManagement",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 90,
-    "Published": "2026-06-16T02:30:38.28"
+    "id": "AWS.Tools.ARCRegionswitch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:18:13.243"
   },
   {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
-    "Score": 85,
-    "Published": "2026-06-16T21:37:49.767"
+    "id": "AWS.Tools.ChimeSDKMessaging",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ChimeSDKMessaging module of AWS Tools for PowerShell lets developers and administrators manage Amazon Chime SDK Messaging from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:16:28.343"
   },
   {
-    "id": "MASES.KNetPS",
-    "Owners": "MASESGroupPSTeam",
-    "Description": "KNet PowerShell command line interface is a PowerShell Module to use Apache Kafka and PowerShell side-by-side. With KNet PowerShell it is possible to:\r\n- execute all tools of Apache Kafka within a PowerShell shell: Administration tools, Console Consumer, Console Producer, manage Apache Kafka Streams, activate Apache Kafka Connect, server side (start KRaft), etc\r\n- create consumers and producers objects to interact with an Apache Kafka cluster\r\n- send data to and receive data from an Apache Kafka cluster\r\n- create a Kafka Admin Client object to manage an Apache Kafka cluster\r\n\r\nMore information within the project hosted on GitHub. Further information at https://github.com/masesgroup/KNet.",
-    "Score": 85,
-    "Published": "2026-06-16T03:16:18.967"
+    "id": "AWS.Tools.ChimeSDKMeetings",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ChimeSDKMeetings module of AWS Tools for PowerShell lets developers and administrators manage Amazon Chime SDK Meetings from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:25:02.93"
   },
   {
-    "id": "JwtDecoder.Jwks",
-    "Owners": "RustedWizard",
-    "Description": "JWKS acquisition (and OIDC discovery) companion to the JwtDecoder module. Network-capable: fetches a JWKS, validates it, selects the JWK matching a JWT's kid/alg/crv, and returns the public key. The companion JwtDecoder module remains offline by construction.",
-    "Score": 80,
-    "Published": "2026-06-16T01:43:47.697"
+    "id": "AWS.Tools.Chime",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The Chime module of AWS Tools for PowerShell lets developers and administrators manage Amazon Chime from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:18:09.633"
   },
   {
-    "id": "JwtDecoder",
-    "Owners": "RustedWizard",
-    "Description": "Offline JSON Web Token decoder and signature verifier. Never makes network calls. Sensitive buffers are zeroed before release. Guards against the JWT algorithm-confusion attack. Cmdlets: ConvertFrom-JsonWebToken, Test-JsonWebTokenSignature, Get-JsonWebTokenClaim.",
-    "Score": 80,
-    "Published": "2026-06-16T01:43:00.907"
+    "id": "AWS.Tools.Artifact",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The Artifact module of AWS Tools for PowerShell lets developers and administrators manage AWS Artifact from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:18:06.18"
   },
   {
-    "id": "Microsoft.Graph.Users.Functions",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 80,
-    "Published": "2026-06-16T02:32:30.78"
+    "id": "AWS.Tools.AppRegistry",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AppRegistry module of AWS Tools for PowerShell lets developers and administrators manage AWS Service Catalog App Registry from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:18:30.35"
   },
   {
-    "id": "Microsoft.Graph.People",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 80,
-    "Published": "2026-06-16T02:31:51.187"
+    "id": "AWS.Tools.ApplicationDiscoveryService",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ApplicationDiscoveryService module of AWS Tools for PowerShell lets developers and administrators manage AWS Application Discovery Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:17:39.02"
   },
   {
-    "id": "Microsoft.Graph.DeviceManagement.Functions",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 80,
-    "Published": "2026-06-16T02:30:36.053"
+    "id": "AWS.Tools.AppConfig",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AppConfig module of AWS Tools for PowerShell lets developers and administrators manage AWS AppConfig from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:17:16.367"
   },
   {
-    "id": "Microsoft.Graph.Beta.Users.Functions",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 80,
-    "Published": "2026-06-16T02:32:29.297"
+    "id": "AWS.Tools.AmplifyBackend",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AmplifyBackend module of AWS Tools for PowerShell lets developers and administrators manage Amplify Backend from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:14:47.847"
   },
   {
-    "id": "Microsoft.Graph.Beta.DeviceManagement.Functions",
-    "Owners": "msgraph-sdk-powershell",
-    "Description": "Microsoft Graph PowerShell Cmdlets",
-    "Score": 80,
-    "Published": "2026-06-16T02:30:34.25"
+    "id": "AWS.Tools.Amplify",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The Amplify module of AWS Tools for PowerShell lets developers and administrators manage AWS Amplify from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 95,
+    "Published": "2026-06-17T20:22:05.67"
   }
 ]
