@@ -1,72 +1,72 @@
 [
   {
-    "id": "IntuneHydrationKit",
+    "id": "DLLPickle",
+    "Owners": "SamErde",
+    "Description": "A PowerShell module that helps you get un-stuck from dependency version conflicts that can occur when connecting to multiple Microsoft services in the same session.",
+    "Score": 80,
+    "Published": "2026-06-21T02:02:52.297"
+  },
+  {
+    "id": "Devdeer.Caf",
+    "Owners": "devdeer-alex",
+    "Description": "This package contains functionality to prepare and manage Microsoft Azure Tenants aligned to Microsoft Cloud Adoption Framework.",
+    "Score": 80,
+    "Published": "2026-06-21T10:35:34.417"
+  },
+  {
+    "id": "XlsxCommand",
+    "Owners": "MarcoDorantes",
+    "Description": "XlsxCommand - CmdLets for PowerShell v7 to read/write XLSX files.",
+    "Score": 75,
+    "Published": "2026-06-21T06:11:29.2"
+  },
+  {
+    "id": "Win32Forge",
     "Owners": "jorgeasaurus",
-    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
-    "Score": 65,
-    "Published": "2026-06-20T19:35:36.95"
+    "Description": "Packages and publishes Intune Win32 apps through Microsoft Graph.",
+    "Score": 70,
+    "Published": "2026-06-21T22:37:26.157"
   },
   {
-    "id": "PSRandomUser",
-    "Owners": "BanterBoy",
-    "Description": "The PSRandomUser Module enables you to create random user accounts. This module can be used to create random user accounts for testing purposes. Commands included enable the easy creation of Temporary Active Directory user accounts. This module is not intended for use in production environments. The AD-related functions (New-TempADUser, New-TempADUserDetails -Path ...) additionally require the ActiveDirectory RSAT module to be installed on the host.",
-    "Score": 65,
-    "Published": "2026-06-20T02:18:46.353"
+    "id": "SqlServerConfiguration",
+    "Owners": "netsec4u",
+    "Description": "Module provides function to configure SQL Server.",
+    "Score": 70,
+    "Published": "2026-06-21T01:02:34.41"
   },
   {
-    "id": "RAGPostProcessor",
-    "Owners": "Jalicia",
-    "Description": "PowerShell wrapper for the RAG Post Processor Apify actor. Clean and chunk scraped text for RAG and LLM pipelines in one command. Strips HTML, collapses whitespace, splits into overlapping chunks ready for OpenAI embeddings, Pinecone, Weaviate, LangChain, and LlamaIndex. Supports direct text input, file input, and Apify dataset chaining.",
-    "Score": 60,
-    "Published": "2026-06-20T19:09:42.013"
+    "id": "SqlServerMaintenance",
+    "Owners": "netsec4u",
+    "Description": "Provides maintenance functions to manage SQL Server.",
+    "Score": 70,
+    "Published": "2026-06-21T01:02:10.88"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-06-21T17:53:48.84"
   },
   {
     "id": "HexDump",
     "Owners": "teramako",
     "Description": "like 'hexdump'",
+    "Score": 65,
+    "Published": "2026-06-21T10:54:47.573"
+  },
+  {
+    "id": "PSOTLP",
+    "Owners": "GraceSolutions",
+    "Description": "PowerShell module for emitting OpenTelemetry Protocol (OTLP) telemetry over HTTP/JSON.",
     "Score": 60,
-    "Published": "2026-06-20T16:08:52.74"
+    "Published": "2026-06-21T19:57:36.923"
   },
   {
-    "id": "ColorScripts-Enhanced",
-    "Owners": "Typpi",
-    "Description": "🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience\r\n\r\n![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)\r\n\r\nA powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 3156 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.\r\n\r\n⚡ PERFORMANCE BOOST\r\n• 6-19x faster performance with smart caching\r\n• 5-20ms average load time (cached)\r\n• OS-wide cache across all terminal sessions\r\n• Automatic cache invalidation on script updates\r\n\r\n✨ FEATURES\r\n• 3156 beautiful colorscripts included\r\n• Professional-grade ANSI art collection\r\n• Cross-platform support (Windows, macOS, Linux)\r\n• PowerShell 5.1+ and PowerShell 7+ compatible\r\n• Tab completion and intelligent parameter handling\r\n• Centralized cache in AppData/ColorScripts-Enhanced\r\n• Configuration persistence for user preferences\r\n• Rich metadata and script discovery\r\n\r\n🚀 QUICK START\r\nDisplay random art: Show-ColorScript (or use alias: scs)\r\nList available scripts: Get-ColorScriptList\r\nPre-build cache: New-ColorScriptCache\r\n\r\n📖 DOCUMENTATION\r\nFull guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced\r\nIssues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues\r\n\r\nCOMMANDS INCLUDED\r\n• Show-ColorScript - Display colorscripts with caching\r\n• Get-ColorScriptList - Browse available scripts\r\n• New-ColorScriptCache - Pre-generate cache for speed\r\n• Clear-ColorScriptCache - Manage cache storage\r\n• Add-ColorScriptProfile - Integrate into PowerShell profile\r\n• Get-ColorScriptConfiguration - View settings\r\n• Set-ColorScriptConfiguration - Persist preferences\r\n• Export-ColorScriptMetadata - Export script metadata\r\n• New-ColorScript - Create new colorscripts\r\n\r\nPERFECT FOR\r\n✓ Making your terminal visually stunning\r\n✓ Terminal startup customization\r\n✓ System administration dashboards\r\n✓ Development environments\r\n✓ DevOps automation\r\n✓ Learning ANSI art and terminal graphics",
+    "id": "quillmark",
+    "Owners": "nibsbin",
+    "Description": "Render a quill (Quillmark) to PDF/SVG/PNG from PowerShell, fully offline, with no Node.js at runtime. Hosts the bundled @quillmark/wasm build inside a WebView2 control.",
     "Score": 55,
-    "Published": "2026-06-20T08:09:01.02"
-  },
-  {
-    "id": "LibreDevOpsHelpers",
-    "Owners": "craigthackerx",
-    "Description": "Enterprise grade PowerShell helpers for Azure, Terraform, Microsoft Graph, and DevOps tooling. All commands use the Ldo prefix.",
-    "Score": 55,
-    "Published": "2026-06-20T18:07:31.037"
-  },
-  {
-    "id": "LicenseMeterScan",
-    "Owners": "ugurkoc",
-    "Description": "Free, read-only Microsoft 365 license-waste scanner. Runs locally in your own tenant.",
-    "Score": 50,
-    "Published": "2026-06-20T19:20:33.317"
-  },
-  {
-    "id": "MSIXForcelets",
-    "Owners": "Andreas.Nick",
-    "Description": "PowerShell framework for MSIX/AppX packaging and Package Support Framework (PSF) injection: edit captured packages, add/repair PSF fixups, manage shortcuts/services/dependencies, generate assets, sign and publish. Docs: https://msixforcelets.nick-it.de — Source on GitHub: https://github.com/AndreasNick/MSIXForcelets",
-    "Score": 50,
-    "Published": "2026-06-20T08:25:59.85"
-  },
-  {
-    "id": "Brownserve.PSSourceControl",
-    "Owners": "Brownserve-AutomatedBuild",
-    "Description": "Git, GitHub, and GitLab source control operations used across Brownserve projects.",
-    "Score": 50,
-    "Published": "2026-06-20T21:30:35.41"
-  },
-  {
-    "id": "ClaudeHooks",
-    "Owners": "HeyItsGilbert",
-    "Description": "PowerShell helpers for writing and registering Claude Code hook scripts.",
-    "Score": 50,
-    "Published": "2026-06-20T02:08:52.37"
+    "Published": "2026-06-21T04:29:20.313"
   }
 ]
