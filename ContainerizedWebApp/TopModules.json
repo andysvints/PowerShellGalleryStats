@@ -1,72 +1,72 @@
 [
   {
-    "id": "XurrentHelpers",
-    "Owners": "fasteiner,fabsteiner",
-    "Description": "A PowerShell Module by techwork data GmbH containing cmdlets making Xurrent adminstration easier and more efficient",
-    "Score": 80,
-    "Published": "2026-06-24T07:42:49.113"
+    "id": "AsBuiltReport.Chart",
+    "Owners": "tpcarman",
+    "Description": "AsBuiltReport.Chart is a PowerShell module that aims to provide chart generation capabilities. Underneath it uses ScottPlot and SkiaSharp libraries.",
+    "Score": 85,
+    "Published": "2026-06-26T00:26:12.653"
   },
   {
-    "id": "OCI.PSModules.Generativeaidata",
+    "id": "OCI.PSModules.Self",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
+    "Description": "This modules provides Cmdlets for OCI Self Service",
     "Score": 80,
-    "Published": "2026-06-25T00:06:27.773"
+    "Published": "2026-06-25T05:28:11.513"
   },
   {
-    "id": "OCI.PSModules.Containerregistry",
+    "id": "OCI.PSModules.Limitsincrease",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
+    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
     "Score": 80,
-    "Published": "2026-06-24T23:52:17.867"
+    "Published": "2026-06-25T05:10:40.237"
   },
   {
-    "id": "OCI.PSModules.Gdp",
+    "id": "OCI.PSModules.Resourceanalytics",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Gdp Service",
+    "Description": "This modules provides Cmdlets for OCI Resourceanalytics Service",
     "Score": 80,
-    "Published": "2026-06-25T00:04:57.437"
+    "Published": "2026-06-25T05:25:19.63"
   },
   {
-    "id": "OCI.PSModules.Batch",
+    "id": "OCI.PSModules.Psa",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "Description": "This modules provides Cmdlets for OCI Psa Service",
     "Score": 80,
-    "Published": "2026-06-24T23:45:09.967"
+    "Published": "2026-06-25T05:23:53.907"
   },
   {
-    "id": "OCI.PSModules.Dif",
+    "id": "OCI.PSModules.Multicloud",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "Description": "This modules provides Cmdlets for OCI Multicloud Service",
     "Score": 80,
-    "Published": "2026-06-24T23:59:58.917"
+    "Published": "2026-06-25T05:15:47.113"
   },
   {
-    "id": "OCI.PSModules.Aidataplatform",
+    "id": "OCI.PSModules.Iot",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
+    "Description": "This modules provides Cmdlets for OCI Iot Service",
     "Score": 80,
-    "Published": "2026-06-24T23:38:26.523"
+    "Published": "2026-06-25T05:07:03.447"
   },
   {
-    "id": "OCI.PSModules.Apiplatform",
+    "id": "OCI.PSModules.Jmsutils",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
     "Score": 80,
-    "Published": "2026-06-24T23:41:11.463"
+    "Published": "2026-06-25T05:08:21.243"
   },
   {
-    "id": "OCI.PSModules.Dbmulticloud",
+    "id": "OCI.PSModules.Managedkafka",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dbmulticloud Service",
+    "Description": "This modules provides Cmdlets for OCI Managedkafka Service",
     "Score": 80,
-    "Published": "2026-06-24T23:58:29.87"
+    "Published": "2026-06-25T05:12:55.24"
   },
   {
-    "id": "OCI.PSModules.Apiaccesscontrol",
+    "id": "OCI.PSModules.Wlms",
     "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Apiaccesscontrol Service",
+    "Description": "This modules provides Cmdlets for OCI Wlms Service",
     "Score": 80,
-    "Published": "2026-06-24T23:40:34.137"
+    "Published": "2026-06-25T05:33:08.66"
   }
 ]
