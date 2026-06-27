@@ -1,72 +1,72 @@
 [
   {
-    "id": "AsBuiltReport.Chart",
-    "Owners": "tpcarman",
-    "Description": "AsBuiltReport.Chart is a PowerShell module that aims to provide chart generation capabilities. Underneath it uses ScottPlot and SkiaSharp libraries.",
-    "Score": 85,
-    "Published": "2026-06-26T00:26:12.653"
+    "id": "Add-PrefixForLogging",
+    "Owners": "royashbrook",
+    "Description": "Adds a prefix for logging to a string.",
+    "Score": 75,
+    "Published": "2026-06-26T22:25:11.133"
   },
   {
-    "id": "OCI.PSModules.Self",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Self Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:28:11.513"
+    "id": "RackStack",
+    "Owners": "theabider",
+    "Description": "PowerShell cmdlet wrappers around the RackStack.exe CLI. Invoke any of the 176 CLI actions (SelfTest, UpdateSelf, ExportLogs, Batch, every audit action, etc.) as structured cmdlets from scripts and pipelines. Auto-locates the installed EXE via the Programs-and-Features registry key, PATH, or the RACKSTACK_EXE environment variable. RackStack.exe is downloaded separately from https://github.com/TheAbider/RackStack/releases — the module itself is a thin wrapper, not the tool.",
+    "Score": 60,
+    "Published": "2026-06-26T05:09:34.323"
   },
   {
-    "id": "OCI.PSModules.Limitsincrease",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:10:40.237"
+    "id": "Devolutions.PowerShellUniversal",
+    "Owners": "Devolutions",
+    "Description": "Module for PowerShell Universal.",
+    "Score": 60,
+    "Published": "2026-06-26T15:19:45.55"
   },
   {
-    "id": "OCI.PSModules.Resourceanalytics",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Resourceanalytics Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:25:19.63"
+    "id": "Universal",
+    "Owners": "adamdriscoll",
+    "Description": "Module for PowerShell Universal.",
+    "Score": 60,
+    "Published": "2026-06-26T15:17:25.163"
   },
   {
-    "id": "OCI.PSModules.Psa",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Psa Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:23:53.907"
+    "id": "PSTcpIp",
+    "Owners": "anthonyg-1",
+    "Description": "Provides cmdlets to perform various TCPIP and TLS/SSL related tasks.",
+    "Score": 60,
+    "Published": "2026-06-27T00:26:38.497"
   },
   {
-    "id": "OCI.PSModules.Multicloud",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Multicloud Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:15:47.113"
+    "id": "LSUClient",
+    "Owners": "jantari",
+    "Description": "Orchestrate driver, BIOS/UEFI and firmware updates for Lenovo computers 👨‍💻",
+    "Score": 60,
+    "Published": "2026-06-26T22:02:09.02"
   },
   {
-    "id": "OCI.PSModules.Iot",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Iot Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:07:03.447"
+    "id": "CosmosDB",
+    "Owners": "dscottraynsford",
+    "Description": "This module provides cmdlets for working with Azure Cosmos DB databases, collections, documents, attachments, offers, users, permissions, triggers, stored procedures and user defined functions.",
+    "Score": 60,
+    "Published": "2026-06-26T10:53:12.89"
   },
   {
-    "id": "OCI.PSModules.Jmsutils",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:08:21.243"
+    "id": "EvergreenUI",
+    "Owners": "aaronparker",
+    "Description": "EvergreenUI and the Evergreen Workbench is WPF graphical frontend for the Evergreen PowerShell module. Provides a Windows-only GUI for Find-EvergreenApp, Get-EvergreenApp, Save-EvergreenApp, and Evergreen library management cmdlets. The Evergreen Workbench also supports packaging apps for Microsoft Intune and Nerdio Manager Shell Apps, and installing apps locally using Evergreen.",
+    "Score": 55,
+    "Published": "2026-06-26T01:12:41.43"
   },
   {
-    "id": "OCI.PSModules.Managedkafka",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Managedkafka Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:12:55.24"
+    "id": "Set-ItemContent",
+    "Owners": "royashbrook",
+    "Description": "Common module for updating item content via Microsoft Graph",
+    "Score": 55,
+    "Published": "2026-06-26T22:26:13.85"
   },
   {
-    "id": "OCI.PSModules.Wlms",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Wlms Service",
-    "Score": 80,
-    "Published": "2026-06-25T05:33:08.66"
+    "id": "RenderKit",
+    "Owners": "Nomarton",
+    "Description": "PowerShell tools for structured video editing project workflows.",
+    "Score": 50,
+    "Published": "2026-06-26T11:27:21.28"
   }
 ]
