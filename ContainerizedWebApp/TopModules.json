@@ -1,72 +1,72 @@
 [
   {
+    "id": "GOV.UK.Notify",
+    "Owners": "deanlongstaff",
+    "Description": "A community PowerShell client for the GOV.UK Notify REST API. Send emails, text messages and letters, attach files, generate template previews, and retrieve message status and inbound text messages. Handles JWT authentication, transient-error retries and rate limiting automatically.",
+    "Score": 80,
+    "Published": "2026-06-28T18:44:38.32"
+  },
+  {
     "id": "Sashimi",
     "Owners": "teramako",
     "Description": "Raw process I/O for PowerShell — execute external commands and handle stdin/stdout/stderr as byte streams.",
     "Score": 80,
-    "Published": "2026-06-27T16:56:14.573"
+    "Published": "2026-06-28T15:01:58.35"
   },
   {
-    "id": "Devdeer.Caf",
-    "Owners": "devdeer-alex",
-    "Description": "This package contains functionality to prepare and manage Microsoft Azure Tenants aligned to Microsoft Cloud Adoption Framework.",
+    "id": "MASES.NavenPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "Naven (.NET suite for Apache Maven™) PowerShell (aka NavenPS) is a PowerShell Module to use Apache Maven™ and PowerShell side-by-side. With NavenPS it is possible to:\r\n- create and use Apache Maven™ objects from PowerShell: initialize Apache Maven™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/Naven for further information.",
     "Score": 80,
-    "Published": "2026-06-27T12:07:09.15"
+    "Published": "2026-06-28T06:09:20.99"
   },
   {
-    "id": "SnippetPredictor",
-    "Owners": "krymtkts",
-    "Description": "A command-line predictor written in F# that suggests code snippets based on the input. This module requires PowerShell 7.2 or higher and PSReadLine 2.2.2. or higher.",
+    "id": "MASES.PLCOnNetPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "PLCOnNet (.NET suite for PLC4X™) PowerShell (aka PLCOnNetPS) is a PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to:\r\n- create and use PLC4X™ objects from PowerShell: initialize PLC4X™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/PLCOnNet for further information.",
+    "Score": 80,
+    "Published": "2026-06-28T05:49:50.203"
+  },
+  {
+    "id": "MASES.NetPDFPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "NetPDF (.NET suite for PDFBox™) PowerShell (aka NetPDFPS) is a PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to:\r\n- create and use PDFBox™ objects from PowerShell: initialize PDFBox™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/NetPDF for further information.",
+    "Score": 80,
+    "Published": "2026-06-28T05:52:22.36"
+  },
+  {
+    "id": "PsBananaUtils",
+    "Owners": "rez23",
+    "Description": "BananaUtils is a collection of utility functions for PowerShell, organized into submodules for miscellaneous utilities, Windows-specific utilities, WSL utilities, Hyper-V utilities, and general PowerShell utilities.",
     "Score": 75,
-    "Published": "2026-06-27T13:58:04.07"
+    "Published": "2026-06-28T03:10:23.153"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-06-28T09:51:17.963"
   },
   {
     "id": "PSTui",
     "Owners": "tkindel",
     "Description": "PowerShell TUI tools: interactive terminal UI cmdlets (Out-ConsoleGridView and Show-ObjectTree) built on Terminal.Gui. The community continuation of Microsoft.PowerShell.ConsoleGuiTools.",
     "Score": 65,
-    "Published": "2026-06-27T19:01:10.787"
-  },
-  {
-    "id": "PiHoleShell",
-    "Owners": "piholeshell",
-    "Description": "A module to interact with the v6 version of PiHole API",
-    "Score": 65,
-    "Published": "2026-06-27T13:13:13.89"
-  },
-  {
-    "id": "PsBananaUtils",
-    "Owners": "rez23",
-    "Description": "BananaUtils is a collection of utility functions for PowerShell, organized into submodules for miscellaneous utilities, Windows-specific utilities, WSL utilities, Hyper-V utilities, and general PowerShell utilities.",
-    "Score": 60,
-    "Published": "2026-06-27T23:26:43.263"
-  },
-  {
-    "id": "视频工坊",
-    "Owners": "Ebola-Chan",
-    "Description": "视频工坊是面向本地视频处理的 PowerShell 工具模块，封装 ffmpeg、ffprobe 和 mkvmerge，提供烧录字幕、DV转HDR10、超级合并三个中文命令。烧录字幕会选取第一个视频轨和指定字幕轨，将文本字幕或常见位图字幕硬烧到画面，视频转 HEVC，音频和其它轨道尽量直接复制。DV转HDR10 使用带 libplacebo 滤镜的 ffmpeg 将 Dolby Vision 片源处理为 BT.2020、PQ、TV range 的 HDR10 HEVC 输出，支持质量参数和短样本测试。超级合并按列表文件或剪贴板顺序合并多个片段；同构轨道优先走 mkvmerge 精剪与 ffmpeg concat 的无损快速路径，异构片段按视频、音频、字幕兼容性选择 copy 或最小化重编码，编码格式允许动态分辨率时尽量保留原始尺寸，必要时才统一分辨率、补静音或补空字幕。适合本地片段整理、字幕硬烧、Dolby Vision 兼容转换和合集封装。依赖 ffmpeg/ffprobe，超级合并还需要 mkvmerge；缺少依赖时相关命令会尝试通过辅助安装脚本补齐。",
-    "Score": 60,
-    "Published": "2026-06-27T13:25:34.037"
+    "Published": "2026-06-28T19:21:03.693"
   },
   {
     "id": "PsBananaUtils.Miscellaneous",
     "Owners": "rez23",
     "Description": "A collection of miscellaneous utility functions for PowerShell.",
-    "Score": 55,
-    "Published": "2026-06-27T23:25:15.11"
+    "Score": 60,
+    "Published": "2026-06-28T04:00:20.91"
   },
   {
-    "id": "MSIXForcelets",
-    "Owners": "Andreas.Nick",
-    "Description": "PowerShell framework for MSIX/AppX packaging and Package Support Framework (PSF) injection: edit captured packages, add/repair PSF fixups, manage shortcuts/services/dependencies, generate assets, sign and publish. Docs: https://msixforcelets.nick-it.de — Source on GitHub: https://github.com/AndreasNick/MSIXForcelets",
-    "Score": 50,
-    "Published": "2026-06-27T08:03:39.873"
-  },
-  {
-    "id": "UncommonSense.Volkskrant",
-    "Owners": "jhoek",
-    "Description": "PowerShell module for listing Volkskrant articles",
-    "Score": 50,
-    "Published": "2026-06-27T08:41:55.41"
+    "id": "rhubarb-geek-nz.PSCPreProcessor",
+    "Owners": "rhubarb-geek-nz",
+    "Description": "Implements C preprocessor as a pipeline allowing direct usage in PowerShell",
+    "Score": 60,
+    "Published": "2026-06-28T08:28:25.583"
   }
 ]
