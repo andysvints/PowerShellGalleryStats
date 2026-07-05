@@ -1,72 +1,72 @@
 [
   {
-    "id": "HPEiLOCmdlets",
-    "Owners": "HPE_Powershell",
-    "Description": "Scripting Tools for Windows PowerShell : iLO Cmdlets uses the RIBCL and Redfish interface to communicate to iLO. These cmdlets can be used to configure and manage iLO on HPE ProLiant Gen10, Gen10 Plus, Gen11 or Gen12 servers. PowerShell cmdlets built on .NET 8. Requires PowerShell 7.4 or later (CoreCLR). Windows PowerShell 5.1 and .NET Framework are not supported.",
+    "id": "GOV.UK.Notify",
+    "Owners": "deanlongstaff",
+    "Description": "A community PowerShell client for the GOV.UK Notify REST API. Send emails, text messages and letters, attach files, generate template previews, and retrieve message status and inbound text messages. Handles JWT authentication, transient-error retries and rate limiting automatically.",
     "Score": 80,
-    "Published": "2026-07-03T12:31:46.607"
+    "Published": "2026-07-04T11:29:21.52"
   },
   {
-    "id": "HPEBIOSCmdlets",
-    "Owners": "HPE_Powershell",
-    "Description": "Scripting Tools for Windows PowerShell : BIOS Cmdlets creates an interface to HPE BIOS ROM-Based Setup Utility (RBSU) or UEFI System Utilities. These cmdlets can be used to configure the BIOS settings on HPE ProLiant servers.",
-    "Score": 80,
-    "Published": "2026-07-03T12:29:16.003"
-  },
-  {
-    "id": "Kritical.Lens.SchemaCompleteness",
-    "Owners": "Sir-J-At-Kritical",
-    "Description": "Kritical Lens — Microsoft365DSC schema-parity proof. Walks the Microsoft365DSC .schema.mof inventory against a target PowerShell module set and proves every resource, every parameter, every AllowedValue is covered with correct type + Mandatory + ValidateSet fidelity. Emits a per-gate verdict plus a machine-readable JSON detail. First public slice of the Kritical Lens family.",
-    "Score": 75,
-    "Published": "2026-07-03T22:41:54.62"
-  },
-  {
-    "id": "Kritical.Lens.ALDependencyMatrix",
-    "Owners": "Sir-J-At-Kritical",
-    "Description": "Kritical Lens — Business Central AL dependency matrix. Walks every .al file in an AL project and reports every external-table reference (Record, RecordRef.Open, TableRelation) grouped by table ID, with per-site file + line + column. Produces the mechanical fix-path list for rip-out programmes (e.g. moving off a third-party connector to a native implementation). Second slice of the Kritical Lens family.",
-    "Score": 75,
-    "Published": "2026-07-03T23:00:09.667"
-  },
-  {
-    "id": "PSGraphKit",
-    "Owners": "martinwelen",
-    "Description": "Curated PowerShell cmdlets for everyday Entra ID / Microsoft Graph administration and reporting. A hand-built, admin-intention layer over the Microsoft Graph SDK. Phase 1: read-only reporting and inventory.",
-    "Score": 75,
-    "Published": "2026-07-03T16:07:11.43"
-  },
-  {
-    "id": "Krit.Hardening",
-    "Owners": "Sir-J-At-Kritical",
-    "Description": "DEPRECATED — Krit.Hardening has been renamed to Kritical.PS.Hardening per Kritical.\\.\\ schema. This shim re-exports the canonical module and emits a one-time deprecation warning. Please migrate: Install-Module Kritical.PS.Hardening + Import-Module Kritical.PS.Hardening. Retirement date 2027-01-01.",
-    "Score": 75,
-    "Published": "2026-07-03T05:53:43.227"
-  },
-  {
-    "id": "Krit.Pax8Mcp",
-    "Owners": "Sir-J-At-Kritical",
-    "Description": "DEPRECATED — Krit.Pax8Mcp has been renamed to Kritical.PS.Pax8Mcp per Kritical.\\.\\ schema. This shim re-exports the canonical module and emits a one-time deprecation warning. Please migrate: Install-Module Kritical.PS.Pax8Mcp + Import-Module Kritical.PS.Pax8Mcp. Retirement date 2027-01-01.",
-    "Score": 75,
-    "Published": "2026-07-03T05:55:44.143"
-  },
-  {
-    "id": "Krit.OmniFramework",
-    "Owners": "Sir-J-At-Kritical",
-    "Description": "DEPRECATED — Krit.OmniFramework has been renamed to Kritical.PS.OmniFramework per Kritical.\\.\\ schema. This shim re-exports the canonical module and emits a one-time deprecation warning. Please migrate: Install-Module Kritical.PS.OmniFramework + Import-Module Kritical.PS.OmniFramework. Retirement date 2027-01-01.",
-    "Score": 75,
-    "Published": "2026-07-03T05:38:36.277"
-  },
-  {
-    "id": "Sabamiso.psm",
+    "id": "Sashimi",
     "Owners": "teramako",
-    "Description": "Native Command Completer",
-    "Score": 75,
-    "Published": "2026-07-03T16:16:17.193"
+    "Description": "Raw process I/O for PowerShell — execute external commands and handle stdin/stdout/stderr as byte streams.",
+    "Score": 80,
+    "Published": "2026-07-04T09:08:47.983"
   },
   {
-    "id": "BridgeWatcher",
-    "Owners": "JCAP",
-    "Description": "Παρακολούθηση κατάστασης γεφυρών Ισθμίας & Ποσειδωνίας, με υποστήριξη OCR και ειδοποιήσεις Pushover.",
+    "id": "PS2EXE.Core",
+    "Owners": "FabienTschanz",
+    "Description": "Compiles Powershell scripts to executables. Overworking of the great script of Ingo Karstein with GUI support.\r\n'Invoke-PS2EXE script.ps1' (or 'ps2exe script.ps1') compiles to script.exe. Several control parameters available.\r\nOr use Win-PS2EXE as a graphical front end to the compiler.",
+    "Score": 80,
+    "Published": "2026-07-04T22:14:50.257"
+  },
+  {
+    "id": "DSInternals",
+    "Owners": "MichaelGrafnetter",
+    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
     "Score": 75,
-    "Published": "2026-07-03T05:29:18.333"
+    "Published": "2026-07-04T12:32:32.577"
+  },
+  {
+    "id": "ServiceNow.API",
+    "Owners": "deanlongstaff",
+    "Description": "The most complete community PowerShell module for the ServiceNow REST API. Automate ServiceNow ITSM, ITOM and CMDB from PowerShell: query and manage records on any table (incident, change, problem, request, CMDB and more), run advanced filters, and work with attachments, batch requests, import sets, aggregates, GraphQL, the Service Catalog, the Knowledge Base, the CMDB Instance API and Change Management. Handles Basic and OAuth authentication with automatic token refresh, rate-limit (HTTP 429) waiting and transient-error (HTTP 5xx) retries. Works on PowerShell 7 and Windows PowerShell 5.1 with no external dependencies.",
+    "Score": 70,
+    "Published": "2026-07-04T20:53:55.92"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-07-04T12:23:53.823"
+  },
+  {
+    "id": "GetFolderTreeView",
+    "Owners": "pr_prakash78",
+    "Description": "This will give you TreeView of your Folder/Directory Structure, Files and their sizes will also be displayed in a Tree Pattern. For Example Get-FolderTreeView -FolderPath 'c:\\temp'",
+    "Score": 65,
+    "Published": "2026-07-04T17:26:58.967"
+  },
+  {
+    "id": "PSMotd",
+    "Owners": "HeyItsGilbert",
+    "Description": "A Message of the Day (MOTD) for your PowerShell profile.",
+    "Score": 65,
+    "Published": "2026-07-04T22:34:49.063"
+  },
+  {
+    "id": "Test-MicrosoftFabricMgmt",
+    "Owners": "SQLDBAWithABeard,jpomfret",
+    "Description": "PowerShell module for managing Microsoft Fabric resources via the Fabric API. Supports workspaces, lakehouses, warehouses, notebooks, and more.",
+    "Score": 60,
+    "Published": "2026-07-04T16:06:13"
+  },
+  {
+    "id": "PowerCraft.Secrets",
+    "Owners": "thecodekitchen",
+    "Description": "Cross-platform secret management for PowerCraft tools. Stores API keys in ~/.powercraft/secrets.json and exposes them via a simple PowerShell API.",
+    "Score": 55,
+    "Published": "2026-07-04T14:31:55.357"
   }
 ]
