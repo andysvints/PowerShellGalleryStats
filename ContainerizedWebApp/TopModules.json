@@ -1,72 +1,72 @@
 [
   {
-    "id": "GOV.UK.Notify",
-    "Owners": "deanlongstaff",
-    "Description": "A community PowerShell client for the GOV.UK Notify REST API. Send emails, text messages and letters, attach files, generate template previews, and retrieve message status and inbound text messages. Handles JWT authentication, transient-error retries and rate limiting automatically.",
-    "Score": 80,
-    "Published": "2026-07-04T11:29:21.52"
-  },
-  {
-    "id": "Sashimi",
-    "Owners": "teramako",
-    "Description": "Raw process I/O for PowerShell — execute external commands and handle stdin/stdout/stderr as byte streams.",
-    "Score": 80,
-    "Published": "2026-07-04T09:08:47.983"
-  },
-  {
-    "id": "PS2EXE.Core",
-    "Owners": "FabienTschanz",
-    "Description": "Compiles Powershell scripts to executables. Overworking of the great script of Ingo Karstein with GUI support.\r\n'Invoke-PS2EXE script.ps1' (or 'ps2exe script.ps1') compiles to script.exe. Several control parameters available.\r\nOr use Win-PS2EXE as a graphical front end to the compiler.",
-    "Score": 80,
-    "Published": "2026-07-04T22:14:50.257"
-  },
-  {
-    "id": "DSInternals",
-    "Owners": "MichaelGrafnetter",
-    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
+    "id": "PSRecoveryPartition",
+    "Owners": "GraceSolutions",
+    "Description": "PowerShell module for managing Windows recovery partitions, Windows Recovery Environment, and recovery boot entries. Uses native Win32 IOCTLs and P/Invokes (no dependency on the in-box Storage module / MSFT_* CIM classes); controlled Microsoft inbox process fallback (reagentc, bcdedit, diskpart for the MBR 0x27 type byte) is used only where required.",
     "Score": 75,
-    "Published": "2026-07-04T12:32:32.577"
+    "Published": "2026-07-05T18:38:55.24"
+  },
+  {
+    "id": "GenXdev.Coding",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module that helps being more productive with coding tasks.",
+    "Score": 75,
+    "Published": "2026-07-05T16:06:44.793"
+  },
+  {
+    "id": "GenXdev.Data",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module with helpers for working with data and databases",
+    "Score": 75,
+    "Published": "2026-07-05T15:58:54.33"
+  },
+  {
+    "id": "GenXdev",
+    "Owners": "genXdev",
+    "Description": "GenXdev PowerShell Utilities and helpers",
+    "Score": 75,
+    "Published": "2026-07-05T16:08:09.053"
+  },
+  {
+    "id": "msix",
+    "Owners": "sanderdewit",
+    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, PSADT-style standard scripts, TMEditX-style heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
+    "Score": 75,
+    "Published": "2026-07-05T20:47:29.987"
   },
   {
     "id": "ServiceNow.API",
     "Owners": "deanlongstaff",
     "Description": "The most complete community PowerShell module for the ServiceNow REST API. Automate ServiceNow ITSM, ITOM and CMDB from PowerShell: query and manage records on any table (incident, change, problem, request, CMDB and more), run advanced filters, and work with attachments, batch requests, import sets, aggregates, GraphQL, the Service Catalog, the Knowledge Base, the CMDB Instance API and Change Management. Handles Basic and OAuth authentication with automatic token refresh, rate-limit (HTTP 429) waiting and transient-error (HTTP 5xx) retries. Works on PowerShell 7 and Windows PowerShell 5.1 with no external dependencies.",
     "Score": 70,
-    "Published": "2026-07-04T20:53:55.92"
+    "Published": "2026-07-05T10:37:36.187"
   },
   {
     "id": "PSPublishModule",
     "Owners": "Przemyslaw.Klys",
     "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
     "Score": 70,
-    "Published": "2026-07-04T12:23:53.823"
+    "Published": "2026-07-05T16:30:28.217"
   },
   {
-    "id": "GetFolderTreeView",
-    "Owners": "pr_prakash78",
-    "Description": "This will give you TreeView of your Folder/Directory Structure, Files and their sizes will also be displayed in a Tree Pattern. For Example Get-FolderTreeView -FolderPath 'c:\\temp'",
+    "id": "PSParseHTML",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
+    "Score": 70,
+    "Published": "2026-07-05T10:53:06.7"
+  },
+  {
+    "id": "GenXdev.Webbrowser",
+    "Owners": "genXdev",
+    "Description": "A Windows PowerShell module that allows you to run scripts against your casual desktop webbrowser-tab",
+    "Score": 70,
+    "Published": "2026-07-05T16:01:26.897"
+  },
+  {
+    "id": "Repair-SharePointNames",
+    "Owners": "TrogdorTheMan",
+    "Description": "Cleans up file and folder names that block a SharePoint Migration Tool\n(SPMT) migration of Windows file shares to SharePoint Online. Feed it a\nconsolidated migration-warnings.csv exported from SPMT assessment scan\nlogs and it repairs every item SPMT flagged as INVALID_SHAREPOINT_NAME\nunder the root you specify. It never scans the filesystem on its own, so\nonly items SPMT actually flagged are touched.\n\nTemp/system files (Office lock files, desktop.ini, InDesign lock files) are\nmoved to a quarantine folder, preserving their relative folder structure,\nrather than deleted. All other flagged items are renamed, replacing\ncharacters SharePoint Online does not allow (\" * : < > ? / \\ |) with '-'.\n\nEntries are processed deepest-path-first so a flagged folder is never\nrenamed before the flagged items inside it are handled. If a cleaned name\ncollides with an existing item, a numeric suffix is appended, e.g.\n\"report (2).txt\". Quarantine moves never overwrite: an existing quarantined\nfile at the same relative path also gets a numeric suffix. Every attempted\nchange is recorded in a transaction log CSV (see -LogPath), giving an\naudit trail and a manual undo path.\n\nQuick start:\n  1. Run an SPMT assessment scan, export the scan logs, and consolidate\n     the INVALID_SHAREPOINT_NAME rows into migration-warnings.csv.\n  2. Preview: .\\Repair-SharePointNames.ps1 -CsvPath .\\migration-warnings.csv\n     -RootPath \\\\server\\share\\HR -QuarantinePath C:\\SPMigration\\Quarantine -WhatIf\n  3. Repair: the same command without -WhatIf, then re-run the SPMT scan\n     to confirm the warnings are gone.\n\nFull documentation, a sample warnings CSV, and the changelog:\nhttps://github.com/TrogdorTheMan/Repair-SharePointNames\n\n",
     "Score": 65,
-    "Published": "2026-07-04T17:26:58.967"
-  },
-  {
-    "id": "PSMotd",
-    "Owners": "HeyItsGilbert",
-    "Description": "A Message of the Day (MOTD) for your PowerShell profile.",
-    "Score": 65,
-    "Published": "2026-07-04T22:34:49.063"
-  },
-  {
-    "id": "Test-MicrosoftFabricMgmt",
-    "Owners": "SQLDBAWithABeard,jpomfret",
-    "Description": "PowerShell module for managing Microsoft Fabric resources via the Fabric API. Supports workspaces, lakehouses, warehouses, notebooks, and more.",
-    "Score": 60,
-    "Published": "2026-07-04T16:06:13"
-  },
-  {
-    "id": "PowerCraft.Secrets",
-    "Owners": "thecodekitchen",
-    "Description": "Cross-platform secret management for PowerCraft tools. Stores API keys in ~/.powercraft/secrets.json and exposes them via a simple PowerShell API.",
-    "Score": 55,
-    "Published": "2026-07-04T14:31:55.357"
+    "Published": "2026-07-06T00:24:27.19"
   }
 ]
