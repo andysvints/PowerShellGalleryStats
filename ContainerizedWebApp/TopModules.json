@@ -1,72 +1,72 @@
 [
   {
+    "id": "Viscalyx.Common",
+    "Owners": "JohanLjunggren",
+    "Description": "Common commands that adds or improves functionality in various scenarios.",
+    "Score": 80,
+    "Published": "2026-07-06T12:59:19.15"
+  },
+  {
+    "id": "PowerBGInfo",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerBGInfo is a module that allows you to create background images with information about your environment.",
+    "Score": 80,
+    "Published": "2026-07-06T13:40:00.037"
+  },
+  {
+    "id": "PesterConverter",
+    "Owners": "JohanLjunggren",
+    "Description": "Commands to convert Pester tests.",
+    "Score": 75,
+    "Published": "2026-07-06T12:24:52.46"
+  },
+  {
     "id": "PSRecoveryPartition",
     "Owners": "GraceSolutions",
     "Description": "PowerShell module for managing Windows recovery partitions, Windows Recovery Environment, and recovery boot entries. Uses native Win32 IOCTLs and P/Invokes (no dependency on the in-box Storage module / MSFT_* CIM classes); controlled Microsoft inbox process fallback (reagentc, bcdedit, diskpart for the MBR 0x27 type byte) is used only where required.",
     "Score": 75,
-    "Published": "2026-07-05T18:38:55.24"
-  },
-  {
-    "id": "GenXdev.Coding",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that helps being more productive with coding tasks.",
-    "Score": 75,
-    "Published": "2026-07-05T16:06:44.793"
-  },
-  {
-    "id": "GenXdev.Data",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module with helpers for working with data and databases",
-    "Score": 75,
-    "Published": "2026-07-05T15:58:54.33"
-  },
-  {
-    "id": "GenXdev",
-    "Owners": "genXdev",
-    "Description": "GenXdev PowerShell Utilities and helpers",
-    "Score": 75,
-    "Published": "2026-07-05T16:08:09.053"
+    "Published": "2026-07-06T16:16:59.947"
   },
   {
     "id": "msix",
     "Owners": "sanderdewit",
-    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, PSADT-style standard scripts, TMEditX-style heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
+    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, deployment-script templates, heuristic heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
     "Score": 75,
-    "Published": "2026-07-05T20:47:29.987"
+    "Published": "2026-07-06T09:16:02.127"
   },
   {
-    "id": "ServiceNow.API",
-    "Owners": "deanlongstaff",
-    "Description": "The most complete community PowerShell module for the ServiceNow REST API. Automate ServiceNow ITSM, ITOM and CMDB from PowerShell: query and manage records on any table (incident, change, problem, request, CMDB and more), run advanced filters, and work with attachments, batch requests, import sets, aggregates, GraphQL, the Service Catalog, the Knowledge Base, the CMDB Instance API and Change Management. Handles Basic and OAuth authentication with automatic token refresh, rate-limit (HTTP 429) waiting and transient-error (HTTP 5xx) retries. Works on PowerShell 7 and Windows PowerShell 5.1 with no external dependencies.",
+    "id": "InvokeBuildHelper",
+    "Owners": "claudiospizzi",
+    "Description": "Common build tasks for the Invoke-Build PowerShell module.",
+    "Score": 75,
+    "Published": "2026-07-06T21:31:14.117"
+  },
+  {
+    "id": "Belin.Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
     "Score": 70,
-    "Published": "2026-07-05T10:37:36.187"
+    "Published": "2026-07-06T13:38:27.7"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "id": "SecurityFever",
+    "Owners": "claudiospizzi",
+    "Description": "PowerShell Module with custom functions and cmdlets related to Windows and application security.",
     "Score": 70,
-    "Published": "2026-07-05T16:30:28.217"
+    "Published": "2026-07-06T21:27:04.2"
   },
   {
-    "id": "PSParseHTML",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
-    "Score": 70,
-    "Published": "2026-07-05T10:53:06.7"
-  },
-  {
-    "id": "GenXdev.Webbrowser",
-    "Owners": "genXdev",
-    "Description": "A Windows PowerShell module that allows you to run scripts against your casual desktop webbrowser-tab",
-    "Score": 70,
-    "Published": "2026-07-05T16:01:26.897"
-  },
-  {
-    "id": "Repair-SharePointNames",
-    "Owners": "TrogdorTheMan",
-    "Description": "Cleans up file and folder names that block a SharePoint Migration Tool\n(SPMT) migration of Windows file shares to SharePoint Online. Feed it a\nconsolidated migration-warnings.csv exported from SPMT assessment scan\nlogs and it repairs every item SPMT flagged as INVALID_SHAREPOINT_NAME\nunder the root you specify. It never scans the filesystem on its own, so\nonly items SPMT actually flagged are touched.\n\nTemp/system files (Office lock files, desktop.ini, InDesign lock files) are\nmoved to a quarantine folder, preserving their relative folder structure,\nrather than deleted. All other flagged items are renamed, replacing\ncharacters SharePoint Online does not allow (\" * : < > ? / \\ |) with '-'.\n\nEntries are processed deepest-path-first so a flagged folder is never\nrenamed before the flagged items inside it are handled. If a cleaned name\ncollides with an existing item, a numeric suffix is appended, e.g.\n\"report (2).txt\". Quarantine moves never overwrite: an existing quarantined\nfile at the same relative path also gets a numeric suffix. Every attempted\nchange is recorded in a transaction log CSV (see -LogPath), giving an\naudit trail and a manual undo path.\n\nQuick start:\n  1. Run an SPMT assessment scan, export the scan logs, and consolidate\n     the INVALID_SHAREPOINT_NAME rows into migration-warnings.csv.\n  2. Preview: .\\Repair-SharePointNames.ps1 -CsvPath .\\migration-warnings.csv\n     -RootPath \\\\server\\share\\HR -QuarantinePath C:\\SPMigration\\Quarantine -WhatIf\n  3. Repair: the same command without -WhatIf, then re-run the SPMT scan\n     to confirm the warnings are gone.\n\nFull documentation, a sample warnings CSV, and the changelog:\nhttps://github.com/TrogdorTheMan/Repair-SharePointNames\n\n",
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
     "Score": 65,
-    "Published": "2026-07-06T00:24:27.19"
+    "Published": "2026-07-06T13:50:07.473"
+  },
+  {
+    "id": "SshImportId",
+    "Owners": "PhoenixChen",
+    "Description": "PowerShell re-implementation of ssh-import-id: import SSH public keys from GitHub, GitLab, Launchpad, or a custom source into a local authorized_keys file.",
+    "Score": 60,
+    "Published": "2026-07-06T03:22:41.16"
   }
 ]
