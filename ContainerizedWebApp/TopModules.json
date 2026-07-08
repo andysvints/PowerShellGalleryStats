@@ -1,72 +1,72 @@
 [
   {
-    "id": "Viscalyx.Common",
-    "Owners": "JohanLjunggren",
-    "Description": "Common commands that adds or improves functionality in various scenarios.",
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2026-07-07T16:54:25.583"
+  },
+  {
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2026-07-07T17:51:17.46"
+  },
+  {
+    "id": "OCI.PSModules.Generativeaidata",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
     "Score": 80,
-    "Published": "2026-07-06T12:59:19.15"
+    "Published": "2026-07-07T17:12:14.203"
   },
   {
-    "id": "PowerBGInfo",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerBGInfo is a module that allows you to create background images with information about your environment.",
+    "id": "OCI.PSModules.Containerregistry",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
     "Score": 80,
-    "Published": "2026-07-06T13:40:00.037"
+    "Published": "2026-07-07T17:05:06.043"
   },
   {
-    "id": "PesterConverter",
-    "Owners": "JohanLjunggren",
-    "Description": "Commands to convert Pester tests.",
-    "Score": 75,
-    "Published": "2026-07-06T12:24:52.46"
+    "id": "OCI.PSModules.Limitsincrease",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
+    "Score": 80,
+    "Published": "2026-07-07T17:14:28.02"
   },
   {
-    "id": "PSRecoveryPartition",
-    "Owners": "GraceSolutions",
-    "Description": "PowerShell module for managing Windows recovery partitions, Windows Recovery Environment, and recovery boot entries. Uses native Win32 IOCTLs and P/Invokes (no dependency on the in-box Storage module / MSFT_* CIM classes); controlled Microsoft inbox process fallback (reagentc, bcdedit, diskpart for the MBR 0x27 type byte) is used only where required.",
-    "Score": 75,
-    "Published": "2026-07-06T16:16:59.947"
+    "id": "OCI.PSModules.Gdp",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Gdp Service",
+    "Score": 80,
+    "Published": "2026-07-07T17:11:42.157"
   },
   {
-    "id": "msix",
-    "Owners": "sanderdewit",
-    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, deployment-script templates, heuristic heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
-    "Score": 75,
-    "Published": "2026-07-06T09:16:02.127"
+    "id": "OCI.PSModules.Batch",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "Score": 80,
+    "Published": "2026-07-07T17:02:07.497"
   },
   {
-    "id": "InvokeBuildHelper",
-    "Owners": "claudiospizzi",
-    "Description": "Common build tasks for the Invoke-Build PowerShell module.",
-    "Score": 75,
-    "Published": "2026-07-06T21:31:14.117"
+    "id": "OCI.PSModules.Dif",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "Score": 80,
+    "Published": "2026-07-07T17:08:53.073"
   },
   {
-    "id": "Belin.Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
-    "Score": 70,
-    "Published": "2026-07-06T13:38:27.7"
+    "id": "OCI.PSModules.Iot",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Iot Service",
+    "Score": 80,
+    "Published": "2026-07-07T17:13:35.17"
   },
   {
-    "id": "SecurityFever",
-    "Owners": "claudiospizzi",
-    "Description": "PowerShell Module with custom functions and cmdlets related to Windows and application security.",
-    "Score": 70,
-    "Published": "2026-07-06T21:27:04.2"
-  },
-  {
-    "id": "IntuneHydrationKit",
-    "Owners": "jorgeasaurus",
-    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
-    "Score": 65,
-    "Published": "2026-07-06T13:50:07.473"
-  },
-  {
-    "id": "SshImportId",
-    "Owners": "PhoenixChen",
-    "Description": "PowerShell re-implementation of ssh-import-id: import SSH public keys from GitHub, GitLab, Launchpad, or a custom source into a local authorized_keys file.",
-    "Score": 60,
-    "Published": "2026-07-06T03:22:41.16"
+    "id": "OCI.PSModules.Jmsutils",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
+    "Score": 80,
+    "Published": "2026-07-07T17:13:57.74"
   }
 ]
