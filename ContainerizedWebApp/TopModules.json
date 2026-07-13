@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSDODownloader",
-    "Owners": "pl4nty",
-    "Description": "PowerShell client for Delivery Optimization on Windows",
+    "id": "hl7tools",
+    "Owners": "RobHolme",
+    "Description": "Powershell module for analysing and editing HL7 v2.x files",
     "Score": 80,
-    "Published": "2026-07-11T09:49:28.29"
+    "Published": "2026-07-12T03:45:58.18"
   },
   {
-    "id": "pocof",
-    "Owners": "krymtkts",
-    "Description": "An interactive pipeline filtering Cmdlet for PowerShell written in F#. A fork of poco which is a PowerShell port of peco.",
-    "Score": 80,
-    "Published": "2026-07-11T02:37:59.343"
-  },
-  {
-    "id": "PSRecoveryPartition",
-    "Owners": "GraceSolutions",
-    "Description": "PowerShell module for managing Windows recovery partitions, Windows Recovery Environment, and recovery boot entries. Uses native Win32 IOCTLs and P/Invokes (no dependency on the in-box Storage module / MSFT_* CIM classes); controlled Microsoft inbox process fallback (reagentc, bcdedit, diskpart for the MBR 0x27 type byte) is used only where required.",
-    "Score": 75,
-    "Published": "2026-07-11T01:34:36.483"
-  },
-  {
-    "id": "XlsxCommand",
-    "Owners": "MarcoDorantes",
-    "Description": "XlsxCommand - CmdLets for PowerShell v7 to read/write Excel Workbook (XLSX) files.",
-    "Score": 75,
-    "Published": "2026-07-11T13:30:26.643"
-  },
-  {
-    "id": "PSGameOfLife",
-    "Owners": "krymtkts",
-    "Description": "Interactive Conway's Game of Life module for PowerShell, written in F#. Simulates the Game of Life in your terminal with customizable settings.",
-    "Score": 75,
-    "Published": "2026-07-11T05:20:20.98"
-  },
-  {
-    "id": "ScrewCitySoftware.PwshProfile",
-    "Owners": "screwcitysoftware",
-    "Description": "Reusable building blocks for PowerShell profile startup: timed startup steps, safe module imports, PSReadLine setup, and CLI tool enablers (git, oh-my-posh, zoxide, fzf/PSFzf, fnm, xh, jq, bat, fd, less, lazygit).",
-    "Score": 70,
-    "Published": "2026-07-11T02:48:15.843"
-  },
-  {
-    "id": "CopilotCmdlets",
-    "Owners": "benapple",
-    "Description": "PowerShell Cmdlets for the GitHub Copilot SDK",
-    "Score": 70,
-    "Published": "2026-07-11T19:50:58.843"
-  },
-  {
-    "id": "Template-PSModule",
+    "id": "GoogleFonts",
     "Owners": "PSModule.io",
-    "Description": "Template for a PowerShell module repo.",
-    "Score": 70,
-    "Published": "2026-07-11T16:00:19.663"
+    "Description": "A PowerShell module to download and install fonts from GoogleFonts.",
+    "Score": 75,
+    "Published": "2026-07-12T19:04:08.133"
   },
   {
     "id": "PSPublishModule",
     "Owners": "Przemyslaw.Klys",
     "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
     "Score": 70,
-    "Published": "2026-07-11T15:54:31.86"
+    "Published": "2026-07-12T12:18:39.55"
   },
   {
-    "id": "DicomTools",
-    "Owners": "RobHolme",
-    "Description": "Powershell module for DICOM testing. Uses fo-dicom library",
+    "id": "PSParseHTML",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
     "Score": 70,
-    "Published": "2026-07-11T09:25:43.387"
+    "Published": "2026-07-12T10:02:42.727"
+  },
+  {
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 65,
+    "Published": "2026-07-12T23:44:25.013"
+  },
+  {
+    "id": "Evergreen",
+    "Owners": "aaronparker",
+    "Description": "Create evergreen Windows image builds with the latest versions of applications. Evergreen is a simple PowerShell module that retrieves the latest version numbers and download URLs for various software products directly from the vendor source.",
+    "Score": 65,
+    "Published": "2026-07-12T03:27:37.527"
+  },
+  {
+    "id": "DbaClientX",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project to query Sql Server and other databases using PowerShell",
+    "Score": 65,
+    "Published": "2026-07-12T08:30:51.707"
+  },
+  {
+    "id": "rhubarb-geek-nz.TypeCast",
+    "Owners": "rhubarb-geek-nz",
+    "Description": "System.Text.Encoding Cmdlets for PowerShell",
+    "Score": 50,
+    "Published": "2026-07-12T06:04:10.437"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
+    "Score": 50,
+    "Published": "2026-07-12T08:32:33.577"
+  },
+  {
+    "id": "easypeasy",
+    "Owners": "igorakkerman",
+    "Description": "Collection of utility functions and aliases to simplify and automate common tasks in Windows environments.",
+    "Score": 50,
+    "Published": "2026-07-12T22:19:44.733"
   }
 ]
