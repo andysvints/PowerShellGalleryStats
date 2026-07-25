@@ -4,69 +4,69 @@
     "Owners": "xGreeny",
     "Description": "Creates a permission matrix for a single SharePoint Online site or all sites of a tenant and renders it as a self-contained, interactive HTML report. Resolves group members transitively (including nested Entra ID groups), distinguishes inherited from unique permissions and flags sharing-link groups.",
     "Score": 80,
-    "Published": "2026-07-23T16:15:57.233"
+    "Published": "2026-07-24T06:25:49.203"
   },
   {
-    "id": "Toml",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to manage conversion of Toml to objects and objects to Toml",
-    "Score": 80,
-    "Published": "2026-07-23T15:57:32.603"
-  },
-  {
-    "id": "PSAutoRBAC",
-    "Owners": "pgallucci-MSFT",
-    "Description": "Live, least-privilege RBAC discovery and assignment for Microsoft cloud provisioning. Probes across Azure, Microsoft Graph (Entra), Microsoft Fabric, and Microsoft Purview via a per-platform provider model - resolving each platform with its best primitive (ARM checkAccess / AuthorizationFailed parsing, Find-MgGraphCommand, Fabric workspace roles, Purview metadata policies) - tests whether a caller holds the needed roles, and generates idempotent grant/revoke snippets under Zero Trust principles. Also identifies the guardrails (Azure Policy deny, deny assignments, resource locks, Entra Conditional Access, PIM, Microsoft Defender for Cloud, Microsoft Sentinel, Azure Firewall, and NSGs) that can block the action or the role assignment even when RBAC is satisfied.",
+    "id": "Detextive",
+    "Owners": "brianary",
+    "Description": "Investigates data to determine what the textual characteristics are.",
     "Score": 75,
-    "Published": "2026-07-23T17:53:50.847"
+    "Published": "2026-07-24T23:30:58.047"
   },
   {
-    "id": "AWS.Tools.ConnectHealth",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The ConnectHealth module of AWS Tools for PowerShell lets developers and administrators manage Connect Health from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:32:13.057"
+    "id": "SqlRecycleBin",
+    "Owners": "qmmughal",
+    "Description": "PowerShell cmdlets for SQL RecycleBin — a trigger-based recycle bin for SQL Server. Install it, capture DELETE/UPDATE on a table, and undo accidents with one command, from the pipeline. Requires the SqlServer module (Invoke-Sqlcmd).",
+    "Score": 70,
+    "Published": "2026-07-24T11:37:25.917"
   },
   {
-    "id": "AWS.Tools.ComputeOptimizerAutomation",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The ComputeOptimizerAutomation module of AWS Tools for PowerShell lets developers and administrators manage Compute Optimizer Automation Service from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:30:37.98"
+    "id": "CertWatchtower",
+    "Owners": "xGreeny",
+    "Description": "Fleet-wide, agentless watch over your internal PKI: expiring LDAPS/RDP/IIS/service certs, ADCS CA health, and CRL reachability - RMM-ready with clean exit codes. Includes multi-tenant fleet scanning, JSON snapshots, trend diffs and a self-contained HTML report.",
+    "Score": 70,
+    "Published": "2026-07-24T10:18:26.893"
   },
   {
-    "id": "AWS.Tools.BCMDashboards",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:31:49.78"
+    "id": "IntuneCertificateConnectorDiagnostics",
+    "Owners": "LeonZhu",
+    "Description": "Read-only validation of Microsoft Intune Certificate Connector and NDES/SCEP prerequisites.\r\n\r\nQuick start:\r\n1. Install: Install-Module IntuneCertificateConnectorDiagnostics\r\n2. Open elevated Windows PowerShell on the connector/NDES server.\r\n3. Run: Test-IntuneCertificateConnector\r\n4. Review PASS, PASS-WITH-WARNINGS, or FAIL and the suggested remediation.\r\n5. Add -CollectLogs to create a troubleshooting ZIP when needed.\r\n6. Add -PassThru to return a structured report for automation.\r\n\r\nChecks cover Windows and IIS roles, service accounts, certificates, registry configuration, event logs, proxy, DNS, TLS trust, revocation, service-locator connectivity, and automatic updates.\r\n\r\nAcknowledgement: Thanks to Jerry Abouelnasr for the feature-detection idea.",
+    "Score": 70,
+    "Published": "2026-07-24T01:37:22.503"
   },
   {
-    "id": "AWS.Tools.BCMRecommendedActions",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:32:25.383"
+    "id": "PsBundler",
+    "Owners": "Krinopotam",
+    "Description": "A PowerShell bundler that merges multiple script files into a single bundle file.",
+    "Score": 70,
+    "Published": "2026-07-24T22:26:02.843"
   },
   {
-    "id": "AWS.Tools.ARCRegionswitch",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:32:31.123"
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 65,
+    "Published": "2026-07-24T02:11:21.993"
   },
   {
-    "id": "AWS.Tools.BedrockAgentCoreControl",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock Agent Core Control Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:30:36.01"
+    "id": "PSDataRepository.Providers.SharePointOnline",
+    "Owners": "ondrej",
+    "Description": "SharePoint Online / Microsoft Teams document library storage provider extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Providers.SharePointOnline.",
+    "Score": 60,
+    "Published": "2026-07-24T21:15:47.137"
   },
   {
-    "id": "AWS.Tools.BedrockAgentCore",
-    "Owners": "aws-dotnet-sdk-team",
-    "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Data Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
-    "Score": 75,
-    "Published": "2026-07-23T19:31:16.477"
+    "id": "PSDataRepository.Formatters.Xlsx",
+    "Owners": "ondrej",
+    "Description": "Microsoft Excel (.xlsx) formatter extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Formatters.Xlsx.",
+    "Score": 60,
+    "Published": "2026-07-24T20:56:21.163"
+  },
+  {
+    "id": "HardeningLens",
+    "Owners": "xGreeny",
+    "Description": "Read-only Windows security posture, baseline, exception, and configuration drift assessment.",
+    "Score": 55,
+    "Published": "2026-07-24T11:41:14.833"
   }
 ]
