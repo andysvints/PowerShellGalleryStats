@@ -1,72 +1,72 @@
 [
   {
-    "id": "SPPermissionMatrix",
-    "Owners": "xGreeny",
-    "Description": "Creates a permission matrix for a single SharePoint Online site or all sites of a tenant and renders it as a self-contained, interactive HTML report. Resolves group members transitively (including nested Entra ID groups), distinguishes inherited from unique permissions and flags sharing-link groups.",
+    "id": "Template-PSModule",
+    "Owners": "PSModule.io",
+    "Description": "Template for a PowerShell module repo.",
     "Score": 80,
-    "Published": "2026-07-24T06:25:49.203"
+    "Published": "2026-07-25T16:32:53.11"
   },
   {
-    "id": "Detextive",
+    "id": "SelectHtml",
     "Owners": "brianary",
-    "Description": "Investigates data to determine what the textual characteristics are.",
+    "Description": "Extracts content from an HTML document using an XPath expression.",
+    "Score": 80,
+    "Published": "2026-07-25T22:18:21.853"
+  },
+  {
+    "id": "Pretendpoint",
+    "Owners": "brianary",
+    "Description": "Pretend Endpoint, the disposable web server.\r\nA set of PowerShell cmdlets to create an HTTP test server/endpoint for inspecting or debugging client requests.",
+    "Score": 80,
+    "Published": "2026-07-25T04:22:42.18"
+  },
+  {
+    "id": "LithnetRMA",
+    "Owners": "ryannewington",
+    "Description": "PowerShell module for managing resources in the Microsoft Identity Manager (MIM) and Forefront Identity Manager (FIM) service. Runs on Windows PowerShell 5.1 and PowerShell 7.",
+    "Score": 80,
+    "Published": "2026-07-25T11:25:46.403"
+  },
+  {
+    "id": "SelectXmlExtensions",
+    "Owners": "brianary",
+    "Description": "PowerShell cmdlets that Select-Xml can compose into pipelines",
     "Score": 75,
-    "Published": "2026-07-24T23:30:58.047"
+    "Published": "2026-07-25T22:37:07.233"
   },
   {
-    "id": "SqlRecycleBin",
-    "Owners": "qmmughal",
-    "Description": "PowerShell cmdlets for SQL RecycleBin — a trigger-based recycle bin for SQL Server. Install it, capture DELETE/UPDATE on a table, and undo accidents with one command, from the pipeline. Requires the SqlServer module (Invoke-Sqlcmd).",
+    "id": "PowerShellProtect",
+    "Owners": "adamdriscoll",
+    "Description": "Audit and block PowerShell scripts on Windows machines.",
+    "Score": 75,
+    "Published": "2026-07-25T13:58:30.83"
+  },
+  {
+    "id": "EndpointForge",
+    "Owners": "LoganBamborough",
+    "Description": "User-friendly, enterprise-safe Windows computer checkups with guided menus, plain-language findings, guarded fix previews, comparisons, fleet checks, and self-contained reports.",
     "Score": 70,
-    "Published": "2026-07-24T11:37:25.917"
+    "Published": "2026-07-25T03:58:35.643"
   },
   {
-    "id": "CertWatchtower",
-    "Owners": "xGreeny",
-    "Description": "Fleet-wide, agentless watch over your internal PKI: expiring LDAPS/RDP/IIS/service certs, ADCS CA health, and CRL reachability - RMM-ready with clean exit codes. Includes multi-tenant fleet scanning, JSON snapshots, trend diffs and a self-contained HTML report.",
-    "Score": 70,
-    "Published": "2026-07-24T10:18:26.893"
-  },
-  {
-    "id": "IntuneCertificateConnectorDiagnostics",
-    "Owners": "LeonZhu",
-    "Description": "Read-only validation of Microsoft Intune Certificate Connector and NDES/SCEP prerequisites.\r\n\r\nQuick start:\r\n1. Install: Install-Module IntuneCertificateConnectorDiagnostics\r\n2. Open elevated Windows PowerShell on the connector/NDES server.\r\n3. Run: Test-IntuneCertificateConnector\r\n4. Review PASS, PASS-WITH-WARNINGS, or FAIL and the suggested remediation.\r\n5. Add -CollectLogs to create a troubleshooting ZIP when needed.\r\n6. Add -PassThru to return a structured report for automation.\r\n\r\nChecks cover Windows and IIS roles, service accounts, certificates, registry configuration, event logs, proxy, DNS, TLS trust, revocation, service-locator connectivity, and automatic updates.\r\n\r\nAcknowledgement: Thanks to Jerry Abouelnasr for the feature-detection idea.",
-    "Score": 70,
-    "Published": "2026-07-24T01:37:22.503"
-  },
-  {
-    "id": "PsBundler",
-    "Owners": "Krinopotam",
-    "Description": "A PowerShell bundler that merges multiple script files into a single bundle file.",
-    "Score": 70,
-    "Published": "2026-07-24T22:26:02.843"
-  },
-  {
-    "id": "IntuneHydrationKit",
-    "Owners": "jorgeasaurus",
-    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
-    "Score": 65,
-    "Published": "2026-07-24T02:11:21.993"
-  },
-  {
-    "id": "PSDataRepository.Providers.SharePointOnline",
+    "id": "PSDataRepository",
     "Owners": "ondrej",
-    "Description": "SharePoint Online / Microsoft Teams document library storage provider extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Providers.SharePointOnline.",
-    "Score": 60,
-    "Published": "2026-07-24T21:15:47.137"
+    "Description": "A PowerShell module for working with data repositories (FileSystem, AzureBlob, AzureQueue, AzureKeyVault, etc.) in a session-based approach.",
+    "Score": 70,
+    "Published": "2026-07-25T08:54:33.517"
   },
   {
     "id": "PSDataRepository.Formatters.Xlsx",
     "Owners": "ondrej",
     "Description": "Microsoft Excel (.xlsx) formatter extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Formatters.Xlsx.",
     "Score": 60,
-    "Published": "2026-07-24T20:56:21.163"
+    "Published": "2026-07-25T09:11:53.85"
   },
   {
-    "id": "HardeningLens",
-    "Owners": "xGreeny",
-    "Description": "Read-only Windows security posture, baseline, exception, and configuration drift assessment.",
+    "id": "Gallery发布",
+    "Owners": "Ebola-Chan",
+    "Description": "使用 Export-Clixml 将 PSGallery API 密钥加密保存到用户目录（Windows DPAPI，仅本机当前用户可解密）。\n首次运行提示输入密钥并保存，后续运行自动读取，实现一键发布。密钥文件存储在 %APPDATA%\\PSGallery\\.apikey，与项目目录无关。\n",
     "Score": 55,
-    "Published": "2026-07-24T11:41:14.833"
+    "Published": "2026-07-25T05:34:14.103"
   }
 ]
