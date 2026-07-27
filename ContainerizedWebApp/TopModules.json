@@ -1,72 +1,72 @@
 [
   {
-    "id": "Template-PSModule",
-    "Owners": "PSModule.io",
-    "Description": "Template for a PowerShell module repo.",
-    "Score": 80,
-    "Published": "2026-07-25T16:32:53.11"
+    "id": "PackageUpdateInfo",
+    "Owners": "AndiBellstedt",
+    "Description": "Module to version check all installed modules. Helps to stay up-to-date with further developing on modules in the community",
+    "Score": 85,
+    "Published": "2026-07-26T11:42:55.867"
   },
   {
-    "id": "SelectHtml",
-    "Owners": "brianary",
-    "Description": "Extracts content from an HTML document using an XPath expression.",
-    "Score": 80,
-    "Published": "2026-07-25T22:18:21.853"
-  },
-  {
-    "id": "Pretendpoint",
-    "Owners": "brianary",
-    "Description": "Pretend Endpoint, the disposable web server.\r\nA set of PowerShell cmdlets to create an HTTP test server/endpoint for inspecting or debugging client requests.",
-    "Score": 80,
-    "Published": "2026-07-25T04:22:42.18"
-  },
-  {
-    "id": "LithnetRMA",
-    "Owners": "ryannewington",
-    "Description": "PowerShell module for managing resources in the Microsoft Identity Manager (MIM) and Forefront Identity Manager (FIM) service. Runs on Windows PowerShell 5.1 and PowerShell 7.",
-    "Score": 80,
-    "Published": "2026-07-25T11:25:46.403"
-  },
-  {
-    "id": "SelectXmlExtensions",
-    "Owners": "brianary",
-    "Description": "PowerShell cmdlets that Select-Xml can compose into pipelines",
-    "Score": 75,
-    "Published": "2026-07-25T22:37:07.233"
-  },
-  {
-    "id": "PowerShellProtect",
-    "Owners": "adamdriscoll",
-    "Description": "Audit and block PowerShell scripts on Windows machines.",
-    "Score": 75,
-    "Published": "2026-07-25T13:58:30.83"
-  },
-  {
-    "id": "EndpointForge",
-    "Owners": "LoganBamborough",
-    "Description": "User-friendly, enterprise-safe Windows computer checkups with guided menus, plain-language findings, guarded fix previews, comparisons, fleet checks, and self-contained reports.",
-    "Score": 70,
-    "Published": "2026-07-25T03:58:35.643"
-  },
-  {
-    "id": "PSDataRepository",
-    "Owners": "ondrej",
-    "Description": "A PowerShell module for working with data repositories (FileSystem, AzureBlob, AzureQueue, AzureKeyVault, etc.) in a session-based approach.",
-    "Score": 70,
-    "Published": "2026-07-25T08:54:33.517"
-  },
-  {
-    "id": "PSDataRepository.Formatters.Xlsx",
-    "Owners": "ondrej",
-    "Description": "Microsoft Excel (.xlsx) formatter extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Formatters.Xlsx.",
-    "Score": 60,
-    "Published": "2026-07-25T09:11:53.85"
-  },
-  {
-    "id": "Gallery发布",
+    "id": "WlanCli",
     "Owners": "Ebola-Chan",
-    "Description": "使用 Export-Clixml 将 PSGallery API 密钥加密保存到用户目录（Windows DPAPI，仅本机当前用户可解密）。\n首次运行提示输入密钥并保存，后续运行自动读取，实现一键发布。密钥文件存储在 %APPDATA%\\PSGallery\\.apikey，与项目目录无关。\n",
-    "Score": 55,
-    "Published": "2026-07-25T05:34:14.103"
+    "Description": "命令行连接无线网络。用法：Connect-Wlan <SSID> -用户名 <用户名> [-密码 <密码>]",
+    "Score": 70,
+    "Published": "2026-07-26T04:43:27.03"
+  },
+  {
+    "id": "Domeneshop",
+    "Owners": "PSModule.io",
+    "Description": "A PowerShell module for interacting with the Domeneshop APIs",
+    "Score": 70,
+    "Published": "2026-07-26T07:13:07.287"
+  },
+  {
+    "id": "OMG.PSUtilities",
+    "Owners": "lakshmanachari",
+    "Description": "Meta-module that installs the complete OMG.PSUtilities portfolio.",
+    "Score": 70,
+    "Published": "2026-07-26T10:28:28.2"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 70,
+    "Published": "2026-07-26T13:07:51.63"
+  },
+  {
+    "id": "StrasbourgTransport",
+    "Owners": "peanut",
+    "Description": "Display Strasbourg public transport departures in PowerShell",
+    "Score": 65,
+    "Published": "2026-07-26T21:24:01.897"
+  },
+  {
+    "id": "Add-VsDevPwsh7",
+    "Owners": "ScriptForge666",
+    "Description": "Locate installed Visual Studio instances via vswhere, generate a startup script that loads complete VS build environment for PowerShell 7.\nSupports registering to Windows Registry and adding dedicated profile to Windows Terminal.\n通过 vswhere 检索本机已安装的 Visual Studio，生成加载完整编译环境的 PowerShell 7 启动脚本，支持写入注册表注册程序、向 Windows Terminal 添加专属配置项。\n\n",
+    "Score": 65,
+    "Published": "2026-07-26T12:51:15.847"
+  },
+  {
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 65,
+    "Published": "2026-07-26T23:09:42.557"
+  },
+  {
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "A completion manager for a better and simpler tab-completion experience in PowerShell.\r\nIt provides a more powerful module completion menu with sorting and filtering.\r\n- Website: https://pscompletions.abgox.com\r\n- Github:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
+    "Score": 65,
+    "Published": "2026-07-26T12:54:26.313"
+  },
+  {
+    "id": "PSDataRepository.Providers.MongoDB",
+    "Owners": "ondrej",
+    "Description": "MongoDB collection storage provider extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Providers.MongoDB.",
+    "Score": 60,
+    "Published": "2026-07-26T09:31:15.77"
   }
 ]
