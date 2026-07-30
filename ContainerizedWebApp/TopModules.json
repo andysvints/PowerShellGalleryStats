@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSParallelPipeline",
-    "Owners": "santisq",
-    "Description": "Parallel processing of pipeline input with multithreading, extending ForEach-Object -Parallel to PowerShell 5.1 with added features.",
-    "Score": 85,
-    "Published": "2026-07-28T21:54:07.85"
+    "id": "AzBobbyTables",
+    "Owners": "PalmEmanuel",
+    "Description": "A module for handling Azure Table Storage operations by wrapping the Azure Data Tables SDK.",
+    "Score": 75,
+    "Published": "2026-07-29T20:57:46.757"
   },
   {
-    "id": "OCI.PSModules.Generativeaidata",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:49:24.387"
+    "id": "AcuInstallerHelper",
+    "Owners": "lekker-solutions",
+    "Description": "PowerShell module for managing Acumatica ERP installations, sites, versions, and patches. Provides automated installation, site creation/removal, configuration management, and patch operations. Requires PowerShell 7.0 or higher.",
+    "Score": 75,
+    "Published": "2026-07-29T10:23:46.083"
   },
   {
-    "id": "OCI.PSModules.Limitsincrease",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:56:01.3"
+    "id": "UserAccessExplorer",
+    "Owners": "gvijaikumar9",
+    "Description": "Shows what a user can access in SharePoint Online and HOW, grouping access by route so the oversharing they were never explicitly given is surfaced first - and the mirror question, WHO can reach a given site and how (Get-SiteAccess). Scans a site, a set of sites, or a whole tenant; -Deep walks subsites, lists and individual files, and finds sharing links that grant no per-user permission and so are invisible to a normal permission check. A Copilot-readiness tool. Requires PnP.PowerShell.",
+    "Score": 70,
+    "Published": "2026-07-29T17:59:12.347"
   },
   {
-    "id": "OCI.PSModules.Gdp",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Gdp Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:47:26.08"
+    "id": "CopilotAtelier",
+    "Owners": "Raimund",
+    "Description": "Portable GitHub Copilot customization library. Ships custom agents, auto-applied instructions, on-demand skills, prompt templates, and lifecycle hooks, and installs them into the well-known ~/.copilot discovery folders that VS Code, the GitHub Copilot CLI, and Claude Code read.",
+    "Score": 65,
+    "Published": "2026-07-29T21:59:56.363"
   },
   {
-    "id": "OCI.PSModules.Psa",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Psa Service",
-    "Score": 80,
-    "Published": "2026-07-28T19:04:29.08"
+    "id": "InstallDependency",
+    "Owners": "apteco_fvb",
+    "Description": "Apteco PS Modules - PowerShell install dependencies\r\n\r\nModule to install dependencies from PowerShell Gallery and NuGet.\r\n\r\nDownloads and installs the latest versions of some modules and packages (saved in current folder or machine folder) from the PowerShell Gallery and NuGet.\r\n",
+    "Score": 65,
+    "Published": "2026-07-29T08:53:32.23"
   },
   {
-    "id": "OCI.PSModules.Dif",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:40:58.04"
+    "id": "JBUtils",
+    "Owners": "thisJUSTin816",
+    "Description": "A module with functions for various basic/low-level tasks.",
+    "Score": 65,
+    "Published": "2026-07-29T23:26:44.653"
   },
   {
-    "id": "OCI.PSModules.Multicloud",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Multicloud Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:58:45.897"
+    "id": "ACMP",
+    "Owners": "DerTolleEmil",
+    "Description": "PowerShell client for the ALSO Cloud Marketplace Simple API.",
+    "Score": 60,
+    "Published": "2026-07-29T11:25:56.627"
   },
   {
-    "id": "OCI.PSModules.Iot",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Iot Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:54:37.967"
+    "id": "ThinkVantageRepositoryManager",
+    "Owners": "lenovocdrt",
+    "Description": "Manage local repositories of Lenovo updates.",
+    "Score": 55,
+    "Published": "2026-07-29T17:50:55.417"
   },
   {
-    "id": "OCI.PSModules.Jmsutils",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:55:26.93"
+    "id": "Lenovo.Client.RepositoryManager",
+    "Owners": "lenovocdrt",
+    "Description": "Manage local Lenovo device update repositories. Replacement for ThinkVantage Update Retriever.",
+    "Score": 55,
+    "Published": "2026-07-29T17:50:02.973"
   },
   {
-    "id": "OCI.PSModules.Managedkafka",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Managedkafka Service",
-    "Score": 80,
-    "Published": "2026-07-28T18:57:13.51"
+    "id": "DomainHealthChecker",
+    "Owners": "Tiennes",
+    "Description": "PowerShell module for checking SPF, DKIM, DMARC, BIMI, MTA-STS, TLS-RPT and CAA records for one or multiple domains. This module supports Windows, Linux, and macOS platforms with PowerShell Core.",
+    "Score": 55,
+    "Published": "2026-07-29T21:05:33.76"
   }
 ]
