@@ -1,72 +1,72 @@
 [
   {
-    "id": "NerdFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from NerdFonts.",
-    "Score": 75,
-    "Published": "2026-08-08T18:15:34.547"
+    "id": "DSCParser",
+    "Owners": "NikCharleboisPFE,YorickKuijs,FabienTschanz",
+    "Description": "This module allows for the parsing of a DSC Configuration script into PSObject for analysis",
+    "Score": 85,
+    "Published": "2026-08-09T20:14:43.557"
   },
   {
-    "id": "PS.Utils",
-    "Owners": "JerryBalmer1",
-    "Description": "Utility functions for PowerShell AST inspection, comment-based help conversion, and function analysis.",
-    "Score": 70,
-    "Published": "2026-08-09T00:17:49.95"
+    "id": "PSWriteOffice",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerShell module to create, convert, read, inspect, and export Office, PDF, OpenDocument, email, Markdown, AsciiDoc, LaTeX, CSV, Visio, and Confluence content without Microsoft Office installed. Powered by OfficeIMO.*.",
+    "Score": 75,
+    "Published": "2026-08-09T10:30:51.493"
   },
   {
     "id": "M365DSC.mgx",
     "Owners": "FabienTschanz",
     "Description": "Resilient companion for Microsoft.Graph PowerShell. Adds retry, circuit breaker, rate limiting, streaming pagination, batching, and fan-out to any Graph API endpoint.",
     "Score": 70,
-    "Published": "2026-08-08T23:08:39.64"
+    "Published": "2026-08-09T20:41:48.127"
+  },
+  {
+    "id": "GitEasy",
+    "Owners": "greenmtnsun",
+    "Description": "Save your work without learning Git. Plain-English PowerShell commands for sysadmins, change managers, DBAs, compliance teams, and 25 other non-developer roles — no jargon, no raw Git output. Save-Work, Find-CodeChange, Show-History, Test-Login. Credentials scrubbed before anything hits disk. PS 5.1 and 7. MPL-2.0.",
+    "Score": 70,
+    "Published": "2026-08-09T22:45:26.47"
   },
   {
     "id": "PowerPlatformChecker",
     "Owners": "AutoSysOps",
     "Description": "PowerShell module to check and document Power Platform solutions. This module uses exported solution files so it can run in deployment pipelines without a live tenant connection. It can analyze flows, connectors, actions, entities, relations, canvas apps, model-driven apps, JavaScript web resources, and generate Mermaid architecture and flowchart diagrams.",
     "Score": 70,
-    "Published": "2026-08-08T11:46:20.243"
+    "Published": "2026-08-09T05:10:51.613"
   },
   {
-    "id": "Geocoding",
-    "Owners": "AutoSysOps",
-    "Description": "PowerShell module to search and reverse geocode location data and calculate route distances. The module supports Open Street Maps, Azure Maps and Google Maps. You can use Open Street Maps without an API key, to use either Azure or Google you do need to request an API key.",
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
     "Score": 70,
-    "Published": "2026-08-08T16:29:26.223"
+    "Published": "2026-08-09T14:10:42.687"
   },
   {
-    "id": "ReverseDSC",
-    "Owners": "NikCharleboisPFE,FabienTschanz",
-    "Description": "This DSC module is used to extract the DSC Configuration of existing environments.",
+    "id": "PS.Module.Docs",
+    "Owners": "JerryBalmer1",
+    "Description": "Creates documentation specifically for PowerShell modules.",
     "Score": 65,
-    "Published": "2026-08-08T22:31:40.78"
+    "Published": "2026-08-09T02:19:13.207"
   },
   {
-    "id": "AnonymBsContainer",
-    "Owners": "PJezour",
-    "Description": "Anonymization Azure blob storage module",
+    "id": "DevXToolkit",
+    "Owners": "jj_ervin",
+    "Description": "DevXToolkit module providing ergonomic commands and workflow utilities.",
     "Score": 65,
-    "Published": "2026-08-08T23:41:52.247"
+    "Published": "2026-08-09T23:59:13.29"
   },
   {
-    "id": "LdifDotNet.PowerShell",
-    "Owners": "joshmakestuff",
-    "Description": "Read and write LDIF (RFC 2849): ConvertFrom-Ldif, ConvertTo-Ldif, Import-Ldif, Export-Ldif.",
-    "Score": 60,
-    "Published": "2026-08-08T18:00:20.793"
-  },
-  {
-    "id": "Shortcut",
-    "Owners": "Start-Automating",
-    "Description": "Simple Shortcuts with PowerShell",
+    "id": "GpoEdit",
+    "Owners": "Fred",
+    "Description": "Edit GPO Settings",
     "Score": 55,
-    "Published": "2026-08-08T21:09:56.037"
+    "Published": "2026-08-09T15:57:00.913"
   },
   {
-    "id": "PSDependencyCanary",
-    "Owners": "PwshDevs",
-    "Description": "Dependency update canary tasks for PSDepend, PowerShellBuild, and psake projects.",
+    "id": "DeskPilot",
+    "Owners": "Raimund",
+    "Description": "DeskPilot is a local, desktop-style web UI that fronts the ShellPilot engine to give non-technical users the full GitHub Copilot agent toolset (browse, read/write files, run commands, skills, instructions) with visible permissions and honest cost - no terminal or IDE required. The web UI is bundled in the module and served on loopback; ShellPilot and a Copilot-enabled GitHub account are required.",
     "Score": 55,
-    "Published": "2026-08-08T09:12:01.63"
+    "Published": "2026-08-09T18:21:56.55"
   }
 ]
