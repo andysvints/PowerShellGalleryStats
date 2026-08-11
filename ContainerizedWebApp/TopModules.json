@@ -4,69 +4,69 @@
     "Owners": "NikCharleboisPFE,YorickKuijs,FabienTschanz",
     "Description": "This module allows for the parsing of a DSC Configuration script into PSObject for analysis",
     "Score": 85,
-    "Published": "2026-08-09T20:14:43.557"
+    "Published": "2026-08-10T09:59:33.347"
   },
   {
-    "id": "PSWriteOffice",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerShell module to create, convert, read, inspect, and export Office, PDF, OpenDocument, email, Markdown, AsciiDoc, LaTeX, CSV, Visio, and Confluence content without Microsoft Office installed. Powered by OfficeIMO.*.",
+    "id": "Sashimi",
+    "Owners": "teramako",
+    "Description": "Raw process I/O for PowerShell — execute external commands and handle stdin/stdout/stderr as byte streams.",
+    "Score": 80,
+    "Published": "2026-08-10T15:17:58.917"
+  },
+  {
+    "id": "SnowStack.EncodingProbe.PowerShell",
+    "Owners": "motoi.tsushima",
+    "Description": "A PowerShell module for detecting the character encoding of text files. テキストファイルの文字エンコーディングを判定する PowerShell モジュールです。",
     "Score": 75,
-    "Published": "2026-08-09T10:30:51.493"
+    "Published": "2026-08-10T05:24:49.29"
   },
   {
-    "id": "M365DSC.mgx",
-    "Owners": "FabienTschanz",
-    "Description": "Resilient companion for Microsoft.Graph PowerShell. Adds retry, circuit breaker, rate limiting, streaming pagination, batching, and fan-out to any Graph API endpoint.",
+    "id": "AzBobbyTables",
+    "Owners": "PalmEmanuel",
+    "Description": "A module for handling Azure Table Storage operations by wrapping the Azure Data Tables SDK.",
+    "Score": 75,
+    "Published": "2026-08-10T15:50:59.593"
+  },
+  {
+    "id": "DNSFilterStatus",
+    "Owners": "dailen",
+    "Description": "Reports whether the DNSFilter roaming client (DNS Agent) is installed and reveals the upstream DNS resolvers it forwards to. DNSFilter binds a local loopback DNS proxy, which hides the real upstream servers from Get-DnsClientServerAddress and ipconfig /all; this module reads the agent's own appsettings.json to surface them.",
     "Score": 70,
-    "Published": "2026-08-09T20:41:48.127"
+    "Published": "2026-08-10T23:07:44.38"
   },
   {
-    "id": "GitEasy",
-    "Owners": "greenmtnsun",
-    "Description": "Save your work without learning Git. Plain-English PowerShell commands for sysadmins, change managers, DBAs, compliance teams, and 25 other non-developer roles — no jargon, no raw Git output. Save-Work, Find-CodeChange, Show-History, Test-Login. Credentials scrubbed before anything hits disk. PS 5.1 and 7. MPL-2.0.",
+    "id": "SqlServerMaintenance",
+    "Owners": "netsec4u",
+    "Description": "Provides maintenance functions to manage SQL Server.",
     "Score": 70,
-    "Published": "2026-08-09T22:45:26.47"
-  },
-  {
-    "id": "PowerPlatformChecker",
-    "Owners": "AutoSysOps",
-    "Description": "PowerShell module to check and document Power Platform solutions. This module uses exported solution files so it can run in deployment pipelines without a live tenant connection. It can analyze flows, connectors, actions, entities, relations, canvas apps, model-driven apps, JavaScript web resources, and generate Mermaid architecture and flowchart diagrams.",
-    "Score": 70,
-    "Published": "2026-08-09T05:10:51.613"
-  },
-  {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 70,
-    "Published": "2026-08-09T14:10:42.687"
-  },
-  {
-    "id": "PS.Module.Docs",
-    "Owners": "JerryBalmer1",
-    "Description": "Creates documentation specifically for PowerShell modules.",
-    "Score": 65,
-    "Published": "2026-08-09T02:19:13.207"
+    "Published": "2026-08-10T03:12:20.47"
   },
   {
     "id": "DevXToolkit",
     "Owners": "jj_ervin",
     "Description": "DevXToolkit module providing ergonomic commands and workflow utilities.",
     "Score": 65,
-    "Published": "2026-08-09T23:59:13.29"
+    "Published": "2026-08-10T01:28:22.18"
   },
   {
-    "id": "GpoEdit",
-    "Owners": "Fred",
-    "Description": "Edit GPO Settings",
-    "Score": 55,
-    "Published": "2026-08-09T15:57:00.913"
+    "id": "RackStack",
+    "Owners": "theabider",
+    "Description": "PowerShell cmdlet wrappers around the RackStack.exe CLI. Invoke any of the 201 CLI actions (SelfTest, UpdateSelf, ExportLogs, Batch, every audit action, etc.) as structured cmdlets from scripts and pipelines. Auto-locates the installed EXE via the Programs-and-Features registry key, PATH, or the RACKSTACK_EXE environment variable. RackStack.exe is downloaded separately from https://github.com/TheAbider/RackStack/releases — the module itself is a thin wrapper, not the tool.",
+    "Score": 60,
+    "Published": "2026-08-10T23:20:15.693"
   },
   {
-    "id": "DeskPilot",
-    "Owners": "Raimund",
-    "Description": "DeskPilot is a local, desktop-style web UI that fronts the ShellPilot engine to give non-technical users the full GitHub Copilot agent toolset (browse, read/write files, run commands, skills, instructions) with visible permissions and honest cost - no terminal or IDE required. The web UI is bundled in the module and served on loopback; ShellPilot and a Copilot-enabled GitHub account are required.",
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 60,
+    "Published": "2026-08-10T15:25:39.617"
+  },
+  {
+    "id": "PSFoundation",
+    "Owners": "MVProwess",
+    "Description": "A foundational PowerShell module library for Windows administration, providing registry, networking, security, package management, and system utilities.",
     "Score": 55,
-    "Published": "2026-08-09T18:21:56.55"
+    "Published": "2026-08-10T21:10:51.467"
   }
 ]
