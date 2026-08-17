@@ -1,72 +1,72 @@
 [
   {
+    "id": "XlsxCommand",
+    "Owners": "MarcoDorantes",
+    "Description": "XlsxCommand - CmdLets for PowerShell v7 to read/write Excel Workbook (XLSX) files.",
+    "Score": 75,
+    "Published": "2026-08-16T04:32:52.537"
+  },
+  {
+    "id": "msgraphProxy",
+    "Owners": "Mynster",
+    "Description": "PowerShell wrapper for a self-contained Microsoft Graph Dev Proxy build - start, stop and check status without requiring .NET installed.",
+    "Score": 70,
+    "Published": "2026-08-16T12:42:00.77"
+  },
+  {
+    "id": "LumaTrack",
+    "Owners": "pctechjon",
+    "Description": "Record automation runs, including failures, in LumaTrack. Send-LumaTrackRun reports one run; Invoke-LumaTrackTrackedCommand times a scriptblock and reports whichever way it went.",
+    "Score": 70,
+    "Published": "2026-08-16T01:04:13.737"
+  },
+  {
+    "id": "PSDataRepository",
+    "Owners": "ondrej",
+    "Description": "A PowerShell module for working with data repositories (FileSystem, AzureBlob, AzureQueue, AzureKeyVault, etc.) in a session-based approach.",
+    "Score": 70,
+    "Published": "2026-08-16T20:46:26.63"
+  },
+  {
     "id": "PSPublishModule",
     "Owners": "Przemyslaw.Klys",
     "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
     "Score": 70,
-    "Published": "2026-08-15T17:36:07.817"
-  },
-  {
-    "id": "DicomTools",
-    "Owners": "RobHolme",
-    "Description": "Powershell module for DICOM testing. Uses fo-dicom library",
-    "Score": 70,
-    "Published": "2026-08-15T06:53:06.297"
+    "Published": "2026-08-16T20:23:26.28"
   },
   {
     "id": "PSCompletions",
     "Owners": "abgox",
     "Description": "A tab-completion manager for PowerShell, powered by Rust engine and interactive menu.\r\nIt provides fast rendering, wildcard/subsequence filtering, history-aware ordering, dynamic (Lua) completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 65,
-    "Published": "2026-08-15T12:53:27.907"
+    "Published": "2026-08-16T12:52:45.8"
   },
   {
-    "id": "Install-NdesServer",
-    "Owners": "richardhicks",
-    "Description": "This script installs and configures the Network Device Enrollment Service (NDES) role on Windows Server to support the Microsoft Intune Certificate Connector. It also configures the server to use a specific TLS certificate and enrollment certificate template for NDES.\n\nIn addition, this script performs several post-installation tasks to ensure the NDES service is properly configured, optimized, and secured.\n\nAs part of post-installation hardening, permissions on the HKLM\\SOFTWARE\\Microsoft\\Cryptography\\MSCEP registry key are restricted to SYSTEM, Administrators, and the NDES service account, and auditing of configuration changes to this key is enabled (Security log events require the 'Audit Registry' subcategory to be enabled via Group Policy). If the Microsoft Intune Certificate Connector service runs as a custom account instead of SYSTEM, grant that account read access to this registry key manually. Note that changing the SCEP application pool identity after installation will cause NDES to fail until the registry key permissions are updated.\n\nIn addition, IIS is hardened by removing the NDES administration page (mscep_admin) IIS application and its orphaned configuration location, adding a request filtering hidden segment to block requests to the administration page path, and disabling Windows authentication (anonymous only) for the Default Web Site and the SCEP application. Because Windows authentication is disabled for the entire site, the server must be dedicated to NDES and must not host other IIS applications that require authentication.\n\nIMPORTANT NOTE: This script is for configuring NDES to support the Microsoft Intune Certificate Connector. Settings configured by this script will not work with other deployment scenarios.\n\n",
-    "Score": 65,
-    "Published": "2026-08-15T23:09:01.34"
+    "id": "ModuleAssembler",
+    "Owners": "TrisBits",
+    "Description": "ModuleAssembler is a PowerShell module that provides scaffolding, build, test, documentation, versioning, and publishing utilities for PowerShell module development. It is suited for both interactive development workflows and CI/CD pipelines.",
+    "Score": 60,
+    "Published": "2026-08-16T19:46:50.217"
   },
   {
     "id": "Get-NdesNtlmDisclosure",
     "Owners": "richardhicks",
     "Description": "Sends an unauthenticated NTLM type-1 (negotiate) message to the NDES SCEP administration\nendpoint and inspects the server's NTLM type-2 (challenge) response. When NTLM is enabled,\nthe type-2 challenge leaks sensitive host and domain details in its TargetInfo block,\nincluding the server's NetBIOS and DNS computer names, the NetBIOS and DNS domain names,\nthe DNS forest name, and the operating system version.\n\nThis information disclosure occurs without any authentication and can be used by an\nattacker to enumerate an organization's internal Active Directory namespace. The script\nsurfaces exactly what an unauthenticated client can retrieve so the exposure can be\nassessed and remediated (for example, by disabling NTLM on the NDES endpoint).\n\nThe request is always sent over HTTPS to the default NDES SCEP administration endpoint\n(/certsrv/mscep_admin), which is the resource that presents the NTLM challenge.\n\n",
     "Score": 60,
-    "Published": "2026-08-15T22:29:25.813"
+    "Published": "2026-08-16T04:35:39.973"
   },
   {
-    "id": "CopilotGovernance",
-    "Owners": "gvijaikumar9",
-    "Description": "See what Microsoft 365 Copilot will see - before it does. A free governance toolkit that surfaces the oversharing (Everyone/EEEU access, anonymous links, guest reach, unlabeled-but-exposed content) that Copilot amplifies. Read-only. Requires PnP.PowerShell.",
+    "id": "PSDataRepository.Formatters.Markdown",
+    "Owners": "ondrej",
+    "Description": "GitHub-Flavored Markdown (.md) table formatter extension for the PSDataRepository PowerShell module. Delivery package: install it, then run Install-PSDataRepositoryExtension -FromModule PSDataRepository.Formatters.Markdown.",
     "Score": 60,
-    "Published": "2026-08-15T21:24:33.547"
+    "Published": "2026-08-16T16:04:32.683"
   },
   {
-    "id": "OMG.PSUtilities.AI",
-    "Owners": "lakshmanachari",
-    "Description": "AI-powered scripting tools, including chat, summarization, and generation.",
-    "Score": 60,
-    "Published": "2026-08-15T11:32:16.277"
-  },
-  {
-    "id": "MarsEnums",
-    "Owners": "dougpuob",
-    "Description": "This is a description of your module.",
-    "Score": 60,
-    "Published": "2026-08-15T03:21:00.097"
-  },
-  {
-    "id": "AzureScout",
-    "Owners": "countrycloudboy",
-    "Description": "AzureScout — discover, inventory, and assess everything in your Azure environment from one command. Run Invoke-AzureScout with no parameters for a guided wizard, or drive it with switches: by default it inventories tenant-wide Azure ARM resources and produces the live React, Json, and JsonEvidence outputs; opt into Entra ID collection with -Scope All; add -Assessment to run a read-only CAF/WAF assessment. Detailed run logs capture debug and verbose diagnostics without adding console noise. See everything. Own your cloud. (Requires PowerShell 7 on PowerShell Core.)",
-    "Score": 50,
-    "Published": "2026-08-15T06:42:36.063"
-  },
-  {
-    "id": "HealthchecksPwsh",
-    "Owners": "ptmorris",
-    "Description": "Powershell wrapper for the Healthchecks.io v3 API",
-    "Score": 50,
-    "Published": "2026-08-15T19:18:39.083"
+    "id": "AdminToolbox",
+    "Owners": "TaylorLee",
+    "Description": "Master module for a collection of modules. These modules are varied in their tasks. The overall purpose of them being to provide a powerfull Toolset to improve IT Admin workflows.",
+    "Score": 55,
+    "Published": "2026-08-16T04:15:46.21"
   }
 ]
