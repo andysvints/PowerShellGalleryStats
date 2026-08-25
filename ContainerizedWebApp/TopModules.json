@@ -1,72 +1,72 @@
 [
   {
-    "id": "mgx",
-    "Owners": "gromedev",
-    "Description": "Resilient companion for Microsoft.Graph PowerShell. Adds retry, circuit breaker, rate limiting, streaming pagination, batching, and fan-out to any Graph API endpoint.",
+    "id": "NetApp.ONTAP",
+    "Owners": "raghuvs82,SomyaneelSinha,DeepakPallai",
+    "Description": "NetApp.ONTAP PowerShell Toolkit. The ONTAP 9.19.1 PowerShell Toolkit provides end-to-end automation and enables more efficient and scalable administration of NetApp storage. This module contains over 2340 PowerShell cmdlets to help you automate ONTAP administration on FAS and AFF systems, commodity hardware, and the cloud. This toolkit also supports REST API with 9.10 and later version of ONTAP. The toolkit also provides cross-platform support for Windows, Ubuntu, Red Hat Enterprise Linux (RHEL), and macOS.",
+    "Score": 85,
+    "Published": "2026-08-24T07:14:38.76"
+  },
+  {
+    "id": "AtlassianPS.Configuration",
+    "Owners": "lipkau,AtlassianPS",
+    "Description": "A module for modules - AtlasianPS modules use this to handle the user's configuration",
+    "Score": 85,
+    "Published": "2026-08-24T20:22:34.943"
+  },
+  {
+    "id": "ConfluencePS",
+    "Owners": "lipkau,brianbunke,AtlassianPS",
+    "Description": "PowerShell module to interact with the Atlassian Confluence REST API",
+    "Score": 80,
+    "Published": "2026-08-24T16:24:10.337"
+  },
+  {
+    "id": "AtlassianPS.Standards",
+    "Owners": "lipkau",
+    "Description": "Shared analyzer settings and standards utilities for AtlassianPS modules.",
     "Score": 75,
-    "Published": "2026-08-23T21:14:04.763"
+    "Published": "2026-08-24T20:20:48.547"
   },
   {
-    "id": "CopyGitHubRepo",
-    "Owners": "Infoconex",
-    "Description": "Safely copy, publish, and verify GitHub repositories using clean Snapshot or history-preserving FullHistory modes.",
-    "Score": 70,
-    "Published": "2026-08-23T02:56:56.677"
+    "id": "AWS.Tools.BCMDashboards",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-08-24T19:49:37.93"
   },
   {
-    "id": "PSMutant",
-    "Owners": "Taeke",
-    "Description": "Mutation testing for PowerShell. Injects small faults (flip -eq to -ne, $true to $false, N to N+1, drop -not) into your scripts using the PowerShell AST and reports how many your Pester suite catches - the metric line coverage cannot give you. Runs mutants in a throwaway sandbox so your source is never modified. Requires Pester 5.0.0 or later AT RUN TIME, and deliberately does not declare it as a RequiredModule: PSMutant runs under whichever Pester >= 5 you have loaded rather than importing one for you. Install Pester yourself if you do not already have it.",
-    "Score": 70,
-    "Published": "2026-08-23T10:02:25.267"
+    "id": "AWS.Tools.BCMRecommendedActions",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-08-24T19:51:47.34"
   },
   {
-    "id": "Belin.Html",
-    "Owners": "CedX",
-    "Description": "PowerShell cmdlets for rendering HTML documents.",
-    "Score": 70,
-    "Published": "2026-08-23T01:11:57.157"
+    "id": "AWS.Tools.ARCRegionswitch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-08-24T19:53:12.44"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 60,
-    "Published": "2026-08-23T12:36:07.61"
+    "id": "AWS.Tools.BedrockAgentCoreControl",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock Agent Core Control Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-08-24T19:48:42.91"
   },
   {
-    "id": "EvergreenUI",
-    "Owners": "aaronparker",
-    "Description": "EvergreenUI and the Evergreen Workbench is WPF graphical frontend for the Evergreen PowerShell module. Provides a Windows-only GUI for Find-EvergreenApp, Get-EvergreenApp, Save-EvergreenApp, and Evergreen library management cmdlets. The Evergreen Workbench also supports packaging apps for Microsoft Intune and Nerdio Manager Shell Apps, and installing apps locally using Evergreen.",
-    "Score": 55,
-    "Published": "2026-08-23T02:47:27.247"
+    "id": "AWS.Tools.BedrockAgentCore",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Data Plane Fronting Layer from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-08-24T19:49:01.057"
   },
   {
-    "id": "DSInternals.Passkeys",
-    "Owners": "MichaelGrafnetter",
-    "Description": "Allows administrative registration of passkeys (i.e. FIDO2 security keys and Microsoft Authenticator mobile app) in Microsoft Entra ID (formerly Azure Active Directory) and Okta.",
-    "Score": 55,
-    "Published": "2026-08-23T20:29:54.907"
-  },
-  {
-    "id": "Office365-Scoutnet-synk",
-    "Owners": "karl_t_scouterna,karl_t_lascout",
-    "Description": "Funktioner för att synkronisera Scoutnet med Office 365.",
-    "Score": 55,
-    "Published": "2026-08-23T20:20:03.65"
-  },
-  {
-    "id": "PowerTree",
-    "Owners": "BartSpaans",
-    "Description": "Advanced directory tree visualization tool with powerful filtering and display options. More information: https://github.com/spaansba/PowerTree",
-    "Score": 50,
-    "Published": "2026-08-23T20:30:52.24"
-  },
-  {
-    "id": "wtw",
-    "Owners": "serrnovik",
-    "Description": "Git worktree + VS Code/(vscode based editors like Cursor) workspace manager. Creates, switches, and removes worktrees with auto-generated workspace files, unique Peacock colors, shell aliases, and fuzzy name resolution.",
-    "Score": 45,
-    "Published": "2026-08-23T14:00:49.213"
+    "id": "AWS.Tools.AIOps",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AIOps module of AWS Tools for PowerShell lets developers and administrators manage AWS AI Ops from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-08-24T19:53:00.48"
   }
 ]
