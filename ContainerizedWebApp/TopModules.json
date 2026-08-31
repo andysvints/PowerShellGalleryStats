@@ -1,72 +1,72 @@
 [
   {
-    "id": "AtlassianPS.Configuration",
-    "Owners": "lipkau,AtlassianPS",
-    "Description": "A module for modules - AtlasianPS modules use this to handle the user's configuration",
-    "Score": 85,
-    "Published": "2026-08-29T09:04:55.443"
+    "id": "CredUICredential",
+    "Owners": "AlexCMarty",
+    "Description": "Gets a credential object based on a user name and password. It uses Windows native dialogs on PowerShell 7.x, instead of terminal. A maintained fork of the archived Get-WinCredential module by Zafer Balkan. See https://github.com/AlexCMarty/CredUICredential for more information.",
+    "Score": 80,
+    "Published": "2026-08-30T01:25:03.767"
   },
   {
-    "id": "Belin.Cli",
-    "Owners": "CedX",
-    "Description": "PowerShell cmdlets for common administrative tasks, such as database management, service management and software installation.",
-    "Score": 75,
-    "Published": "2026-08-29T14:04:33.263"
-  },
-  {
-    "id": "Belin.FreeMobile",
-    "Owners": "CedX",
-    "Description": "Send SMS messages to your Free Mobile device.",
+    "id": "KrbEtypeInsight",
+    "Owners": "fadwen",
+    "Description": "Predicts which accounts, services and clients a Kerberos encryption type hardening change\nwill break, before the change is made. Collects events 4768, 4769 and 4771 from domain\ncontrollers or archived logs, decodes ticket encryption types and msDS-SupportedEncryptionTypes\nbitmasks, correlates observed behaviour against directory configuration and domain baseline,\nand emits a per-principal risk assessment naming the specific clients that will stop working.",
     "Score": 70,
-    "Published": "2026-08-29T10:04:07.223"
-  },
-  {
-    "id": "Belin.Html",
-    "Owners": "CedX",
-    "Description": "PowerShell cmdlets for rendering HTML documents.",
-    "Score": 70,
-    "Published": "2026-08-29T14:31:39.677"
-  },
-  {
-    "id": "Belin.Sql",
-    "Owners": "CedX",
-    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
-    "Score": 70,
-    "Published": "2026-08-29T12:41:57.18"
+    "Published": "2026-08-30T23:07:58.297"
   },
   {
     "id": "PowerPlatformChecker",
     "Owners": "AutoSysOps",
     "Description": "PowerShell module to analyze and document exported Power Platform solutions without requiring a live tenant connection. It can analyze flows, connectors, actions, entities, relations, canvas apps, model-driven apps, and JavaScript web resources, and generate Mermaid architecture diagrams, flowcharts, and external interaction views. The module also supports graph/object outputs and is designed for repeatable CI/CD and deployment-pipeline usage.",
     "Score": 70,
-    "Published": "2026-08-29T19:08:01.23"
+    "Published": "2026-08-30T09:27:01.43"
   },
   {
     "id": "XKCD",
     "Owners": "markwragg",
     "Description": "Commands related to the webcomic XKCD: http://xkcd.com",
     "Score": 70,
-    "Published": "2026-08-29T19:40:47.083"
+    "Published": "2026-08-30T21:46:31.15"
   },
   {
-    "id": "PowerBGInfo",
+    "id": "PSPublishModule",
     "Owners": "Przemyslaw.Klys",
-    "Description": "PowerBGInfo is a module that allows you to create background images with information about your environment.",
-    "Score": 70,
-    "Published": "2026-08-29T10:13:34.513"
-  },
-  {
-    "id": "Mc2it.Agicap",
-    "Owners": "CedX",
-    "Description": "An Agicap API client library for PowerShell.",
-    "Score": 65,
-    "Published": "2026-08-29T10:39:48.08"
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 60,
+    "Published": "2026-08-30T13:18:22.063"
   },
   {
     "id": "Hephaestus",
     "Owners": "itamartz",
     "Description": "Hephaestus Deployment Toolkit - a PowerShell replacement for MDT.",
     "Score": 55,
-    "Published": "2026-08-29T22:03:27.75"
+    "Published": "2026-08-30T21:11:43.49"
+  },
+  {
+    "id": "cd-extras",
+    "Owners": "ncox",
+    "Description": "Fast directory navigation, history, bookmarks and path completion for PowerShell",
+    "Score": 55,
+    "Published": "2026-08-30T03:20:32.967"
+  },
+  {
+    "id": "Belin.UI",
+    "Owners": "CedX",
+    "Description": "Web component library by Cédric Belin, full stack developer.",
+    "Score": 50,
+    "Published": "2026-08-30T16:35:42.337"
+  },
+  {
+    "id": "AzLogDcrIngestPS",
+    "Owners": "Morten_Knudsen",
+    "Description": "  \r\n    This module includes cmdlets to automate all the processes to create and update Azure LogAnalytics tables and Azure Data Collection Rules to do log ingestion to Azure Loganalytics custom logs using Log ingestion API and Azure Data Collection Rules from Powershell. \r\n    \r\n    Functions can be used for: \r\n    (1) manipulation of source object (fix invalid structure + remove unnecessary properties + add info like UserLoggedOn, Computer, CollectionTime) \r\n    (2) Validation of environment (Azure LogAnalytics custom log tables, Azure Data Collection Rules, schema) \r\n    (3) Management (create/update) of Azure LogAnalytics tables & Azure Data Collection Rules Management - with required schema-format and valid data set \r\n    (4) Targetting of where to send data using names - lookup of DCR/DCE infrastructure using Azure Resource Graph \r\n    (5) Post data to Azure LogAnalytics custom log tables using log ingestion API and Azure Data Collection Rules \r\n    (6) Management of existing Azure Data Collection Rules \r\n    (7) Management of existing Azure LogAnalytics custom log tables & Azure Data Collection Rules to update schema when source object structure changes, \r\n    (8) Clean-up/maintenance of existing Azure LogAnalytics tables & Azure Data Collection Rules \r\n    (9) Clean-up/maintenance of existing Azure LogAnalytics custom log tables & Azure Data Collection Rules \r\n    (10) Support functions needed (e.g. REST API connectivity) ",
+    "Score": 50,
+    "Published": "2026-08-30T12:06:17.3"
+  },
+  {
+    "id": "TerminalStyles",
+    "Owners": "fcreme",
+    "Description": "Theme your terminal from PowerShell: 16 bundled color schemes with an arrow-key picker that previews each theme live in your current tab (Enter keeps, Esc reverts). Switch color scheme, cursor, font, opacity, and background image in one command, and install curated coding fonts (JetBrains Mono, Fira Code, Cascadia Code and more) straight from their official sources. Works on Windows Terminal, macOS Terminal.app, iTerm2, and any terminal that supports OSC color sequences -- and can style zsh and bash as well as PowerShell. Runs on PowerShell 7 and Windows PowerShell 5.1, on Windows, macOS, and Linux.",
+    "Score": 45,
+    "Published": "2026-08-30T16:58:17.14"
   }
 ]
