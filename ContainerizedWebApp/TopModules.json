@@ -1,72 +1,72 @@
 [
   {
-    "id": "CredUICredential",
-    "Owners": "AlexCMarty",
-    "Description": "Gets a credential object based on a user name and password. It uses Windows native dialogs on PowerShell 7.x, instead of terminal. A maintained fork of the archived Get-WinCredential module by Zafer Balkan. See https://github.com/AlexCMarty/CredUICredential for more information.",
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2026-09-01T19:13:51.407"
+  },
+  {
+    "id": "OCI.PSModules.Containerregistry",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
     "Score": 80,
-    "Published": "2026-08-30T01:25:03.767"
+    "Published": "2026-09-01T19:26:30.35"
   },
   {
-    "id": "KrbEtypeInsight",
-    "Owners": "fadwen",
-    "Description": "Predicts which accounts, services and clients a Kerberos encryption type hardening change\nwill break, before the change is made. Collects events 4768, 4769 and 4771 from domain\ncontrollers or archived logs, decodes ticket encryption types and msDS-SupportedEncryptionTypes\nbitmasks, correlates observed behaviour against directory configuration and domain baseline,\nand emits a per-principal risk assessment naming the specific clients that will stop working.",
-    "Score": 70,
-    "Published": "2026-08-30T23:07:58.297"
+    "id": "OCI.PSModules.Batch",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "Score": 80,
+    "Published": "2026-09-01T19:19:26.027"
   },
   {
-    "id": "PowerPlatformChecker",
-    "Owners": "AutoSysOps",
-    "Description": "PowerShell module to analyze and document exported Power Platform solutions without requiring a live tenant connection. It can analyze flows, connectors, actions, entities, relations, canvas apps, model-driven apps, and JavaScript web resources, and generate Mermaid architecture diagrams, flowcharts, and external interaction views. The module also supports graph/object outputs and is designed for repeatable CI/CD and deployment-pipeline usage.",
-    "Score": 70,
-    "Published": "2026-08-30T09:27:01.43"
+    "id": "OCI.PSModules.Aidataplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Aidataplatform Service",
+    "Score": 80,
+    "Published": "2026-09-01T19:15:37.23"
   },
   {
-    "id": "XKCD",
-    "Owners": "markwragg",
-    "Description": "Commands related to the webcomic XKCD: http://xkcd.com",
-    "Score": 70,
-    "Published": "2026-08-30T21:46:31.15"
+    "id": "RealmJoin",
+    "Owners": "shobhitvaishc4a8",
+    "Description": "PowerShell module for managing RealmJoin (https://www.realmjoin.com/) tenant.",
+    "Score": 80,
+    "Published": "2026-09-01T05:28:27.443"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 60,
-    "Published": "2026-08-30T13:18:22.063"
+    "id": "OCI.PSModules.Apiplatform",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiplatform Service",
+    "Score": 80,
+    "Published": "2026-09-01T19:17:53.81"
   },
   {
-    "id": "Hephaestus",
-    "Owners": "itamartz",
-    "Description": "Hephaestus Deployment Toolkit - a PowerShell replacement for MDT.",
-    "Score": 55,
-    "Published": "2026-08-30T21:11:43.49"
+    "id": "OCI.PSModules.Apiaccesscontrol",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Apiaccesscontrol Service",
+    "Score": 80,
+    "Published": "2026-09-01T19:17:35.517"
   },
   {
-    "id": "cd-extras",
-    "Owners": "ncox",
-    "Description": "Fast directory navigation, history, bookmarks and path completion for PowerShell",
-    "Score": 55,
-    "Published": "2026-08-30T03:20:32.967"
+    "id": "SelectHtml",
+    "Owners": "brianary",
+    "Description": "Extracts content from an HTML document using an XPath expression.",
+    "Score": 80,
+    "Published": "2026-09-01T01:15:10.35"
   },
   {
-    "id": "Belin.UI",
-    "Owners": "CedX",
-    "Description": "Web component library by Cédric Belin, full stack developer.",
-    "Score": 50,
-    "Published": "2026-08-30T16:35:42.337"
+    "id": "OCI.PSModules.Datalabelingservicedataplane",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Datalabelingservicedataplane Service",
+    "Score": 80,
+    "Published": "2026-09-01T19:29:37.447"
   },
   {
-    "id": "AzLogDcrIngestPS",
-    "Owners": "Morten_Knudsen",
-    "Description": "  \r\n    This module includes cmdlets to automate all the processes to create and update Azure LogAnalytics tables and Azure Data Collection Rules to do log ingestion to Azure Loganalytics custom logs using Log ingestion API and Azure Data Collection Rules from Powershell. \r\n    \r\n    Functions can be used for: \r\n    (1) manipulation of source object (fix invalid structure + remove unnecessary properties + add info like UserLoggedOn, Computer, CollectionTime) \r\n    (2) Validation of environment (Azure LogAnalytics custom log tables, Azure Data Collection Rules, schema) \r\n    (3) Management (create/update) of Azure LogAnalytics tables & Azure Data Collection Rules Management - with required schema-format and valid data set \r\n    (4) Targetting of where to send data using names - lookup of DCR/DCE infrastructure using Azure Resource Graph \r\n    (5) Post data to Azure LogAnalytics custom log tables using log ingestion API and Azure Data Collection Rules \r\n    (6) Management of existing Azure Data Collection Rules \r\n    (7) Management of existing Azure LogAnalytics custom log tables & Azure Data Collection Rules to update schema when source object structure changes, \r\n    (8) Clean-up/maintenance of existing Azure LogAnalytics tables & Azure Data Collection Rules \r\n    (9) Clean-up/maintenance of existing Azure LogAnalytics custom log tables & Azure Data Collection Rules \r\n    (10) Support functions needed (e.g. REST API connectivity) ",
-    "Score": 50,
-    "Published": "2026-08-30T12:06:17.3"
-  },
-  {
-    "id": "TerminalStyles",
-    "Owners": "fcreme",
-    "Description": "Theme your terminal from PowerShell: 16 bundled color schemes with an arrow-key picker that previews each theme live in your current tab (Enter keeps, Esc reverts). Switch color scheme, cursor, font, opacity, and background image in one command, and install curated coding fonts (JetBrains Mono, Fira Code, Cascadia Code and more) straight from their official sources. Works on Windows Terminal, macOS Terminal.app, iTerm2, and any terminal that supports OSC color sequences -- and can style zsh and bash as well as PowerShell. Runs on PowerShell 7 and Windows PowerShell 5.1, on Windows, macOS, and Linux.",
-    "Score": 45,
-    "Published": "2026-08-30T16:58:17.14"
+    "id": "OCI.PSModules.Datalabelingservice",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Datalabelingservice Service",
+    "Score": 80,
+    "Published": "2026-09-01T19:29:30.08"
   }
 ]
