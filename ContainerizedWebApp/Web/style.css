@@ -448,9 +448,7 @@ input {
 }
 
 .title-short { display:none; }
-.mobile-home-title {
-  display: none;
-}
+
 #loading-screen {
   display: none; /* Hidden by default */
   position: fixed;
@@ -465,39 +463,11 @@ input {
 }
 
 @media (max-width: 640px) {
-  :root {
-    --mobile-rail-width: 52px;
-    --mobile-page-background: #f6f5fb;
-    --mobile-card-background: #ffffff;
-    --mobile-navigation-background: #171527;
-    --mobile-primary: #483d8b;
-    --mobile-text: #18172a;
-    --mobile-muted: #69677c;
-    --mobile-border: #dedbea;
-    --mobile-score: #f5c84c;
-  }
-
   /*
-   * Preserve the full-screen page-navigation structure.
-   * The homepage itself becomes the scrolling container.
-   */
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    overflow: hidden;
-  }
-
-  /*
-   * Existing mobile rules for the PowerShell search page.
+   * Preserve existing responsive behavior on search/result pages.
    */
   .lang-powershell {
     font-size: small;
-  }
-
-  input {
-    width: 20ch;
   }
 
   .card-name {
@@ -507,6 +477,17 @@ input {
   .card-content {
     text-align: left;
     font-size: small;
+  }
+
+  html,
+  body {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+  }
+
+  input {
+    width: 20ch;
   }
 
   .card-left {
@@ -540,9 +521,10 @@ input {
   }
 
   /*
-   * MOBILE NAVIGATION
+   * SMALL MOBILE MENU
    *
-   * Replace the percentage-width menu with a fixed 52px rail.
+   * Keep the existing dark style.
+   * Show only the three navigation icons.
    */
   #menu {
     position: fixed;
@@ -555,102 +537,65 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
 
-    width: var(--mobile-rail-width);
+    width: 48px;
     height: 100dvh;
     margin: 0;
-    padding: 8px 4px;
+    padding: 16px 0 0;
 
     box-sizing: border-box;
     overflow: hidden;
-    text-align: center;
 
-    background: var(--mobile-navigation-background);
+    background: #111111;
   }
 
   /*
-   * Replace the long menu title with a small PS badge.
+   * Hide the title and large footer on mobile.
    */
-  #menu h2 {
-    display: grid;
-    flex: 0 0 auto;
-    width: 36px;
-    height: 36px;
-    margin: 6px 0 18px;
-    padding: 0;
-    place-items: center;
-
-    border-radius: 10px;
-    background: var(--mobile-score);
-
-    font-size: 0;
-    line-height: 1;
-  }
-
-  #menu h2::after {
-    content: "PS";
-
-    color: var(--mobile-navigation-background);
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: -0.02em;
+  #menu h2,
+  #menu footer {
+    display: none;
   }
 
   /*
-   * Neither the full nor abbreviated title is needed in the rail.
-   */
-  #menu .title-full,
-  #menu .title-short {
-    display: none !important;
-  }
-
-  /*
-   * Each link gets a comfortable touch target.
+   * Make every icon a comfortable touch target.
    */
   #menu > a {
-    display: grid;
-    flex: 0 0 48px;
-    width: 44px;
-    height: 48px;
-    place-items: center;
-
-    border-radius: 10px;
+    display: block;
+    width: 48px;
+    height: 52px;
   }
 
   #menu .icon {
-    display: grid;
-    width: 44px;
-    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 52px;
     margin: 0 !important;
     padding: 0;
-    place-items: center;
 
-    border-radius: 10px;
+    color: #bcbcbc;
+    font-size: 20px;
+    line-height: 1;
     list-style: none;
 
-    color: rgba(255, 255, 255, 0.72);
-    font-size: 22px;
-    line-height: 1;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
   }
 
   #menu > a:hover .icon,
   #menu > a:focus-visible .icon {
     color: #ffffff;
     opacity: 1;
-    background: rgba(255, 255, 255, 0.12);
+    background: #242424;
   }
 
   /*
-   * Hide the large footer from the mobile rail.
-   */
-  #menu footer {
-    display: none !important;
-  }
-
-  /*
-   * The original navigation shrinks icons after changing pages.
-   * Disable that behavior on mobile.
+   * Cancel the desktop icon-scaling animation.
    */
   #t2:target #menu .icon,
   #t3:target #menu .icon,
@@ -664,108 +609,88 @@ input {
   }
 
   /*
-   * Highlight the Rankings icon on the default homepage.
+   * Active navigation colors.
    */
   #menu #uno {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.13);
+    color: #4fc1ff;
   }
 
-  /*
-   * Remove the Rankings highlight after navigating elsewhere.
-   */
   #t2:target #menu #uno,
   #t3:target #menu #uno {
-    color: rgba(255, 255, 255, 0.72);
-    background: transparent;
+    color: #bcbcbc;
   }
 
-  /*
-   * Highlight Search or About when selected.
-   */
   #t2:target #menu #dos,
   #t3:target #menu #tres {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.13);
+    color: #4fc1ff;
   }
 
   /*
    * MOBILE HOMEPAGE
    *
-   * The page remains full-height but scrolls internally.
+   * Keep the original black background.
    */
   #p1 {
     height: 100dvh;
     overflow-x: hidden;
     overflow-y: auto;
 
-    background: var(--mobile-page-background);
+    background: #000000;
 
     -webkit-overflow-scrolling: touch;
   }
 
   /*
-   * Override the desktop absolute/centered homepage section.
+   * Undo the desktop centering and translateX behavior.
    */
   #p1 > section.icon {
-    position: relative !important;
-    top: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    left: var(--mobile-rail-width) !important;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 48px;
 
-    width: calc(100% - var(--mobile-rail-width)) !important;
-    height: auto !important;
+    width: calc(100% - 48px);
+    height: auto;
     min-height: 100dvh;
-    margin: 0 !important;
-    padding: 20px 14px 28px;
+    margin: 0;
+    padding: 20px 12px 24px;
 
     box-sizing: border-box;
-    text-align: left;
 
-    color: var(--mobile-text);
-    font-size: 16px;
+    color: #ffffff;
+    font-size: 14px;
     line-height: 1.4;
+    text-align: left;
 
     transform: none !important;
     -webkit-transform: none !important;
     -moz-transform: none !important;
     -o-transform: none !important;
 
-    transition: none !important;
+    transition: none;
   }
 
   /*
-   * Homepage heading.
+   * Homepage title.
    */
   #p1 > section.icon > .title {
     display: block;
     margin: 0 0 14px;
 
-    color: var(--mobile-text);
-    font-size: 22px;
-    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 1.25;
     text-align: left;
   }
 
   /*
-   * Switch between the desktop Top 10 and mobile Top 5 titles.
-   */
-  #p1 .desktop-home-title {
-    display: none;
-  }
-
-  #p1 .mobile-home-title {
-    display: inline;
-  }
-
-  /*
-   * Remove the desktop table container appearance.
+   * Remove the desktop table wrapper appearance.
    */
   #p1 table {
+    display: block;
     width: 100%;
-    max-width: 100%;
     margin: 0;
 
     border-collapse: separate;
@@ -774,11 +699,12 @@ input {
 
     overflow: visible;
     background: transparent;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*
-   * Hide the header visually while keeping it in the HTML.
+   * Column names are unnecessary because the mobile rows
+   * establish their own visual hierarchy.
    */
   #p1 thead {
     position: absolute;
@@ -794,57 +720,52 @@ input {
     border: 0;
   }
 
-  /*
-   * Turn the table body into a vertical card collection.
-   */
   #p1 tbody {
-    display: grid;
+    display: block;
     width: 100%;
-    gap: 10px;
-
-    counter-reset: module-rank;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*
-   * Turn every row into a two-column card:
+   * Compact dark card.
    *
    * module name | score
    * author      | score
    */
   #p1 tbody tr {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 42px;
+    grid-template-columns: minmax(0, 1fr) 40px;
     grid-template-areas:
       "module score"
       "author score";
     column-gap: 10px;
     row-gap: 4px;
 
-    min-height: 70px;
-    margin: 0;
-    padding: 12px;
+    width: 100%;
+    min-height: 64px;
+    margin: 0 0 8px;
+    padding: 11px 10px;
 
     box-sizing: border-box;
-    border: 1px solid var(--mobile-border);
-    border-radius: 12px;
+    border: 1px solid #353535;
+    border-radius: 8px;
 
-    background: var(--mobile-card-background);
-    box-shadow: 0 4px 14px rgba(41, 36, 79, 0.06);
+    background: #1a1a1a;
+  }
 
-    counter-increment: module-rank;
+  #p1 tbody tr:nth-child(even) {
+    background: #242424;
   }
 
   /*
-   * Mobile shows only the first five table rows.
-   * Desktop continues to show all ten.
+   * Show five modules on mobile.
    */
   #p1 tbody tr:nth-child(n + 6) {
     display: none;
   }
 
   /*
-   * Reset desktop table-cell formatting.
+   * Reset normal table-cell behavior.
    */
   #p1 tbody td {
     display: block;
@@ -858,48 +779,32 @@ input {
   }
 
   /*
-   * First column: rank and module name.
+   * Module name.
    */
   #p1 tbody td:nth-child(1) {
     grid-area: module;
 
-    color: var(--mobile-text);
-    font-size: 15px;
-    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 1.25;
 
     overflow-wrap: anywhere;
     word-break: break-word;
   }
 
-  /*
-   * Generate 01, 02, 03, 04 and 05 without changing the HTML.
-   */
-  #p1 tbody td:nth-child(1)::before {
-    content: counter(module-rank, decimal-leading-zero);
-
-    display: inline-block;
-    min-width: 20px;
-    margin-right: 6px;
-
-    color: var(--mobile-primary);
-    font-size: 11px;
-    font-weight: 800;
-  }
-
   #p1 tbody td:nth-child(1) a {
-    color: var(--mobile-text);
-    overflow-wrap: anywhere;
+    color: #ffffff;
   }
 
   /*
-   * Second column: author.
+   * Author.
    */
   #p1 tbody td:nth-child(2) {
     grid-area: author;
 
     overflow: hidden;
-    color: var(--mobile-muted);
+    color: #bcbcbc;
     font-size: 12px;
     line-height: 1.3;
     text-overflow: ellipsis;
@@ -908,59 +813,39 @@ input {
 
   #p1 tbody td:nth-child(2)::before {
     content: "by ";
+    color: #808080;
   }
 
   /*
-   * Third column: circular score badge.
+   * Score badge using the site's existing blue.
    */
   #p1 tbody td:nth-child(3) {
-    display: grid;
+    display: flex;
     grid-area: score;
     align-self: center;
     justify-self: end;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
 
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 34px;
     padding: 0;
 
-    border-radius: 50%;
-    background: var(--mobile-score);
-    box-shadow: 0 3px 8px rgba(41, 36, 79, 0.14);
+    border-radius: 6px;
+    background: #007acc;
 
-    color: var(--mobile-navigation-background);
+    color: #ffffff;
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
   }
 
   /*
-   * Restyle the large mission text below the table.
-   *
-   * !important is necessary because the HTML currently uses
-   * inline font-size and margin declarations.
+   * The long homepage description duplicates the About page
+   * and makes the mobile homepage unnecessarily tall.
    */
   #p1 > section.icon > .hint {
-    display: block;
-    width: auto !important;
-    margin: 20px 2px 0 !important;
-    padding: 14px 12px;
-
-    box-sizing: border-box;
-    border: 1px solid var(--mobile-border);
-    border-radius: 12px;
-
-    background: var(--mobile-card-background);
-    color: var(--mobile-muted);
-
-    font-size: 14px !important;
-    line-height: 1.55;
-    text-align: left;
-  }
-
-  #p1 > section.icon > .hint a {
-    color: var(--mobile-primary);
-    font-weight: 700;
+    display: none !important;
   }
 }
 
