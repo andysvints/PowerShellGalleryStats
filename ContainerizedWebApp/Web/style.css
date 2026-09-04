@@ -195,9 +195,32 @@ html, body, .page {
   color: var(--psg-link);
 }
 
+#p3 .title {
+  color: var(--psg-text);
+}
+
+#p3 .hint {
+  color: var(--psg-text-soft);
+}
+
+#p3 .hint b {
+  color: var(--psg-text);
+}
+
+#p3 .hint a,
+#p3 .hint a:visited {
+  color: var(--psg-link);
+}
+
+#p3 .hint a:hover,
+#p3 .hint a:focus-visible {
+  color: var(--psg-link-hover);
+  text-decoration: underline;
+}
+
 #p1 { background: var(--psg-page); }
 #p2 { background: var(--psg-page); }
-#p3 { background: #404040; }
+#p3 { background: var(--psg-page); }
 #p4 { background: #404040; }
 #p5 { background: tomato; }
 #p6 { background: #404040; }
