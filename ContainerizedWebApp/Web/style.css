@@ -218,10 +218,26 @@ html, body, .page {
   text-decoration: underline;
 }
 
+#p4 .title {
+  color: var(--psg-text);
+}
+
+#p4 .modules {
+  color: var(--psg-text-soft);
+}
+
+#p4 .card {
+  background-image: none;
+  background-color: var(--psg-surface-soft);
+  border: 1px solid var(--psg-border);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.22);
+  color: var(--psg-text-soft);
+}
+
 #p1 { background: var(--psg-page); }
 #p2 { background: var(--psg-page); }
 #p3 { background: var(--psg-page); }
-#p4 { background: #404040; }
+#p4 { background: var(--psg-page);}
 #p5 { background: tomato; }
 #p6 { background: #404040; }
 
