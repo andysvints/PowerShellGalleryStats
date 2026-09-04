@@ -234,11 +234,77 @@ html, body, .page {
   color: var(--psg-text-soft);
 }
 
+#p4 .card-name {
+  color: var(--psg-text);
+}
+
+#p4 .card-left,
+#p4 .card-right {
+  color: var(--psg-text-soft);
+}
+
+/* Expanded recommendation section */
+#p4 .card-expanded {
+  background: #dce3e7;
+  border-top-color: #b7c2c9;
+  color: #253039;
+}
+
+#p4 .card-expanded a {
+  color: #425f72;
+}
+
+#p4 .card-expanded a:hover {
+  color: #263f50;
+}
+
+/* Skill/category labels */
+#p4 .card-skills {
+  color: var(--psg-text-soft);
+}
+
+#p4 .card-skills li {
+  background: #303840;
+  color: var(--psg-text-soft);
+  box-shadow: none;
+  border: 1px solid #46515a;
+}
+
+#p4 .card-img {
+  border-color: var(--psg-link);
+}
+
+/* Subscription icon/button */
+#p4 .subscribe-btn {
+  color: var(--psg-link);
+}
+
+#p4 .subscribe-btn:hover {
+  color: var(--psg-link-hover);
+  background: rgba(169, 196, 212, 0.10);
+}
+
+#p5 .fa-exclamation-triangle::before {
+  color: var(--psg-danger);
+}
+
+#p5 .title {
+  color: var(--psg-text);
+}
+
+#p5 .hint {
+  color: var(--psg-text-soft);
+}
+
+#p5 .hint a {
+  color: var(--psg-link);
+}
+
 #p1 { background: var(--psg-page); }
 #p2 { background: var(--psg-page); }
 #p3 { background: var(--psg-page); }
 #p4 { background: var(--psg-page);}
-#p5 { background: tomato; }
+#p5 { background: var(--psg-page); }
 #p6 { background: #404040; }
 
 #t2:target #p2,
