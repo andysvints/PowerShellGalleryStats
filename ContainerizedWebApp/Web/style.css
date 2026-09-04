@@ -952,3 +952,9 @@ footer {
   font-size: 10px;
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  #p1 table tbody tr:nth-child(n + 6) {
+    display: none;
+  }
+}
