@@ -70,7 +70,63 @@ html, body, .page {
   left: 200%;
 }
 
-#p1 { background: #000000; }
+#p1 .title {
+  color: var(--psg-text);
+}
+
+#p1 table {
+  background: var(--psg-surface);
+  border: 1px solid var(--psg-border);
+}
+
+/* Muted slate instead of #007acc */
+#p1 th {
+  background: var(--psg-accent);
+  color: var(--psg-text);
+}
+
+/* Alternating dark-grey rows */
+#p1 tbody tr:nth-child(odd) {
+  background: var(--psg-surface);
+}
+
+#p1 tbody tr:nth-child(even) {
+  background: var(--psg-surface-alt);
+}
+
+#p1 td {
+  color: var(--psg-text-soft);
+  border-color: var(--psg-border);
+}
+
+/* Module links */
+#p1 td a,
+#p1 td a:visited {
+  color: var(--psg-link);
+}
+
+#p1 td a:hover,
+#p1 td a:focus-visible {
+  color: var(--psg-link-hover);
+  text-decoration: underline;
+}
+
+/* Homepage description */
+#p1 .hint {
+  color: var(--psg-text-soft);
+}
+
+#p1 .hint a,
+#p1 .hint a:visited {
+  color: var(--psg-warm-link);
+}
+
+#p1 .hint a:hover,
+#p1 .hint a:focus-visible {
+  color: var(--psg-link-hover);
+}
+
+#p1 { background: var(--psg-page); }
 #p2 { background: #404040; }
 #p3 { background: #404040; }
 #p4 { background: #404040; }
