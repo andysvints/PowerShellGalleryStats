@@ -300,12 +300,28 @@ html, body, .page {
   color: var(--psg-link);
 }
 
+#p6 .fa-check-circle-o::before {
+  color: var(--psg-success);
+}
+
+#p6 .title {
+  color: var(--psg-text);
+}
+
+#p6 .hint {
+  color: var(--psg-text-soft);
+}
+
+#p6 .hint a {
+  color: var(--psg-link);
+}
+
 #p1 { background: var(--psg-page); }
 #p2 { background: var(--psg-page); }
 #p3 { background: var(--psg-page); }
 #p4 { background: var(--psg-page);}
 #p5 { background: var(--psg-page); }
-#p6 { background: #404040; }
+#p6 { background: var(--psg-page); }
 
 #t2:target #p2,
 #t3:target #p3,
