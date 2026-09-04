@@ -771,7 +771,7 @@ input {
 
 @media (max-width: 600px){
   .title-full { display:none; }
-  .title-short{ display:inline; }
+  .title-short{ display:inline; font-size: medium; }
   .lang-powershell {font-size: small;}
   .card-name {font-size: large;}
   .card-content { 
@@ -954,6 +954,10 @@ footer {
 }
 
 @media (max-width: 600px) {
+
+  #p1 .hint {
+     font-size: medium;
+  }
   #p1 table tbody tr:nth-child(n + 6) {
     display: none;
   }
@@ -1051,4 +1055,8 @@ footer {
   #p1 table tbody tr:nth-child(n + 6) {
     display: none;
   }
+footer {
+      font-size: x-small;
+   }
+   
 }
