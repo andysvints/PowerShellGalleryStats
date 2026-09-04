@@ -155,10 +155,36 @@ ul {
 
 #menu .icon {
   margin: 30px 0;
+  color: var(--psg-text-soft);
   transition: all .5s ease-out !important;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
+}
+
+#menu {
+  background: var(--psg-sidebar);
+}
+
+#menu h2 {
+  color: var(--psg-text);
+}
+
+#menu .icon {
+  color: var(--psg-text-soft);
+}
+
+#menu footer {
+  color: var(--psg-text-muted);
+}
+
+#menu footer a,
+#menu footer a:visited {
+  color: var(--psg-link);
+}
+
+#menu footer a:hover {
+  color: var(--psg-link-hover);
 }
 
 a {
