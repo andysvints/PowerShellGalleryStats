@@ -126,8 +126,77 @@ html, body, .page {
   color: var(--psg-link-hover);
 }
 
+#p2 .window {
+  background: var(--psg-surface-alt);
+  border: 1px solid var(--psg-border);
+}
+
+/* Pale console title bar */
+#p2 .console-title {
+  background: #d9dde0;
+  color: #353b40;
+}
+
+/* Main console area */
+#p2 pre,
+#p2 .ps-line {
+  background: var(--psg-surface-alt);
+  color: var(--psg-text-soft);
+}
+
+/* Search input */
+#p2 input,
+#p2 .ps-input {
+  color: var(--psg-text);
+  border-bottom-color: var(--psg-accent);
+  box-shadow: inset 0 -2px 0 var(--psg-accent);
+}
+
+#p2 input:focus,
+#p2 .ps-input:focus {
+  border-bottom-color: var(--psg-link);
+  box-shadow: inset 0 -2px 0 var(--psg-link);
+}
+
+#p2 input::placeholder,
+#p2 .ps-input::placeholder {
+  color: var(--psg-text-muted);
+}
+
+/* Softer PowerShell syntax highlighting */
+#p2 .token.comment {
+  color: #7f9c89;
+}
+
+#p2 .token.keyword,
+#p2 .token.parameter {
+  color: var(--psg-warm-link);
+}
+
+#p2 .token.cmdlet,
+#p2 .token.function {
+  color: var(--psg-link);
+}
+
+#p2 .token.string {
+  color: #d2c5a1;
+}
+
+#p2 .token.number {
+  color: #c0a6c8;
+}
+
+/* Instructions below the console */
+#p2 .hint {
+  color: var(--psg-text-soft);
+}
+
+#p2 .hint a {
+  color: var(--psg-link);
+}
+
 #p1 { background: var(--psg-page); }
-#p2 { background: #404040; }
+#p2 { background: var(--psg-page); }
 #p3 { background: #404040; }
 #p4 { background: #404040; }
 #p5 { background: tomato; }
