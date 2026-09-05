@@ -956,7 +956,7 @@ footer {
 @media (max-width: 600px) {
 
   #p1 .hint {
-     font-size: medium;
+     font-size: medium; !important;
   }
   #p1 table tbody tr:nth-child(n + 6) {
     display: none;
