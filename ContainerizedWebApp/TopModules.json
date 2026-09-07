@@ -1,72 +1,72 @@
 [
   {
-    "id": "Template-PSModule",
-    "Owners": "PSModule.io",
-    "Description": "Template for a PowerShell module repo.",
-    "Score": 80,
-    "Published": "2026-09-05T06:19:43.287"
-  },
-  {
-    "id": "NerdFonts",
-    "Owners": "PSModule.io",
-    "Description": "A PowerShell module to download and install fonts from NerdFonts.",
-    "Score": 75,
-    "Published": "2026-09-05T20:55:40.257"
-  },
-  {
     "id": "Posh-SecretRotation",
     "Owners": "MS-LUF",
     "Description": "Rotates Active Directory, Entra ID, and custom-backend account passwords and protects them via Shamir Secret Sharing (Posh-SecretSharing).",
     "Score": 70,
-    "Published": "2026-09-05T20:09:47.643"
+    "Published": "2026-09-06T06:42:13.07"
   },
   {
-    "id": "PSWindowsImageTools",
-    "Owners": "saymoner88",
-    "Description": "Comprehensive PowerShell module for Windows image management, customization, and deployment automation. Features native DISM API integration, registry operations, driver management, wallpaper configuration, Autopilot setup, and Windows Update catalog integration with enterprise-grade tools for WIM/ESD manipulation.",
-    "Score": 70,
-    "Published": "2026-09-05T02:22:43.41"
-  },
-  {
-    "id": "IdentityCommand.SIA",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the API for the Idira (CyberArk) SIA platform",
-    "Score": 70,
-    "Published": "2026-09-05T19:10:43.39"
-  },
-  {
-    "id": "PSWinOps",
-    "Owners": "k9fr4n",
-    "Description": "A collection of PowerShell utilities for Windows system administrators",
-    "Score": 70,
-    "Published": "2026-09-05T22:15:50.957"
-  },
-  {
-    "id": "Mc2it.Hcon",
-    "Owners": "CedX",
-    "Description": "Parse HCON (htmx Configuration Object Notation) in PowerShell.",
+    "id": "Posh-SecretSharing",
+    "Owners": "MS-LUF",
+    "Description": "Pure PowerShell implementation of Shamir Secret Sharing (SLIP-0039).",
     "Score": 65,
-    "Published": "2026-09-05T19:18:41.803"
+    "Published": "2026-09-06T06:49:04.713"
   },
   {
-    "id": "CrossroadsClient",
-    "Owners": "royashbrook",
-    "Description": "Unofficial PowerShell client for the Gravitate Crossroads Integration API.",
+    "id": "Posh-YBKPIV",
+    "Owners": "MS-LUF",
+    "Description": "PowerShell module wrapping yubico-piv-tool.exe to manage a locally attached YubiKey's PIV application, including MSI installation of the tool itself.",
     "Score": 65,
-    "Published": "2026-09-05T20:37:22.82"
+    "Published": "2026-09-06T06:53:35.793"
   },
   {
-    "id": "SendMail",
+    "id": "POSH-UserPukMGT",
+    "Owners": "MS-LUF",
+    "Description": "Manages the association between a user, a PUK code, and a crypto device serial number, hosted in a flat file or Active Directory, without exposing sensitive data in clear text.",
+    "Score": 60,
+    "Published": "2026-09-06T06:51:15.317"
+  },
+  {
+    "id": "GliderUI.Server.osx-arm64",
+    "Owners": "mdgrs-mei",
+    "Description": "Server binaries for GliderUI module",
+    "Score": 60,
+    "Published": "2026-09-06T12:41:03.573"
+  },
+  {
+    "id": "GliderUI.Server.linux-x64",
+    "Owners": "mdgrs-mei",
+    "Description": "Server binaries for GliderUI module",
+    "Score": 60,
+    "Published": "2026-09-06T12:41:16.67"
+  },
+  {
+    "id": "GliderUI.Server.linux-arm64",
+    "Owners": "mdgrs-mei",
+    "Description": "Server binaries for GliderUI module",
+    "Score": 60,
+    "Published": "2026-09-06T12:41:27.48"
+  },
+  {
+    "id": "PwshZendesk",
+    "Owners": "RobFaie",
+    "Description": "Wrapper for the Zendesk Rest API",
+    "Score": 60,
+    "Published": "2026-09-06T02:22:26.787"
+  },
+  {
+    "id": "GliderUI.Server.win-x64",
+    "Owners": "mdgrs-mei",
+    "Description": "Server binaries for GliderUI module",
+    "Score": 60,
+    "Published": "2026-09-06T12:40:43.727"
+  },
+  {
+    "id": "ImportIcal",
     "Owners": "CraigChamberlain",
-    "Description": "To follow",
+    "Description": "Cmdlets to create and assemble objects from the Ical.Net library.",
     "Score": 60,
-    "Published": "2026-09-05T13:30:11.287"
-  },
-  {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
-    "Score": 60,
-    "Published": "2026-09-05T07:35:59.67"
+    "Published": "2026-09-06T14:36:42.983"
   }
 ]
