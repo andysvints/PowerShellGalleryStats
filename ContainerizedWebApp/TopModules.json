@@ -1,72 +1,72 @@
 [
   {
-    "id": "Posh-SecretRotation",
-    "Owners": "MS-LUF",
-    "Description": "Rotates Active Directory, Entra ID, and custom-backend account passwords and protects them via Shamir Secret Sharing (Posh-SecretSharing).",
+    "id": "Macadress",
+    "Owners": "apisos",
+    "Description": "PowerShell client for the macadress.com MAC address and OUI vendor lookup API. Keyless vendor-name lookups, plus keyed full lookup, batch resolution, extract-from-text and vendor directory search.",
+    "Score": 80,
+    "Published": "2026-09-07T11:07:27.95"
+  },
+  {
+    "id": "IdentityCommand",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the CyberArk Identity platform",
+    "Score": 80,
+    "Published": "2026-09-07T20:21:44.317"
+  },
+  {
+    "id": "IdentityCommand.SCA",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Idira (CyberArk) SCA platform",
     "Score": 70,
-    "Published": "2026-09-06T06:42:13.07"
+    "Published": "2026-09-07T21:38:05.987"
   },
   {
-    "id": "Posh-SecretSharing",
-    "Owners": "MS-LUF",
-    "Description": "Pure PowerShell implementation of Shamir Secret Sharing (SLIP-0039).",
+    "id": "IdentityCommand.SIA",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Idira (CyberArk) SIA platform",
+    "Score": 70,
+    "Published": "2026-09-07T21:13:16.96"
+  },
+  {
+    "id": "CrossroadsClient",
+    "Owners": "royashbrook",
+    "Description": "Unofficial PowerShell client for the Gravitate Crossroads Integration API.",
     "Score": 65,
-    "Published": "2026-09-06T06:49:04.713"
-  },
-  {
-    "id": "Posh-YBKPIV",
-    "Owners": "MS-LUF",
-    "Description": "PowerShell module wrapping yubico-piv-tool.exe to manage a locally attached YubiKey's PIV application, including MSI installation of the tool itself.",
-    "Score": 65,
-    "Published": "2026-09-06T06:53:35.793"
-  },
-  {
-    "id": "POSH-UserPukMGT",
-    "Owners": "MS-LUF",
-    "Description": "Manages the association between a user, a PUK code, and a crypto device serial number, hosted in a flat file or Active Directory, without exposing sensitive data in clear text.",
-    "Score": 60,
-    "Published": "2026-09-06T06:51:15.317"
-  },
-  {
-    "id": "GliderUI.Server.osx-arm64",
-    "Owners": "mdgrs-mei",
-    "Description": "Server binaries for GliderUI module",
-    "Score": 60,
-    "Published": "2026-09-06T12:41:03.573"
-  },
-  {
-    "id": "GliderUI.Server.linux-x64",
-    "Owners": "mdgrs-mei",
-    "Description": "Server binaries for GliderUI module",
-    "Score": 60,
-    "Published": "2026-09-06T12:41:16.67"
-  },
-  {
-    "id": "GliderUI.Server.linux-arm64",
-    "Owners": "mdgrs-mei",
-    "Description": "Server binaries for GliderUI module",
-    "Score": 60,
-    "Published": "2026-09-06T12:41:27.48"
+    "Published": "2026-09-07T23:20:12.033"
   },
   {
     "id": "PwshZendesk",
     "Owners": "RobFaie",
     "Description": "Wrapper for the Zendesk Rest API",
     "Score": 60,
-    "Published": "2026-09-06T02:22:26.787"
+    "Published": "2026-09-07T11:50:56.63"
   },
   {
-    "id": "GliderUI.Server.win-x64",
-    "Owners": "mdgrs-mei",
-    "Description": "Server binaries for GliderUI module",
+    "id": "ScrewCitySoftware.PwshProfile",
+    "Owners": "screwcitysoftware",
+    "Description": "Reusable building blocks for PowerShell profile startup: timed startup steps, safe module imports, PSReadLine setup, and CLI tool enablers (git, oh-my-posh, zoxide, fzf/PSFzf, fnm, xh, jq, bat, fd, ripgrep, less, lazygit, uv).",
     "Score": 60,
-    "Published": "2026-09-06T12:40:43.727"
+    "Published": "2026-09-07T19:06:06.937"
+  },
+  {
+    "id": "SendMail",
+    "Owners": "CraigChamberlain",
+    "Description": "To follow",
+    "Score": 60,
+    "Published": "2026-09-07T14:13:36.867"
   },
   {
     "id": "ImportIcal",
     "Owners": "CraigChamberlain",
     "Description": "Cmdlets to create and assemble objects from the Ical.Net library.",
     "Score": 60,
-    "Published": "2026-09-06T14:36:42.983"
+    "Published": "2026-09-07T11:17:03.843"
+  },
+  {
+    "id": "xProgress",
+    "Owners": "exactmike",
+    "Description": "xProgress makes progress bars in PowerShell simple: throttled Write-Progress calls, accurate percent-complete and time-remaining, and nested parent/child progress bars, all handled automatically instead of hand-rolled counter/timer/Id bookkeeping in every script. It also mirrors Write-Progress calls made inside a background job's scriptblock into your own session -- including nested activities -- via Write-xJobProgress, something no other PowerShell module does. Full stopwatch lifecycle control (Start-xProgress, Suspend-xProgress, Resume-xProgress) lets you exclude wait time such as API calls or sleeps from elapsed and time-remaining calculations.",
+    "Score": 60,
+    "Published": "2026-09-07T21:18:16.793"
   }
 ]
