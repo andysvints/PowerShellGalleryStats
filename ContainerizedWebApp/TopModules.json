@@ -1,72 +1,72 @@
 [
   {
-    "id": "AtlassianPS.Standards",
-    "Owners": "lipkau",
-    "Description": "Shared analyzer settings and standards utilities for AtlassianPS modules.",
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "A tab-completion manager for PowerShell, powered by Rust engine and interactive menu.\r\nIt provides fast rendering, wildcard/subsequence filtering, history-aware ordering, dynamic (Lua) completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 75,
-    "Published": "2026-09-11T06:20:09.653"
+    "Published": "2026-09-12T12:19:30.683"
   },
   {
-    "id": "DSInternals",
-    "Owners": "MichaelGrafnetter",
-    "Description": "The DSInternals PowerShell Module exposes several internal features of Active Directory. These include FIDO2 and NGC key auditing, offline ntds.dit file manipulation, password auditing, DC recovery from IFM backups, and password hash calculation.\r\n\r\nDISCLAIMER: Features exposed through this module are not supported by Microsoft and it is therefore not intended to be used in production environments. Improper use might cause irreversible damage to domain controllers or negatively impact domain security.",
-    "Score": 75,
-    "Published": "2026-09-11T22:30:46.713"
-  },
-  {
-    "id": "powershellYK",
-    "Owners": "virot",
-    "Description": "A unofficial powershell wrapper for Yubico .NET SDK. Allows administration of Yubikeys from Powershell.",
+    "id": "TestEnvironment",
+    "Owners": "fadwen",
+    "Description": "Seeds a realistic identity test environment in Entra ID, Active Directory, Okta, Authentik or FreeIPA - users in every lifecycle state, groups, devices and hosts, and the access policy over them - and tears it down again cleanly, proving ownership of every object before deleting it. One connect-seed-report-teardown surface for all five, no module dependencies, Windows PowerShell 5.1 and PowerShell 7.",
     "Score": 70,
-    "Published": "2026-09-11T20:34:42.25"
+    "Published": "2026-09-12T19:44:48.633"
   },
   {
-    "id": "Az.Maintenance",
-    "Owners": "azure-sdk",
-    "Description": "Microsoft Azure PowerShell - Maintenance cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.\r\n\r\nFor more information on Maintenance, please visit the following: https://learn.microsoft.com/azure/maintenance/",
+    "id": "DmarcDeploymentKit",
+    "Owners": "Princetimber",
+    "Description": "Cross-organization PowerShell toolkit for constructing, deploying and validating DMARC, DKIM and SPF email-authentication records against Microsoft 365 tenants, with a pluggable DNS-provider abstraction and full evidence-pack output for change control.",
+    "Score": 65,
+    "Published": "2026-09-12T17:02:31.823"
+  },
+  {
+    "id": "PSWriteOffice",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerShell module to create, convert, read, inspect, and export Office, PDF, iWork, OneNote, OpenDocument, email, Markdown, AsciiDoc, LaTeX, CSV, Visio, and Confluence content without Microsoft Office installed. Powered by OfficeIMO.*.",
+    "Score": 65,
+    "Published": "2026-09-12T16:46:16.76"
+  },
+  {
+    "id": "ModuleAssembler",
+    "Owners": "TrisBits",
+    "Description": "ModuleAssembler is a PowerShell module that provides scaffolding, build, test, documentation, versioning, and publishing utilities for PowerShell module development. It is suited for both interactive development workflows and CI/CD pipelines.",
     "Score": 60,
-    "Published": "2026-09-11T05:42:53.113"
+    "Published": "2026-09-12T18:16:02.12"
   },
   {
-    "id": "PenguinConverters.Keyra.PowerShell",
-    "Owners": "gregor.spyra",
-    "Description": "PowerShell CmdLets for encrypting, decrypting, and managing secrets using Keyra key files and vault exports.",
-    "Score": 55,
-    "Published": "2026-09-11T09:50:45.29"
+    "id": "GitlabCli",
+    "Owners": "chris-peterson",
+    "Description": "Interact with GitLab via PowerShell",
+    "Score": 60,
+    "Published": "2026-09-12T18:10:40.063"
   },
   {
-    "id": "Particular.ServiceControl.Management",
-    "Owners": "ParticularSoftware",
-    "Description": "ServiceControl Management",
-    "Score": 55,
-    "Published": "2026-09-11T05:41:46.083"
-  },
-  {
-    "id": "CopilotShell",
-    "Owners": "knicknic",
-    "Description": "PowerShell 7+ module wrapping the GitHub Copilot SDK. Provides cmdlets for managing Copilot clients, sessions, and messages with full system-message customization and streaming support.",
+    "id": "SqlLabDataGenerator",
+    "Owners": "ondrej",
+    "Description": "AI-assisted synthetic data generation platform for SQL Server, SQLite, DuckDB and every other PSSqlRepository provider. Discovers database schema, classifies columns semantically (with OpenAI, Azure OpenAI, or Ollama), generates realistic FK-consistent test data with locale support (en-US, cs-CZ, ...), context-dependent JSON/XML generation via cross-column AI dependencies, and transforms output to Entra ID objects and other formats.",
     "Score": 50,
-    "Published": "2026-09-11T03:52:30.087"
+    "Published": "2026-09-12T19:23:33.25"
+  },
+  {
+    "id": "Start-HttpServer",
+    "Owners": "DavidR",
+    "Description": "Starts a lightweight static file server using the built-in .NET HttpListener class,\nwith behavior similar to Python's `python -m http.server` command. No additional\npackages or web framework are required.\n\nThe server serves files below SiteRoot, returns index.html for directory URLs when\npresent, and generates a directory listing when no index.html exists. It supports\nGET and HEAD requests, common content types, directory redirects, and conditional\ncaching with Last-Modified and If-Modified-Since. Missing paths and requests that\nresolve outside SiteRoot return 404.\n\nBy default, the server listens on all network interfaces at port 8000, similar to\nPython's http.server. Use LocalOnly to restrict access to this computer at\nhttp://localhost:8000/. LAN access requires an elevated PowerShell session and an\nenabled inbound Windows Firewall rule for the selected TCP port.\n\nThis script is intended for local development, testing, demonstrations, and quick\nfile sharing. It is not intended to replace a production web server.\n\n",
+    "Score": 50,
+    "Published": "2026-09-12T06:31:46.213"
   },
   {
     "id": "WindmillClient",
     "Owners": "rubenfiszel",
     "Description": "Client for the Windmill platform.",
     "Score": 50,
-    "Published": "2026-09-11T17:03:28.313"
+    "Published": "2026-09-12T08:07:25.857"
   },
   {
-    "id": "Export-EntraGroupMemberShip",
-    "Owners": "Chendrayan-Venkatesan",
-    "Description": "Authenticates interactively against Microsoft Graph using the OAuth 2.0 device code flow\n(Invoke-RestMethod only - no Microsoft.Graph, MSAL.PS, or AzureAD module dependency) and\nenumerates Microsoft Entra ID groups. The report contains one row per group with:\n  - GroupName          : the group's display name.\n  - GroupSource         : Cloud (native Entra ID) or Windows Server AD (synced via Entra Connect).\n  - GroupType           : Microsoft 365, Security, Mail-Enabled Security, Distribution, Dynamic, etc.\n  - Members             : comma-separated list of direct members (users and groups). Members that\n                          are themselves groups are suffixed with \" (Group)\".\n  - NestedGroupMembers  : for every direct member that is a group, that nested group's own members,\n                          formatted as \"NestedGroupName: member1, member2; NextGroup: member3\".\n\n",
+    "id": "TerminalStyles",
+    "Owners": "fcreme",
+    "Description": "Theme your terminal from PowerShell: 16 bundled color schemes with an arrow-key picker that previews each theme live in your current tab (Enter keeps, Esc reverts). Switch color scheme, cursor, font, opacity, and background image in one command, and install curated coding fonts (JetBrains Mono, Fira Code, Cascadia Code and more) straight from their official sources. Works on Windows Terminal, macOS Terminal.app, iTerm2, and any terminal that supports OSC color sequences -- and can style zsh and bash as well as PowerShell. Runs on PowerShell 7 and Windows PowerShell 5.1, on Windows, macOS, and Linux.",
     "Score": 45,
-    "Published": "2026-09-11T16:38:57.617"
-  },
-  {
-    "id": "Shmuelie.PackageManagement",
-    "Owners": "shmuelie",
-    "Description": "Provider-neutral package update orchestration with eight optional integrations, per-target confirmation, and typed outcomes.",
-    "Score": 45,
-    "Published": "2026-09-11T17:57:57.407"
+    "Published": "2026-09-12T20:46:32.14"
   }
 ]
