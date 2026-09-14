@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": "A tab-completion manager for PowerShell, powered by Rust engine and interactive menu.\r\nIt provides fast rendering, wildcard/subsequence filtering, history-aware ordering, dynamic (Lua) completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
-    "Score": 75,
-    "Published": "2026-09-12T12:19:30.683"
+    "id": "XurrentHelpers",
+    "Owners": "fasteiner,fabsteiner",
+    "Description": "A PowerShell Module by techwork data GmbH containing cmdlets making Xurrent adminstration easier and more efficient",
+    "Score": 80,
+    "Published": "2026-09-13T14:25:56.04"
   },
   {
-    "id": "TestEnvironment",
-    "Owners": "fadwen",
-    "Description": "Seeds a realistic identity test environment in Entra ID, Active Directory, Okta, Authentik or FreeIPA - users in every lifecycle state, groups, devices and hosts, and the access policy over them - and tears it down again cleanly, proving ownership of every object before deleting it. One connect-seed-report-teardown surface for all five, no module dependencies, Windows PowerShell 5.1 and PowerShell 7.",
+    "id": "AtlassianPS.Standards",
+    "Owners": "lipkau",
+    "Description": "Shared analyzer settings and standards utilities for AtlassianPS modules.",
+    "Score": 75,
+    "Published": "2026-09-13T07:04:52.807"
+  },
+  {
+    "id": "psRadiantOne",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Radiant Logic RadiantOne platform",
     "Score": 70,
-    "Published": "2026-09-12T19:44:48.633"
+    "Published": "2026-09-13T22:00:52.45"
   },
   {
     "id": "DmarcDeploymentKit",
     "Owners": "Princetimber",
     "Description": "Cross-organization PowerShell toolkit for constructing, deploying and validating DMARC, DKIM and SPF email-authentication records against Microsoft 365 tenants, with a pluggable DNS-provider abstraction and full evidence-pack output for change control.",
     "Score": 65,
-    "Published": "2026-09-12T17:02:31.823"
+    "Published": "2026-09-13T13:26:28.617"
   },
   {
-    "id": "PSWriteOffice",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerShell module to create, convert, read, inspect, and export Office, PDF, iWork, OneNote, OpenDocument, email, Markdown, AsciiDoc, LaTeX, CSV, Visio, and Confluence content without Microsoft Office installed. Powered by OfficeIMO.*.",
-    "Score": 65,
-    "Published": "2026-09-12T16:46:16.76"
-  },
-  {
-    "id": "ModuleAssembler",
-    "Owners": "TrisBits",
-    "Description": "ModuleAssembler is a PowerShell module that provides scaffolding, build, test, documentation, versioning, and publishing utilities for PowerShell module development. It is suited for both interactive development workflows and CI/CD pipelines.",
+    "id": "Nutanix.Networking",
+    "Owners": "nutanix-publisher",
+    "Description": "Manage networking configuration on Nutanix clusters, including AHV and advanced networking.",
     "Score": 60,
-    "Published": "2026-09-12T18:16:02.12"
+    "Published": "2026-09-13T22:56:38.197"
   },
   {
-    "id": "GitlabCli",
+    "id": "PowerShellBookmark",
+    "Owners": "gvijaikumar9",
+    "Description": "Save, recall, and run your favourite command-line commands. Bookmark any command (or the one you just ran), recall it by name or from a fuzzy picker, fill {{placeholders}}, and jump from history to a curated favourites list. Bookmarks are stored as portable JSON.",
+    "Score": 60,
+    "Published": "2026-09-13T02:02:20.71"
+  },
+  {
+    "id": "GitHubCli",
     "Owners": "chris-peterson",
-    "Description": "Interact with GitLab via PowerShell",
+    "Description": "Interact with Github via PowerShell",
     "Score": 60,
-    "Published": "2026-09-12T18:10:40.063"
+    "Published": "2026-09-13T17:47:46.98"
   },
   {
-    "id": "SqlLabDataGenerator",
-    "Owners": "ondrej",
-    "Description": "AI-assisted synthetic data generation platform for SQL Server, SQLite, DuckDB and every other PSSqlRepository provider. Discovers database schema, classifies columns semantically (with OpenAI, Azure OpenAI, or Ollama), generates realistic FK-consistent test data with locale support (en-US, cs-CZ, ...), context-dependent JSON/XML generation via cross-column AI dependencies, and transforms output to Entra ID objects and other formats.",
-    "Score": 50,
-    "Published": "2026-09-12T19:23:33.25"
+    "id": "ForgeCli",
+    "Owners": "chris-peterson",
+    "Description": "Unified interface for GitHub, GitLab, and other software forges",
+    "Score": 60,
+    "Published": "2026-09-13T16:47:52.28"
   },
   {
-    "id": "Start-HttpServer",
-    "Owners": "DavidR",
-    "Description": "Starts a lightweight static file server using the built-in .NET HttpListener class,\nwith behavior similar to Python's `python -m http.server` command. No additional\npackages or web framework are required.\n\nThe server serves files below SiteRoot, returns index.html for directory URLs when\npresent, and generates a directory listing when no index.html exists. It supports\nGET and HEAD requests, common content types, directory redirects, and conditional\ncaching with Last-Modified and If-Modified-Since. Missing paths and requests that\nresolve outside SiteRoot return 404.\n\nBy default, the server listens on all network interfaces at port 8000, similar to\nPython's http.server. Use LocalOnly to restrict access to this computer at\nhttp://localhost:8000/. LAN access requires an elevated PowerShell session and an\nenabled inbound Windows Firewall rule for the selected TCP port.\n\nThis script is intended for local development, testing, demonstrations, and quick\nfile sharing. It is not intended to replace a production web server.\n\n",
-    "Score": 50,
-    "Published": "2026-09-12T06:31:46.213"
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Simple project allowing preparing, managing, building and publishing modules to PowerShellGallery",
+    "Score": 60,
+    "Published": "2026-09-13T10:03:23.85"
   },
   {
-    "id": "WindmillClient",
-    "Owners": "rubenfiszel",
-    "Description": "Client for the Windmill platform.",
-    "Score": 50,
-    "Published": "2026-09-12T08:07:25.857"
-  },
-  {
-    "id": "TerminalStyles",
-    "Owners": "fcreme",
-    "Description": "Theme your terminal from PowerShell: 16 bundled color schemes with an arrow-key picker that previews each theme live in your current tab (Enter keeps, Esc reverts). Switch color scheme, cursor, font, opacity, and background image in one command, and install curated coding fonts (JetBrains Mono, Fira Code, Cascadia Code and more) straight from their official sources. Works on Windows Terminal, macOS Terminal.app, iTerm2, and any terminal that supports OSC color sequences -- and can style zsh and bash as well as PowerShell. Runs on PowerShell 7 and Windows PowerShell 5.1, on Windows, macOS, and Linux.",
-    "Score": 45,
-    "Published": "2026-09-12T20:46:32.14"
+    "id": "slmgr-ps",
+    "Owners": "ZaferBalkan",
+    "Description": "An independent community PowerShell alternative for common slmgr.vbs workflows",
+    "Score": 55,
+    "Published": "2026-09-13T20:41:54.257"
   }
 ]
