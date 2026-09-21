@@ -1,72 +1,72 @@
 [
   {
-    "id": "PowerPlug",
-    "Owners": "Manup",
-    "Description": "A cross-platform PowerShell 7+ cmdlet utility library for day to day development, DevOps and general tooling.",
-    "Score": 90,
-    "Published": "2026-09-19T17:37:29.147"
-  },
-  {
-    "id": "SubEtha",
-    "Owners": "MarkusMcNugen",
-    "Description": "Shared memory between processes, as PowerShell cmdlets and objects. Rings, queues, channels, locks, atomics, counters and shared collections that several processes on one machine read and write at the same time, each backed by a memory-mapped file that outlives the session that made it. A New- cmdlet makes one and an Open- cmdlet attaches to one another process has already made; the object either one returns carries the operations as methods, and Send-SubEthaItem and Receive-SubEthaItem move items through the pipeline. Bytes cross as byte[] pinned in place rather than copied, and a lock or a hold comes back as an object that releases on Release(), Dispose() or collection. Every cmdlet answers to a shorter name with the SE prefix. Bound directly to Rust with PoWerRuSt (pwrs), Rust bindings for writing PowerShell binary modules in the spirit of PyO3: the cmdlets are the library, not a wrapper over a command line. Windows x64 and Linux x64 in one module, on PowerShell 7 and Windows PowerShell 5.1. Source and issues at https://github.com/Variably-Constant/SubEtha; the binding framework at https://github.com/Variably-Constant/PWRS and https://crates.io/crates/PoWerRuSt.",
+    "id": "MSCKite.Azure.Platform",
+    "Owners": "MSc356Admin",
+    "Description": "Lightweight automation for Azure platform engineering, developer enablement, and cloud operations.",
     "Score": 75,
-    "Published": "2026-09-19T19:04:07.157"
+    "Published": "2026-09-20T20:00:42.77"
   },
   {
-    "id": "LISSTech.SoftwareManager",
-    "Owners": "mwisniowski",
-    "Description": "Software lifecycle management for Windows. Query installed software from the registry, install MSI/EXE packages with automatic retry logic and error diagnostics, and uninstall products through a clean PowerShell interface.",
+    "id": "XlsxCommand",
+    "Owners": "MarcoDorantes",
+    "Description": "XlsxCommand - CmdLets for PowerShell v7 to read/write Excel Workbook (XLSX) files.",
     "Score": 75,
-    "Published": "2026-09-19T16:57:32.48"
+    "Published": "2026-09-20T02:02:42.683"
   },
   {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": "A tab-completion manager for PowerShell, powered by Rust engine and interactive menu.\r\nIt provides fast rendering, wildcard/subsequence filtering, history-aware ordering, dynamic (Lua) completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
+    "id": "PSWriteColor",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Write-Color is a wrapper around Write-Host allowing you to create nice looking scripts, with colorized output. It provides easy manipulation of colors, logging output to file (log) and nice formatting options out of the box.",
     "Score": 75,
-    "Published": "2026-09-19T05:06:36.663"
+    "Published": "2026-09-20T16:50:35.88"
   },
   {
-    "id": "PS2EXE2ps12exe",
-    "Owners": "steve02081504",
-    "Description": "Hard to upgrade from PS2EXE to ps12exe? No problem!\nThis module can hooks PS2EXE calls into ps12exe, All you need is just uninstall PS2EXE and install this, then use PS2EXE as normal.",
+    "id": "psRadiantOne",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Radiant Logic RadiantOne platform",
     "Score": 70,
-    "Published": "2026-09-19T02:27:59.26"
+    "Published": "2026-09-20T14:51:15.59"
   },
   {
-    "id": "Rename-NetVirtualAdapter",
-    "Owners": "Accurio",
-    "Description": "This script renames some virtual network adapters, including WAN Miniport and Microsoft Wi-Fi Direct Virtual Adapters, to their descriptions.\n",
+    "id": "TestEnvironment",
+    "Owners": "fadwen",
+    "Description": "Seeds a realistic identity test environment in Entra ID, Active Directory, Okta, Authentik or FreeIPA - users in every lifecycle state, groups, devices and hosts, and the access policy over them - and tears it down again cleanly, proving ownership of every object before deleting it. One connect-seed-report-teardown surface for all five, no module dependencies, Windows PowerShell 5.1 and PowerShell 7.",
+    "Score": 70,
+    "Published": "2026-09-20T01:03:45.603"
+  },
+  {
+    "id": "JObfuscator",
+    "Owners": "PELock",
+    "Description": "PowerShell Gallery Web API client for JObfuscator. Obfuscate and protect Java source code via the PELock remote API.",
     "Score": 65,
-    "Published": "2026-09-19T16:07:18.983"
+    "Published": "2026-09-20T23:25:38.187"
+  },
+  {
+    "id": "AutoItObfuscator",
+    "Owners": "PELock",
+    "Description": "PowerShell Gallery Web API client for AutoIt Obfuscator. Obfuscate and protect AutoIt v3 .au3 source code via the PELock remote API.",
+    "Score": 65,
+    "Published": "2026-09-20T23:25:29.29"
+  },
+  {
+    "id": "PythonObfuscator",
+    "Owners": "PELock",
+    "Description": "PowerShell Gallery Web API client for Python Obfuscator. Obfuscate, virtualize and protect Python .py source code via the PELock remote API.",
+    "Score": 65,
+    "Published": "2026-09-20T13:10:56.65"
   },
   {
     "id": "PiHoleShell",
     "Owners": "piholeshell",
     "Description": "A module to interact with the v6 version of PiHole API",
     "Score": 65,
-    "Published": "2026-09-19T21:42:55.92"
+    "Published": "2026-09-20T14:02:42.61"
   },
   {
-    "id": "ozo-ad-lab-implement-installation-prerequisites",
-    "Owners": "alievertz",
-    "Description": "Implements the installation prerequisites for the One Zero One AD Lab.\n",
+    "id": "PSEventViewer",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "High-performance typed Windows Event Log queries, reports, exports, watchers, WEC, custom providers, diagnostics, and administration for PowerShell.",
     "Score": 65,
-    "Published": "2026-09-19T07:43:11.083"
-  },
-  {
-    "id": "ozo-ad-lab-implement-customization-prerequisites",
-    "Owners": "alievertz",
-    "Description": "Implements the customization prerequisites for the One Zero One AD Lab.\n",
-    "Score": 65,
-    "Published": "2026-09-19T07:59:04.913"
-  },
-  {
-    "id": "DataAgent",
-    "Owners": "royashbrook",
-    "Description": "Run a configured source, formatter, and destination using existing PowerShell tools.",
-    "Score": 55,
-    "Published": "2026-09-19T03:33:50.7"
+    "Published": "2026-09-20T16:30:37.027"
   }
 ]
