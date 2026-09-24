@@ -1,72 +1,72 @@
 [
   {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
-    "Score": 85,
-    "Published": "2026-09-22T20:44:42.88"
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 90,
+    "Published": "2026-09-23T17:16:30.737"
   },
   {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
-    "Score": 85,
-    "Published": "2026-09-22T21:46:51.36"
+    "id": "CompleterActions",
+    "Owners": "tstager1428",
+    "Description": "CompleterActions is a PowerShell module for registering, discovering, querying, and removing PowerShell argument completers in a consistent way.\nIt wraps Register-ArgumentCompleter with module-managed registration tracking, while also discovering completers that were registered directly in the current PowerShell runtime.",
+    "Score": 70,
+    "Published": "2026-09-23T23:01:22.977"
   },
   {
-    "id": "OCI.PSModules.Generativeaidata",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
-    "Score": 80,
-    "Published": "2026-09-22T21:01:51.173"
+    "id": "DuckDB.Client",
+    "Owners": "Fred",
+    "Description": "xPlat client module to interact with DuckDB",
+    "Score": 65,
+    "Published": "2026-09-23T16:42:03.593"
   },
   {
-    "id": "OCI.PSModules.Containerregistry",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
-    "Score": 80,
-    "Published": "2026-09-22T20:50:11.09"
+    "id": "PiHoleShell",
+    "Owners": "piholeshell",
+    "Description": "A module to interact with the v6 version of PiHole API",
+    "Score": 65,
+    "Published": "2026-09-23T03:40:56.663"
   },
   {
-    "id": "OCI.PSModules.Limitsincrease",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
-    "Score": 80,
-    "Published": "2026-09-22T21:07:46.47"
+    "id": "XKCD",
+    "Owners": "markwragg",
+    "Description": "Commands related to the webcomic XKCD: http://xkcd.com",
+    "Score": 60,
+    "Published": "2026-09-23T21:24:04.017"
   },
   {
-    "id": "OCI.PSModules.Gdp",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Gdp Service",
-    "Score": 80,
-    "Published": "2026-09-22T21:00:31.073"
+    "id": "DataAgent",
+    "Owners": "royashbrook",
+    "Description": "Run a configured source, formatter, and destination using existing PowerShell tools.",
+    "Score": 55,
+    "Published": "2026-09-23T18:02:30.013"
   },
   {
-    "id": "OCI.PSModules.Batch",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
-    "Score": 80,
-    "Published": "2026-09-22T20:48:11.587"
+    "id": "PenguinConverters.Keyra.PowerShell",
+    "Owners": "gregor.spyra",
+    "Description": "PowerShell CmdLets for encrypting, decrypting, and managing secrets using Keyra key files and vault exports.",
+    "Score": 55,
+    "Published": "2026-09-23T11:06:49"
   },
   {
-    "id": "OCI.PSModules.Dif",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
-    "Score": 80,
-    "Published": "2026-09-22T20:55:53.313"
+    "id": "Graph.EasyPIM",
+    "Owners": "rakhesh",
+    "Description": "Making the end-user experience of Entra ID PIM slightly easier.",
+    "Score": 55,
+    "Published": "2026-09-23T11:28:45.373"
   },
   {
-    "id": "OCI.PSModules.Iot",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Iot Service",
-    "Score": 80,
-    "Published": "2026-09-22T21:05:24.57"
+    "id": "garuda",
+    "Owners": "Jokourno",
+    "Description": "PowerShell-based, multithreaded platform for probing remote hosts. (Optional: Deno runtime for high-performance mode).",
+    "Score": 50,
+    "Published": "2026-09-23T15:09:08.543"
   },
   {
-    "id": "OCI.PSModules.Jmsutils",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Jmsutils Service",
-    "Score": 80,
-    "Published": "2026-09-22T21:06:30.18"
+    "id": "DataAgent.Test",
+    "Owners": "royashbrook",
+    "Description": "Optional synthetic CSV exercise for DataAgent.",
+    "Score": 50,
+    "Published": "2026-09-23T18:02:37.123"
   }
 ]
