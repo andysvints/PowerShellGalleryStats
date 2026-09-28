@@ -1,72 +1,72 @@
 [
   {
-    "id": "MailHeaderAnalyzer",
-    "Owners": "RafaelPfister_Adeptio",
-    "Description": "Analyzes email headers offline: delivery chain with delays and TLS, SPF/DKIM/DMARC/ARC results with an origin check against trusted authserv-ids, DMARC alignment, Exchange Online hybrid classification (AuthAs, AuthMechanism, CrossTenant), Microsoft Defender/EOP verdicts (SCL, BCL, CAT), SpamAssassin, Rspamd and anomalies such as duplicate From lines or Unicode direction controls. No DNS lookups, no network requests.",
+    "id": "PackageUpdateInfo",
+    "Owners": "AndiBellstedt",
+    "Description": "Module to version check all installed modules. Helps to stay up-to-date with further developing on modules in the community",
+    "Score": 85,
+    "Published": "2026-09-27T07:03:48.22"
+  },
+  {
+    "id": "ElektoMailPosh",
+    "Owners": "JP_Negri-Elekto",
+    "Description": "Lightweight SMTP email module for PowerShell. Zero dependencies, environment-based configuration, automatic retry with exponential backoff. Perfect for CI/CD pipelines, automation scripts, and scheduled tasks.",
     "Score": 75,
-    "Published": "2026-09-26T07:19:30.323"
+    "Published": "2026-09-27T01:19:16.57"
   },
   {
-    "id": "MSCKite.Azure.Platform",
-    "Owners": "MSc356Admin",
-    "Description": "Lightweight automation for Azure platform engineering, developer enablement, and cloud operations.",
-    "Score": 75,
-    "Published": "2026-09-26T14:37:31.72"
-  },
-  {
-    "id": "po.MediaClasses",
-    "Owners": "seabopo",
-    "Description": "A collection of Classes focused on video media (Movies and TV Shows). These classes are populated with information from the AtomicParsley and MediaInfo command line tools, which are managed by the po.AtomicParsley and po.MediaInfo PowerShell modules.",
+    "id": "tcs.utils",
+    "Owners": "TheCodeSaiyan",
+    "Description": "Scaffolding and utility functions for building tcs-style PowerShell modules: module, function and Pester test generators, module renaming, flat-text export/import and MSI inspection (Get-MsiSequence is Windows only).",
     "Score": 70,
-    "Published": "2026-09-26T14:06:04.033"
+    "Published": "2026-09-27T20:42:52.68"
   },
   {
-    "id": "psRadiantOne",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the API for the Radiant Logic RadiantOne platform",
+    "id": "tcs.confluence",
+    "Owners": "TheCodeSaiyan",
+    "Description": "Functions to work with Confluence Cloud: a REST client (pages, spaces, search, labels and attachments) and builders for Confluence storage-format content such as headings, tables, code blocks, links, layouts and tables of contents.",
     "Score": 70,
-    "Published": "2026-09-26T18:56:17.97"
+    "Published": "2026-09-27T20:43:02.083"
   },
   {
-    "id": "Subnet",
-    "Owners": "markwragg",
-    "Description": "A PowerShell module for cmdlets related to network subnet calculations",
+    "id": "tcs.azure",
+    "Owners": "TheCodeSaiyan",
+    "Description": "Helper functions for Microsoft Azure and Microsoft Entra ID: naming and creating departmental groups, and managing Intune app assignment groups.",
     "Score": 70,
-    "Published": "2026-09-26T15:48:39.133"
+    "Published": "2026-09-27T20:42:54.773"
   },
   {
-    "id": "PiHoleShell",
-    "Owners": "piholeshell",
-    "Description": "A module to interact with the v6 version of PiHole API",
+    "id": "SqlReliabilityKit",
+    "Owners": "deepeshd87",
+    "Description": "A SQL Server reliability toolkit: backup recoverability, restore-chain validation, disaster-recovery drift detection, backup anomaly detection, and Query Store regression analysis. Built on dbatools.",
+    "Score": 70,
+    "Published": "2026-09-27T04:31:48.59"
+  },
+  {
+    "id": "M365DSC.mgx",
+    "Owners": "FabienTschanz",
+    "Description": "Resilient companion for Microsoft.Graph PowerShell. Adds retry, circuit breaker, rate limiting, streaming pagination, batching, and fan-out to any Graph API endpoint.",
+    "Score": 70,
+    "Published": "2026-09-27T12:41:26.457"
+  },
+  {
+    "id": "PSChristmasTree",
+    "Owners": "Sofiane-77",
+    "Description": "An animated Christmas tree for PowerShell terminals, with configurable styles, decorations, colors, and localization.",
+    "Score": 70,
+    "Published": "2026-09-27T18:16:39.833"
+  },
+  {
+    "id": "PSWinOps",
+    "Owners": "k9fr4n",
+    "Description": "A collection of PowerShell utilities for Windows system administrators",
+    "Score": 70,
+    "Published": "2026-09-27T07:04:33.367"
+  },
+  {
+    "id": "PSStarr",
+    "Owners": "angrycuban",
+    "Description": "PSStarr is a PowerShell client module for Radarr, Sonarr, and Prowlarr.",
     "Score": 65,
-    "Published": "2026-09-26T22:19:44.347"
-  },
-  {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": "A tab-completion manager for PowerShell, powered by Rust engine and interactive menu.\r\nIt provides fast rendering, wildcard/subsequence filtering, history-aware ordering, dynamic (Lua) completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
-    "Score": 65,
-    "Published": "2026-09-26T10:55:18.413"
-  },
-  {
-    "id": "TextDiff",
-    "Owners": "egoist300",
-    "Description": "変更前と変更後の 2 つの行の配列を比較して差分を算出し、コンソール表示用の行と、左右に並べて表示する HTML に変換する。HTML の見出しや凡例などの文言は日本語。",
-    "Score": 60,
-    "Published": "2026-09-26T18:03:16.6"
-  },
-  {
-    "id": "LISSTech.DrainCtl",
-    "Owners": "mwisniowski",
-    "Description": "Know the instant someone blocks new connections on your RDSH servers. DrainCtl monitors drain mode in real time, tracks who changed it, counts active sessions, and alerts you before capacity runs out. Includes a multi-server dashboard with Kerberos SSO, webhook and ntfy.sh notifications with granular triggers, and a 90-day audit trail. Works standalone or as a Windows Service.",
-    "Score": 60,
-    "Published": "2026-09-26T23:36:36.16"
-  },
-  {
-    "id": "rhubarb-geek-nz.Joinery",
-    "Owners": "rhubarb-geek-nz",
-    "Description": "Join Tools",
-    "Score": 60,
-    "Published": "2026-09-27T00:06:51.187"
+    "Published": "2026-09-27T19:38:09.983"
   }
 ]
