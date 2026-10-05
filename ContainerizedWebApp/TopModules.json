@@ -1,72 +1,72 @@
 [
   {
-    "id": "Omnicit.EntraRBAC",
-    "Owners": "OmnicitAB",
-    "Description": "Manage Entra ID and Azure RBAC building blocks across tenants: Entra ID groups, PIM, Administrative Units, Entitlement Management, Access Reviews, Azure resources and RBAC, plus a JSON inventory and declarative apply engine.",
-    "Score": 70,
-    "Published": "2026-10-03T22:40:32.89"
+    "id": "Boyles.PowerShell",
+    "Owners": "wboyles",
+    "Description": "Umbrella module for the Boyles.PowerShell family. Importing this module imports Boyles.PowerShell.Core plus every installed Boyles.PowerShell.<Service> module (e.g. Boyles.PowerShell.Hudu) - the same \"meta-module\" pattern used by Az and Microsoft.Graph.",
+    "Score": 80,
+    "Published": "2026-10-04T15:21:14.98"
   },
   {
-    "id": "PSZoxide",
-    "Owners": "Deathnerd",
-    "Description": "Pure PowerShell drop-in clone of zoxide 0.10.0, the smarter cd that learns your most-used directories. Same commands (add, query, remove, import, edit, init), same db.zo database and same init powershell script, so z and zi work without the zoxide binary. Requires PowerShell 7.2 or later; fzf is optional.",
-    "Score": 70,
-    "Published": "2026-10-03T17:44:32.79"
+    "id": "AzBobbyTables",
+    "Owners": "PalmEmanuel",
+    "Description": "A module for handling Azure Table Storage operations by wrapping the Azure Data Tables SDK.",
+    "Score": 75,
+    "Published": "2026-10-04T14:44:07.517"
   },
   {
-    "id": "Isystem.PowerShell.PowerPlatform.Dataverse",
-    "Owners": "ondrej",
-    "Description": "Session-based cmdlets for Microsoft Dataverse (Power Platform, Dynamics 365): CRUD, upsert by alternate key, batches, transactions, FetchXML and paging. Authenticates with connection string, client secret, certificate, managed identity, Isystem.AzAuth modes, or a delegated user sign-in whose token cache the caller stores (Key Vault) for environments without application users.",
+    "id": "CompleterActions",
+    "Owners": "tstager1428",
+    "Description": "CompleterActions is a PowerShell module for registering, discovering, querying, and removing PowerShell argument completers in a consistent way.\nIt wraps Register-ArgumentCompleter with module-managed registration tracking, while also discovering completers that were registered directly in the current PowerShell runtime.",
     "Score": 70,
-    "Published": "2026-10-03T11:13:33.697"
+    "Published": "2026-10-04T13:33:12.407"
   },
   {
-    "id": "Belin.Akismet",
+    "id": "Belin.FreeMobile",
     "Owners": "CedX",
-    "Description": "Prevent comment spam using the Akismet service.",
+    "Description": "Send SMS messages to your Free Mobile device.",
     "Score": 70,
-    "Published": "2026-10-04T00:05:14.483"
+    "Published": "2026-10-04T12:38:29.357"
+  },
+  {
+    "id": "GhCID",
+    "Owners": "pspete",
+    "Description": "Testing GitHub Actions module deployment",
+    "Score": 65,
+    "Published": "2026-10-04T20:55:30.867"
   },
   {
     "id": "AzCID",
     "Owners": "pspete",
     "Description": "Testing Azure DevOps module deployment",
     "Score": 65,
-    "Published": "2026-10-03T23:15:15.623"
+    "Published": "2026-10-04T15:11:39.057"
   },
   {
-    "id": "ServerBridge.LicenseScan",
-    "Owners": "LeeCroweSoftware",
-    "Description": "Free, read-only Microsoft 365 admin scans. Invoke-LicenseScan cross-checks every assigned license against real sign-in or usage activity and shows the seats you pay for that nobody uses, in dollars. Invoke-OffboardingCheck finds accounts that look like leavers and shows what they still hold: licenses, group memberships, and mailboxes never converted to shared. Device-code sign-in, no app registration, nothing stored, never changes your tenant.",
+    "id": "Mc2it.Hcon",
+    "Owners": "CedX",
+    "Description": "Parse HCON (htmx Configuration Object Notation) in PowerShell.",
+    "Score": 65,
+    "Published": "2026-10-04T17:39:49.82"
+  },
+  {
+    "id": "IntuneHydrationKit",
+    "Owners": "jorgeasaurus",
+    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
+    "Score": 65,
+    "Published": "2026-10-04T03:31:03.53"
+  },
+  {
+    "id": "PiHoleShell",
+    "Owners": "piholeshell",
+    "Description": "A module to interact with the v6 version of PiHole API",
+    "Score": 65,
+    "Published": "2026-10-04T18:52:19.287"
+  },
+  {
+    "id": "TerminalGlyphs",
+    "Owners": "meitrix8208",
+    "Description": "Nerd Font icons and colors for files and folders in Get-ChildItem. A reimplementation of Terminal-Icons that never writes to disk on import.",
     "Score": 60,
-    "Published": "2026-10-03T13:01:13.867"
-  },
-  {
-    "id": "rhubarb-geek-nz.AppleScript",
-    "Owners": "rhubarb-geek-nz",
-    "Description": "AppleScript Tools",
-    "Score": 55,
-    "Published": "2026-10-03T13:16:36.757"
-  },
-  {
-    "id": "PSFoundation",
-    "Owners": "MVProwess",
-    "Description": "A foundational PowerShell module library for Windows administration, providing registry, networking, security, package management, and system utilities.",
-    "Score": 55,
-    "Published": "2026-10-03T16:00:52.473"
-  },
-  {
-    "id": "Nvoip",
-    "Owners": "nvoip",
-    "Description": "SDK PowerShell oficial para integrar OAuth, chamadas, OTP, WhatsApp, SMS e saldo com a API v3 da Nvoip.",
-    "Score": 55,
-    "Published": "2026-10-03T20:56:12.777"
-  },
-  {
-    "id": "GraphApiHelper",
-    "Owners": "JiriF",
-    "Description": "Module provides simple commands for working with Microsoft Graph API, such as GET/POST/PATCH/DELETE requests, handling large file upload, retry logic, etc.",
-    "Score": 55,
-    "Published": "2026-10-03T15:25:33.813"
+    "Published": "2026-10-04T23:49:01.3"
   }
 ]
