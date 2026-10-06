@@ -1,72 +1,72 @@
 [
   {
-    "id": "Boyles.PowerShell",
-    "Owners": "wboyles",
-    "Description": "Umbrella module for the Boyles.PowerShell family. Importing this module imports Boyles.PowerShell.Core plus every installed Boyles.PowerShell.<Service> module (e.g. Boyles.PowerShell.Hudu) - the same \"meta-module\" pattern used by Az and Microsoft.Graph.",
-    "Score": 80,
-    "Published": "2026-10-04T15:21:14.98"
-  },
-  {
-    "id": "AzBobbyTables",
-    "Owners": "PalmEmanuel",
-    "Description": "A module for handling Azure Table Storage operations by wrapping the Azure Data Tables SDK.",
+    "id": "PSWriteColor",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Write-Color is a wrapper around Write-Host allowing you to create nice looking scripts, with colorized output. It provides easy manipulation of colors, logging output to file (log) and nice formatting options out of the box.",
     "Score": 75,
-    "Published": "2026-10-04T14:44:07.517"
+    "Published": "2026-10-05T13:46:11.44"
   },
   {
-    "id": "CompleterActions",
-    "Owners": "tstager1428",
-    "Description": "CompleterActions is a PowerShell module for registering, discovering, querying, and removing PowerShell argument completers in a consistent way.\nIt wraps Register-ArgumentCompleter with module-managed registration tracking, while also discovering completers that were registered directly in the current PowerShell runtime.",
+    "id": "Trex",
+    "Owners": "MarkusMcNugen",
+    "Description": "TREX (Token Regular EXpression) is a regex-shaped pattern language over typed tokens. The lexer reads the input once into typed tokens and a pattern matches over them: a whole number, word, quoted string, IP address, URL, email address, timestamp, version and 18 more kinds are one atom each, and the whitespace between tokens is never written. A capture binds a named register that a later token must equal, a balanced bracket group matches whole, and matching does not backtrack. Twelve property axes read what the input does at each position, and a pattern can ask any of them there.",
     "Score": 70,
-    "Published": "2026-10-04T13:33:12.407"
+    "Published": "2026-10-06T00:04:51.48"
   },
   {
-    "id": "Belin.FreeMobile",
-    "Owners": "CedX",
-    "Description": "Send SMS messages to your Free Mobile device.",
+    "id": "psRadiantOne",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Radiant Logic RadiantOne platform",
     "Score": 70,
-    "Published": "2026-10-04T12:38:29.357"
+    "Published": "2026-10-05T21:20:26.02"
   },
   {
-    "id": "GhCID",
-    "Owners": "pspete",
-    "Description": "Testing GitHub Actions module deployment",
+    "id": "Vaporup.Checkmk",
+    "Owners": "vaporup",
+    "Description": "Some CheckMK Helper Tools",
     "Score": 65,
-    "Published": "2026-10-04T20:55:30.867"
+    "Published": "2026-10-05T01:43:47.11"
   },
   {
-    "id": "AzCID",
-    "Owners": "pspete",
-    "Description": "Testing Azure DevOps module deployment",
+    "id": "NetillimarCitsmart",
+    "Owners": "netillimar",
+    "Description": "Provides cmdlets for configuration and usage of Citsmart API",
     "Score": 65,
-    "Published": "2026-10-04T15:11:39.057"
+    "Published": "2026-10-05T19:29:59.2"
   },
   {
-    "id": "Mc2it.Hcon",
-    "Owners": "CedX",
-    "Description": "Parse HCON (htmx Configuration Object Notation) in PowerShell.",
+    "id": "AnonymBsContainer",
+    "Owners": "PJezour",
+    "Description": "Anonymization Azure blob storage module",
     "Score": 65,
-    "Published": "2026-10-04T17:39:49.82"
+    "Published": "2026-10-05T07:20:00.9"
   },
   {
-    "id": "IntuneHydrationKit",
-    "Owners": "jorgeasaurus",
-    "Description": "Hydrates Microsoft Intune tenants with best-practice baseline configurations including policies, compliance packs, enrollment profiles, dynamic groups, security baselines, and conditional access starter packs.",
-    "Score": 65,
-    "Published": "2026-10-04T03:31:03.53"
-  },
-  {
-    "id": "PiHoleShell",
-    "Owners": "piholeshell",
-    "Description": "A module to interact with the v6 version of PiHole API",
-    "Score": 65,
-    "Published": "2026-10-04T18:52:19.287"
-  },
-  {
-    "id": "TerminalGlyphs",
-    "Owners": "meitrix8208",
-    "Description": "Nerd Font icons and colors for files and folders in Get-ChildItem. A reimplementation of Terminal-Icons that never writes to disk on import.",
+    "id": "Vaporup",
+    "Owners": "vaporup",
+    "Description": "Meta-package to install all Vaporup submodules",
     "Score": 60,
-    "Published": "2026-10-04T23:49:01.3"
+    "Published": "2026-10-05T01:47:32.56"
+  },
+  {
+    "id": "MaesterCloud",
+    "Owners": "merill",
+    "Description": "Deploys and configures Maester Cloud self-hosted, and sends Maester reports to it.",
+    "Score": 60,
+    "Published": "2026-10-05T10:15:50.893"
+  },
+  {
+    "id": "XKCD",
+    "Owners": "markwragg",
+    "Description": "Commands related to the webcomic XKCD: https://xkcd.com",
+    "Score": 60,
+    "Published": "2026-10-05T15:42:55.523"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Build, test, version, sign, and publish PowerShell modules with reusable PowerForge pipelines.",
+    "Score": 60,
+    "Published": "2026-10-05T17:23:04.38"
   }
 ]
