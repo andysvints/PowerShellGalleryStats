@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSWriteColor",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Write-Color is a wrapper around Write-Host allowing you to create nice looking scripts, with colorized output. It provides easy manipulation of colors, logging output to file (log) and nice formatting options out of the box.",
-    "Score": 75,
-    "Published": "2026-10-05T13:46:11.44"
+    "id": "OCI.PSModules.Analytics",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Analytics Service",
+    "Score": 90,
+    "Published": "2026-10-06T14:31:14.443"
   },
   {
-    "id": "Trex",
-    "Owners": "MarkusMcNugen",
-    "Description": "TREX (Token Regular EXpression) is a regex-shaped pattern language over typed tokens. The lexer reads the input once into typed tokens and a pattern matches over them: a whole number, word, quoted string, IP address, URL, email address, timestamp, version and 18 more kinds are one atom each, and the whitespace between tokens is never written. A capture binds a named register that a later token must equal, a balanced bracket group matches whole, and matching does not backtrack. Twelve property axes read what the input does at each position, and a pattern can ask any of them there.",
-    "Score": 70,
-    "Published": "2026-10-06T00:04:51.48"
+    "id": "OCI.PSModules.Common",
+    "Owners": "oci-psmodules-grp",
+    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "Score": 85,
+    "Published": "2026-10-06T14:28:07.41"
   },
   {
-    "id": "psRadiantOne",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the API for the Radiant Logic RadiantOne platform",
-    "Score": 70,
-    "Published": "2026-10-05T21:20:26.02"
+    "id": "OCI.PSModules",
+    "Owners": "oci-psmodules-grp",
+    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "Score": 85,
+    "Published": "2026-10-06T15:25:25.75"
   },
   {
-    "id": "Vaporup.Checkmk",
-    "Owners": "vaporup",
-    "Description": "Some CheckMK Helper Tools",
-    "Score": 65,
-    "Published": "2026-10-05T01:43:47.11"
+    "id": "PSDataRepository",
+    "Owners": "ondrej",
+    "Description": "A PowerShell module for working with data repositories (FileSystem, AzureBlob, AzureQueue, AzureKeyVault, etc.) in a session-based approach.",
+    "Score": 80,
+    "Published": "2026-10-06T20:10:35.567"
   },
   {
-    "id": "NetillimarCitsmart",
-    "Owners": "netillimar",
-    "Description": "Provides cmdlets for configuration and usage of Citsmart API",
-    "Score": 65,
-    "Published": "2026-10-05T19:29:59.2"
+    "id": "OCI.PSModules.Generativeaidata",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
+    "Score": 80,
+    "Published": "2026-10-06T14:48:19.753"
   },
   {
-    "id": "AnonymBsContainer",
-    "Owners": "PJezour",
-    "Description": "Anonymization Azure blob storage module",
-    "Score": 65,
-    "Published": "2026-10-05T07:20:00.9"
+    "id": "OCI.PSModules.Containerregistry",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
+    "Score": 80,
+    "Published": "2026-10-06T14:39:15.147"
   },
   {
-    "id": "Vaporup",
-    "Owners": "vaporup",
-    "Description": "Meta-package to install all Vaporup submodules",
-    "Score": 60,
-    "Published": "2026-10-05T01:47:32.56"
+    "id": "OCI.PSModules.Limitsincrease",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
+    "Score": 80,
+    "Published": "2026-10-06T14:51:32.32"
   },
   {
-    "id": "MaesterCloud",
-    "Owners": "merill",
-    "Description": "Deploys and configures Maester Cloud self-hosted, and sends Maester reports to it.",
-    "Score": 60,
-    "Published": "2026-10-05T10:15:50.893"
+    "id": "OCI.PSModules.Gdp",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Gdp Service",
+    "Score": 80,
+    "Published": "2026-10-06T14:47:22.147"
   },
   {
-    "id": "XKCD",
-    "Owners": "markwragg",
-    "Description": "Commands related to the webcomic XKCD: https://xkcd.com",
-    "Score": 60,
-    "Published": "2026-10-05T15:42:55.523"
+    "id": "OCI.PSModules.Batch",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Batch Service",
+    "Score": 80,
+    "Published": "2026-10-06T14:34:24.267"
   },
   {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Build, test, version, sign, and publish PowerShell modules with reusable PowerForge pipelines.",
-    "Score": 60,
-    "Published": "2026-10-05T17:23:04.38"
+    "id": "OCI.PSModules.Dif",
+    "Owners": "oci-psmodules-grp",
+    "Description": "This modules provides Cmdlets for OCI Dif Service",
+    "Score": 80,
+    "Published": "2026-10-06T14:44:55.723"
   }
 ]
