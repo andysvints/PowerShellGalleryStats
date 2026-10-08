@@ -1,72 +1,72 @@
 [
   {
-    "id": "OCI.PSModules.Analytics",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Analytics Service",
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
     "Score": 90,
-    "Published": "2026-10-06T14:31:14.443"
+    "Published": "2026-10-07T17:22:44.577"
   },
   {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
-    "Score": 85,
-    "Published": "2026-10-06T14:28:07.41"
+    "id": "NovaModuleTools",
+    "Owners": "sgcourage",
+    "Description": "NovaModuleTools is an enterprise-focused build tool for PowerShell module development, with a strong emphasis on structure, maintainability, and build for automated CI/CD pipelines.",
+    "Score": 75,
+    "Published": "2026-10-07T17:27:17.9"
   },
   {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
-    "Score": 85,
-    "Published": "2026-10-06T15:25:25.75"
+    "id": "PoSh.FluidTemplateEngine",
+    "Owners": "jul-m",
+    "Description": "A PowerShell module for easy rendering of Liquid templates using the high-performance Fluid .NET library.",
+    "Score": 75,
+    "Published": "2026-10-07T22:17:08.75"
   },
   {
-    "id": "PSDataRepository",
-    "Owners": "ondrej",
-    "Description": "A PowerShell module for working with data repositories (FileSystem, AzureBlob, AzureQueue, AzureKeyVault, etc.) in a session-based approach.",
-    "Score": 80,
-    "Published": "2026-10-06T20:10:35.567"
+    "id": "IdentityCommand.SecretsManager",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the Secrets Manager, SaaS and Secure Workload Access APIs for Idira (CyberArk)",
+    "Score": 70,
+    "Published": "2026-10-07T22:10:59.73"
   },
   {
-    "id": "OCI.PSModules.Generativeaidata",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
-    "Score": 80,
-    "Published": "2026-10-06T14:48:19.753"
+    "id": "azswap",
+    "Owners": "JoePittsy",
+    "Description": "Isolated Azure CLI profiles: one identity per shell. The Azure CLI keeps a single current subscription for your whole user account, so az account set in one terminal silently retargets every other terminal, script and agent. azswap gives each tenant identity its own AZURE_CONFIG_DIR folder and points only the current shell (or one command, with azswap run) at it. Profiles remember their tenant, sign-in method and expected account, sign straight back in when a token expires, warn about the wrong account, and never start a sign-in from scripts, CI or agents.",
+    "Score": 70,
+    "Published": "2026-10-07T08:56:15.12"
   },
   {
-    "id": "OCI.PSModules.Containerregistry",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
-    "Score": 80,
-    "Published": "2026-10-06T14:39:15.147"
+    "id": "Omnicit.EntraRBAC",
+    "Owners": "OmnicitAB",
+    "Description": "Manage Entra ID and Azure RBAC building blocks across tenants: Entra ID groups, PIM, Administrative Units, Entitlement Management, Access Reviews, Azure resources and RBAC, plus a JSON inventory and declarative apply engine.",
+    "Score": 70,
+    "Published": "2026-10-07T21:21:51.673"
   },
   {
-    "id": "OCI.PSModules.Limitsincrease",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
-    "Score": 80,
-    "Published": "2026-10-06T14:51:32.32"
+    "id": "IntuneScriptLab",
+    "Owners": "fadwen",
+    "Description": "Test Intune scripts before Intune does: static rules, a runtime harness, Pester assertions, a Graph\r\npre-flight over the tenant's deployed scripts and readers for the agent's logs",
+    "Score": 70,
+    "Published": "2026-10-07T18:27:05.16"
   },
   {
-    "id": "OCI.PSModules.Gdp",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Gdp Service",
-    "Score": 80,
-    "Published": "2026-10-06T14:47:22.147"
+    "id": "M365DSC.mgx",
+    "Owners": "FabienTschanz",
+    "Description": "Resilient companion for Microsoft.Graph PowerShell. Adds retry, circuit breaker, rate limiting, streaming pagination, batching, and fan-out to any Graph API endpoint.",
+    "Score": 70,
+    "Published": "2026-10-07T10:26:23.493"
   },
   {
-    "id": "OCI.PSModules.Batch",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
-    "Score": 80,
-    "Published": "2026-10-06T14:34:24.267"
+    "id": "Belin.Sql",
+    "Owners": "CedX",
+    "Description": "A simple micro-ORM, based on ADO.NET and data annotations.",
+    "Score": 70,
+    "Published": "2026-10-08T00:08:50.17"
   },
   {
-    "id": "OCI.PSModules.Dif",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Dif Service",
-    "Score": 80,
-    "Published": "2026-10-06T14:44:55.723"
+    "id": "ps-jsonlogger",
+    "Owners": "BryanCuneo",
+    "Description": "ps-jsonlogger is a small, dependency-free structured logging module for PowerShell that offers both compact JSON logs on-disk and human-readble console output. It supports log levels, context objects, full call stack inclusion, and more.",
+    "Score": 70,
+    "Published": "2026-10-07T16:23:10.74"
   }
 ]
