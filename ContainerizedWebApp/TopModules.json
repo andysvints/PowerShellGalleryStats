@@ -1,72 +1,72 @@
 [
   {
-    "id": "NSP.RepoTools",
-    "Owners": "ITGuyFromIA",
-    "Description": "Maintainer tools for NSP repositories: a sweep for client references (names, tenants, addresses, e-mail, paths) in tracked files, untracked files, and Git history, and the checked release routine to the PowerShell Gallery.",
-    "Score": 70,
-    "Published": "2026-10-09T23:51:30.08"
-  },
-  {
-    "id": "NSP.ClientScripts",
-    "Owners": "ITGuyFromIA",
-    "Description": "Generates standalone, client-specific PowerShell scripts (tool shims, installers) from reviewed recipes: a template plus a typed parameter schema, syntax-checked before it is written. Windows PowerShell 5.1 compatible.",
-    "Score": 70,
-    "Published": "2026-10-09T23:58:32.247"
-  },
-  {
-    "id": "NSP.FortiGate",
-    "Owners": "ITGuyFromIA",
-    "Description": "Parse FortiGate configuration backups and CLI captures into CSV-ready objects, resolve what firewall policies reference, and write a printable VPN access report (HTML + Excel) that ties tunnel rules to NPS policies and AD groups.",
-    "Score": 70,
-    "Published": "2026-10-10T00:01:53.467"
-  },
-  {
-    "id": "msgraphProxy",
-    "Owners": "Mynster",
-    "Description": "PowerShell wrapper for a self-contained Microsoft Graph Dev Proxy build - start, stop and check status without requiring .NET installed.",
-    "Score": 70,
-    "Published": "2026-10-09T21:35:05.68"
-  },
-  {
-    "id": "PSMPSession",
+    "id": "PoShPACLI",
     "Owners": "pspete",
-    "Description": "SSH Connection Command Helper for CyberArk PSMP & SIA",
+    "Description": "Invoke CyberArk PACLI.exe Utility Commands with PowerShell",
+    "Score": 75,
+    "Published": "2026-10-10T23:31:22.193"
+  },
+  {
+    "id": "Fortytwo.IAM.Core.Connector.Successfactors",
+    "Owners": "fortytwo",
+    "Description": "SuccessFactors connector for Fortytwo Core IAM",
     "Score": 70,
-    "Published": "2026-10-09T23:42:58.967"
+    "Published": "2026-10-10T10:46:08.687"
   },
   {
-    "id": "NSP.M365.Graph",
-    "Owners": "ITGuyFromIA",
-    "Description": "Shared Microsoft Graph connection, paging, and swappable request transport for NSP M365 tools.",
+    "id": "PSMutant",
+    "Owners": "Taeke",
+    "Description": "Mutation testing for PowerShell. Injects small faults (flip -eq to -ne, $true to $false, N to N+1, drop -not) into your scripts using the PowerShell AST and reports how many your Pester suite catches - the metric line coverage cannot give you. Runs mutants in a throwaway sandbox so your source is never modified. Requires Pester 5.2.0 or later AT RUN TIME, and deliberately does not declare it as a RequiredModule: PSMutant runs under whichever Pester >= 5.2.0 you have loaded rather than importing one for you. Install Pester yourself if you do not already have it.",
+    "Score": 70,
+    "Published": "2026-10-10T14:02:05.557"
+  },
+  {
+    "id": "PSComplexity",
+    "Owners": "Taeke",
+    "Description": "Cyclomatic and cognitive complexity for PowerShell. Cognitive complexity implements the SonarSource metric in full (nesting-aware -- the better signal for \"hard to understand\"), scoring every reference example exactly as published, and extends it for PowerShell constructs the specification does not cover: ForEach-Object and Where-Object, the && and || pipeline chains, and ?? and ??=. Measures per unit (function/filter, class method/constructor, initialised class property, + script body) via the PowerShell AST; ships a Test-PSComplexity gate for CI.",
+    "Score": 70,
+    "Published": "2026-10-10T14:25:32.303"
+  },
+  {
+    "id": "MaesterCloud",
+    "Owners": "merill",
+    "Description": "Deploys and configures Maester Cloud self-hosted, and sends Maester reports to it.",
+    "Score": 60,
+    "Published": "2026-10-10T23:44:56.533"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Build, test, version, sign, and publish PowerShell modules with reusable PowerForge pipelines.",
+    "Score": 60,
+    "Published": "2026-10-10T09:37:11.89"
+  },
+  {
+    "id": "ConfigMgrAdminToolkit",
+    "Owners": "anthonybuhnerkemper",
+    "Description": "Microsoft Configuration Manager (SCCM/MECM) client actions, health and deployment reporting functions. Requires the ConfigurationManager console module at runtime (not a hard dependency).",
     "Score": 55,
-    "Published": "2026-10-09T23:30:29.277"
+    "Published": "2026-10-10T23:17:09.33"
   },
   {
-    "id": "NSP.Toolkit",
-    "Owners": "ITGuyFromIA",
-    "Description": "Shared plumbing and the single entry point for NSP operator tools: Start-NSPToolkit launcher, per-tool work folder and answers, hand-off files between tools, legacy clean-up, dry-run step engine and version stamp. Windows PowerShell 5.1 compatible.",
-    "Score": 40,
-    "Published": "2026-10-10T00:03:14.027"
+    "id": "Azure.Admin.Console",
+    "Owners": "Chendrayan-Venkatesan",
+    "Description": "Azure admin reports and checks from PowerShell, over plain REST - no Az or Microsoft.Graph modules, no app registration. Get-AACAdvisorRecommendation: a consolidated, flattened Azure Advisor view (Cost, Security, Reliability, Operational excellence, Performance). Get-AACFirewallRule: every Azure Firewall Policy rule, searchable by source, destination, port and protocol (Allow green, Deny red). Show-AACResource and Show-AACCost: your resources and subscription costs, with a full resource inventory. Invoke-AACPSRule: PSRule for Azure (500+ Well-Architected rules), the module's own rules and your custom rules on the live estate, with rules excluded by name or wildcard. Invoke-AACApplicationInsightQuery: Application Insights exceptions (or any KQL query) from a Log Analytics workspace or Application Insights resource, flattened. Get-AACInventory: the tenant as a tree (management groups, subscriptions, resource groups, resources) with Defender for Cloud secure scores and costs. Get-AACNetworkSecurityGroup: a detailed NSG assessment with findings by severity. Show-AACResourceMap: an interactive diagram of resource groups in the browser, saved as PNG or JPEG. Get-AACPolicyState: Azure Policy compliance for every resource, by management group, subscription or resource group. Get-AACSkuAvailability: which VM sizes you can use for VMs or AKS node pools in a region and its zones - restrictions, vCPU quota, AKS rules - and why not. Get-AACSecurityPosture: Defender for Cloud and Azure Policy - secure scores, recommendations, alerts, plans, regulatory and policy compliance. Get-AACEntraGroupMembership: Entra ID groups and everyone in them, nested groups included, one row per group and member (Microsoft Graph). Get-AACAssignedPolicy: every Azure Policy assignment with the default, assigned and effective value of each parameter and the resource types the policy applies to. Get-AACStorageAccountContainerSize: every blob container's size, access tiers and largest blobs, read in parallel. Invoke-AACDefenderAssessment: Microsoft Defender for Cloud end to end - recommendations, attack paths, alerts, inventory, vulnerabilities, posture, compliance and settings - in a tabbed HTML report. Invoke-AACPolicyAssessment: Azure Policy assessed as a whole, initiatives opened up to their member policies. Every command: a colourful console view, objects, CSV and interactive HTML reports, and most a PDF. PDF export needs Windows and PowerShell 7.4+.",
+    "Score": 50,
+    "Published": "2026-10-10T21:32:49.067"
   },
   {
-    "id": "NSP.NPS",
-    "Owners": "ITGuyFromIA",
-    "Description": "Windows NPS (RADIUS) for NSP VPN deployments: install/authorize, NPS Extension for Entra MFA, RADIUS clients and templates, network and connection request policies, troubleshooting, hand-off to the IPSec Orchestrator, and the NPS Manager dashboard (Start-NSPNpsManager). Windows PowerShell 5.1 compatible.",
-    "Score": 40,
-    "Published": "2026-10-10T00:25:24.067"
+    "id": "PsBash",
+    "Owners": "abrummer",
+    "Description": "Real bash commands for PowerShell with typed objects. 76 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
+    "Score": 50,
+    "Published": "2026-10-10T11:42:18.273"
   },
   {
-    "id": "NSP.FortiClient",
-    "Owners": "ITGuyFromIA",
-    "Description": "FortiClient VPN endpoint troubleshooting for NSP deployments: the FortiClient Connection Troubleshooting Toolkit (readiness check, detached IKEv2/packet captures that survive a dropped remote session, firewall/EDR sweep and WFP block auditing, FortiGate-side CLI generator). Windows PowerShell 5.1 compatible.",
+    "id": "OSDApps",
+    "Owners": "roryvossepoel",
+    "Description": "PowerShell module for OSDCloud v2 application deployment with repository and vendor-native built-in apps, optional USB caching, pre-OOBE SetupComplete installation, and repository authoring/validation.",
     "Score": 40,
-    "Published": "2026-10-10T00:00:32.023"
-  },
-  {
-    "id": "NSP.ActiveDirectory",
-    "Owners": "ITGuyFromIA",
-    "Description": "Active Directory and Group Policy for NSP VPN deployments: VPN group/OU scaffold, group nesting, certificate auto-enrollment GPO, WMI filters, read-only VPN inventory, and the AD Manager dashboard (Start-NSPADManager). Windows PowerShell 5.1 compatible.",
-    "Score": 40,
-    "Published": "2026-10-09T23:57:18.637"
+    "Published": "2026-10-10T14:11:18.157"
   }
 ]
