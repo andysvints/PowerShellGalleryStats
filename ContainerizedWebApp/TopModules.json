@@ -1,72 +1,72 @@
 [
   {
-    "id": "Avm.Authoring",
-    "Owners": "jtracey93msft,jaredfholgate",
-    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
-    "Score": 85,
-    "Published": "2026-10-15T21:40:39.89"
+    "id": "M365DeprecationScanner",
+    "Owners": "matej",
+    "Description": "Finds deprecated and retired Microsoft 365, Entra ID and Azure PowerShell commands (MSOnline, AzureAD, Exchange RPS, AzureRM, Azure AD Graph, ...) in your scripts and tells you what to use instead. Works as a command, as a PSScriptAnalyzer rule in VS Code and as a GitHub Action.",
+    "Score": 80,
+    "Published": "2026-10-16T16:31:59.797"
   },
   {
-    "id": "CopyGitHubRepo",
-    "Owners": "Infoconex",
-    "Description": "PowerShell module for safely copying and migrating GitHub repositories with clean Snapshot or history-preserving FullHistory modes.",
+    "id": "PwSh.Fw.Iso",
+    "Owners": "cadegennes",
+    "Description": "PwSh.Fw.Iso is cross-platform module to create ISO files",
+    "Score": 80,
+    "Published": "2026-10-16T21:51:02.903"
+  },
+  {
+    "id": "SPOService.CrossPlatform",
+    "Owners": "henkas",
+    "Description": "Cross-platform Connect-SPOService replacement for PowerShell 7.6+ on macOS and Linux only (import fails on Windows). Works around the native SPO module registry and CSOM transport defects so the official cmdlets run on a repaired pipeline with native OAuthSession-based certificate and system-browser authentication.",
     "Score": 75,
-    "Published": "2026-10-15T21:46:38.74"
+    "Published": "2026-10-16T21:02:01.753"
   },
   {
-    "id": "IntuneScriptLab",
-    "Owners": "fadwen",
-    "Description": "Test Intune scripts before Intune does: static rules, a runtime harness, Pester assertions, a Graph\r\npre-flight over the tenant's deployed scripts and readers for the agent's logs",
+    "id": "IdentityCommand.DiscoveryMgmt",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the CyberArk Privilege Cloud Discovery platform",
     "Score": 70,
-    "Published": "2026-10-15T19:35:49.82"
+    "Published": "2026-10-16T17:47:16.243"
   },
   {
-    "id": "dbatools",
-    "Owners": "chrissylemaire,FWN,SQLDBAWithABeard,wsmelton,jpomfret",
-    "Description": "The community module that enables SQL Server Pros to automate database development and server administration",
+    "id": "NSP.ClientScripts",
+    "Owners": "ITGuyFromIA",
+    "Description": "Generates standalone, client-specific PowerShell scripts (tool shims, installers) from reviewed recipes: a template plus a typed parameter schema, syntax-checked before it is written. Windows PowerShell 5.1 compatible.",
     "Score": 70,
-    "Published": "2026-10-15T08:56:47.25"
+    "Published": "2026-10-16T20:53:29.453"
   },
   {
-    "id": "PSMSAL",
-    "Owners": "MichalGajda",
-    "Description": "PowerShell module for MSAL Tokens (only for PowerShell 7+). For PowerShell 5.1, use \"old school\" functions.",
+    "id": "IdentityCommand.SCA",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Idira (CyberArk) SCA platform",
+    "Score": 70,
+    "Published": "2026-10-16T19:30:39.36"
+  },
+  {
+    "id": "IdentityCommand.SIA",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the API for the Idira (CyberArk) SIA platform",
+    "Score": 70,
+    "Published": "2026-10-16T19:30:59.993"
+  },
+  {
+    "id": "PwSh.Fw.Archive",
+    "Owners": "cadegennes",
+    "Description": "Helper functions to extend native powershell archive manipulation",
+    "Score": 70,
+    "Published": "2026-10-16T09:15:28.453"
+  },
+  {
+    "id": "IdentityCommand.UAP",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the Access Control Policies API for Idira (CyberArk)",
     "Score": 65,
-    "Published": "2026-10-15T06:53:02.9"
+    "Published": "2026-10-16T19:02:19.903"
   },
   {
-    "id": "LuaVirtualizer",
-    "Owners": "PELock",
-    "Description": "PowerShell Gallery Web API client for Lua Virtualizer. Obfuscate, virtualize and protect Lua .lua source code via the PELock remote API.",
-    "Score": 60,
-    "Published": "2026-10-15T22:15:10.283"
-  },
-  {
-    "id": "CodexVdpProbeab2202538f9e",
-    "Owners": "vdpResearch4df3abeb84",
-    "Description": "Disposable rendering probe: <img src=x onerror=\"document.documentElement.dataset.codexPsgDescription=1\">",
-    "Score": 60,
-    "Published": "2026-10-15T06:17:23.643"
-  },
-  {
-    "id": "Rnwood.Dataverse.Data.PowerShell",
-    "Owners": "rnwood",
-    "Description": "Dataverse data manipulation cmdlets",
-    "Score": 60,
-    "Published": "2026-10-15T09:22:07.08"
-  },
-  {
-    "id": "CAT",
-    "Owners": "tomastucek,petr.parik,petr-parik-justcat-it",
-    "Description": "Author, run and manage AUTOMATED TESTS for your DATA with minimum effort.",
-    "Score": 60,
-    "Published": "2026-10-15T11:45:29.1"
-  },
-  {
-    "id": "Automatron",
-    "Owners": "MichalGajda",
-    "Description": "Basic automation info for scripts in Azure Automation",
-    "Score": 55,
-    "Published": "2026-10-15T11:06:15.69"
+    "id": "IdentityCommand.SecureAI",
+    "Owners": "pspete",
+    "Description": "Enables user interaction with the Secure AI API for Idira (CyberArk)",
+    "Score": 65,
+    "Published": "2026-10-16T19:02:49.077"
   }
 ]
