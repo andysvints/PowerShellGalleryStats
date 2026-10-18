@@ -1,72 +1,72 @@
 [
   {
-    "id": "M365DeprecationScanner",
-    "Owners": "matej",
-    "Description": "Finds deprecated and retired Microsoft 365, Entra ID and Azure PowerShell commands (MSOnline, AzureAD, Exchange RPS, AzureRM, Azure AD Graph, ...) in your scripts and tells you what to use instead. Works as a command, as a PSScriptAnalyzer rule in VS Code and as a GitHub Action.",
-    "Score": 80,
-    "Published": "2026-10-16T16:31:59.797"
+    "id": "PSLinear",
+    "Owners": "stian3555",
+    "Description": "Unofficial PowerShell module for the Linear (linear.app) GraphQL API. Pipeline-friendly cmdlets for issues with comments, attachments and relations; projects, milestones and status updates; initiatives; documents; teams, labels, cycles and users. Includes sign-in through the browser (OAuth with PKCE), git branch integration, automatic paging, rate-limit handling and an escape hatch for raw GraphQL.",
+    "Score": 85,
+    "Published": "2026-10-17T23:04:14.54"
   },
   {
-    "id": "PwSh.Fw.Iso",
-    "Owners": "cadegennes",
-    "Description": "PwSh.Fw.Iso is cross-platform module to create ISO files",
+    "id": "DLLPickle",
+    "Owners": "SamErde",
+    "Description": "A PowerShell module that helps you get un-stuck from dependency version conflicts that can occur when connecting to multiple Microsoft services in the same session.",
     "Score": 80,
-    "Published": "2026-10-16T21:51:02.903"
+    "Published": "2026-10-17T12:26:44.467"
   },
   {
-    "id": "SPOService.CrossPlatform",
-    "Owners": "henkas",
-    "Description": "Cross-platform Connect-SPOService replacement for PowerShell 7.6+ on macOS and Linux only (import fails on Windows). Works around the native SPO module registry and CSOM transport defects so the official cmdlets run on a repaired pipeline with native OAuthSession-based certificate and system-browser authentication.",
+    "id": "MSCKite.Azure.Platform",
+    "Owners": "MSc356Admin",
+    "Description": "Lightweight automation for Azure platform engineering, developer enablement, and cloud operations.",
     "Score": 75,
-    "Published": "2026-10-16T21:02:01.753"
+    "Published": "2026-10-17T20:39:10.913"
   },
   {
-    "id": "IdentityCommand.DiscoveryMgmt",
+    "id": "Deetz",
     "Owners": "pspete",
-    "Description": "Enables user interaction with the API for the CyberArk Privilege Cloud Discovery platform",
+    "Description": "Enumerates Tier Zero accounts in Active Directory for privileged access management coverage checks and onboarding",
     "Score": 70,
-    "Published": "2026-10-16T17:47:16.243"
+    "Published": "2026-10-17T21:43:08.253"
   },
   {
-    "id": "NSP.ClientScripts",
-    "Owners": "ITGuyFromIA",
-    "Description": "Generates standalone, client-specific PowerShell scripts (tool shims, installers) from reviewed recipes: a template plus a typed parameter schema, syntax-checked before it is written. Windows PowerShell 5.1 compatible.",
-    "Score": 70,
-    "Published": "2026-10-16T20:53:29.453"
-  },
-  {
-    "id": "IdentityCommand.SCA",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the API for the Idira (CyberArk) SCA platform",
-    "Score": 70,
-    "Published": "2026-10-16T19:30:39.36"
-  },
-  {
-    "id": "IdentityCommand.SIA",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the API for the Idira (CyberArk) SIA platform",
-    "Score": 70,
-    "Published": "2026-10-16T19:30:59.993"
-  },
-  {
-    "id": "PwSh.Fw.Archive",
-    "Owners": "cadegennes",
-    "Description": "Helper functions to extend native powershell archive manipulation",
-    "Score": 70,
-    "Published": "2026-10-16T09:15:28.453"
-  },
-  {
-    "id": "IdentityCommand.UAP",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the Access Control Policies API for Idira (CyberArk)",
+    "id": "drop",
+    "Owners": "kevinswiber",
+    "Description": "Drops elevated privileges (Administrators group made deny-only, Medium\nintegrity) and runs a command, or an interactive shell when no command is\ngiven. A PowerShell port of busybox-w32's drop/pdrop applets. Useful over\nSSH, where an administrator account always gets an elevated session.\n",
     "Score": 65,
-    "Published": "2026-10-16T19:02:19.903"
+    "Published": "2026-10-17T06:03:09.383"
   },
   {
-    "id": "IdentityCommand.SecureAI",
-    "Owners": "pspete",
-    "Description": "Enables user interaction with the Secure AI API for Idira (CyberArk)",
+    "id": "PowerLFM",
+    "Owners": "camusicjunkie",
+    "Description": "Module to leverage the Last.fm API",
     "Score": 65,
-    "Published": "2026-10-16T19:02:49.077"
+    "Published": "2026-10-17T23:47:59.123"
+  },
+  {
+    "id": "PSWorkItem",
+    "Owners": "JeffHicks",
+    "Description": "A PowerShell 7 module for managing work and personal tasks or to-do items. This module uses a SQLite database to store task and category information. The module is not a full-featured project management solution, but should be fine for personal needs. The module requires a 64-bit Windows or Linux platform.",
+    "Score": 60,
+    "Published": "2026-10-17T18:23:26.353"
+  },
+  {
+    "id": "PenguinConverters.Keyra.PowerShell",
+    "Owners": "gregor.spyra",
+    "Description": "PowerShell CmdLets for encrypting, decrypting, and managing secrets using Keyra key files and vault exports.",
+    "Score": 55,
+    "Published": "2026-10-17T09:03:03.303"
+  },
+  {
+    "id": "FileInspectorX",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Detects file types from content and analyzes files, signatures, permissions, containers and installer metadata. Accepts file paths and pipeline input from Get-ChildItem.",
+    "Score": 55,
+    "Published": "2026-10-17T14:17:06.057"
+  },
+  {
+    "id": "FileShareUtils",
+    "Owners": "CamFlyerCH",
+    "Description": "PowerShell module to work on file shares on Windows servers and NAS (like NetApp) WITHOUT using WMI.",
+    "Score": 55,
+    "Published": "2026-10-17T20:03:42.89"
   }
 ]
