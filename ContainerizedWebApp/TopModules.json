@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSLinear",
-    "Owners": "stian3555",
-    "Description": "Unofficial PowerShell module for the Linear (linear.app) GraphQL API. Pipeline-friendly cmdlets for issues with comments, attachments and relations; projects, milestones and status updates; initiatives; documents; teams, labels, cycles and users. Includes sign-in through the browser (OAuth with PKCE), git branch integration, automatic paging, rate-limit handling and an escape hatch for raw GraphQL.",
-    "Score": 85,
-    "Published": "2026-10-17T23:04:14.54"
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 90,
+    "Published": "2026-10-18T20:02:03.453"
   },
   {
-    "id": "DLLPickle",
-    "Owners": "SamErde",
-    "Description": "A PowerShell module that helps you get un-stuck from dependency version conflicts that can occur when connecting to multiple Microsoft services in the same session.",
+    "id": "PwSh.Fw.Iso",
+    "Owners": "cadegennes",
+    "Description": "PwSh.Fw.Iso is cross-platform module to create ISO files",
     "Score": 80,
-    "Published": "2026-10-17T12:26:44.467"
+    "Published": "2026-10-18T16:54:14.147"
   },
   {
-    "id": "MSCKite.Azure.Platform",
-    "Owners": "MSc356Admin",
-    "Description": "Lightweight automation for Azure platform engineering, developer enablement, and cloud operations.",
+    "id": "PwSh.Fw.Archive",
+    "Owners": "cadegennes",
+    "Description": "Helper functions to extend native powershell archive manipulation",
     "Score": 75,
-    "Published": "2026-10-17T20:39:10.913"
+    "Published": "2026-10-18T21:49:25.037"
+  },
+  {
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "Powerful Shell Completions for PowerShell and other shells, powered by Rust and Lua.\r\nIt provides fast rendering, wildcard/subsequence filtering, history-aware ordering, dynamic (Lua) completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
+    "Score": 75,
+    "Published": "2026-10-18T15:53:51.097"
+  },
+  {
+    "id": "midPointTools",
+    "Owners": "BuutaFly",
+    "Description": "PowerShell cmdlets for the Evolveum midPoint REST API: users, activation, role assignments, account checks and cases for admin tasks and test scripts.",
+    "Score": 70,
+    "Published": "2026-10-18T22:03:16.367"
   },
   {
     "id": "Deetz",
     "Owners": "pspete",
     "Description": "Enumerates Tier Zero accounts in Active Directory for privileged access management coverage checks and onboarding",
     "Score": 70,
-    "Published": "2026-10-17T21:43:08.253"
+    "Published": "2026-10-18T18:58:36.597"
   },
   {
-    "id": "drop",
-    "Owners": "kevinswiber",
-    "Description": "Drops elevated privileges (Administrators group made deny-only, Medium\nintegrity) and runs a command, or an interactive shell when no command is\ngiven. A PowerShell port of busybox-w32's drop/pdrop applets. Useful over\nSSH, where an administrator account always gets an elevated session.\n",
+    "id": "Evergreen",
+    "Owners": "aaronparker",
+    "Description": "Create evergreen Windows image builds with the latest versions of applications. Evergreen is a PowerShell module that retrieves the latest version numbers and download URLs for various software products directly from the vendor source.",
     "Score": 65,
-    "Published": "2026-10-17T06:03:09.383"
+    "Published": "2026-10-18T23:22:36.063"
   },
   {
-    "id": "PowerLFM",
-    "Owners": "camusicjunkie",
-    "Description": "Module to leverage the Last.fm API",
-    "Score": 65,
-    "Published": "2026-10-17T23:47:59.123"
-  },
-  {
-    "id": "PSWorkItem",
-    "Owners": "JeffHicks",
-    "Description": "A PowerShell 7 module for managing work and personal tasks or to-do items. This module uses a SQLite database to store task and category information. The module is not a full-featured project management solution, but should be fine for personal needs. The module requires a 64-bit Windows or Linux platform.",
+    "id": "ModuleAssembler",
+    "Owners": "TrisBits",
+    "Description": "ModuleAssembler is a PowerShell module that provides scaffolding, build, test, documentation, versioning, and publishing utilities for PowerShell module development. It is suited for both interactive development workflows and CI/CD pipelines.",
     "Score": 60,
-    "Published": "2026-10-17T18:23:26.353"
+    "Published": "2026-10-18T20:54:25.893"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Build, test, version, sign, and publish PowerShell modules with reusable PowerForge pipelines.",
+    "Score": 60,
+    "Published": "2026-10-18T13:54:09.4"
   },
   {
     "id": "PenguinConverters.Keyra.PowerShell",
     "Owners": "gregor.spyra",
     "Description": "PowerShell CmdLets for encrypting, decrypting, and managing secrets using Keyra key files and vault exports.",
     "Score": 55,
-    "Published": "2026-10-17T09:03:03.303"
-  },
-  {
-    "id": "FileInspectorX",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Detects file types from content and analyzes files, signatures, permissions, containers and installer metadata. Accepts file paths and pipeline input from Get-ChildItem.",
-    "Score": 55,
-    "Published": "2026-10-17T14:17:06.057"
-  },
-  {
-    "id": "FileShareUtils",
-    "Owners": "CamFlyerCH",
-    "Description": "PowerShell module to work on file shares on Windows servers and NAS (like NetApp) WITHOUT using WMI.",
-    "Score": 55,
-    "Published": "2026-10-17T20:03:42.89"
+    "Published": "2026-10-18T14:23:04.883"
   }
 ]
