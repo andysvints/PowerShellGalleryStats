@@ -1,72 +1,72 @@
 [
   {
-    "id": "Avm.Authoring",
-    "Owners": "jtracey93msft,jaredfholgate",
-    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
-    "Score": 90,
-    "Published": "2026-10-23T10:03:36.093"
+    "id": "PSLinear",
+    "Owners": "stian3555",
+    "Description": "Unofficial PowerShell module for the Linear (linear.app) GraphQL API. Pipeline-friendly cmdlets for issues with comments, attachments and relations; projects, milestones and status updates; initiatives; documents; teams, labels, cycles and users. Includes sign-in through the browser (OAuth with PKCE), git branch integration, automatic paging, rate-limit handling and an escape hatch for raw GraphQL.",
+    "Score": 85,
+    "Published": "2026-10-24T07:14:58.74"
   },
   {
-    "id": "XurrentHelpers",
-    "Owners": "fasteiner,fabsteiner",
-    "Description": "A PowerShell Module by techwork data GmbH containing cmdlets making Xurrent adminstration easier and more efficient",
-    "Score": 80,
-    "Published": "2026-10-23T14:44:23.163"
-  },
-  {
-    "id": "Omnicit.EntraRBAC",
-    "Owners": "OmnicitAB",
-    "Description": "Manage Entra ID and Azure RBAC building blocks across tenants: Entra ID groups, PIM, Administrative Units, Entitlement Management, Access Reviews, Azure resources and RBAC, plus a JSON inventory and declarative apply engine.",
+    "id": "PowerCraft.Word",
+    "Owners": "thecodekitchen",
+    "Description": "Markdown to Word: a thin PowerShell shell over the PowerCraft.Word.Core kernel. Renders markdown into a themed .docx with real figure captions, table of contents and list of figures fields, a token-substituted title page, deterministic output and a build report. Cross-platform, no Word, no COM, no Pandoc.",
     "Score": 75,
-    "Published": "2026-10-23T21:32:15.6"
+    "Published": "2026-10-24T08:13:27.537"
   },
   {
-    "id": "CopyGitHubRepo",
-    "Owners": "Infoconex",
-    "Description": "PowerShell module for safely copying and migrating GitHub repositories with clean Snapshot or history-preserving FullHistory modes. For documentation, visit https://infoconex.github.io/copy-github-repo/",
-    "Score": 75,
-    "Published": "2026-10-23T18:47:35.387"
-  },
-  {
-    "id": "monkey365",
-    "Owners": "silverhack",
-    "Description": "Monkey365 provides a tool that enables security consultants to efficiently perform security configuration reviews across Microsoft 365, Azure subscriptions, and Microsoft Entra ID.",
-    "Score": 75,
-    "Published": "2026-10-23T07:52:32.13"
-  },
-  {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": "Powerful Shell Completions for PowerShell and other shells, powered by Rust and Lua.\r\nIt provides an interactive menu, wildcard/subsequence filtering, history-aware ordering, and dynamic completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- AtomGit: https://atomgit.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
-    "Score": 75,
-    "Published": "2026-10-23T14:55:43.943"
-  },
-  {
-    "id": "CurrencyConverter",
-    "Owners": "markwragg",
-    "Description": "A PowerShell wrapper for the open currency conversion APIs provided by ExchangeRate-API https://www.exchangerate-api.com/ and (for Crypto currencies) CoinBase https://api.coinbase.com/v2.",
-    "Score": 75,
-    "Published": "2026-10-23T16:15:20.54"
-  },
-  {
-    "id": "PSMutant",
-    "Owners": "Taeke",
-    "Description": "Mutation testing for PowerShell. Injects small faults (flip -eq to -ne, $true to $false, N to N+1, drop -not) into your scripts using the PowerShell AST and reports how many your Pester suite catches - the metric line coverage cannot give you. Runs mutants in a throwaway sandbox so your source is never modified. Requires Pester 5.2.0 or later AT RUN TIME, and deliberately does not declare it as a RequiredModule: PSMutant runs under whichever Pester >= 5.2.0 you have loaded rather than importing one for you. Install Pester yourself if you do not already have it.",
+    "id": "DoctorDO",
+    "Owners": "MauriceDaly",
+    "Description": "Installs DoctorDO.Collector, the DoctorDO module for diagnosing Windows Delivery Optimization. This package has no commands of its own: Install-Module DoctorDO installs DoctorDO.Collector, and its commands (New-DoctorDODeviceReport, Invoke-DoctorDOCollector, Test-DOConnectivity and the rest) work as soon as it is installed. Installing DoctorDO.Collector directly does the same. DoctorDO is an independent community project, free to use, and in preview. Source-available under the PolyForm Shield License 1.0.0, not open source: free to use, change and share, except to provide a product that competes with it (see the licence).",
     "Score": 70,
-    "Published": "2026-10-23T20:59:56.91"
+    "Published": "2026-10-24T20:21:10.37"
   },
   {
-    "id": "PSComplexity",
-    "Owners": "Taeke",
-    "Description": "Cyclomatic and cognitive complexity for PowerShell. Cognitive complexity implements the SonarSource metric in full (nesting-aware -- the better signal for \"hard to understand\"), scoring every reference example exactly as published, and extends it for PowerShell constructs the specification does not cover: ForEach-Object and Where-Object, the .ForEach() and .Where() methods, the && and || pipeline chains, and ?? and ??=. Measures per unit (function/filter, class method/constructor, initialised class property, + script body) via the PowerShell AST; ships a Test-PSComplexity gate for CI.",
+    "id": "PiHoleShell",
+    "Owners": "piholeshell",
+    "Description": "A module to interact with the v6 version of PiHole API",
     "Score": 70,
-    "Published": "2026-10-23T20:25:50.87"
+    "Published": "2026-10-24T13:02:15.717"
   },
   {
-    "id": "PowerPlatformChecker",
-    "Owners": "AutoSysOps",
-    "Description": "PowerShell module to analyze and document exported Power Platform solutions without requiring a live tenant connection. It can analyze flows, connectors, actions, entities, relations, canvas apps, model-driven apps, and JavaScript web resources, and generate Mermaid architecture diagrams, flowcharts, and external interaction views. The module also supports graph/object outputs and is designed for repeatable CI/CD and deployment-pipeline usage.",
+    "id": "DesktopManager",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Desktop Manager is a PowerShell module that allows easy way to change wallpaper on multiple screens/monitors.",
     "Score": 70,
-    "Published": "2026-10-23T23:02:26.927"
+    "Published": "2026-10-24T13:40:40.777"
+  },
+  {
+    "id": "Transferetto",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Transferetto provides reusable .NET and PowerShell data transfer across filesystems, FTP, FTPS, SFTP, SCP, FXP, Amazon S3 and S3-compatible storage, Azure Blob Storage, and SSH operations.",
+    "Score": 65,
+    "Published": "2026-10-24T08:02:15.417"
+  },
+  {
+    "id": "PSWriteOffice",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerShell document automation for Office, PDF, Project, Access, EPUB, electronic invoices, iWork, OneNote, OpenDocument, email, and text formats. Create, edit, inspect, and convert through OfficeIMO without Microsoft Office installed.",
+    "Score": 65,
+    "Published": "2026-10-24T09:05:03.64"
+  },
+  {
+    "id": "SystemRestore",
+    "Owners": "Rafaello",
+    "Description": "Backup and restore the system from terminal.",
+    "Score": 50,
+    "Published": "2026-10-24T12:28:48.973"
+  },
+  {
+    "id": "Environment.Path",
+    "Owners": "Rafaello",
+    "Description": "A collection of functions to manipulate and retrieve PATH environment variable.",
+    "Score": 50,
+    "Published": "2026-10-24T12:29:20.84"
+  },
+  {
+    "id": "DoctorDO.Collector",
+    "Owners": "MauriceDaly",
+    "Description": "Diagnostics for Windows Delivery Optimization that change no Delivery Optimization, firewall, proxy or service setting. Writes an offline HTML device report or a local support bundle, checks the endpoints, proxy, peers and Connected Cache that Delivery Optimization depends on, and with -Fleet sends inventory and compact telemetry to your own DoctorDO deployment, each request signed with the device certificate key. No report leaves the device unless you run fleet mode with your own ingest URL. Windows 10 2004 / Windows 11 or later; Windows PowerShell 5.1 or PowerShell 7. DoctorDO is an independent community project, free to use, and in preview. Source-available under the PolyForm Shield License 1.0.0, not open source: free to use, change and share, except to provide a product that competes with it (see the licence).",
+    "Score": 50,
+    "Published": "2026-10-24T21:53:24.743"
   }
 ]
