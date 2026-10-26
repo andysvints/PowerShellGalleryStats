@@ -1,72 +1,72 @@
 [
   {
-    "id": "PSLinear",
-    "Owners": "stian3555",
-    "Description": "Unofficial PowerShell module for the Linear (linear.app) GraphQL API. Pipeline-friendly cmdlets for issues with comments, attachments and relations; projects, milestones and status updates; initiatives; documents; teams, labels, cycles and users. Includes sign-in through the browser (OAuth with PKCE), git branch integration, automatic paging, rate-limit handling and an escape hatch for raw GraphQL.",
-    "Score": 85,
-    "Published": "2026-10-24T07:14:58.74"
-  },
-  {
-    "id": "PowerCraft.Word",
-    "Owners": "thecodekitchen",
-    "Description": "Markdown to Word: a thin PowerShell shell over the PowerCraft.Word.Core kernel. Renders markdown into a themed .docx with real figure captions, table of contents and list of figures fields, a token-substituted title page, deterministic output and a build report. Cross-platform, no Word, no COM, no Pandoc.",
+    "id": "Office365-Scoutnet-synk",
+    "Owners": "karl_t_scouterna,karl_t_lascout",
+    "Description": "Funktioner för att synkronisera Scoutnet med Office 365.",
     "Score": 75,
-    "Published": "2026-10-24T08:13:27.537"
+    "Published": "2026-10-25T13:26:35.873"
   },
   {
-    "id": "DoctorDO",
-    "Owners": "MauriceDaly",
-    "Description": "Installs DoctorDO.Collector, the DoctorDO module for diagnosing Windows Delivery Optimization. This package has no commands of its own: Install-Module DoctorDO installs DoctorDO.Collector, and its commands (New-DoctorDODeviceReport, Invoke-DoctorDOCollector, Test-DOConnectivity and the rest) work as soon as it is installed. Installing DoctorDO.Collector directly does the same. DoctorDO is an independent community project, free to use, and in preview. Source-available under the PolyForm Shield License 1.0.0, not open source: free to use, change and share, except to provide a product that competes with it (see the licence).",
+    "id": "midPointTools",
+    "Owners": "BuutaFly",
+    "Description": "PowerShell cmdlets for the Evolveum midPoint REST API: users, activation, role and org assignments, account checks and cases for admin tasks and test scripts.",
     "Score": 70,
-    "Published": "2026-10-24T20:21:10.37"
+    "Published": "2026-10-25T17:54:11.4"
   },
   {
-    "id": "PiHoleShell",
-    "Owners": "piholeshell",
-    "Description": "A module to interact with the v6 version of PiHole API",
+    "id": "DisplayConfig",
+    "Owners": "MartinGC94",
+    "Description": "Manage Windows display settings like resolution, DPI scale, HDR and more.",
     "Score": 70,
-    "Published": "2026-10-24T13:02:15.717"
+    "Published": "2026-10-25T15:06:24.36"
   },
   {
-    "id": "DesktopManager",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Desktop Manager is a PowerShell module that allows easy way to change wallpaper on multiple screens/monitors.",
-    "Score": 70,
-    "Published": "2026-10-24T13:40:40.777"
-  },
-  {
-    "id": "Transferetto",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Transferetto provides reusable .NET and PowerShell data transfer across filesystems, FTP, FTPS, SFTP, SCP, FXP, Amazon S3 and S3-compatible storage, Azure Blob Storage, and SSH operations.",
+    "id": "LibTmux.Workspace",
+    "Owners": "git-pull",
+    "Description": "Workspace declarations and automation over LibTmux.",
     "Score": 65,
-    "Published": "2026-10-24T08:02:15.417"
+    "Published": "2026-10-26T00:23:27.573"
   },
   {
-    "id": "PSWriteOffice",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerShell document automation for Office, PDF, Project, Access, EPUB, electronic invoices, iWork, OneNote, OpenDocument, email, and text formats. Create, edit, inspect, and convert through OfficeIMO without Microsoft Office installed.",
+    "id": "LibTmux",
+    "Owners": "git-pull",
+    "Description": "Native PowerShell automation over the LibTmux .NET core.",
     "Score": 65,
-    "Published": "2026-10-24T09:05:03.64"
+    "Published": "2026-10-26T00:23:24.533"
   },
   {
-    "id": "SystemRestore",
-    "Owners": "Rafaello",
-    "Description": "Backup and restore the system from terminal.",
-    "Score": 50,
-    "Published": "2026-10-24T12:28:48.973"
+    "id": "Belin.FSharp",
+    "Owners": "CedX",
+    "Description": "FSharp.Core redistributables from F#, for PowerShell modules.",
+    "Score": 65,
+    "Published": "2026-10-25T19:50:48.107"
   },
   {
-    "id": "Environment.Path",
-    "Owners": "Rafaello",
-    "Description": "A collection of functions to manipulate and retrieve PATH environment variable.",
-    "Score": 50,
-    "Published": "2026-10-24T12:29:20.84"
+    "id": "trash",
+    "Owners": "anlong",
+    "Description": "Move files to the Windows Recycle Bin, and list, restore, purge or empty its contents. Provides the short \"trash\" command.",
+    "Score": 65,
+    "Published": "2026-10-25T05:30:27.987"
   },
   {
-    "id": "DoctorDO.Collector",
-    "Owners": "MauriceDaly",
-    "Description": "Diagnostics for Windows Delivery Optimization that change no Delivery Optimization, firewall, proxy or service setting. Writes an offline HTML device report or a local support bundle, checks the endpoints, proxy, peers and Connected Cache that Delivery Optimization depends on, and with -Fleet sends inventory and compact telemetry to your own DoctorDO deployment, each request signed with the device certificate key. No report leaves the device unless you run fleet mode with your own ingest URL. Windows 10 2004 / Windows 11 or later; Windows PowerShell 5.1 or PowerShell 7. DoctorDO is an independent community project, free to use, and in preview. Source-available under the PolyForm Shield License 1.0.0, not open source: free to use, change and share, except to provide a product that competes with it (see the licence).",
-    "Score": 50,
-    "Published": "2026-10-24T21:53:24.743"
+    "id": "Mailozaurr",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerShell email toolkit for SMTP, IMAP, POP3, Microsoft Graph, Gmail, SendGrid, Mailgun, and Amazon SES, with message-file, PST/OST archive, signing, and encryption workflows.",
+    "Score": 65,
+    "Published": "2026-10-25T10:30:37.847"
+  },
+  {
+    "id": "Hephaestus",
+    "Owners": "itamartz",
+    "Description": "Hephaestus Deployment Toolkit - a PowerShell replacement for MDT.",
+    "Score": 60,
+    "Published": "2026-10-25T21:34:53.057"
+  },
+  {
+    "id": "PSPublishModule",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Build, test, version, sign, and publish PowerShell modules with reusable PowerForge pipelines.",
+    "Score": 60,
+    "Published": "2026-10-25T21:09:25.793"
   }
 ]
