@@ -1,72 +1,72 @@
 [
   {
-    "id": "Office365-Scoutnet-synk",
-    "Owners": "karl_t_scouterna,karl_t_lascout",
-    "Description": "Funktioner för att synkronisera Scoutnet med Office 365.",
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 85,
+    "Published": "2026-10-26T20:57:52.537"
+  },
+  {
+    "id": "WindmillClient",
+    "Owners": "rubenfiszel",
+    "Description": "Client for the Windmill platform.",
+    "Score": 80,
+    "Published": "2026-10-27T00:30:01.34"
+  },
+  {
+    "id": "7Zip4Powershell",
+    "Owners": "thoemmi",
+    "Description": "Powershell module for creating and extracting 7-Zip archives",
+    "Score": 80,
+    "Published": "2026-10-26T08:03:26.107"
+  },
+  {
+    "id": "KanaLock",
+    "Owners": "shortarrow",
+    "Description": "Read and clear the kana lock (VK_KANA) toggle on Windows, which turns typed letters into half-width kana wherever the IME is off and cannot be cleared by hand on a 101-key keyboard.",
     "Score": 75,
-    "Published": "2026-10-25T13:26:35.873"
+    "Published": "2026-10-26T06:24:11.997"
   },
   {
-    "id": "midPointTools",
-    "Owners": "BuutaFly",
-    "Description": "PowerShell cmdlets for the Evolveum midPoint REST API: users, activation, role and org assignments, account checks and cases for admin tasks and test scripts.",
+    "id": "HtmlToMarkdown",
+    "Owners": "brianary",
+    "Description": "Converts HTML to Markdown/CommonMark.",
+    "Score": 75,
+    "Published": "2026-10-26T02:55:28.68"
+  },
+  {
+    "id": "CurrencyConverter",
+    "Owners": "markwragg",
+    "Description": "A PowerShell wrapper for the open currency conversion APIs provided by ExchangeRate-API https://www.exchangerate-api.com/ and (for Crypto currencies) CoinBase https://api.coinbase.com/v2.",
+    "Score": 75,
+    "Published": "2026-10-26T12:20:01.397"
+  },
+  {
+    "id": "PSMutant",
+    "Owners": "Taeke",
+    "Description": "Mutation testing for PowerShell. Injects small faults (flip -eq to -ne, $true to $false, N to N+1, drop -not) into your scripts using the PowerShell AST and reports how many your Pester suite catches - the metric line coverage cannot give you. Runs mutants in a throwaway sandbox so your source is never modified. Requires Pester 5.2.0 or later AT RUN TIME, and deliberately does not declare it as a RequiredModule: PSMutant runs under whichever Pester >= 5.2.0 you have loaded rather than importing one for you. Install Pester yourself if you do not already have it.",
     "Score": 70,
-    "Published": "2026-10-25T17:54:11.4"
+    "Published": "2026-10-26T13:41:23.777"
   },
   {
-    "id": "DisplayConfig",
-    "Owners": "MartinGC94",
-    "Description": "Manage Windows display settings like resolution, DPI scale, HDR and more.",
+    "id": "GitEasy",
+    "Owners": "greenmtnsun",
+    "Description": "Save your work without learning Git. Plain-English PowerShell commands for sysadmins, change managers, DBAs, compliance teams, and 25 other non-developer roles — no jargon, no raw Git output. Save-Work, Find-CodeChange, Show-History, Test-Login. Credentials scrubbed before anything hits disk. PS 5.1 and 7. MPL-2.0. Use it from an AI agent: GitEasy MCP, free tier at https://detentpoint.com/giteasy",
     "Score": 70,
-    "Published": "2026-10-25T15:06:24.36"
+    "Published": "2026-10-26T14:33:04.827"
   },
   {
-    "id": "LibTmux.Workspace",
-    "Owners": "git-pull",
-    "Description": "Workspace declarations and automation over LibTmux.",
+    "id": "QlikCloudCLI",
+    "Owners": "Nillth",
+    "Description": "Qlik Cloud REST and Engine PowerShell commands generated from the QlikCloud client catalog.",
     "Score": 65,
-    "Published": "2026-10-26T00:23:27.573"
+    "Published": "2026-10-26T10:05:56.917"
   },
   {
-    "id": "LibTmux",
-    "Owners": "git-pull",
-    "Description": "Native PowerShell automation over the LibTmux .NET core.",
-    "Score": 65,
-    "Published": "2026-10-26T00:23:24.533"
-  },
-  {
-    "id": "Belin.FSharp",
-    "Owners": "CedX",
-    "Description": "FSharp.Core redistributables from F#, for PowerShell modules.",
-    "Score": 65,
-    "Published": "2026-10-25T19:50:48.107"
-  },
-  {
-    "id": "trash",
-    "Owners": "anlong",
-    "Description": "Move files to the Windows Recycle Bin, and list, restore, purge or empty its contents. Provides the short \"trash\" command.",
-    "Score": 65,
-    "Published": "2026-10-25T05:30:27.987"
-  },
-  {
-    "id": "Mailozaurr",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerShell email toolkit for SMTP, IMAP, POP3, Microsoft Graph, Gmail, SendGrid, Mailgun, and Amazon SES, with message-file, PST/OST archive, signing, and encryption workflows.",
-    "Score": 65,
-    "Published": "2026-10-25T10:30:37.847"
-  },
-  {
-    "id": "Hephaestus",
-    "Owners": "itamartz",
-    "Description": "Hephaestus Deployment Toolkit - a PowerShell replacement for MDT.",
+    "id": "satellite",
+    "Owners": "suniltnngl",
+    "Description": "Satellite module for Delta-Code - discovery, registration, validation, execution of extension satellites. Requires the delta-code module.",
     "Score": 60,
-    "Published": "2026-10-25T21:34:53.057"
-  },
-  {
-    "id": "PSPublishModule",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "Build, test, version, sign, and publish PowerShell modules with reusable PowerForge pipelines.",
-    "Score": 60,
-    "Published": "2026-10-25T21:09:25.793"
+    "Published": "2026-10-26T03:01:10.313"
   }
 ]
