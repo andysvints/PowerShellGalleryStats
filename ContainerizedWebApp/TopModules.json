@@ -1,72 +1,72 @@
 [
   {
+    "id": "Visio",
+    "Owners": "saveenr,VisioAutomation,SevenPens",
+    "Description": "Visio PowerShell - Automation cmdlets for Visio version 2010 and above",
+    "Score": 80,
+    "Published": "2026-11-01T07:12:46.917"
+  },
+  {
     "id": "RnvPs.Caffeine",
     "Owners": "luoji",
     "Description": "Enables requesting the system idle timers not time out so that long-running tasks continue uninterrupted.",
     "Score": 75,
-    "Published": "2026-10-31T16:22:45.963"
+    "Published": "2026-11-01T06:09:14.367"
   },
   {
-    "id": "SnowStack.EncodingProbe.PowerShell",
-    "Owners": "motoi.tsushima",
-    "Description": "A PowerShell module for detecting the character encoding of text files. テキストファイルの文字エンコーディングを判定する PowerShell モジュールです。",
+    "id": "PSCompletions",
+    "Owners": "abgox",
+    "Description": "Powerful Shell Completions for PowerShell and other shells, powered by Rust and Lua.\r\nIt provides an interactive menu, wildcard/subsequence filtering, history-aware ordering, and dynamic completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- AtomGit: https://atomgit.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
     "Score": 75,
-    "Published": "2026-10-31T05:14:40.49"
+    "Published": "2026-11-01T05:57:40.36"
   },
   {
-    "id": "AzureDevOpsDscv3",
-    "Owners": "mimachniak",
-    "Description": "Module with DSC Resources for deployment and configuration of Azure DevOps Server/Services supporting DSC v3.",
-    "Score": 75,
-    "Published": "2026-10-31T17:09:27.707"
-  },
-  {
-    "id": "PSRHSM",
-    "Owners": "erikgraa",
-    "Description": "Unofficial, community-driven PowerShell module for the Red Hat Subscription Management (RHSM) API. Not affiliated with, sponsored by or endorsed by Red Hat, Inc. or IBM.",
+    "id": "USBDevice",
+    "Owners": "fbe75380fbd4",
+    "Description": "Inspects USB hubs, ports, and connected devices on Windows, including hub identity, device details, and negotiated connection speed.",
     "Score": 70,
-    "Published": "2026-10-31T23:38:00.94"
-  },
-  {
-    "id": "SqlServerAlwaysOnTools",
-    "Owners": "netsec4u",
-    "Description": "Provides maintenance functions to manage SQL Server Always On features.",
-    "Score": 70,
-    "Published": "2026-10-31T16:52:02.127"
-  },
-  {
-    "id": "SqlDataTools",
-    "Owners": "netsec4u",
-    "Description": "SQL Data tools to manage data.",
-    "Score": 70,
-    "Published": "2026-10-31T16:51:02.883"
-  },
-  {
-    "id": "SqlServerConfiguration",
-    "Owners": "netsec4u",
-    "Description": "Module provides function to configure SQL Server.",
-    "Score": 70,
-    "Published": "2026-10-31T16:52:18.247"
+    "Published": "2026-11-01T20:00:35.98"
   },
   {
     "id": "AzureCAF",
     "Owners": "markwragg",
     "Description": "A PowerShell module for generating Azure Resource names per the Cloud Adoption Framework naming recommendations",
     "Score": 65,
-    "Published": "2026-10-31T22:15:53.59"
+    "Published": "2026-11-01T17:05:49.543"
   },
   {
-    "id": "PSWriteOffice",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PowerShell document automation for Office, PDF, Project, Access, EPUB, electronic invoices, iWork, OneNote, OpenDocument, email, and text formats. Create, edit, inspect, and convert through OfficeIMO without Microsoft Office installed.",
+    "id": "WinGetExportToDsc",
+    "Owners": "mimachniak",
+    "Description": "Converts WinGet JSON exports to DSC v3 or WinGet DSC YAML configurations.",
     "Score": 65,
-    "Published": "2026-10-31T21:55:07.623"
+    "Published": "2026-11-01T22:15:30.677"
   },
   {
-    "id": "PSPGP",
-    "Owners": "Przemyslaw.Klys",
-    "Description": "PGP encryption, decryption, signing, verification, and key management for PowerShell.",
+    "id": "PagerArchive",
+    "Owners": "RIKIKU",
+    "Description": "Manage a PagerArchive server from PowerShell: sign in with your PagerArchive account, manage templates and aliases, import aliases through the pipeline, and search and watch messages.",
     "Score": 65,
-    "Published": "2026-10-31T08:16:43.587"
+    "Published": "2026-11-01T09:11:53.75"
+  },
+  {
+    "id": "New-MandoverAuthReadinessReport",
+    "Owners": "Mandover",
+    "Description": "Reads the authentication methods registration report from Microsoft Graph (reports/authenticationMethods/userRegistrationDetails)\nand writes a single HTML file with no external dependencies. It answers one question: how many users are ready for\nMicrosoft's retirement of SMS and voice authentication, and who is not.\n  - Notice with Microsoft's published dates and the days left.\n  - Cards: ready users, SMS or voice only, no MFA, and admins relying only on SMS or voice.\n    Every card, bar segment and method opens the list of users.\n  - ES / EN switch inside the report.\nRead-only: it changes nothing in the tenant. It runs locally and sends no data anywhere except to Microsoft Graph.\nMicrosoft leaves disabled and recently deleted accounts out of this report. Only internal users (tenant members) are analysed; guest accounts are always left out.\n\n",
+    "Score": 55,
+    "Published": "2026-11-01T09:42:27.477"
+  },
+  {
+    "id": "Pode",
+    "Owners": "Badgerati",
+    "Description": "A Cross-Platform PowerShell framework for creating web servers to host REST APIs and Websites. Pode also has support for being used in Azure Functions and AWS Lambda.",
+    "Score": 55,
+    "Published": "2026-11-01T15:37:25.42"
+  },
+  {
+    "id": "Send-WakeOnLan",
+    "Owners": "Sha256Encrypted",
+    "Description": "Sends a UDP magic packet to the specified MAC address.\nAutomatically calculates the local IPv4 broadcast address\nunless a broadcast address is supplied.\n\n",
+    "Score": 50,
+    "Published": "2026-11-01T23:45:36.58"
   }
 ]
