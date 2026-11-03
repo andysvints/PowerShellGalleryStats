@@ -1,72 +1,72 @@
 [
   {
-    "id": "Visio",
-    "Owners": "saveenr,VisioAutomation,SevenPens",
-    "Description": "Visio PowerShell - Automation cmdlets for Visio version 2010 and above",
-    "Score": 80,
-    "Published": "2026-11-01T07:12:46.917"
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 85,
+    "Published": "2026-11-02T21:01:55.91"
   },
   {
     "id": "RnvPs.Caffeine",
     "Owners": "luoji",
     "Description": "Enables requesting the system idle timers not time out so that long-running tasks continue uninterrupted.",
     "Score": 75,
-    "Published": "2026-11-01T06:09:14.367"
+    "Published": "2026-11-02T02:19:20.057"
   },
   {
-    "id": "PSCompletions",
-    "Owners": "abgox",
-    "Description": "Powerful Shell Completions for PowerShell and other shells, powered by Rust and Lua.\r\nIt provides an interactive menu, wildcard/subsequence filtering, history-aware ordering, and dynamic completions.\r\n- Website: https://pscompletions.abgox.com\r\n- GitHub:  https://github.com/abgox/PSCompletions\r\n- AtomGit: https://atomgit.com/abgox/PSCompletions\r\n- Gitee:   https://gitee.com/abgox/PSCompletions",
+    "id": "Office365-Scoutnet-synk",
+    "Owners": "karl_t_scouterna,karl_t_lascout",
+    "Description": "Funktioner för att synkronisera Scoutnet med Office 365.",
     "Score": 75,
-    "Published": "2026-11-01T05:57:40.36"
+    "Published": "2026-11-02T23:13:15.983"
   },
   {
-    "id": "USBDevice",
-    "Owners": "fbe75380fbd4",
-    "Description": "Inspects USB hubs, ports, and connected devices on Windows, including hub identity, device details, and negotiated connection speed.",
+    "id": "fullscreen",
+    "Owners": "trackd",
+    "Description": "fullscreen terminal apps, visual TUI designer and custom PowerShell TUIs.",
     "Score": 70,
-    "Published": "2026-11-01T20:00:35.98"
+    "Published": "2026-11-02T23:08:02.587"
+  },
+  {
+    "id": "NSP.Win.ScheduledTask",
+    "Owners": "ITGuyFromIA",
+    "Description": "Scheduled tasks for unattended jobs: one definition to register a task (SYSTEM, gMSA, or user; time or event-log triggers) and to check an installed task for drift.",
+    "Score": 70,
+    "Published": "2026-11-02T19:13:10.82"
+  },
+  {
+    "id": "HmailServer",
+    "Owners": "progressiverobot",
+    "Description": "The PowerShell client of Progressive Robot's fork of hMailServer, for the fork's REST API - not the original hMailServer by Martin Knafve, which has none. It administers a server of the fork - on Windows or on Linux, on this machine or another - from PowerShell: domains, accounts, aliases, lists, settings, the queue, backups, DKIM rotation, webhooks and the rest, as objects. The same vocabulary as hmctl, its command-line twin.",
+    "Score": 70,
+    "Published": "2026-11-02T15:33:10.827"
+  },
+  {
+    "id": "WindowsPostInstall",
+    "Owners": "chixus",
+    "Description": "Install and activate Office and Serbian proofing tools, activate Windows, format regional settings, install Total Commander 11.56 registered, enable local user login.",
+    "Score": 70,
+    "Published": "2026-11-02T06:20:48.5"
   },
   {
     "id": "AzureCAF",
     "Owners": "markwragg",
     "Description": "A PowerShell module for generating Azure Resource names per the Cloud Adoption Framework naming recommendations",
     "Score": 65,
-    "Published": "2026-11-01T17:05:49.543"
+    "Published": "2026-11-02T23:38:56.413"
   },
   {
-    "id": "WinGetExportToDsc",
-    "Owners": "mimachniak",
-    "Description": "Converts WinGet JSON exports to DSC v3 or WinGet DSC YAML configurations.",
+    "id": "QlikCloudCLI",
+    "Owners": "Nillth",
+    "Description": "Qlik Cloud REST and Engine PowerShell commands generated from the QlikCloud client catalog.",
     "Score": 65,
-    "Published": "2026-11-01T22:15:30.677"
+    "Published": "2026-11-02T11:30:22.57"
   },
   {
-    "id": "PagerArchive",
-    "Owners": "RIKIKU",
-    "Description": "Manage a PagerArchive server from PowerShell: sign in with your PagerArchive account, manage templates and aliases, import aliases through the pipeline, and search and watch messages.",
+    "id": "RC4-ADAssessment",
+    "Owners": "BetaHydri",
+    "Description": "PowerShell toolkit for assessing DES and RC4 Kerberos encryption usage in Active Directory. Discovers RC4/DES dependencies across DC encryption, trusts, KRBTGT, service accounts, KDC registry, KDCSVC events, and Security event logs — with inline remediation commands and assessment comparison for tracking progress toward the July 2026 RC4 removal deadline.",
     "Score": 65,
-    "Published": "2026-11-01T09:11:53.75"
-  },
-  {
-    "id": "New-MandoverAuthReadinessReport",
-    "Owners": "Mandover",
-    "Description": "Reads the authentication methods registration report from Microsoft Graph (reports/authenticationMethods/userRegistrationDetails)\nand writes a single HTML file with no external dependencies. It answers one question: how many users are ready for\nMicrosoft's retirement of SMS and voice authentication, and who is not.\n  - Notice with Microsoft's published dates and the days left.\n  - Cards: ready users, SMS or voice only, no MFA, and admins relying only on SMS or voice.\n    Every card, bar segment and method opens the list of users.\n  - ES / EN switch inside the report.\nRead-only: it changes nothing in the tenant. It runs locally and sends no data anywhere except to Microsoft Graph.\nMicrosoft leaves disabled and recently deleted accounts out of this report. Only internal users (tenant members) are analysed; guest accounts are always left out.\n\n",
-    "Score": 55,
-    "Published": "2026-11-01T09:42:27.477"
-  },
-  {
-    "id": "Pode",
-    "Owners": "Badgerati",
-    "Description": "A Cross-Platform PowerShell framework for creating web servers to host REST APIs and Websites. Pode also has support for being used in Azure Functions and AWS Lambda.",
-    "Score": 55,
-    "Published": "2026-11-01T15:37:25.42"
-  },
-  {
-    "id": "Send-WakeOnLan",
-    "Owners": "Sha256Encrypted",
-    "Description": "Sends a UDP magic packet to the specified MAC address.\nAutomatically calculates the local IPv4 broadcast address\nunless a broadcast address is supplied.\n\n",
-    "Score": 50,
-    "Published": "2026-11-01T23:45:36.58"
+    "Published": "2026-11-02T10:17:01.517"
   }
 ]
