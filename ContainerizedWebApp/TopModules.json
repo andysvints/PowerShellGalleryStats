@@ -3,70 +3,70 @@
     "id": "Avm.Authoring",
     "Owners": "jtracey93msft,jaredfholgate",
     "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 90,
+    "Published": "2026-11-03T16:25:16.62"
+  },
+  {
+    "id": "PoShLog.Sinks.EventLog",
+    "Owners": "TomasBouda",
+    "Description": "PoShLog.Sinks.EventLog is extension module for PoShLog core library - https://www.powershellgallery.com/packages/PoShLog.\r\nIt contains sink that writes events to the Windows Event Log.\r\n\r\nFor documentation check PoShLog wiki - https://github.com/PoShLog/PoShLog/wiki",
     "Score": 85,
-    "Published": "2026-11-02T21:01:55.91"
-  },
-  {
-    "id": "RnvPs.Caffeine",
-    "Owners": "luoji",
-    "Description": "Enables requesting the system idle timers not time out so that long-running tasks continue uninterrupted.",
-    "Score": 75,
-    "Published": "2026-11-02T02:19:20.057"
-  },
-  {
-    "id": "Office365-Scoutnet-synk",
-    "Owners": "karl_t_scouterna,karl_t_lascout",
-    "Description": "Funktioner för att synkronisera Scoutnet med Office 365.",
-    "Score": 75,
-    "Published": "2026-11-02T23:13:15.983"
+    "Published": "2026-11-03T21:17:47.12"
   },
   {
     "id": "fullscreen",
     "Owners": "trackd",
     "Description": "fullscreen terminal apps, visual TUI designer and custom PowerShell TUIs.",
     "Score": 70,
-    "Published": "2026-11-02T23:08:02.587"
+    "Published": "2026-11-03T18:11:12.43"
   },
   {
-    "id": "NSP.Win.ScheduledTask",
-    "Owners": "ITGuyFromIA",
-    "Description": "Scheduled tasks for unattended jobs: one definition to register a task (SYSTEM, gMSA, or user; time or event-log triggers) and to check an installed task for drift.",
+    "id": "PSADTIntune",
+    "Owners": "Dzhay",
+    "Description": "Packages PSAppDeployToolkit (PSADT) v4 applications as .intunewin and uploads, updates or supersedes them as Win32 apps in Microsoft Intune.",
     "Score": 70,
-    "Published": "2026-11-02T19:13:10.82"
+    "Published": "2026-11-03T15:38:23.077"
   },
   {
-    "id": "HmailServer",
-    "Owners": "progressiverobot",
-    "Description": "The PowerShell client of Progressive Robot's fork of hMailServer, for the fork's REST API - not the original hMailServer by Martin Knafve, which has none. It administers a server of the fork - on Windows or on Linux, on this machine or another - from PowerShell: domains, accounts, aliases, lists, settings, the queue, backups, DKIM rotation, webhooks and the rest, as objects. The same vocabulary as hmctl, its command-line twin.",
+    "id": "DesktopManager",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Desktop Manager is a PowerShell module that allows easy way to change wallpaper on multiple screens/monitors.",
     "Score": 70,
-    "Published": "2026-11-02T15:33:10.827"
+    "Published": "2026-11-03T10:13:15.66"
   },
   {
-    "id": "WindowsPostInstall",
-    "Owners": "chixus",
-    "Description": "Install and activate Office and Serbian proofing tools, activate Windows, format regional settings, install Total Commander 11.56 registered, enable local user login.",
-    "Score": 70,
-    "Published": "2026-11-02T06:20:48.5"
+    "id": "Nutanix.Clustermgmt",
+    "Owners": "nutanix-publisher",
+    "Description": "Manage Hosts, Clusters and other Infrastructure.",
+    "Score": 60,
+    "Published": "2026-11-03T06:01:13.877"
   },
   {
-    "id": "AzureCAF",
-    "Owners": "markwragg",
-    "Description": "A PowerShell module for generating Azure Resource names per the Cloud Adoption Framework naming recommendations",
-    "Score": 65,
-    "Published": "2026-11-02T23:38:56.413"
+    "id": "AzPreview",
+    "Owners": "azure-sdk",
+    "Description": "Microsoft Azure PowerShell - Including stable version and preview version of Azure PowerShell modules. This module is compatible with PowerShell and Windows PowerShell.\r\nFor more information about the AzPreview module, please visit the following: https://learn.microsoft.com/powershell/azure/",
+    "Score": 60,
+    "Published": "2026-11-03T01:12:33.97"
   },
   {
-    "id": "QlikCloudCLI",
-    "Owners": "Nillth",
-    "Description": "Qlik Cloud REST and Engine PowerShell commands generated from the QlikCloud client catalog.",
-    "Score": 65,
-    "Published": "2026-11-02T11:30:22.57"
+    "id": "Az.Websites",
+    "Owners": "azure-sdk",
+    "Description": "Microsoft Azure PowerShell - App Service (Web Apps) service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.\r\n\r\nFor more information on App Service, please visit the following: https://learn.microsoft.com/azure/app-service-web/",
+    "Score": 60,
+    "Published": "2026-11-03T01:12:30.243"
   },
   {
-    "id": "RC4-ADAssessment",
-    "Owners": "BetaHydri",
-    "Description": "PowerShell toolkit for assessing DES and RC4 Kerberos encryption usage in Active Directory. Discovers RC4/DES dependencies across DC encryption, trusts, KRBTGT, service accounts, KDC registry, KDCSVC events, and Security event logs — with inline remediation commands and assessment comparison for tracking progress toward the July 2026 RC4 removal deadline.",
-    "Score": 65,
-    "Published": "2026-11-02T10:17:01.517"
+    "id": "Az.TrafficManager",
+    "Owners": "azure-sdk",
+    "Description": "Microsoft Azure PowerShell - Traffic Manager service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.\r\n\r\nFor more information on Traffic Manager, please visit the following: https://learn.microsoft.com/azure/traffic-manager/",
+    "Score": 60,
+    "Published": "2026-11-03T01:12:26.337"
+  },
+  {
+    "id": "Az.StorageSync",
+    "Owners": "azure-sdk",
+    "Description": "Microsoft Azure PowerShell - Storage Sync cmdlets in Windows PowerShell and PowerShell Core. Manages operations pertaining to Azure File Sync in PowerShell.",
+    "Score": 60,
+    "Published": "2026-11-03T01:12:18.55"
   }
 ]
