@@ -1,72 +1,72 @@
 [
   {
-    "id": "Avm.Authoring",
-    "Owners": "jtracey93msft,jaredfholgate",
-    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
-    "Score": 90,
-    "Published": "2026-11-14T21:18:03.75"
+    "id": "MASES.JNetPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "JNet (.NET suite for Java™/JVM™) PowerShell (aka JNetPS) is a PowerShell Module to use JVM and PowerShell side-by-side. With JNetPS it is possible to:\r\n- create and use JVM objects from PowerShell: initialize JVM object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/JNet for further information.",
+    "Score": 85,
+    "Published": "2026-11-15T15:32:13.313"
   },
   {
-    "id": "Subnet",
-    "Owners": "markwragg",
-    "Description": "A PowerShell module for cmdlets related to network subnet calculations",
+    "id": "pocof",
+    "Owners": "krymtkts",
+    "Description": "An interactive pipeline filtering Cmdlet for PowerShell written in F#. A fork of poco which is a PowerShell port of peco.",
     "Score": 80,
-    "Published": "2026-11-14T15:12:02.857"
+    "Published": "2026-11-15T01:07:51.33"
   },
   {
     "id": "Omnicit.EntraRBAC",
     "Owners": "OmnicitAB",
     "Description": "Manage Entra ID and Azure RBAC building blocks across tenants: Entra ID groups, PIM, Administrative Units, Entitlement Management, Access Reviews, Azure resources and RBAC, plus a JSON inventory and declarative apply engine.",
     "Score": 75,
-    "Published": "2026-11-14T07:57:17.193"
+    "Published": "2026-11-15T10:35:32.213"
+  },
+  {
+    "id": "PSGameOfLife",
+    "Owners": "krymtkts",
+    "Description": "Interactive Conway's Game of Life module for PowerShell, written in F#. Simulates the Game of Life in your terminal with customizable settings.",
+    "Score": 75,
+    "Published": "2026-11-15T01:11:23.517"
+  },
+  {
+    "id": "SPStorageTree",
+    "Owners": "gvijaikumar9",
+    "Description": "TreeSize for SharePoint: scans a SharePoint site and writes a storage report (where the storage goes, version-history bloat, stale/ROT content, Copilot readiness) for an offline HTML treemap viewer. Read-only.",
+    "Score": 70,
+    "Published": "2026-11-15T21:18:27.477"
+  },
+  {
+    "id": "PSMcpKnowledgeBase",
+    "Owners": "nikq29",
+    "Description": "Host a Model Context Protocol (MCP) server that serves your own documentation to AI agents, and manage the server and its knowledge base entirely from PowerShell. Supports stdio and Streamable HTTP, imports Markdown, text, HTML/web pages, Word (.docx), PDF, CSV, JSON/YAML/XML and source code, and ships a local BM25 search.",
+    "Score": 70,
+    "Published": "2026-11-15T16:45:17.97"
   },
   {
     "id": "PagerArchive",
     "Owners": "RIKIKU",
     "Description": "Manage a PagerArchive server from PowerShell: sign in with your PagerArchive account, manage templates and aliases, import aliases through the pipeline, search and watch messages, and back up the server now.",
     "Score": 65,
-    "Published": "2026-11-14T16:50:21.637"
+    "Published": "2026-11-15T04:00:34.173"
   },
   {
-    "id": "New-CertKitAppProxyIdentity",
-    "Owners": "richardhicks",
-    "Description": "This script creates everything CertKit needs to deploy certificates to Microsoft Entra Application Proxy applications using client secret authentication, following least privilege.\n\n- A dedicated app registration and service principal for CertKit.\n- A custom Entra role that can only read Application Proxy settings and update the Application Proxy SSL certificate.\n- The read-only Microsoft Graph application permission Application.Read.All, used by CertKit to find App Proxy applications.\n- A tenant-wide assignment of the custom role to the CertKit service principal, made directly or through Privileged Identity Management (PIM).\n- A client secret, which is copied to the clipboard and never displayed on screen.\n\nThe script is safe to run more than once. Existing objects with the same names are reused, and existing role and permission assignments are not duplicated. A new client secret is created on every run. Use -RemoveExistingSecrets to remove older client secrets after the new one is created.\n\n",
-    "Score": 60,
-    "Published": "2026-11-14T22:35:16.333"
+    "id": "PSParseHTML",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "Module that allows to manipulate, parse, format and optimize HTML, JavaScript and CSS",
+    "Score": 65,
+    "Published": "2026-11-15T21:43:17.35"
   },
   {
-    "id": "PowerShellUniversal.Component.Pivot.Demo",
-    "Owners": "Eizedev",
-    "Description": "Showcase app for PowerShellUniversal.Component.Pivot: pivot reports on software release cycles (endoflife.date) and weather (Open-Meteo) with shipped snapshots or live data, your own CSV, JSON and Excel files read in the browser, and a 5,000-row ticket report with templates, events and page layouts; English and German.",
-    "Score": 60,
-    "Published": "2026-11-15T00:05:01.943"
+    "id": "Mailozaurr",
+    "Owners": "Przemyslaw.Klys",
+    "Description": "PowerShell email toolkit for SMTP, IMAP, POP3, Microsoft Graph, Gmail, SendGrid, Mailgun, and Amazon SES, with message-file, PST/OST archive, signing, and encryption workflows.",
+    "Score": 65,
+    "Published": "2026-11-15T21:06:48.673"
   },
   {
-    "id": "PowerShellUniversal.Component.Pivot",
-    "Owners": "Eizedev",
-    "Description": "Pivot report builder for PowerShell Universal apps: readers drag fields into rows, columns, values and filters and get a table or a chart, with date grouping, drill-down to the source rows, templates, undo, Excel, CSV, PNG, SVG and HTML export and the reader's own CSV, JSON and Excel files read in the browser; light and dark theme, English and German, fed straight from SQL DataTables, REST results and PowerShell objects.",
-    "Score": 60,
-    "Published": "2026-11-14T23:49:10.533"
-  },
-  {
-    "id": "NSP.LogParse",
-    "Owners": "ITGuyFromIA",
-    "Description": "Turn text matched by named-capture regex patterns into PowerShell objects.",
-    "Score": 50,
-    "Published": "2026-11-14T06:57:35.04"
-  },
-  {
-    "id": "Ui4me",
-    "Owners": "ui4me",
-    "Description": "Native desktop GUI components, state binding, keyed lists, timers, background tasks and themes for PowerShell, on the UI4ME.Core 1.x native host. No browser, Python or web server.",
-    "Score": 50,
-    "Published": "2026-11-14T08:08:22.867"
-  },
-  {
-    "id": "PsBash",
-    "Owners": "abrummer",
-    "Description": "Real bash commands for PowerShell with typed objects. 76 commands (ls, grep, sort, awk, sed, jq, find, ps, du, tar, etc.) that accept real bash flags and return structured PowerShell objects while producing identical text output. Pipeline bridge pattern preserves typed objects through grep, sort, head, tail.",
-    "Score": 50,
-    "Published": "2026-11-14T06:30:53.047"
+    "id": "AadAuthenticationFactory",
+    "Owners": "jformacek,JiriF",
+    "Description": "Provides AAD authentication factory for easy Public Client, Confidential Client flow and Managed Identity authentication with AAD in PowerShell",
+    "Score": 65,
+    "Published": "2026-11-15T17:04:26.523"
   }
 ]
