@@ -1,72 +1,72 @@
 [
   {
-    "id": "OCI.PSModules.Common",
-    "Owners": "oci-psmodules-grp",
-    "Description": "OCI Common module exports Cmdlets that manages features offered by OCI Modules for Powershell like History Store, OCI Configuration file setup and Per-Session Region/Config/Profile preferences. Common module also contains some functionalties that are common to all OCI Service modules, therefore all OCI Service modules depends on Common module.",
+    "id": "MASES.KNetPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "KNet PowerShell command line interface is a PowerShell Module to use Apache Kafka and PowerShell side-by-side. With KNet PowerShell it is possible to:\r\n- execute all tools of Apache Kafka within a PowerShell shell: Administration tools, Console Consumer, Console Producer, manage Apache Kafka Streams, activate Apache Kafka Connect, server side (start KRaft), etc\r\n- create consumers and producers objects to interact with an Apache Kafka cluster\r\n- send data to and receive data from an Apache Kafka cluster\r\n- create a Kafka Admin Client object to manage an Apache Kafka cluster\r\n\r\nMore information within the project hosted on GitHub. Further information at https://github.com/masesgroup/KNet.",
     "Score": 85,
-    "Published": "2026-11-17T18:20:58.757"
+    "Published": "2026-11-18T02:33:35.25"
   },
   {
-    "id": "OCI.PSModules",
-    "Owners": "oci-psmodules-grp",
-    "Description": "Oracle Cloud Infrastructure (OCI) PowerShell Modules - Cmdlets to manage resources in OCI.\nFor more information, please visit: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm",
+    "id": "DSCParser",
+    "Owners": "NikCharleboisPFE,YorickKuijs,FabienTschanz",
+    "Description": "This module allows for the parsing of a DSC Configuration script into PSObject for analysis",
     "Score": 85,
-    "Published": "2026-11-17T18:55:26.103"
+    "Published": "2026-11-18T18:46:33.45"
   },
   {
-    "id": "OCI.PSModules.Self",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Self Service",
+    "id": "MASES.NavenPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "Naven (.NET suite for Apache Maven™) PowerShell (aka NavenPS) is a PowerShell Module to use Apache Maven™ and PowerShell side-by-side. With NavenPS it is possible to:\r\n- create and use Apache Maven™ objects from PowerShell: initialize Apache Maven™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/Naven for further information.",
     "Score": 80,
-    "Published": "2026-11-17T18:36:55.37"
+    "Published": "2026-11-18T02:46:29.923"
   },
   {
-    "id": "OCI.PSModules.Generativeaidata",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Generativeaidata Service",
+    "id": "MASES.PLCOnNetPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "PLCOnNet (.NET suite for PLC4X™) PowerShell (aka PLCOnNetPS) is a PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to:\r\n- create and use PLC4X™ objects from PowerShell: initialize PLC4X™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/PLCOnNet for further information.",
     "Score": 80,
-    "Published": "2026-11-17T18:29:57.99"
+    "Published": "2026-11-18T02:38:42.98"
   },
   {
-    "id": "OCI.PSModules.Containerregistry",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Containerregistry Service",
+    "id": "MASES.NetPDFPS",
+    "Owners": "MASESGroupPSTeam",
+    "Description": "NetPDF (.NET suite for PDFBox™) PowerShell (aka NetPDFPS) is a PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to:\r\n- create and use PDFBox™ objects from PowerShell: initialize PDFBox™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/NetPDF for further information.",
     "Score": 80,
-    "Published": "2026-11-17T18:26:15.853"
+    "Published": "2026-11-18T02:43:47.087"
   },
   {
-    "id": "OCI.PSModules.Limitsincrease",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Limitsincrease Service",
-    "Score": 80,
-    "Published": "2026-11-17T18:31:32.59"
+    "id": "AWS.Tools.BCMDashboards",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-18T21:11:57.61"
   },
   {
-    "id": "OCI.PSModules.Gdp",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Gdp Service",
-    "Score": 80,
-    "Published": "2026-11-17T18:29:36.983"
+    "id": "AWS.Tools.BCMRecommendedActions",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-18T21:08:23.35"
   },
   {
-    "id": "OCI.PSModules.Resourceanalytics",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Resourceanalytics Service",
-    "Score": 80,
-    "Published": "2026-11-17T18:36:14.347"
+    "id": "AWS.Tools.ARCRegionswitch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-18T21:05:43.783"
   },
   {
-    "id": "OCI.PSModules.Psa",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Psa Service",
-    "Score": 80,
-    "Published": "2026-11-17T18:35:44.95"
+    "id": "AWS.Tools.BedrockAgentCoreControl",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Control from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-18T21:05:27.6"
   },
   {
-    "id": "OCI.PSModules.Batch",
-    "Owners": "oci-psmodules-grp",
-    "Description": "This modules provides Cmdlets for OCI Batch Service",
-    "Score": 80,
-    "Published": "2026-11-17T18:23:52.16"
+    "id": "AWS.Tools.BedrockAgentCore",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-18T21:04:14.99"
   }
 ]
