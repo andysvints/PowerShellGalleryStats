@@ -1,72 +1,72 @@
 [
   {
-    "id": "MASES.KNetPS",
-    "Owners": "MASESGroupPSTeam",
-    "Description": "KNet PowerShell command line interface is a PowerShell Module to use Apache Kafka and PowerShell side-by-side. With KNet PowerShell it is possible to:\r\n- execute all tools of Apache Kafka within a PowerShell shell: Administration tools, Console Consumer, Console Producer, manage Apache Kafka Streams, activate Apache Kafka Connect, server side (start KRaft), etc\r\n- create consumers and producers objects to interact with an Apache Kafka cluster\r\n- send data to and receive data from an Apache Kafka cluster\r\n- create a Kafka Admin Client object to manage an Apache Kafka cluster\r\n\r\nMore information within the project hosted on GitHub. Further information at https://github.com/masesgroup/KNet.",
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell 7 CLI that consolidates the authoring and CI tooling for Azure Verified Modules (https://aka.ms/avm). A single avm command (alias: avm) works across both ecosystems and ships: environment diagnostics (avm version, avm doctor); a checksum-pinned managed-tool resolver (avm tool list/which/install) that downloads and verifies the exact terraform, terraform-docs, tflint, conftest and mapotf binaries a module needs; and a fully wired Terraform authoring chain - avm pre-commit fixes and checks a module locally (convention checks, HCL transforms via mapotf, terraform fmt and terraform-docs) while avm pr-check adds tflint, APRL/AVMSEC policy checks and terraform validate. No Docker, make or porch required. The Bicep facade is in active development. Requires PowerShell 7.4+ (Core). See https://github.com/Azure/azure-verified-modules-tools for status and docs.",
+    "Score": 90,
+    "Published": "2026-11-19T17:22:37.26"
+  },
+  {
+    "id": "PSDetour",
+    "Owners": "jborean93",
+    "Description": "Hook Win32 APIs in PowerShell.`nSee https://github.com/jborean93/PSDetour for more info",
     "Score": 85,
-    "Published": "2026-11-18T02:33:35.25"
+    "Published": "2026-11-19T04:17:02.773"
   },
   {
-    "id": "DSCParser",
-    "Owners": "NikCharleboisPFE,YorickKuijs,FabienTschanz",
-    "Description": "This module allows for the parsing of a DSC Configuration script into PSObject for analysis",
-    "Score": 85,
-    "Published": "2026-11-18T18:46:33.45"
-  },
-  {
-    "id": "MASES.NavenPS",
-    "Owners": "MASESGroupPSTeam",
-    "Description": "Naven (.NET suite for Apache Maven™) PowerShell (aka NavenPS) is a PowerShell Module to use Apache Maven™ and PowerShell side-by-side. With NavenPS it is possible to:\r\n- create and use Apache Maven™ objects from PowerShell: initialize Apache Maven™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/Naven for further information.",
+    "id": "SendGridTools",
+    "Owners": "PhilipHaglund",
+    "Description": "Manage SendGrid using its API with PowerShell functions and wrappers.",
     "Score": 80,
-    "Published": "2026-11-18T02:46:29.923"
+    "Published": "2026-11-19T19:50:53.747"
   },
   {
-    "id": "MASES.PLCOnNetPS",
-    "Owners": "MASESGroupPSTeam",
-    "Description": "PLCOnNet (.NET suite for PLC4X™) PowerShell (aka PLCOnNetPS) is a PowerShell Module to use PLC4X™ and PowerShell side-by-side. With PLCOnNetPS it is possible to:\r\n- create and use PLC4X™ objects from PowerShell: initialize PLC4X™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/PLCOnNet for further information.",
-    "Score": 80,
-    "Published": "2026-11-18T02:38:42.98"
-  },
-  {
-    "id": "MASES.NetPDFPS",
-    "Owners": "MASESGroupPSTeam",
-    "Description": "NetPDF (.NET suite for PDFBox™) PowerShell (aka NetPDFPS) is a PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to:\r\n- create and use PDFBox™ objects from PowerShell: initialize PDFBox™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code \r\n- send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object\r\n\r\nMore information within the project hosted on GitHub at https://github.com/masesgroup/NetPDF for further information.",
-    "Score": 80,
-    "Published": "2026-11-18T02:43:47.087"
+    "id": "PSSharp.PowerShell.RabbitMQ.Commands",
+    "Owners": "Stroniax",
+    "Description": "PowerShell cmdlets to interact with RabbitMQ via AMQP and Management API",
+    "Score": 75,
+    "Published": "2026-11-19T19:22:14.637"
   },
   {
     "id": "AWS.Tools.BCMDashboards",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-11-18T21:11:57.61"
+    "Published": "2026-11-19T20:55:21.493"
   },
   {
     "id": "AWS.Tools.BCMRecommendedActions",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-11-18T21:08:23.35"
+    "Published": "2026-11-19T20:56:51.37"
   },
   {
     "id": "AWS.Tools.ARCRegionswitch",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-11-18T21:05:43.783"
+    "Published": "2026-11-19T20:56:11.983"
   },
   {
     "id": "AWS.Tools.BedrockAgentCoreControl",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Control from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-11-18T21:05:27.6"
+    "Published": "2026-11-19T20:54:35.207"
   },
   {
     "id": "AWS.Tools.BedrockAgentCore",
     "Owners": "aws-dotnet-sdk-team",
     "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
     "Score": 75,
-    "Published": "2026-11-18T21:04:14.99"
+    "Published": "2026-11-19T20:52:45.607"
+  },
+  {
+    "id": "AWS.Tools.AIOps",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The AIOps module of AWS Tools for PowerShell lets developers and administrators manage AWS AI Ops from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-19T20:57:19.637"
   }
 ]
