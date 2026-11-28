@@ -1,72 +1,72 @@
 [
   {
-    "id": "msix",
-    "Owners": "sanderdewit",
-    "Description": "Enterprise-grade MSIX packaging automation. PSF (TMurgent) injection with the full RegLegacy + MFR fixup palette, context menus, signing, CI/CD pipeline, compatibility investigation (procmon + DebugView trace parsing), sandbox debug helper, App Attach VHDX/CIM generator, Win32 App Isolation, AppData helpers, accelerator import, deployment-script templates, heuristic heuristic auto-fixers (uninstaller / Run-key / VC runtime / capability / splash / alias / version-bump), package compare, and a Pester test suite.",
-    "Score": 80,
-    "Published": "2026-11-26T18:04:51.52"
+    "id": "Avm.Authoring",
+    "Owners": "jtracey93msft,jaredfholgate",
+    "Description": "Cross-platform PowerShell CLI for Azure Verified Modules authors. Check and fix Terraform modules locally, then validate changes before opening a pull request. Includes formatting, linting, policy checks, and Terraform validation.",
+    "Score": 90,
+    "Published": "2026-11-27T19:22:12.41"
   },
   {
-    "id": "MSCKite.Azure.Platform",
-    "Owners": "MSc356Admin",
-    "Description": "Lightweight automation for Azure platform engineering, developer enablement, and cloud operations.",
+    "id": "ThemisRules",
+    "Owners": "DavidPrietoDev",
+    "Description": "Audit and harden Windows with JSON policies. Ships a Windows 10/11 workstation baseline (L1-L3: UAC, credentials, SMB, RDP, printing, Kerberos, Credential Guard, audit policy, password and lockout policy, user rights, Defender and attack surface reduction, firewall, services) and 19 rule types (registry, services, features, audit and security policy, user rights, firewall profiles and rules, Defender settings, DNS over HTTPS, AppLocker, scheduled tasks, root certificates, event logs, local groups, protected folders, file signatures, processes and checks). Reads facts about the machine itself (Secure Boot, BitLocker, memory integrity, antivirus, updates) for conditions and checks. Audit or Enforce (-WhatIf), single rules or batches for tools that keep their own history, backups to undo Enforce, exceptions, severities, and JSON, CSV or HTML reports with weighted scores.",
     "Score": 75,
-    "Published": "2026-11-26T19:16:29.85"
+    "Published": "2026-11-27T10:15:41.72"
   },
   {
-    "id": "PSRetryAfter",
-    "Owners": "gvijaikumar9",
-    "Description": "Retries any command using the delay the server actually asked for. Wraps a script block, so it works with Graph, PnP, AWS and any other cmdlet, not only Invoke-RestMethod. Reads Retry-After in both its seconds and HTTP-date forms, plus x-ms-retry-after-ms and x-ratelimit-reset, and falls back to exponential backoff with jitter only when the server says nothing. Fails fast on errors a retry cannot fix, enforces a total time budget, and supports a flat interval for polling. No dependencies, Windows PowerShell 5.1 and PowerShell 7 on Windows, Linux and macOS.",
-    "Score": 70,
-    "Published": "2026-11-26T04:34:49.79"
+    "id": "HermesConsoleUI",
+    "Owners": "DavidPrietoDev",
+    "Description": "Console UI components for PowerShell scripts: titles, status messages, tables, lists, trees, charts, panels, menus, prompts and side-by-side layouts, with color themes and localized prompts (en-US, es-ES, fr-FR). No dependencies. Windows PowerShell 5.1 and PowerShell 7+.",
+    "Score": 75,
+    "Published": "2026-11-27T10:15:57.027"
   },
   {
-    "id": "Test-BackupRestore",
-    "Owners": "Powerscripting",
-    "Description": "Ein erfolgreicher Backup-Job und ein bestandener Verify-Job auf dem Proxmox Backup Server sagen nur,\ndass die Daten unverändert gespeichert sind. Ob sich daraus eine lauffähige VM machen lässt, zeigt erst\neine Wiederherstellung. Dieses Skript übernimmt den mechanischen Teil davon:\n\n1. Es prüft, dass die Ziel-VMID frei ist, das Archiv existiert und der Zielspeicher VM-Datenträger\n   aufnehmen kann. Den Verifikationsstatus des PBS zeigt es im Ergebnis an.\n2. Es stellt das Backup unter der Ziel-VMID wieder her, mit neuer MAC-Adresse (unique) und ohne\n   automatischen Start. Eine vorhandene VM wird nie überschrieben, der Restore läuft mit force=0 und Proxmox lehnt eine belegte VMID selbst ab.\n3. Es trennt alle Netzwerkkarten der Test-VM (link_down), setzt onboot und protection auf 0 und\n   verhindert so, dass die Kopie im Produktivnetz auftaucht oder nach einem Neustart des Hosts startet.\n4. Mit -BootTest startet es die VM und wartet, bis der QEMU Guest Agent antwortet. Das beweist, dass\n   Betriebssystem und Agent hochkommen. Dienste und Anwendungsdaten prüft es nicht.\n5. Mit -Cleanup stoppt und löscht es die Test-VM samt Datenträgern wieder. Ohne -Cleanup bleibt sie zur\n   manuellen Prüfung erhalten.\n\nNur QEMU-VMs. Container-Backups lehnt das Skript ab.\n\n",
-    "Score": 70,
-    "Published": "2026-11-26T10:20:55.897"
+    "id": "ArgosCCF",
+    "Owners": "DavidPrietoDev",
+    "Description": "Secure logging for PowerShell scripts. Passwords, tokens and keys are redacted before anything is written: key/value pairs and JSON, connection strings, credentials in URLs, Authorization headers, private keys, GitHub, AWS, Slack, Stripe, Google and npm tokens, values you register with Register-CCFSecret, your own patterns, and random-looking strings. Every rule has a time limit and fails closed. Entries cannot be forged, security and audit records go to their own files, chained logs show any line changed or deleted (also across rotation), and logs are kept per user, outside the module folder. The redaction also works on its own: put Protect-CCFSensitiveData in front of any other logger, or clean transcripts with Protect-CCFLogFile. Windows PowerShell 5.1 and PowerShell 7+, no dependencies.",
+    "Score": 75,
+    "Published": "2026-11-27T10:15:44.713"
   },
   {
-    "id": "Ghost",
-    "Owners": "GijsReijn",
-    "Description": "Community Ghost Admin API module: posts, pages, tags, members, tiers, images, themes, Markdown, local site.",
-    "Score": 70,
-    "Published": "2026-11-26T07:43:15.36"
+    "id": "PwrSvg",
+    "Owners": "OscarCalvo",
+    "Description": "PowerShell module for rendering SVG files to raw image buffers using SkiaSharp, optimized for terminal and pipeline integration.",
+    "Score": 75,
+    "Published": "2026-11-27T23:03:35.7"
   },
   {
-    "id": "AzTableAPI",
-    "Owners": "tobvil",
-    "Description": "PowerShell module for Azure Table Storage data-plane operations via the REST API. Supports Entra ID (bring-your-own access token), Shared Key (HMAC-SHA256), and SAS token authentication. Requires PowerShell 7+.",
-    "Score": 70,
-    "Published": "2026-11-26T13:45:52.647"
+    "id": "AWS.Tools.BCMDashboards",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMDashboards module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing and Cost Management Dashboards from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-27T20:33:11.57"
   },
   {
-    "id": "PowerShellUniversal.Component.Pivot",
-    "Owners": "Eizedev",
-    "Description": "Pivot report builder for PowerShell Universal apps: readers drag fields into rows, columns, values and filters and get a table or a chart, with date grouping, drill-down to the source rows, templates, undo, Excel, CSV, PNG, SVG and HTML export and the reader's own CSV, JSON and Excel files read in the browser; light and dark theme, English and German, fed straight from SQL DataTables, REST results and PowerShell objects.",
-    "Score": 60,
-    "Published": "2026-11-26T23:07:53.89"
+    "id": "AWS.Tools.BCMRecommendedActions",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BCMRecommendedActions module of AWS Tools for PowerShell lets developers and administrators manage AWS Billing And Cost Management Recommended Actions from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-27T20:32:29.87"
   },
   {
-    "id": "SideChannelMitigations",
-    "Owners": "BetaHydri",
-    "Description": "Enterprise-grade PowerShell tool for assessing and managing Windows side-channel vulnerability mitigations with comprehensive hardware detection, intelligent platform-aware scoring, and automated backup/restore capabilities.",
-    "Score": 60,
-    "Published": "2026-11-26T11:46:39.53"
+    "id": "AWS.Tools.ARCRegionswitch",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The ARCRegionswitch module of AWS Tools for PowerShell lets developers and administrators manage ARC - Region switch from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-27T20:33:08.66"
   },
   {
-    "id": "CAT",
-    "Owners": "tomastucek,petr.parik,petr-parik-justcat-it",
-    "Description": "Author, run and manage AUTOMATED TESTS for your DATA with minimum effort.",
-    "Score": 60,
-    "Published": "2026-11-26T17:42:02.643"
+    "id": "AWS.Tools.BedrockAgentCoreControl",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCoreControl module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore Control from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-27T20:34:38.067"
   },
   {
-    "id": "Particular.ServiceControl.Management",
-    "Owners": "ParticularSoftware",
-    "Description": "ServiceControl Management",
-    "Score": 55,
-    "Published": "2026-11-26T09:26:24.947"
+    "id": "AWS.Tools.BedrockAgentCore",
+    "Owners": "aws-dotnet-sdk-team",
+    "Description": "The BedrockAgentCore module of AWS Tools for PowerShell lets developers and administrators manage Amazon Bedrock AgentCore from the PowerShell scripting environment. In order to manage each AWS service, install the corresponding module (e.g. AWS.Tools.EC2, AWS.Tools.S3...).\r\nThe module AWS.Tools.Installer (https://www.powershellgallery.com/packages/AWS.Tools.Installer/) makes it easier to install, update and uninstall the AWS.Tools modules.\r\nThis version of AWS Tools for PowerShell is compatible with Windows PowerShell 5.1+ and PowerShell Core 6+ on Windows, Linux and macOS. When running on Windows PowerShell, .NET Framework 4.7.2 or newer is required. Alternative modules AWSPowerShell.NetCore and AWSPowerShell, provide support for all AWS services from a single module and also support older versions of Windows PowerShell and .NET Framework.",
+    "Score": 75,
+    "Published": "2026-11-27T20:31:26.697"
   }
 ]
